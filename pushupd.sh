@@ -1,7 +1,7 @@
 #!/bin/bash -x
-cd /Share/github/kodil/
+cd /opt/thevibe
 git pull
-/usr/local/bin/python3.5  new_xml_gen.py
+/usr/local/bin/python3.4  new_xml_gen.py
 sleep 7
 git add *
 git commit -a -m "update push in : `date`"
