@@ -1,24 +1,25 @@
 failed to add the xml from addon service.subtitles.subscenter
 failed to add the xml from addon plugin.program.ump
-Excluding for list index out of range
+zip is not ok: repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
+service.subtitles.subscenter  is in blacklist - 
+service.subtitles.subtitle  is in blacklist - 
+script.tv.show.next.aired  is in blacklist - 
 pvr.iptvsimple  is in blacklist - 
+script.skin.helper.service  is in blacklist - 
+service.subtitles.torec  is in blacklist - 
+service.subtitles.opensubtitles  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+repository.donatelloandhybrid  is in blacklist - 
+script.extendedinfo  is in blacklist - 
 Downloading %s version:%s plugin.program.ump 0.0.74
 Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
 Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
 http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip
-Downloading %s version:%s service.subtitles.subtitle 4.4.1
-Downloding zip from: http://repo.the-vibe.co.il/Repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip
-Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip
-http://repo.the-vibe.co.il/Repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip
-Downloading %s version:%s service.subtitles.subscenter 3.3.6
-Downloding zip from: http://repo.the-vibe.co.il/Repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip
-Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip
-http://repo.the-vibe.co.il/Repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip
 Downloading %s version:%s repository.kodi-senyor 1.2.0
 Downloding zip from: http://repo.the-vibe.co.il/Repo//repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip  To Path:  repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 Saving:  repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
@@ -31,18 +32,9 @@ adding addon from github: service.autosubs
 https://github.com/amet/service.autosubs
 Downloding zip from: https://github.com/amet/service.autosubs/archive/master.zip  To Path:  repo/service.autosubs/master.zip
 Saving:  repo/service.autosubs/master.zip
-Updading addon from github:  service.subtitles.subscenter - 3.3.7
-https://github.com/XBMCil/service.subtitles.subscenter
-Downloding zip from: https://github.com/XBMCil/service.subtitles.subscenter/archive/master.zip  To Path:  repo/service.subtitles.subscenter/master.zip
-Saving:  repo/service.subtitles.subscenter/master.zip
-Updading addon from github:  service.subtitles.subtitle - 4.4.2
-https://github.com/XBMCil/service.subtitles.subtitle
-Downloding zip from: https://github.com/XBMCil/service.subtitles.subtitle/archive/master.zip  To Path:  repo/service.subtitles.subtitle/master.zip
-Saving:  repo/service.subtitles.subtitle/master.zip
-adding addon from github: service.subtitles.torec
-https://github.com/XBMCil/service.subtitles.torec
-Downloding zip from: https://github.com/XBMCil/service.subtitles.torec/archive/master.zip  To Path:  repo/service.subtitles.torec/master.zip
-Saving:  repo/service.subtitles.torec/master.zip
+service.subtitles.subscenter  is in blacklist - 
+service.subtitles.subtitle  is in blacklist - 
+service.subtitles.torec  is in blacklist - 
 adding addon from github: metadata.hebmovies.wiz
 https://github.com/XBMCil/metadata.hebmovies.wiz
 Downloding zip from: https://github.com/XBMCil/metadata.hebmovies.wiz/archive/master.zip  To Path:  repo/metadata.hebmovies.wiz/master.zip
@@ -77,10 +69,7 @@ https://github.com/amet/service.subtitles.opensubtitles
 cant get github xml !
 HTTP Error 404: Not Found
 
-adding addon from github: script.tv.show.next.aired
-https://github.com/WayneD/script.tv.show.next.aired
-Downloding zip from: https://github.com/WayneD/script.tv.show.next.aired/archive/master.zip  To Path:  repo/script.tv.show.next.aired/master.zip
-Saving:  repo/script.tv.show.next.aired/master.zip
+script.tv.show.next.aired  is in blacklist - 
 adding addon from github: plugin.video.quasar
 https://github.com/scakemyer/plugin.video.quasar
 Downloding zip from: https://github.com/scakemyer/plugin.video.quasar/archive/master.zip  To Path:  repo/plugin.video.quasar/master.zip
