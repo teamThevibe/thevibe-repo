@@ -6,24 +6,24 @@ Finished updating addons xml and md5 files
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-service.subtitles.subscenter  is in blacklist - 
-service.subtitles.subtitle  is in blacklist - 
 script.tv.show.next.aired  is in blacklist - 
-pvr.iptvsimple  is in blacklist - 
-script.skin.helper.service  is in blacklist - 
-service.subtitles.torec  is in blacklist - 
-service.subtitles.opensubtitles  is in blacklist - 
+service.subtitles.subscenter  is in blacklist - 
 plugin.video.thewiz.wall  is in blacklist - 
-repository.donatelloandhybrid  is in blacklist - 
+pvr.iptvsimple  is in blacklist - 
+service.subtitles.opensubtitles  is in blacklist - 
 script.extendedinfo  is in blacklist - 
-Downloading %s version:%s plugin.program.ump 0.0.74
-Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
-Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
-http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip
+repository.donatelloandhybrid  is in blacklist - 
+service.subtitles.torec  is in blacklist - 
+service.subtitles.subtitle  is in blacklist - 
+script.skin.helper.service  is in blacklist - 
 Downloading %s version:%s repository.kodi-senyor 1.2.0
 Downloding zip from: http://repo.the-vibe.co.il/Repo//repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip  To Path:  repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 Saving:  repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 http://repo.the-vibe.co.il/Repo//repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
+Downloading %s version:%s plugin.program.ump 0.0.74
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
+Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
+http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip
 adding addon from github: plugin.video.kmediatorrent
 https://github.com/jmarth/plugin.video.kmediatorrent
 Downloding zip from: https://github.com/jmarth/plugin.video.kmediatorrent/archive/master.zip  To Path:  repo/plugin.video.kmediatorrent/master.zip
