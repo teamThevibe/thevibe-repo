@@ -121,3 +121,4 @@ weather.yahoo
 service.htpt
 script.navi-x
 script.module.translit
+plugin.program.logviewer

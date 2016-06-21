@@ -5523,32 +5523,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.program.logviewer"
-       name="Easy Log Viewer"
-       version="1.0.2a"
-       provider-name="kinkin">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               	library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>View your error log from within Kodi</summary>
-        <description>Allows you to view errors and warnings in your kodi.log file</description>
-        <platform>all</platform>
-        <language>en</language>
-        <license>GNU GENERAL PUBLIC LICENSE</license>
-        <forum></forum>
-        <website></website>
-        <source></source>
-        <email></email>
-    </extension>
-
-</addon>
-
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
        version="1.1.16"
@@ -6161,7 +6135,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 
 <addon id="script.module.liveresolver"
      name="LiveResolver"
-     version="0.1.41"
+     version="0.1.42"
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
