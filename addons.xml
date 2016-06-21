@@ -60,125 +60,6 @@
   </extension>
 </addon>
 
-<addon id="metadata.hebmovies.wiz" name="The Movie Database" version="3.8.8" provider-name="Team Kodi">
-  <requires>
-    <import addon="xbmc.metadata" version="2.1.0"/>
-    <import addon="metadata.common.imdb.com" version="2.7.8"/>
-    <import addon="metadata.common.themoviedb.org" version="2.13.1"/>
-    <import addon="plugin.video.youtube" version="4.4.10" optional="true"/>
-  </requires>
-  <extension point="xbmc.metadata.scraper.movies" language="en" library="tmdb.xml"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="af">TMDB Fliek Skraper</summary>
-    <summary lang="be">TMDB Movie Scraper</summary>
-    <summary lang="bg">Сваля инф. за филми от TMDB</summary>
-    <summary lang="ca">Arreplegador de pel·lícules TMDB</summary>
-    <summary lang="cs">Zdroj zisku dat k filmům TMDB</summary>
-    <summary lang="cy">Crafwr Ffilmiau TMDB</summary>
-    <summary lang="da">TMDB Scraper til Film</summary>
-    <summary lang="de">TMDB Filmscraper</summary>
-    <summary lang="el">Scraper Ταινιών του TMDb</summary>
-    <summary lang="en">TMDB Movie Scraper</summary>
-    <summary lang="en_NZ">TMDB Movie Scraper</summary>
-    <summary lang="en_US">TMDB Movie Scraper</summary>
-    <summary lang="es">Scraper de películas de TheMovieDB</summary>
-    <summary lang="es_AR">Scraper de Películas de TheMovieDB</summary>
-    <summary lang="es_MX">Scraper de Películas TMDb</summary>
-    <summary lang="et">TMDB Filmi kaabits</summary>
-    <summary lang="fi">TMDB elokuvatietojen lataaja</summary>
-    <summary lang="fr">Collecteur de Films TMDB</summary>
-    <summary lang="fr_CA">Extracteur de films TMDB</summary>
-    <summary lang="gl">Scraper de Filme de TMDB</summary>
-    <summary lang="he">TMDB סקרייפר סרטים</summary>
-    <summary lang="hr">TMDB filmski sakupljač informacija</summary>
-    <summary lang="hu">TMDB filmadat leolvasó</summary>
-    <summary lang="id">Pengais Film TMDB</summary>
-    <summary lang="is">TMDB Skafa fyrir Kvikmyndir</summary>
-    <summary lang="it">Ricercatore per TMDB Movie</summary>
-    <summary lang="ja">TMDB映画のスクレーパー</summary>
-    <summary lang="ko">TMDB 영화 정보수집기</summary>
-    <summary lang="lt">TMDB filmų skreperis</summary>
-    <summary lang="mk">TMDB инфо за филмови</summary>
-    <summary lang="ml">മൂവി ഡി ബി, വിവരശേഖരം</summary>
-    <summary lang="ms">Pengikis Cakera TMDB</summary>
-    <summary lang="my">TMDB Movie Scraper</summary>
-    <summary lang="nl">TMDb-filmscraper</summary>
-    <summary lang="no">TMDB-skraper</summary>
-    <summary lang="pl">Ekstraktor filmowy TMDB</summary>
-    <summary lang="pt">Colector de filmes TMDb</summary>
-    <summary lang="pt_BR">Scraper de Filmes TMDb</summary>
-    <summary lang="ro">Scraper de filme TMDb</summary>
-    <summary lang="ru">Инфоресурс на базе TMDB</summary>
-    <summary lang="se">Skrapa för TMDb</summary>
-    <summary lang="sk">TheMovieDB filmový sťahovač</summary>
-    <summary lang="sl">Ponudnik informacij o filmih TMDB</summary>
-    <summary lang="sv">TMDB Filmskrapa</summary>
-    <summary lang="ta_IN">LastFM நிகழ்படம் சுரண்டி</summary>
-    <summary lang="th">ตัวรับข้อมูลภาพยนต์ TMDB</summary>
-    <summary lang="tr">TMDB Film Scraper</summary>
-    <summary lang="uk">TMDB — джерело інформації про фільми</summary>
-    <summary lang="vi">Trình lấy dữ liệu Phim từ TMDB</summary>
-    <summary lang="zh">TMDB 电影刮削器</summary>
-    <summary lang="zh_TW">TMDB 電影搜括器</summary>
-    <description lang="af">themoviedb.org is 'n verniet en oop fliek databasis. Dit is totaal gebruiker gedryf deur mense soos jy. TMDB word huidiglik deur miljoene mense elke maand gebruik, en met hulle kragtige API word dit ook deur baie gewilde media sentrums soos Kodi gebruik om Fliek Metadata, Plakkate en Ondersteunerkuns te onttrek om die gebruiker se ondervinding te verryk.</description>
-    <description lang="be">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
-    <description lang="bg">themoviedb.org е безплатна и отворена филмова база данни. Задвижва се изцяло от потребителите си, от хора като вас. Милиони хора по света всеки месец ползват TMDb. Благодарение на многофункционално API може да се ползва от най-различни и популярни медийни центрове като Kodi, които извличат метаданни, постери и фанарт за филми с цел за красивото оформяне на интерфейса.</description>
-    <description lang="ca">themoviedb.org és una base de dades oberta i lliure. Es manté completament per usuaris, per gent com tu. TMDb s'utilitza actualment per milions de persones cada mes i amb la seva potent API també és utilitzada per molts centre media populas com l'Kodi per obtenir les meta-dades de pel·lícules, pósters i fanart per enriquir l'experiència d'usuari.</description>
-    <description lang="cs">themoviedb.org je otevřená a svobodná databáze filmů. Je řízena uživateli, tedy lidmi jako vy. TMDB je každý měsíc používána milióny lidí a se svým výborným API je také používano mnoha populárními mediálními centry jako je Kodi, k získávání metadat, plagátů a fanartu filmů pro obohacení uživatelského zážitku.</description>
-    <description lang="cy">Mae themoviedb.org yn gronfa ddata ffilmiau rhydd ac agored. Mae'n cael ei yrru gan ddefnyddwyr fel chi. Mae TMDb yn cael ei ddefnyddio gan filiynau o bobl bob mis a gyda'i API pwerus, mae'n cael ei ddefnyddio gan lawer o'r canolfannau cyfrwng fel Kodi i estyn metadata ffilmiau, posteri a chelf er mwyn cyfoethogi profiad defnyddwyr.</description>
-    <description lang="da">themoviedb.org er en fri og åben filmdatabase. Den er helt og aldeles brugerdrevet af folk som dig. TMDb bruges i dag af millioner af mennesker hver måned, og med deres kraftfulde API er den også brugt af mange populære mediecentre såsom Kodi til at hente metadata, plakater og fankunst til film, for at berige brugerens oplevelse.</description>
-    <description lang="de">TheMovieDB.org ist eine freie und offene Filmdatenbank. Sie wird von Benutzern wie dir angetrieben. TheMovieDB wird zur Zeit von millionen Nutzern jeden Monat genutzt und dank ihrer mächtigen API ist sie auch von vielen Media-Center, wie z.B. Kodi, implementiert, um Film-Metadaten, -Poster und -Fanarts zu beziehen, die das Benutzererlebnis verbessern.</description>
-    <description lang="el">Το themoviedb.org είναι μία δωρεάν και ανοικτή βάση δεδομένων ταινιών. Διαχειρίζεται πλήρως από ανθρώπους σαν και εσάς. Το TMDb χρησιμοποιείται από εκατομμύρια ανθρώπους κάθε μήνα, και με το πανίσχυρο API τους, χρησιμοποιείται και από πολλά δημοφιλή κέντρα πολυμέσων όπως το Kodi για να λαμβάνουν μετα-δεδομένα Ταινιών, Αφίσες και Fanart για εμπλουτισμό της εμπειρίας του χρήστη.</description>
-    <description lang="en">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
-    <description lang="en_NZ">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
-    <description lang="en_US">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
-    <description lang="es">themovieDB.org es una base de datos de películas gratuita y abierta. Es una página web que se basa en contenido subido por los usuarios. TMDb es usada diariamente por mucha gente gracias a su API, que es usada por más programas aparte de Kodi para descargar información de películas así como Posters o Fanart (Fondos de escritorio basados en películas usados en distintos skins) para enriquecer la experiencia de usar Kodi.</description>
-    <description lang="es_AR">themovieDB.org es una base de datos de películas gratuita y abierta. Está  formada con contenido subido por usuarios como vos. TMDb es actualmente utilizada por millones de personas cada mes y, gracias a su poderosa API, es usada por muchos programas populares como Kodi para descargar Información de Películas, Posters y Fanart para enriquecer la experiencia de usar Kodi.</description>
-    <description lang="es_MX">themoviedb.org es una base de datos de películas gratis y abierta. Es completamente manejada por usuarios y personas como tu. Actualmente TMDb es usada por millones de personas cada mes, y dado a su poderosa API, es usada también por varios media centers populares como Kodi para obtener Metada de Películas, Posters y Fanarts, enriqueciendo de esta manera la experiencia del usuario.</description>
-    <description lang="et">themoviedb.org on tasuta ja vaba juurdepääsuga filmide andmebaas.See on täielikult koostatud sinu sarnaste inimeste poolt. TMDb on hetkel igapäevaselt kasutuses miljonite inimeste poolt ja seda kasutavad paljud populaarsed meediakeskused, nagu ka Kodi, filmiandmete, fännikunsti ja posterite leidmiseks.</description>
-    <description lang="fi">themoviedb.org on vapaa ja avoin elokuvatietokanta. Se on täysin käyttäjien ylläpitämä. TMDb:a käyttää miljoonat ihmiset joka kuukausi, sitä käytetään käyttäjäkokemuksen rikastuttamiseen monissa muissakin suosituissa Kodi:n kaltaisissa ohjelmissa lataamalla elokuvien tietoja, julisteita ja fanitaidetta.</description>
-    <description lang="fr">themoviedb.org est une base de données gratuite et libre d'accès de films. Elle est totalement gérée par les utilisateurs. TMDb est actuellement utilisée par des millions de personnes chaque mois et, grâce à ses puissantes fonctions et routines, elle est également utilisée par de nombreux Media Centers populaires comme Kodi aux fins de récupération des Métadonnées, Posters et Fanarts des films en vue d'améliorer l'expérience de l'utilisateur.</description>
-    <description lang="fr_CA">themoviedb.org est une base de données libre et ouverte. Elle est complètement gérée par des gens comme vous. TMDb est actuellement utilisée par des millions de personnes chaque mois et avec son API puissante, elle est également utilisée par de nombreux centres multimédias populaires comme Kodi pour récupérer les métadonnées des films, les affiches et le fanart afin d'enrichir l'expérience de l'utilisateur.</description>
-    <description lang="gl">themoviedb.org é una base de datos sobre filmes libre e aberta, impulsada por xente coma ti. Na actualidade TMDb é usada por millóns de persoas todos os meses, e grazas ó seu potente API, usado por algúns dos centros multimedia máis populares como Kodi para obter a información dos filmes, Posters e Fanart e así mellorar a experiencia do usuario.</description>
-    <description lang="he">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
-    <description lang="hr">themoviedb.org je besplatna i otvorena baza filmskih podataka. TMDb trenutno koriste milijuni ljudi svaki mjesec uz pomoću njegovog snažnog API-ja, isto tako se koristi u mnogim popularnim medijskim centrima poput Kodi-a, kako bi mogli sakupljati informacije o filmovima, filmske postere, omote filmova i na kraju obogatili korisničko iskustvo.</description>
-    <description lang="hu">A themoviedb.org egy ingyenes és nyílt filmadatbázis. Teljes egészében olyan felhasználók töltik fel, mint például Te. A TMDb-t havonta emberek milliói használják és a hatékony API-n keresztül számos népszerű média center is, mint például az Kodi a filmadatok, poszterek, fanartképek letöltésére.</description>
-    <description lang="id">themoviedb.org adalah database film yang gratis dan terbuka. Ini benar-benar digerakkan oleh orang-orang seperti Anda. TMDb saat ini digunakan oleh jutaan orang setiap bulannya dan dengan APInya yang digdaya, juga digunakan oleh beberapa pusat media seperti Kodi untuk mengambil Metadata Film, Poster dan Fanart untuk menperkaya pengalaman penggunanya.</description>
-    <description lang="is">themoviedb.org er frír og opinn gagnagrunnur. Hann er algjörlega rekinn af fólki eins og þér. TMBd er notaður af milljónum manna í hverjum mánuði og með öflugum forritaskilum þeirra (API), er hann líka notaður af mörgum vinsælum heimabíókerfum eins og Kodi til að ná í Ítarupplýsingar yfir Kvikmyndir, Veggspjöld og Fanart til að lífga upplifun notandans.</description>
-    <description lang="it">themoviedb.org è un database libero e aperto. E' gestito da utenti e persone come te. Viene usato correntemente da millioni di persone ogni mese e con le sue potenti API, è anche utilizzato da molti popolari media centers come Kodi per ottenere Metadati, Posters e Fanart di film per arricchire la loro esperienza utente.</description>
-    <description lang="ja">themoviedb.org は自由でオープンな映画データベースです。その運営は、完全にユーザ主導で行われています。TMDb は現在毎月何百万人もの人に利用されているほか、Kodi のようなメディアセンターも、TMDb のパワフルな API を介して映画メタデータ、ポスター、ファンアートを取得し、使い勝手を向上させるなどして使っています。</description>
-    <description lang="ko">themoviedb.org 는 전적으로 여러분 같은 이용자가 주도하는 무료 공개 영화 데이터베이스입니다. TMDb 는 현재 매월 수백만의 사람들이 강력한 API와 함께 사용하고 있을 뿐만 아니라 Kodi 같은 많은 미디어 센터가 영화 정보, 포스터, 팬아트를 가져와 풍성한 사용자 경험을 제공하는데 이용되고 있습니다.</description>
-    <description lang="lt">themoviedb.org yra nemokama ir atvira filmų duomenų bazė. Ji palaikoma tokių pat vartotojų kaip ir jūs. TMDb šiuo metu naudojama milijonų žmonių kiekvieną mėnesį ir turi galingą API, o taip pat naudojama daugelio populiarių media centrų, tokių kaip Kodi, kad gautų filmų metaduomenis, plakatus ir Fanart, siekiant praturtinti vartotojo patirtį.</description>
-    <description lang="mk">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
-    <description lang="ml">മൂവി ഡി ബി, എല്ലാവർക്കും കൈവക്കാവുന്ന ഒരു സൗജന്യ വിവരശേഖരമാണ്. ഇതുമൂലം ലോകം മുഴുവനും സിനിമാ പോസ്റ്ററുകൾ എല്ലവരും കാണുന്നു</description>
-    <description lang="ms">themoviedb.org adalah pangkalan data cakera terbuka. Ia sepenuhnya dipacu oleh individu seperti anda. TMDb buat masa ini diguna oleh berjuta-juta individu setiap bulan dan dengan API hebat mereka, ia juga digunakan oleh banyak pusat media popular seperti Kodi untuk mendapatkan Data Meta, Poster, Seni Peminat Cereka untuk memperkayakan pengalaman pengguna.</description>
-    <description lang="nl">Themoviedb.org is een vrije en open filmdatabank. Gebruikers zoals jij vormen de motor van deze site. Op dit moment gebruiken elke maand miljoenen mensen TMDb. De krachtige API van de site laat mediacenters zoals Kodi toe om metadata, posters en fanart op te halen en zo de gebruikerservaring te verrijken.</description>
-    <description lang="no">themoviedb.org er en fir og åpen filmdatabase. Den drives helt og fullt av mennesker som deg. TMDB brukes av millioner av mennesker hver måned og med sitt gode API, brukes den også av mange popluære mediasenterløsninger som Kodi for å hente metadata for filmer, plakater og fanart for å gi en bedre brukeropplevelse.</description>
-    <description lang="pl">themoviedb.org jest wolną i otwartą filmową bazą danych, zarządzaną przez osoby takie jak Ty. Obecnie odwiedzają ją miliony osób miesięcznie, a dzięki dostępności interfejsu programistycznego jest używana przez wiele centrów multimedialnych takich jak Kodi, jako źródło informacji o filmach, plakatów i tapet.</description>
-    <description lang="pt">O themoviedb.org é uma base de dados de filmes livre e aberta. É actualizado inteiramente por pessoas como você e usado por milhões todos os meses. Com o poderoso motor de busca disponível, também se tornou no favorito para muitos programas de centro de média, como o popular Kodi, para obter informação, posters e fanart que enriquecem a experiência do utilizador.</description>
-    <description lang="pt_BR">O themoviedb.org é um banco de dados aberto e gratuito. É completamente operado por pessoas como você. O TMDb é atualmente usado por milhares de pessoas a cada mês e com sua poderosa API, é usado por muitas centrais de mídia populares como o Kodi para buscar metadados, cartazes e fanart de filmes para enriquecer a experiência do usuário.</description>
-    <description lang="ro">themoviedb.org este o bază de date de filme gratuită și deschisă. Este actualizată de oameni ca și tine. TMDb este curent folosită de milioane de oameni în fiecare lună și datorită API-ului puternic, este de asemena folosită de multe centre media populare ca Kodi pentru a obține informații despre filme, afișe și imagini produse de fani (Fanart) care îmbogățesc experiența utilizatorului.</description>
-    <description lang="ru">themoviedb.org — это бесплатная и открытая база данных фильмов. Она полностью поддерживается обычными людьми. В данный момент сайт TMDb используют миллионы людей каждый месяц, и благодаря мощному API его могут использовать различные популярные медиацентры, такие как Kodi, чтобы получать метаданные, постеры и фанарт для фильмов с целью красивого оформления интерфейса.</description>
-    <description lang="se">themoviedb.org är en fri och öppen filmdatabas. Det drivs helt av människor som dig. TMDb används av miljontals människor varje månad och med deras kraftfulla API, är det också använt av många populära mediacenter som Kodi för att hämta filmmetadata, omslag och fanart för att förgylla användarens upplevelse.</description>
-    <description lang="sk">themoviedb.org je voľná a otvorená databáza filmov. Je výlučne vedená užívateľmi ako si ty. TMDb je každý mesiac používaná miliónmi ľudí, a vďaka svojmu výkonnému API je veľmi populárna medzi 'media centrami' ako Kodi pre sťahovanie filmových metadát, plagátov a fanartov pre obohatenie  zážitkov.</description>
-    <description lang="sl">themoviedb.org je brezplačna in prosta baza filmov. Je v celoti ustvarjena s strani uporabnikov kot ste vi. TMDB uporablja miljone ljudi in z njihovo močno API, jo lahko uporabljate tudi v multimedijskih centrih kot Kodi, s tem prenesete informacije o filmih, plakate in ozadja ter s tem popestrite uporabniško izkušnjo.</description>
-    <description lang="sv">themoviedb.org är en gratis och öppen filmdatabas. Den drivs helt av människor som du. TMDb används för närvarande av miljoner människor varje månad och med deras kraftfulla API används den även av många populära mediacenter som t.ex. Kodi för att hämta metadata om filmer, affischer och fanart för att berika användarens upplevelse.</description>
-    <description lang="ta_IN">themoviedb.org ஒரு இலவச மற்றும் திறந்த திரைப்பட தரவுத்தளம் ஆகும். இந்த தரவுத்தளம்  முற்றிலும் பயனர் மக்களால் இயக்கப்படுகிறது. TMDb அவர்களது சக்திவாய்ந்த API இனால் தற்போது பல இலட்சக்கணக்கான மக்களால் ஒவ்வொரு மாதமும் பயன்படுத்தப்படுகிறது, இது Kodi போன்ற பல பிரபல ஊடக மையங்களில் பயனர் அனுபவத்தை மேம்படுத்த பயன்படுத்தப்படுகிறது.</description>
-    <description lang="th">themoviedb.org เป็นฐานข้อมูลภาพยนตร์ที่ฟรีและเปิดกว้าง. มันถูกขับเคลื่อนจากผู้ใช้ โดยคนเช่นคุณ. TMDb ปัจจุบันมีการใช้โดยคนนับล้านในแต่ละเดือน และมีประสิทธิภาพด้วย API ของพวกเขา , มันยังถูกใช้โดยหลายศูนย์สื่อที่นิยมเช่น Kodi เพื่อดึง อธิบายข้อมูลภาพยนตร์, โปสเตอร์และ แฟนอาร์ต เพื่อเพิ่มประสบการณ์ของผู้ใช้</description>
-    <description lang="tr">themoviedb.org ücretsiz ve herkese açık bir film veri tabanıdır. Tamamen kullanıcılar tarafından oluşturulmakta ve yönetilmektedir. TMDb her ay milyonlarca kullanıcı tarafından kullanılmakta ve güçlü API'si sayesinde Kodi gibi bir çok popüler medya merkezi tarafından Film Veritabanı, Poster ve Fanart bilgilerini kullanarak kullanıcı deneyimini zenginleştirmektedir.</description>
-    <description lang="uk">themoviedb.org - це безкоштовна і відкрита база даних фільмів. Вона повністю підтримується звичайними людьми. В даний момент сайт TMDb використовують мільйони людей кожен місяць, і завдяки потужному API, його можуть використовувати різні популярні медіацентри, такі як Kodi, щоб отримувати метадані, постери і фанарт для фільмів з метою оформлення інтерфейсу.</description>
-    <description lang="vi">themoviedb.org là cơ sở dữ liệu về phim ảnh mở và miễn phí. Nó hoàn toàn được kiểm soát bởi những người như bạn. TMDb hiện tại đang được sử dụng bởi hàng triệu người dùng hàng tháng và với sự hỗ trợ của bộ API mạnh mẽ nó cũng được sử dụng bởi những thiết bị giải trí cá nhân như Kodi cho việc lấy dữ liệu về Phim ảnh, Poster và Fanart để làm tăng trải nghiệm của người sử dụng</description>
-    <description lang="zh">themoviedb.org 是一个开放和自由的电影数据库。它完全由象你一样的用户来掌控。TMDb 每月为上百万用户提供服务，并通过强大的 API 界面为许多流行的媒体中心系统如 Kodi 提供电影资料、封面海报和同人画以丰富用户的体验。</description>
-    <description lang="zh_TW">themoviedb.org是一個免費和開放的電影資料庫。它是完全由與您一樣的廣大使用者來更新資訊。 TMDb目前擁有數以百萬計的使用人次並且有著強大的API，許多受歡迎的媒體中心平台像Kodi藉由TMDb獲取電影的數據資料庫，海報和影片資訊，以豐富使用者體驗。</description>
-    <platform>all</platform>
-    <license>GPL v2.0</license>
-    <forum/>
-    <website/>
-    <email/>
-    <source/>
-  </extension>
-</addon>
-
 <addon id="script.module.six"
        name="six"
        version="1.9.0"
@@ -198,23 +79,6 @@
     <website>https://pypi.python.org/pypi/six</website>
   </extension>
 </addon>
-
-<addon id="plugin.video.thewiz.kids" name="TheWiz Kids Area" version="1.0.1" provider-name="TheWiz">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">TheWiz Kids Area</summary>
-        <summary lang="he">TheWiz סדרות/סרטים לילדים</summary>
-        <description lang="en"></description>
-        <description lang="he"></description>
-        <disclaimer></disclaimer>
-    </extension>
- </addon>
 
 <addon id="script.module.singledispatch"
        name="singledispatch"
@@ -342,58 +206,6 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
     <website></website>
     <email></email>
     <source>https://github.com/amet/service.subtitles.podnapisi</source>
-  </extension>
-</addon>
-
-<addon id="script.facebook.media" name="Facebook Media" version="0.9.15" provider-name="Rick Phillips (ruuk)">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.9"/>
-		<import addon="script.module.mechanize" version="0.2.6"/>
-		<import addon="script.module.oauth.helper" version="0.0.7"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-		<provides>image</provides>
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Browse Facebook photos and videos</summary>
-		<description lang="en">Browse your and your friends' photos and videos. View and add comments and likes. View image tags.</description>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>http://forum.xbmc.org/showthread.php?tid=82500</forum>
-		<source>http://github.com/ruuk/script.facebook.media</source>
-	</extension>
-</addon>
-
-<addon id="script.navi-x"
-       name="Navi-X"
-       version="4.0"
-       provider-name="Team Navi-X and TVADDONS.ag">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.urlresolver"  />
-    <import addon="script.module.t0mm0.common"  />
-    <import addon="script.module.addon.common" optional="false" />
-    <import addon="repository.xbmchub" optional="true" />
-    <import addon="plugin.video.youtube" optional="false" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py" >
-    <provides>executable video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>28764</minversion>
-    <summary>Media Browser Addon for Kodi</summary>
-    <description>Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
-    <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
-    <website>http://www.navixtreme.com/</website>
-    <source></source>
-    <email></email>
   </extension>
 </addon>
 
@@ -638,22 +450,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     <license>Simplified BSD</license>
     <source>https://github.com/chrippa/livestreamer.git</source>
     <website>http://livestreamer.io</website>
-  </extension>
-</addon>
-
-<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.4.9" provider-name="Donatello Hybrid Blade Tholin">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup"></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Feed series to Kodi from several sources</summary>
-    <summary lang="he">קיר הסדרות של דונטלו היבריד בלייד ותולין</summary>
-    <website>https://donatelokodi.blogspot.co.il</website>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1119,22 +915,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.4.9" provider-name="Donatello Hybrid Blade Tholin">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup"></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Feed movies to Kodi from several sources</summary>
-    <summary lang="he">קיר הסרטים של דונטלו היבריד בלייד ותולין</summary>
-    <website>http://donatellokodi.blogspot.co.il</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.10net.video" name="סרטים בצפיה ישירה" version="1.0.3" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.0"/>
@@ -1413,26 +1193,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="script.htpt.widgets" name="HTPT Widgets" version="0.1.5" provider-name="Martijn, phil65, Edited by finalmakerr">
-  <requires>
-	<import addon="xbmc.addon" version="12.0.0"/>
-	<import addon="xbmc.json" version="6.0.0"/>
-	<import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.simplejson" version="2.0.10"/>
-    </requires>
-  <extension point="xbmc.python.script" library="default.py"/>
-  <!--<extension point="xbmc.service" library="default.py" start="login"/>-->
-  <extension point="xbmc.addon.metadata">
-    <language>he</language>
-	<platform>all</platform>
-    <summary>HTPT System Component</summary>
-    <description></description>
-    <disclaimer>PLEASE REFER TO HTPT INSTALLER ADDON</disclaimer>
-	<email>infohtpt@gmail.com</email>
-	<website>https://www.facebook.com/pages/HTPT/934744346549707</website>
-  </extension>
-</addon>
-
 <addon id="repository.pulsarunofficial" name="Pulsar [COLOR red]Unofficial[/COLOR] Repo OLD" version="3.0.3" provider-name="iCanuck">
     <requires>
         <import addon="repository.unofficialquasar" version="1.0.3"/>
@@ -1465,19 +1225,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<description lang="he">חבילת רקעים - סגנון קוודרט</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.2.7" provider-name="Avigdor (xbmc-israel repo)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib"/>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve dynamic URL's to be playable in XBMC/Kodi.</summary>
-    <description lang="en">Resolve dynamic URL's to be playable in XBMC/Kodi.</description>
-  </extension>
 </addon>
 
 <addon id="plugin.video.kodisraelkids"
@@ -1613,43 +1360,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="script.icechannel" version="1.0.0.39" name="iSTREAM" provider-name="iSTREAM">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver" version="0.0.1"/>
-		<import addon="script.module.universal" version="0.0.1" />
-		<import addon="script.module.beautifulsoup" version="0.0.1"/>
-		<import addon="script.module.metahandler" version="0.0.1"/>
-		<import addon="script.module.feedparser" version="0.0.1"/>
-		<import addon="script.module.pyamf" version="0.0.1"/>
-		<import addon="script.icechannel.extn.common" version="0.0.9"/>
-		<import addon="script.module.unidecode" version="0.0.1"/>
-		<import addon="script.module.socksipy" version="0.0.1"/>
-		<import addon="script.module.dnspython" version="0.0.1"/>
-		<import addon="script.module.f4mproxy" version="0.0.1"/>
-		<import addon="script.istream.dialogs" version="0.0.1"/>
-		<import addon="script.icechannel.extn.xunity.tv.common" version="0.0.1"/>
-                <import addon="script.module.elementtree" version="1.2.8" />
-                <import addon="script.module.requests" version="0.0.1" />
-    </requires>
-	<extension point="xbmc.python.pluginsource" library="plugin.py" >
-		<provides>video</provides>
-	</extension>
-    <extension point="xbmc.python.module" library="lib" />
-	<extension library="service.py" point="xbmc.service"  start="startup"/>
-    <extension point="xbmc.addon.metadata">
-		<summary lang="en">iSTREAM</summary>
-		<description lang="en">iSTREAM</description>
-		<platform></platform>
-		<language></language>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
-    </extension>
-</addon>
-
 <addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid, Martijn" version="0.1.5">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -1671,20 +1381,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<email>big.noid@kodi.tv</email>
 		<source>https://github.com/BigNoid/service.library.data.provider</source>
 	</extension>
-</addon>
-
-<addon id="plugin.video.gdrive" version="0.7.17" name="gdrive" provider-name="ddurdle">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image programs</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
-        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="context.mysubscriptions" name="My Subscriptions" version="1.0.6" provider-name="kinkin">
@@ -1971,31 +1667,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         </extension>
 </addon>
 
-<addon
-  id="weather.metoffice"
-  version="1.0.1"
-  name="Met Office"
-  provider-name="powlo">
-  <requires>
-	<import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.pytz" version="2014.2"/>
-	<import addon="script.module.pil"/>
-  </requires>
-  <extension point="xbmc.python.weather" library="src/metoffice/default.py"/>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">Weather forecast from the Met Office.</summary>
-	<description lang="en">Weather forecast provided by Met Office (http://www.metoffice.gov.uk/)</description>
-	<platform>all</platform>
-    <language>en</language>
-    <license>GNU GPL v2</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=166362</forum>
-    <website>http://www.metoffice.gov.uk/datapoint/</website>
-    <source>https://github.com/powlo/weather.metoffice</source>
-    <email></email>
-    <disclaimer lang="en">In using this addon you agree to the terms and conditions specified under the Met Office Datapoint terms and conditions. http://www.metoffice.gov.uk/datapoint/terms-conditions. Data provided by Met Office Datapoint is covered by the Open Government License. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/. Use at your own risk. The authors accept no liability.</disclaimer>
-  </extension>
-</addon>
-
 <addon id="script.cdartmanager-NG"
        name="cdART Manager NG"
        version="4.1.0"
@@ -2191,18 +1862,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id='script.module.translit' version='2.0.0' name='Translit for xbmc plugins' provider-name='mrstealth'>
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point='xbmc.service' library="default.py" />
-  <extension point='xbmc.addon.metadata'>
-    <platform>all</platform>
-    <summary lang='en'>Translit for xbmc plugins.</summary>
-  </extension>
-  <extension point='xbmc.python.module' library='lib' />
-</addon>
-
 <addon id="resource.images.skinbackgrounds.clearun.he" name="Skin Backgrounds - Clear UN (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
@@ -2240,25 +1899,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.icechannel.extn.extra.uk" version="0.0.4" name="iStream Extensions - Extra Uk Channels" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="repository.istream" version="1.0"/>
-    </requires>
-	<extension library="default.py" point="xbmc.service" />
-		<summary lang="en">iStream Extensions by xunitytalk.com</summary>
-    <extension point="xbmc.addon.metadata">
-		<description lang="en">iStream Extensions - Extra Uk Channels</description>
-		<platform></platform>
-		<language></language>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
-    </extension>
 </addon>
 
 <addon id="metadata.artists.universal"
@@ -2420,23 +2060,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <description>This repository contains intermediate builds of libraries commonly used by TVAddons Kodi addons, Brought to you by TVADDONS.ag</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="script.module.mechanize" name="Mechanize" version="0.2.6" provider-name="Tristan Fischer (sphere)">
-	<requires>
-	<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Stateful programmatic web browsing in Python, after Andy Lester’s Perl module WWW::Mechanize.</summary>
-		<description lang="en">packed for xbmc from https://github.com/jjlee/mechanize</description>
-		<disclaimer lang="en">packed for xbmc from https://github.com/jjlee/mechanize</disclaimer>
-		<forum/>
-		<website>http://wwwsearch.sourceforge.net/mechanize/</website>
-		<license>BSD</license>
-		<platform>all</platform>
-		<source>https://github.com/jjlee/mechanize</source>
-	</extension>
 </addon>
 
 <addon id="script.skin.info.service" name="Skin Info Service" version="1.0.1" provider-name="phil65">
@@ -2677,84 +2300,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="4.1.9" provider-name="Taxigps, ronie">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.chardet" version="2.2.1"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-	</requires>
-	<extension point="xbmc.python.lyrics" library="default.py"/>
-	<extension point="xbmc.service" library="default.py" start="login"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="be">CU LRC Lyrics</summary>
-		<summary lang="bg">CU LRC Лирики</summary>
-		<summary lang="ca">CU LRC Lyrics</summary>
-		<summary lang="da">CU LRC Lyrics</summary>
-		<summary lang="de">CU LRC-Songtext</summary>
-		<summary lang="el">Στίχοι CU LRC</summary>
-		<summary lang="en">CU LRC Lyrics</summary>
-		<summary lang="en_NZ">CU LRC Lyrics</summary>
-		<summary lang="en_US">CU LRC Lyrics</summary>
-		<summary lang="es">CU LRC Letras</summary>
-		<summary lang="fr">CU LRC Lyrics</summary>
-		<summary lang="fr_CA">Paroles CU LRC</summary>
-		<summary lang="gl">Letras de CU LRC</summary>
-		<summary lang="he">CU LRC Lyrics</summary>
-		<summary lang="hr">CU LRC tekstovi pjesama</summary>
-		<summary lang="hu">CU LRC Dalszöveg</summary>
-		<summary lang="id">Lirik CU LRC</summary>
-		<summary lang="it">CU LRC Lyrics</summary>
-		<summary lang="ko">CU LRC Lyrics</summary>
-		<summary lang="lt">CU LRC dainų žodžiai</summary>
-		<summary lang="nl">CU LRC songteksten</summary>
-		<summary lang="no">CU LRC sangtekster</summary>
-		<summary lang="pl">CU LRC Lyrics</summary>
-		<summary lang="pt">CU LRC Lyrics</summary>
-		<summary lang="pt_BR">CU LRC Letras</summary>
-		<summary lang="ro">Versuri CU LRC</summary>
-		<summary lang="sk">CU LRC Lyrics</summary>
-		<summary lang="sl">CU LRC Lyrics</summary>
-		<summary lang="sv">CU LRC Lyrics</summary>
-		<summary lang="zh">CU LRC 歌词</summary>
-		<description lang="be">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="bg">CU LRC Лирики е добавка за лирики. Поддържа обикновени текстови файлове и .lrc файлове. Може да търси за синхронизирани/несинхронизирани лирики вградени в аудиофайловете или да ги извлича от различни източници. Може да прочита .lrc и .txt файлове съхраняващи лирики, които се намират в папката на дадения аудио файл (с разширение .mp3 например) и носят неговото име.</description>
-		<description lang="ca">CU LRC Lyrics es un script de lletres de cançons per a Kodi. Suporta lletres normal tan com LRC Lyrics. El script busca lletres sincronitzades o no, incrustades al fitxer d'àudio, des de un altre fitxer o per scrapers. Pot llegir fitxers .lrc/.txt guardats al mateix directori i nom de fitxer amb .mp3(o un altre tipus de música).</description>
-		<description lang="da">CU LRC Lyrics er et script til sangtekster til Kodi. Det understøtter almindelige såvel som LRC sangtekster. Script'et kan søge i synkroniserede/usynkroniserede sangtekster som er inkodede i filer eller ved hjælp af scrapere. Det kan læse .lrc/.txt sangtekstfiler som er gemt i den samme mappe og med samme filnavn som mp3'en (eller andre typer af musikfiler).</description>
-		<description lang="de">CU LRC-Songtext ist ein Songtextskript für Kodi, das sowohl normale als auch LRC-Songtexte unterstützt. Das Skript kann nach synchronisierten/unsynchronisierten eingebetteten Songtexten von Datei oder Scraper suchen. Es kann .lrc/.txt-Songtextdateien lesen, die im gleichen Pfad und mit dem gleichen Dateinamen mit .mp3 (oder eine anderen Musikart) gespeichert wurden.</description>
-		<description lang="el">Οι Στίχοι CU LRC είναι ένα script στίχων για το Kodi. Υποστηρίζει συνηθισμένους στίχους καθώς και Στίχους LRC. Το script μπορεί να αναζητήσει συγχρονισμένους και μη στίχους, ενσωματωμένους, από αρχεία ή από scraper. Μπορεί να διαβάσει αρχεία στίχων τύπου .lrc/.txt που βρίσκονται στον ίδιο φάκελο και έχουν το ίδιο όνομα με το .mp3 (ή άλλης κατάληξης μουσική).</description>
-		<description lang="en">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="en_NZ">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronised/unsynchronised lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="en_US">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="es">Letras de CRI de CU es un script de letras para Kodi. El soporte es regular como el de Lyrics LRC. La secuencia de comandos puede buscar letras sincronizadas/de sincronizadas incrustadas, por archivo o por scrapers. Puede leer .lrc/.txt de archivo de letras guardado en la misma carpeta con el mismo nombre del archivo con. mp3 (u otro tipo de música).</description>
-		<description lang="fr">CU LRC Lyrics est un script pour gérer les paroles dans Kodi. Il supporte les formats de paroles habituels aussi bien que LRC. Le script peut chercher des paroles synchronisées/désynchronisées intégrées dans les fichier ou par collecteurs. Il peut lire les fichiers paroles .lrc/.txt stockés dans le même dossier et avec le même nom que le fichier .mp3 (ou autre type de format musical).</description>
-		<description lang="fr_CA">Paroles CU LRC est un script de paroles pour Kodi. Il prend en charge les paroles régulières et LRC. Le script peut rechercher des paroles synchronisées/désynchronisées intégrées, d'un fichier ou de récupérateurs. Il peut lire les fichiers de paroles .lrc/.txt enregistrés dans le même chemin et avec le me nom que le .mp3 (ou autres types de musique).</description>
-		<description lang="gl">Letras CU LRC é un script de letras para Kodi. Soporta letras normais como as LRC. O script pode buscar letras sincronizadas/non sincronizadas incrustadas, ou buscar a partir dun ficheiro ou de scrapers. Pode ler letras de ficheiros .lrc/.txt gardados na mesma ruta do ficheiro .mp3 (ou outro tipo de música).</description>
-		<description lang="he">CU LRC Lyrics הינו סקריפט מילות שירים עבור Kodi התומך בפורמט LRC והן בטקסט רגיל. הסקריפט מסוגל לחפש מילות שיר מסונכרות/לא מסונכרות המוטמעות בשיר, מקובץ מקומי או בעזרת סקרייפר. הסקריפט מסוגל לקרוא קובץ מילות שיר txt/lrc השמור באותו נתיב עם שם זהה לקובץ ה-mp3 (או סוג אחר של קובץ מוזיקה).</description>
-		<description lang="hr">CU LRC tekstovi pjesama je skripta za Kodi. Podržavna redovne i LRC tekstove pjesama. Skripta može pretraživati usklađivati/uklanjati ugrađene tekstove pjesama, iz datoteke ili sakupljača. Može čitati .lrc/.txt datoteke tekstova pjesama spremljene u istu putanju s istim nazivom datoteke sa .mp3 (ili drugim vrstama glazbe).</description>
-		<description lang="hu">A CU LRC Dalszöveg egy kiegészítő az Kodi-hez, ami támogatja  a hagyományos és az LRC dalszövegek keresését, megjelenítését. A dalszöveg lehet szinkronizált, vagy szinkronizálatlan, a zenefájlba beágyazott, vagy leolvasókkal letöltött, vagy akár származhat a zene könyvtárában található .lrc vagy .txt fájlokból is.</description>
-		<description lang="id">Lirik CU LRC adalah script lirik untuk Kodi. Mendukung lirik regular maupun LRC. Script ini mampu mencari lirik dengan singkronisasi maupun tidak yang tercantum pada berkas atau melalui alat penyalin. Script dapat membaca berkas lirik .lrc/.txt yang disimpan di lokasi dan nama berkas yang sama dengan .mp3 (atau format musik lainnya).</description>
-		<description lang="it">CU LRC Lyrics è uno script per i testi per Kodi. Supporta testi come LRC. Lo script può cercare testi incorporati sincronizzati e non, da file o tramite scapers. Legge file .lrc/.txt salvati nello stesso percorso e con lo stesso nome dell'.mp3 (o altri tipi di musica)</description>
-		<description lang="ko">CU LRC Lyrics는 Kodi를 위한 가사 수집기입니다. 일반 가사와 LRC 가사를 지원하며, 내장 가동기/비동기 가사를 검색하거나 파일 내장 가사를 찾습니다. mp3(또는 다른 형식의 음악 파일)와 같은 경로에 저장되어 있는 .lrc/.txt 형식의 가사를 읽어옵니다.</description>
-		<description lang="lt">CU LRC Lyrics yra dainų žodžių atsiuntimo skriptas, skirtas Kodi. Palaikomi tiek įprasti, tiek LRC dainų žodžiai. Skriptas gali ieškoti sinchronizuotų / nesinchronizuotų dainų žodžių, integruotų failuose arba naudojant skreperius. Jis gali nuskaityti .lrc/.txt dainų žodžių failus, išsaugotus toje pačioje vietoje ir tokiu pačiu pavadinimu kaip ir .mp3 failas (ar kitokio muzikinio failo tipo).</description>
-		<description lang="nl">CU LRC Lyrics is een script voor songteksten in Kodi. Het ondersteunt zowel reguliere als LRC songteksten. Het script ondersteunt gesynchroniseerde of ongesynchroniseerde songteksten die ingebed zijn in een bestand, in een los bestand staan of van een scraper. Het kan .lrc/.txt songtekst-bestanden lezen die opgeslagen zijn op hetzelfde pad en dezelfde bestandsnaam hebben als de .mp3 (of ander type bestand).</description>
-		<description lang="no">CU LRC Lyrics er et skript for å vise sangtekster i Kodi. Den støtter vanlige samt LRC sangtekster. Skriptet kan søke synkroniserte / usynkroniserte sangtekster innebygd, fra en fil eller via skrapere. Den kan lese .lrc / .txt filer som er lagret på den samme banen og med samme filnavn (.mp3 eller annen type musikk).</description>
-		<description lang="pl">CU LRC Lyrics jest dodatkiem obsługującym teksty utworów dla Kodi. Obsługuje teksty utworów zarówno zwykłe jak i zsynchronizowane. Dodatek potrafi wyszukać teksty zapisane lokalnie, wbudowane w pliki utworów, a także pobierać je z Internetu. Potrafi wczytać teksty w formatach .lrc/.txt zapisane w tym samym folderze co pliku utworu .mp3 (lub innym wspierany formacie).</description>
-		<description lang="pt">CU LRC Lyrics é um script de letras para o Kodi. Suporta letras normais e LRC. O script pode encontrar letras sincronizadas/dessincronizadas embutidas, ou procurar a partir de ficheiro ou de colectores. Pode ler letras de ficheiros .lrc/.txt guardados na mesma localização do ficheiro .mp3 (ou outro tipo de música).</description>
-		<description lang="pt_BR">CU LRC Lyrics é script de letras de músicas para Kodi. Ele suporta regular bem como Letras LRC. O script pode procurar por letras embutidas sincronizadas/dessincronizadas, de arquivos ou usando scrapers. Ele pode ler arquivos de letras .lrc/txt salvos no mesmo caminho com o mesmo nome do arquivo .mp3 (ou outro formato de música).</description>
-		<description lang="sk">CU LRC Lyrics je doplnok poskytujúci texty skladieb pre Kodi. Podporuje bežné ako aj LRC formáty. Doplnok môže vyhľadávať synchronizované/nesynchronizované Texty skladieb vložené, v samostatnom súbore alebo cez sťahovače. Dokáže čítať .lrc/.txt súbory v rovnakom priečinku a s rovnakým názvom ako .mp3 súbor (alebo iný hudobný súbor).</description>
-		<description lang="sl">CU LRC Lyrics je skripta za besedila pesmi za Kodi. Podpira redne kot tudi LRC besedila pesmi. Skripta lahko išče sinhronizirana/nesinhronizirana besedila pesmi, vgrajena, iz datoteke ali od ponudnikov. Bere lahko .lrc/.txt formate zapisa datotek iz iste mape kot je istoimenska datoteka .mp3 (ali drigi format zapisa glasbe).</description>
-		<description lang="sv">CU LRC Lyrics är ett skript för Kodi. Det stödjer såväl vanliga som LRC texter. Skriptet kan söka synkroniserade/osynkroniserade texter inbäddade från fil eller från skraport. Det kan läsa .lrc/.txt filer sparade med samma sökväg och filnamn som .mp3 (eller annan typ av musik).</description>
-		<description lang="zh">CU LRC Lyrics 是 Kodi 的歌词插件。它支持原 LRC Lyrics 歌词插件的功能。这个插件会搜索内嵌的、本地文件或通过刮削器获取同步/非同步歌词。它可以读取以相同文件名与歌曲文件保存在相同目录的 .lrc/.txt 歌词文件。</description>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=147340</forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/ronie/script.cu.lrclyrics/</source>
-	</extension>
-</addon>
-
 <addon id="script.epg.iptv" name="EPG для pvr.IPTV" version="1.1.2" provider-name="Alex S.Galickij">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2827,34 +2372,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <description>Play videos of different sports streaming sites</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.mctools" name="common tools mc" version="1.3.5" provider-name="mancuniancol">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup4" optional="false"/>
-    <import addon="script.module.html5lib" optional="false"/>
-    <import addon="script.module.requests" optional="false"/>
-    <import addon="script.module.feedparser" optional="false"/>
-    <import addon="script.module.xbmcswift2" optional="false"/>
-    <import addon="script.module.simplejson" optional="false"/>
-    <import addon="script.module.metahandler" optional="false"/>
-    <import addon="script.module.httplib2" optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of common tools for addons</summary>
-    <description lang="en">Collection of tools from different authors.  All the credit should be given to them</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forums.tvaddons.ag/addon-releases/37973-torrent-rss-kickass-yts-torrentz-viewers-3.html#post314231</forum>
-    <website>https://github.com/mancuniancol/script.module.mctools</website>
-    <email></email>
-    <source></source>
   </extension>
 </addon>
 
@@ -3046,29 +2563,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.pulsar" name="Pulsar" version="0.7.1" provider-name="steeve, i96751414">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.python.module" library="resources/site-packages"/>
-    <extension point="xbmc.subtitle.module" library="navigation.py"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <language>en</language>
-        <website><![CDATA[https://github.com/i96751414/plugin.video.pulsar]]></website>
-        <forum><![CDATA[http://forum.xbmc.org/showthread.php?tid=200957]]></forum>
-        <source><![CDATA[https://github.com/i96751414/plugin.video.pulsar]]></source>
-        <language>en</language>
-        <license><![CDATA[Non commercial. See https://github.com/i96751414/plugin.video.pulsar/blob/master/LICENSE]]></license>
-        <summary><![CDATA[Pulsar: Universal streaming]]></summary>
-        <description><![CDATA[Follow @pulsarhq on Twitter]]></description>
-    </extension>
-</addon>
-
 <addon id="plugin.program.senyorwizard" name="senyor wizard" version="1.0.8" provider-name="senyor wizard">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3136,25 +2630,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="script.icechannel.extn.italia" version="0.0.8" name="xunitytalk extension for italia" provider-name="Xunitytalk.com">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="repository.istream" version="1.0"/>
-    </requires>
-	<extension library="default.py" point="xbmc.service" />
-		<summary lang="en">xunitytalk extension for italia</summary>
-    <extension point="xbmc.addon.metadata">
-		<description lang="en">xunitytalk extension for italia</description>
-		<platform></platform>
-		<language></language>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
-    </extension>
-</addon>
-
 <addon id="plugin.audio.housemixes" name="House Mixes" version="1.1.6" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3180,30 +2655,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<summary lang="he">חבילת אייקונים - סגנון טבעת</summary>
 		<description lang="he">חבילת אייקונים - סגנון טבעת</description>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="weather.openweathermap" name="Open Weather Map" version="1.0.0.2" provider-name="bitboy">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-	</requires>
-	<extension point="xbmc.python.weather" library="default.py"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Weather forecast from Open Weather Map</summary>
-        <summary lang="de">Wetter Vorhersage von Open Weather Map</summary>
-        <summary lang="pl">Prognoza pogody serwisu Open Weather Map</summary>
-		<description lang="en">Weather information provided by Open Weather Map (http://openweathermap.org/) under CC-BY-SA 2.0. Fanart image by Jessie Eastland, taken from: http://commons.wikimedia.org/wiki/File:Pale_Joshua.jpg. Icon by Everaldo Coelho, taken from https://www.iconfinder.com/icons/18095/clouds_sun_weather_icon#size=256</description>
-        <description lang="de">Wetter Information angeboten von Open Weather Map (http://openweathermap.org/) lizensiert unter CC-BY-SA 2.0. Fanart von Jessie Eastland, http://commons.wikimedia.org/wiki/File:Pale_Joshua.jpg. Icon von Everaldo Coelho, https://www.iconfinder.com/icons/18095/clouds_sun_weather_icon#size=256</description>
-		<description lang="pl">Prognozę pogody dostarcza serwis Open Weather Map (http://openweathermap.org/) na licencji CC-BY-SA 2.0. Tło - http://commons.wikimedia.org/wiki/File:Pale_Joshua.jpg. Ikona - https://www.iconfinder.com/icons/18095/clouds_sun_weather_icon#size=256</description>
-		<disclaimer lang="en">This is free software and provided "as is".</disclaimer>
-        <disclaimer lang="de">Dies ist freie Software und angeboten "wie sie ist".</disclaimer>
-   		<disclaimer lang="pl">Jest to wolne oprogramowanie i dostarczane "tak jak jest".</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<forum>http://forum.xbmc.org/showthread.php?tid=180878</forum>
-		<source></source>
 	</extension>
 </addon>
 
@@ -3367,20 +2818,6 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="repository.kodil" name=".[COLOR blue].Kodisrael [/COLOR][COLOR white] Repository [/COLOR]" version="1.1" provider-name="kodil">
-    <extension point="xbmc.addon.repository" name=".Kodisrael  Repository ">
-        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>kodisrael repository</summary>
-        <description>kodisrael repository - the most extensive repository in israel </description>
-        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="plugin.video.loganaddon" name="loganaddon TV" version="0.0.1" provider-name="Vitor Pereira e Pedro Selva">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3419,149 +2856,6 @@ http://www.hometheater.co.il</description>
     <summary lang="en">[COLOR=orange]C[/COLOR]ommunity [COLOR=orange]P[/COLOR]ortal</summary>
 	<description>Your all in one Installer. The simplest way to have a fully setup system in a matter of minutes. Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
     <ref>96490264fdb7b89034757e91d6289893</ref>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="pvr.iptvsimple"
-  version="1.11.5"
-  name="PVR IPTV Simple Client"
-  provider-name="nightik">
-  <requires>
-    <c-pluff version="0.1"/>
-    <import addon="xbmc.pvr" version="1.9.6"/>
-  </requires>
-  <extension
-    point="xbmc.pvrclient"
-    library_linux="pvr.iptvsimple.so"
-    library_osx="pvr.iptvsimple.dylib"
-    library_freebsd="pvr.iptvsimple.so"
-    library_windx="pvr.iptvsimple.dll"
-    library_android="libpvr.iptvsimple.so" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="bg_BG">Kodi ПВР добавка за поддръжка на IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ca_ES">Complement PVR de Kodi per a al suport d'IPTV https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="cs_CZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="cy_GB">Ychwanegyn recordydd Kodi ar gyfer cefnogi IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="da_DK">Kodi PVR addon til IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="de_DE">Kodi PVR Addon für IPTV Unterstützung. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="el_GR">Πρόσθετο του Kodi για PVR, με υποστήριξη IPTV. Για λεπτομέρειες επισκεφθείτε το: https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="es_AR">Kodi PVR addon para soporte IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="es_ES">Kodi PVR addon para soporte IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="fr_CA">Addiciel de numériscope Kodi pour la prise en charge de IPTV https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="fr_FR">Extension PVR pour le support IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="gl_ES">Complemento PVR do Kodi de soporte á IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="he_IL">לקוח טלוויזיה חיה עם תמיכה ב־IPTV.&#10;https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="hr_HR">Kodi PVR dodatak za IPTV podršku. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="hu_HU">Kodi PVR kiegészítő IPTV támogatással. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="id_ID">Pengaya PVR Kodi untuk dukungan IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="is_IS">Kodi upptökuviðbót fyrir stuðning við IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="it_IT">Addon PVR Kodi per il supporto IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ja_JP">IPTV をサポートする Kodi PVR アドオンです。 https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ko_KR">IPTV 지원을 위한 Kodi PVR 애드온. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="lt_LT">Kodi PVR priedas IPTV palaikymui. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="lv_LV">Kodi PVR pielikums IPTV atbalstam. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="mk_MK">Kodi PVR додаток за IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ms_MY">Pasang-tambah PVR Kodi untuk sokongan IPTV https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="nb_NO">Kodi PVR tillegg for IPTV støtte. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="nl_NL">Kodi PVR add-on voor IPTV ondersteuning. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="pl_PL">Klient TV dla IPTV. Więcej informacji o dodatku:  https://github.com/afedchin/xbmc-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="pt_BR">Addon de PVR no Kodi com suporte a IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="pt_PT">Addon PVR do Kodi para suporte IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ro_RO">Supliment PVR Kodi  pentru suport IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="ru_RU">Kodi PVR аддон для поддержки IPTV.  https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="sk_SK">Kodi PVR doplnok umožňujúci IPTV podporu. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="sl_SI">Kodijev dodatek PVR s podporo za IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="sv_SE">PVR-tillägg med IPTV-support för Kodi. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="tr_TR">IPTV desteği için Kodi PVR eklentisi. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="uk_UA">PVR надбудова Kodi для підтримки IPTV. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <summary lang="zh_CN">Kodi PVR 插件需要 IPTV 支持。https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-    <description lang="bg_BG">IPTV обикновен ПВР клиент. Поддържа m3u плейлисти, поточна телевизия за мултикаст/уникаст източници, слушане на радио канали и електронен програмен справочник.</description>
-    <description lang="ca_ES">Client senzill per a IPTV PVR amb support per a llistes de reproducció m3u, streaming de TV en viu multicast/unicast, reproducció de canals de ràdio i EPG.</description>
-    <description lang="cs_CZ">IPTV Simple PVR Client podporuje m3u playlisty, streemování  TV pro multicast/unicast zdroje, poslouchání Radia a EPG.</description>
-    <description lang="cy_GB">Cleient IPTV Simple PVR  Mae'n cynnal rhestrau m3u, ffrydio Teledu Byw o ffynonellau darlledu eang ac unigol, gwrando ar sianeli Radio ac Amserlen Rhaglenni.</description>
-    <description lang="da_DK">IPTV Simpel PVR klient understøttelse M3U-afspilningslister, streaming af direkte tv til multicast/unicast kilder, lytte til radio kanaler og EPG.</description>
-    <description lang="de_DE">IPTV Simple PVR Client unterstützt m3u Wiedergabelisten, Streaming von Live TV für Multicast/Unicast Quellen, Radiosender und EPG.</description>
-    <description lang="el_GR">Απλός Πελάτης PVR του IPTV, με υποστήριξη λιστών αναπαραγωγής m3u, αναπαραγωγή ροών Live TV για πηγές πολλαπλής/μοναδικής διανομής, ακρόαση ραδιοφωνικών καναλιών και EPG.</description>
-    <description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-    <description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-    <description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-    <description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-    <description lang="es_AR">El cliente PVR IPTV Simple soporta listas M3U, reproducción de TV en Vivo para origenes multicast/unicast, escucha de canales de radio y GEP</description>
-    <description lang="es_ES">El cliente PVR IPTV Simple soporta listas M3U, reproducción de TV en Vivo para origenes multicast/unicast, escucha de canales de radio y EPG</description>
-    <description lang="fr_CA">Client de numériscope simple pour IPTV, prenant en charge les listes de lecture m3u, la lecture en transit des télés en direct pour les sources de multidiffusion et de monodiffusion, l'écoute de chaînes radio, et le GÉP.</description>
-    <description lang="fr_FR">Le client PVR IPTV Simple supporte les listes de lecture m3u, la diffusion en continu de la TV en direct en mono ou multi-diffusion, l'écoute des chaînes radio et l'EPG.</description>
-    <description lang="gl_ES">O cliente PVR simple de IPTV soporta listaxes m3u, transmisión de TV en directo para fontes multicast/unicast, escoita de canles de Radio e Guía.</description>
-    <description lang="he_IL">לקוח טלוויזיה חיה IPTV Simple תומך ברשימות m3u, הזרמת שידורים חיים ממקור מרובב/ סטרים בודד, האזנה לתחנות רדיו והצגת לוח שידורים.</description>
-    <description lang="hr_HR">IPTV Simple PVR klijent podržava m3u popise izvođenja, streamanje TV programa s više ili jednog izvora, slušanje radio programa i elektronski programski vodič (EPG).</description>
-    <description lang="hu_HU">Az IPTV PVR kiegészítő támogatja m3u listák lejátszását, élő TV adások hálózati streamelését, rádióadók hallgatását EPG adatok kezelésével.</description>
-    <description lang="id_ID">IPTV, klien PTV sederhana yang mendukung playlist m3u, pengaliran siaran TV langsung untuk sumber multicast/unicast, mendengarkan radio dan EPG.</description>
-    <description lang="is_IS">Einfaldur upptökubiðlari fyrir IPTV sem styður m3u spilunarlista, streymingu af beinum atburðum frá multicast/unicast þjónustum, hlustun á útvarpsrásir og rafræna dagskrárvísa</description>
-    <description lang="it_IT">Il client IPTV Simple PVR supporta playlist m3u, streaming della Live TV per sorgenti multicast/unicast e ascoltare canali Radio ed EPG.</description>
-    <description lang="ja_JP">IPTV シンプル PVR クライアントは、m3u プレイリスト、マルチキャスト/ユニキャストのライブ TV ストリーミング、ラジオチャンネルや EPG の視聴をサポートしています。</description>
-    <description lang="ko_KR">IPTV Simple PVR 클라이언트는 m3u 재생목록, 스트리밍, 멀티캐스트/유니캐스트 소스의 TV 시청, 라디오 채널과 EPG를 통한 청취를 지원합니다.</description>
-    <description lang="lt_LT">IPTV Simple PVR klientas palaiko m3u grojaraščius, TV transliacijas iš multicast/unicast šaltinių, radijo stočių transliacijas ir EPG.</description>
-    <description lang="lv_LV">IPTV vienkāršais PVR klients atbalsta m3u spēļsarakstus, tiešraides TV straumēšanu multiraides/uniraides avotiem, radio kanālu klausīšanos un EPG.</description>
-    <description lang="mk_MK">IPTV Simple PVR Client поддржува m3u листи, гледање на Live TV од multicast/unicast извори, слушање Радио канали и EPG.</description>
-    <description lang="ms_MY">IPTV Simple PVR Client menyokong senarai audio visual m3u, penstriman Live TV untuk </description>
-    <description lang="nb_NO">IPTV Simple PVR klient støtter m3u spillelister, strømming av Live TV, lytting til radiokanaler og programguider.</description>
-    <description lang="nl_NL">IPTV simpele PVR cliënt ondersteunt m3u afspeellijsten, streaming van live TV voor multicast/unicast bronnen, luisteren naar radiozenders en EPG.</description>
-    <description lang="pl_PL">Klient IPTV Simple obsługuje listy odtwarzania m3u, strumieniowanie kanałów radiowych i telewizyjnych ze źródeł pojedynczych i grupowych oraz funkcje przewodnika telewizyjnego.</description>
-    <description lang="pt_BR">O cliente de PVR IPTV Simple Client oferece suporte para listas m3u, transmissão de TV ao vivo de fontes multicast/unicast, transmissão de rádios e, ainda, suporte a guia de programação eletrônico - EPG.</description>
-    <description lang="pt_PT">Cliente PVR IPTV com suporte para listas de reprodução m3u, transmissão de TV em directo de fontes multidifusão/unidifusão, ouvir estações de rádio e EPG.</description>
-    <description lang="ro_RO">PVR Client IPTV suporta liste m3u, redare TV în direct pentru surse de multicast/unicast, ascultare canale radio si EPG.</description>
-    <description lang="ru_RU">Интерфейс для IPTV. Поддерживает просмотр потокового ТВ для юникаст/мультикаст источников, прослушивание радиоканалов и работу с электронным телегидом.</description>
-    <description lang="sk_SK">Jednoduchý IPTV PVR klient podporuje mp3 zoznamy súborov, streamovanie živého televízneho vysielania ako multicast/unicast zdroje, počúvanie rozhlasových kanálov a EPG.</description>
-    <description lang="sl_SI">IPTV Simple odjemalec PVR podpira sezname m3u, pretakanja TV v živo za vire multicast/unicast, poslušenje radijskih postaj in EPG.</description>
-    <description lang="sv_SE">IPTV Simple PVR Client stöder m3u-spellistor, strömmande Live-TV för multicast/unicast-källor, radiolyssning och EPG.</description>
-    <description lang="tr_TR">IPTV Basit PVR İstemcisi m3u çalma listeleri, multicast/unicast kaynaklar için Canlı TV akışı, radyo kanallarını dinleme ve EPG destekler.</description>
-    <description lang="zh_CN">IPTV 简单 PVR 前端支持 m3u 播放列表、多播/单播源直播电视、收听电台和电子节目单。</description>
-    <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно възпроизвеждане, некоректно време на ЕПС, пропиляното време и други нежелани ефекти.</disclaimer>
-    <disclaimer lang="ca_ES">Aquest programari és inestable! Els autors no es fan responsables de reproduccions fallides, horaris incorrectes a l'EPG, hores perdudes o qualsevol altre efecte no desitjat.</disclaimer>
-    <disclaimer lang="cs_CZ">Tento software není stabilní. Autoři nejsou žádným způsobem zodpovědní za selhání při nahrávání, neplatné časovače, ztracený čas, či jakékoliv jiné nežádoucí události...</disclaimer>
-    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
-    <disclaimer lang="da_DK">Dette er ustabil software! Ophavsmændene er på ingen måde ansvarlig for mislykkede afspilninger, forkerte EPG tider, spildte timer, eller andre bivirkninger.</disclaimer>
-    <disclaimer lang="de_DE">Dies ist instabile Software! Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Wiedergaben, falsche EPG Zeiten, verschwendete Zeit oder unerwünschte Effekte jeglicher Art.</disclaimer>
-    <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα.</disclaimer>
-    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-    <disclaimer lang="es_AR">Este es un software inestable. El autor no se hace responsable por reproducciones fallidas, datos de GEP incorrectos, horas perdidas o cualquier otro efecto indeseable.</disclaimer>
-    <disclaimer lang="es_ES">Este es un software inestable! El autor no se hace responsable de reproducciones fallidas, datos de EPG incorrectos, horas perdidas o cualquier otro efecto indeseado.</disclaimer>
-    <disclaimer lang="fr_CA">Ce logiciel est instable! Les auteurs ne sont aucunement responsables des lectures  défaillantes, d'horaires erronés du GÉP, des heures perdues ou tout autre effet indésirable.</disclaimer>
-    <disclaimer lang="fr_FR">Ce logiciel est en cours de développement. Les auteurs ne sont en aucun cas responsables de l'échec des lectures, horaires EPG, temps perdu et autres effets indésirables.</disclaimer>
-    <disclaimer lang="gl_ES">Este software non é estábel! Os autores non se fan responsábeis dos erros na reproducción, horarios incorrectos na Guía, horas vencidas, e otros efectos non desexados.</disclaimer>
-    <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
-    <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorani za neuspjelo snimanje, netočna zakazana snimanja, izgubjene sate, ili bilo koje druge neželjene učinke...</disclaimer>
-    <disclaimer lang="hu_HU">Ez nem stabil szoftver! A készítők nem vállalnak felelősséget, a hibás felvételért, rossz időzítésért, elvesztegetett időért...</disclaimer>
-    <disclaimer lang="id_ID">Perangkat lunak ini belum stabil. Penulis tidak akan bertanggung-jawa untuk kegagalan penyetelan, waktu EPG yang tidak tepat, Waktu yang terbuang dan efek yang tidak diinginkan lainnya.</disclaimer>
-    <disclaimer lang="is_IS">Þetta er óstöðugur hugbúnaður! Höfundarnir eru á engan hátt ábyrgir fyrir misheppnuðum spilunum, röngum upptökutímum, klukkustundum sem að fóru í súginn eða nokkrum öðrum óæskilegum áhrifum.</disclaimer>
-    <disclaimer lang="it_IT">Questo software è instabile! Gli autori non sono in alcun modo responsabili per registrazioni fallite, timers incorretti, ore perse, o qualsiasi altro effetto indesiderato.</disclaimer>
-    <disclaimer lang="ja_JP">これは不安定なソフトウェアです！本プログラムの作者は、再生の失敗、EPG 時刻のずれ、無駄にした時間、その他あらゆる好ましくない結果について責任を負わないものとします。</disclaimer>
-    <disclaimer lang="ko_KR">이 소프트웨어는 불안정합니다! 재생 실패, 정확하지 않은 EPG 시각, 시간 낭비, 의도하지 않은 현상에 대해 제작자는 어떤 책임도 지지 않습니다.</disclaimer>
-    <disclaimer lang="lt_LT">Tai yra nestabili programinė įranga! Autoriai nėra atsakingi dėl nepavykusio atkūrimo, klaidingo EPG laiko, prarastų valandų ar kito nepageidaujamo poveikio.</disclaimer>
-    <disclaimer lang="lv_LV">Šī ir nestabila programmatūra! Autori nav atbildīgi par neizdevušos atskaņošanu, nepareizu EPG laiku, iztērētām stundām vai jebkādiem citiem nevēlamiem efektiem.</disclaimer>
-    <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите во никој случај не се одговорни за неуспешно гледање, неточни времиња во EPG, вашето потрошено време или било кои непосакувани ефекти.</disclaimer>
-    <disclaimer lang="ms_MY">Perisian ini tidak stabi! Pengarang tidak bertanggungjawab atas kegagalan memainkan, pemasa EPG yang tidak betul, pembaziran masa atau sebarang kesan tidak diingini.</disclaimer>
-    <disclaimer lang="nb_NO">Dette er et ustabilt program! Skaperne er på ingen måte ansvarlig for feil ved avspilling, feil programguide tide, bortkastede timer eller andre uønskede ting.</disclaimer>
-    <disclaimer lang="nl_NL">Deze software is niet 100% stabiel! De auteurs zijn op geen enkele wijze aansprakelijk voor mislukte opnames, incorrecte EPG tijden, verspilde uren, of enig ander ongewild neveneffect..</disclaimer>
-    <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
-    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas reproduções, horários incorretos no EPG, horas perdidas ou quaisquer outros efeitos indesejáveis.</disclaimer>
-    <disclaimer lang="pt_PT">Este software é instável! Os autores não se responsabilizam por falhas nas reproduções, horários do EPG incorrectos, ou outro qualquer efeito não desejado.</disclaimer>
-    <disclaimer lang="ro_RO">Acest software este instabil! Autorii nu sunt responsabili în nici un fel pentru înregistrări eșuate, cronometrări EPG incorecte, ore pierdute sau orice alte efecte nedorite.</disclaimer>
-    <disclaimer lang="ru_RU">Это нестабильная программа! Авторы не несут ответственности за неудачные воспроизведение, неверные время EPG, потраченное время и прочие нежелательные эффекты.</disclaimer>
-    <disclaimer lang="sk_SK">Toto je nestabilný softvér! Autori nie sú v žiadnom prípade zodpovední za chybné prehrávanie, nesprávne časy EPG, premrhané hodiny alebo akékoľvek iné nežiadúce účinky.</disclaimer>
-    <disclaimer lang="sl_SI">To je nestabilna programska oprema! Avtorji niso odgovorni za neuspela predvajanja, nepravilne čase v EPG, zapravljen čas in katerikoli drug neželen učinek.</disclaimer>
-    <disclaimer lang="sv_SE">Denna mjukvara är ostabil! Författarna kan inte på något sätt hållas ansvariga för felaktiga uppspelningar, EPG-tider, bortslösade timmar eller andra oönskade effekter.</disclaimer>
-    <disclaimer lang="szl">To je niystabilny softwer! Autōry niy sōm ôdpedzialne za niypodarzōne graniy, niynŏleżne godziny EPG, stracōne godziny i inksze niychciane efekty.</disclaimer>
-    <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yazanlar oynatma hatası, yanlış EPG zamanları, harcanmış saatler ya da diğer etkilerden sorumlu değildir.</disclaimer>
-    <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -3644,23 +2938,6 @@ http://www.hometheater.co.il</description>
     <description>The-Vibe Team Repository</description>
     <platform>all</platform>
     <website>http://www.the-vibe.co.il</website>
-  </extension>
-</addon>
-
-<addon id="service.htpt" name="HTPT Service" version="0.1.85" provider-name="HTPT Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py"/>
-  <extension point="xbmc.service" library="service.py" start="startup"/>
-  <extension point="xbmc.addon.metadata">
-    <language>he</language>
-	<platform>all</platform>
-    <summary>HTPT System Component</summary>
-    <description>This addon will be auto installed if needed.</description>
-    <disclaimer>PLEASE REFER TO HTPT INSTALLER ADDON</disclaimer>
-	<email>infohtpt@gmail.com</email>
-	<website>https://www.facebook.com/pages/HTPT/934744346549707</website>
   </extension>
 </addon>
 
@@ -3882,19 +3159,6 @@ http://www.hometheater.co.il</description>
 	</extension>
 </addon>
 
-<addon id="repository.Halowrepo" name="  [COLOR lime][B]HALOW [/COLOR][COLOR white]Repository[/B][/COLOR]" version="2.2.6" provider-name="HalowRepo">
-	<extension point="xbmc.addon.repository" name="  [COLOR lime][B]Halow[/COLOR][COLOR white]Repository[/B][/COLOR]">
-        <info compressed="false">https://raw.githubusercontent.com/HalowTV/Halowrepo/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/HalowTV/Halowrepo/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/HalowTV/Halowrepo/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install my Addons</summary>
-		<description>Download and install addons from Halow Repo</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.trakt_list_manager" name="Trakt.tv List Manager" version="0.1.6" provider-name="Tristan Fischer (sphere@dersphere.de)">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -4029,19 +3293,6 @@ http://www.hometheater.co.il</description>
     <source>https://github.com/Razzeee/script.module.arrow</source>
     <email>beenje AT gmail.com</email>
   </extension>
-</addon>
-
-<addon id="repository.dextertv" name="dextertv repo" version="1.0" provider-name="dexter">
-	<extension point="xbmc.addon.repository" name="dexter Addon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/xoptimus/dexter/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/xoptimus/dexter/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/xoptimus/dexter/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install My Addons</summary>
-		<description>Download and install addons from dexter!</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.gozlan.me" name="Gozlan" version="1.2.0" provider-name="cubicle">
@@ -4748,29 +3999,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.htpt.kids" name="HTPT KIDS" version="0.0.19" provider-name="finalmakerr">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="plugin.video.youtube" version="5.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>he</language>
-	<platform>all</platform>
-    <summary lang="en">My kids are loving it!</summary>
-	<summary lang="he">הילדים שלי אוהבים את זה!</summary>
-    <description lang="en">This addon is updated by Kodi's users (See sources in addon.xml file).[CR]Visit HTPT Facebook Page for support</description>
-	<description lang="he">הרחבה זו מתוחזקת ע"י משתמשי קודי (ראה מקור בקובץ addon.xml).[CR]בקר אותנו בפייסבוק לתמיכה!</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-	<forum>http://www.hometheater.co.il/vp2330471#2330471</forum>
-	<source>https://github.com/htpthtpt/htpt/tree/master/master/plugin.video.htpt.kids</source>
-	<email>infohtpt@gmail.com</email>
-	<website>https://www.facebook.com/pages/HTPT/934744346549707</website>
-  </extension>
-</addon>
-
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="1.0.1" provider-name="Philipp Temminghoff (phil65)">
     <requires>
         <import addon="xbmc.python" version="2.24.0" />
@@ -4791,25 +4019,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="script.icechannel.extn.india" version="0.0.5" name="XunityTalk.com iStream extensions for India" provider-name="Xunitytalk.com">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="repository.istream" version="1.0"/>
-    </requires>
-	<extension library="default.py" point="xbmc.service" />
-		<summary lang="en">XunityTalk.com iStream extensions for India</summary>
-    <extension point="xbmc.addon.metadata">
-		<description lang="en">XunityTalk.com iStream extensions for India</description>
-		<platform></platform>
-		<language></language>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
-    </extension>
-</addon>
-
 <addon id="repository.FTV-Guide-Repo" name="FTV Guide Repo" version="1.0" provider-name="rayw1986, bluezed">
 	<extension point="xbmc.addon.repository" name="FTV Guide Repository">
 		<info compressed="false">http://github.com/bluezed/FTV-Guide-Repo/raw/master/addons.xml</info>
@@ -4821,26 +4030,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<description>Download and install the FTV Guide addon. For OFFICIAL Support Visit TVADDONS.AG</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon
-id="script.m3u.convertor"
-version="0.0.6"
-name="M3U Playlist Convertor"
-provider-name="Roman_V_M">
-<requires>
-  <import addon="xbmc.python" version="2.1.0"/>
-</requires>
-<extension point="xbmc.python.script" library="default.py" >
-  <provides>executable</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">M3U Playlist Convertor</summary>
-  <summary lang="ru">Конвертор плейлистов m3u</summary>
-  <description lang="en">IPTV M3U playlist convertor for XBMC pvr.demo add-on. Before launching the script open its settings and select the location or URL of a playlist to convert and a channel icons folder (optional).</description>
-  <description lang="ru">Конвертор плейлистов IPTV в формате m3u для дополнения XBMC pvr.demo. Перед запуском укажите в настройках дополнения путь к плейлисту, который нужно сконвертировать, или его URL, а также папку со значками каналов (необязательно).</description>
-<platform>all</platform>
-</extension>
 </addon>
 
 <addon id="metadata.common.themoviedb.org"
@@ -5376,19 +4565,6 @@ provider-name="Roman_V_M">
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="repository.xbmc-israel" name=".[COLOR blue]XBMC Israeli [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.0.4" provider-name="cubicle-vdo">
-    <extension point="xbmc.addon.repository" name="XBMC Israeli streaming repo for streaming sites">
-        <info compressed="false">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>XBMC Israeli Streaming Sites</summary>
-        <description>Download and install addons for XBMC Israeli streaming repo for streaming sites</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="plugin.video.meta" name="Meta" version="1.1.5" provider-name="MetaTeam">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
@@ -5635,23 +4811,6 @@ provider-name="Roman_V_M">
   </extension>
 </addon>
 
-<addon id="repository.filmkodi.com" name="Filmkodi.com repository - MRKNOW" version="2.1.0" provider-name="Mrknow">
-	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
-		<info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
-		<checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodi.filmkodi.com/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
-		<summary lang="pl">Zainstaluj wtyczki z filmkodi.com</summary>
-		<description lang="en">Add-ons from filmkodi.com (mrknow.pl) repository.</description>
-		<description lang="pl">Wtyczki z nieoficjalnego, repozytorium polskiego mrknow.pl..</description>
-		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
-		<disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny, wtyczki tworzone przez pasjonatów, .</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.teevee"
 	name="TeeVee"
 	version="1.0.3"
@@ -5776,144 +4935,6 @@ provider-name="Roman_V_M">
 		<forum>http://forum.xbmc.org/showthread.php?tid=204728</forum>
 		<disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.</disclaimer>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-	</extension>
-</addon>
-
-<addon id="weather.yahoo" name="Yahoo! Weather" version="3.0.8" provider-name="ronie">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-	</requires>
-	<extension point="xbmc.python.weather" library="default.py"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="af">Weervoorspelling van yahoo.com</summary>
-		<summary lang="am">የ አየር ንብረት ከ ያሁ.ኮም</summary>
-		<summary lang="ar">تنبؤات الطقس من موقع yahoo.com</summary>
-		<summary lang="bg">Синоптична прогноза от www.yahoo.com</summary>
-		<summary lang="ca">Previsió del temps des de yahoo.com</summary>
-		<summary lang="cs">Předpověď počasí z yahoo.com</summary>
-		<summary lang="da">Vejrudsigt fra yahoo.com</summary>
-		<summary lang="de">Wettervorhersage von yahoo.com</summary>
-		<summary lang="el">Πρόγνωση καιρού από το yahoo.com</summary>
-		<summary lang="en">Weather forecast from yahoo.com</summary>
-		<summary lang="en_NZ">Weather forecast from yahoo.com</summary>
-		<summary lang="en_US">Weather forecast from yahoo.com</summary>
-		<summary lang="es">Predicción meteorológica de yahoo.com</summary>
-		<summary lang="et">yahoo.com ilmaennustus</summary>
-		<summary lang="fi">Yahoo.com sääennuste</summary>
-		<summary lang="fr">Prévisions météo depuis yahoo.com</summary>
-		<summary lang="fr_CA">Prévisions météorologiques de yahoo.com</summary>
-		<summary lang="gl">Predición meteorolóxica de yahoo.com</summary>
-		<summary lang="he">תחזית מזג אוויר מ-yahoo.com</summary>
-		<summary lang="hr">Prognoza vremena sa yahoo.com</summary>
-		<summary lang="hu">Időjárás előrejelzés a yahoo.com oldalról</summary>
-		<summary lang="id">Ramalan Cuaca dari yahoo.com</summary>
-		<summary lang="is">Veðurspá frá yahoo.com</summary>
-		<summary lang="it">Servizio meteo di yahoo.com</summary>
-		<summary lang="ja">yahoo.com 天気予報</summary>
-		<summary lang="ko">yahoo.com 일기예보</summary>
-		<summary lang="lt">Orų prognozė iš yahoo.com</summary>
-		<summary lang="lv">Laikapstākļu prognoze no yahoo.com</summary>
-		<summary lang="nl">Weerbericht van yahoo.com</summary>
-		<summary lang="no">Værvarsel fra yahoo.com</summary>
-		<summary lang="pl">Prognoza pogody z serwisu yahoo.com</summary>
-		<summary lang="pt">Previsão do tempo a partir de yahoo.com</summary>
-		<summary lang="pt_BR">Previsão Climática de yahoo.com</summary>
-		<summary lang="ro">Prognoze meteo de la yahoo.com</summary>
-		<summary lang="ru">Прогноз погоды от yahoo.com</summary>
-		<summary lang="sk">Predpoveď počasia z yahoo.com</summary>
-		<summary lang="sl">Vremenska napoved iz yahoo.com</summary>
-		<summary lang="sr_RS">Прогноза времена са yahoo.com</summary>
-		<summary lang="sv">Väderprognos från yahoo.com</summary>
-		<summary lang="tr">Hava durumu - yahoo.com</summary>
-		<summary lang="uk">Прогноз погоди з </summary>
-		<summary lang="zh">来源于 yahoo.com 的天气预报</summary>
-		<description lang="af">Weervoorspelling verskaf deur Yahoo! Weer (http://weather.yahoo.com/)</description>
-		<description lang="ar">خدمه تنبؤات الطقس تأتيكم برعايه ياهوو الطقس (http://weather.yahoo.com/)</description>
-		<description lang="bg">Синоптична прогноза, предоставена от Yahoo! Weather (http://www.yahoo.com/)</description>
-		<description lang="ca">Previsió del temps proporcionada per Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="cs">Předpověď počasí poskytnuta stránkou Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="da">Vejrudsigten leveret af Yahoo! vejr (http://weather.com/)</description>
-		<description lang="de">Wettervorhersage bereitgestellt durch Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="el">Η πρόγνωση καιρού παρέχεται από το Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="en">Weather forecast provided by Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="en_NZ">Weather forecast provided by Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="en_US">Weather forecast provided by Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="es">Predicción meteorológica facilitada por Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="et">Ilmaennustuse toob teieni Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="fi">Sääennusteen tarjoaa Yahoo! Weather (http://weather.yahoo.com)</description>
-		<description lang="fr">Prévisions météo fournies par Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="fr_CA">Prévisions météorologiques fournies par Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="gl">Predición meteorolóxica fornecida por Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="he">תחזית מזג אוויר מסופקת ע"י Yahoo! Weather (בכתובת http://weather.yahoo.com)</description>
-		<description lang="hr">Prognoza vremena koju pruža Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="hu">Az időjárás előrejelzést biztosítja a Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="is">Veðurspá frá Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="it">Servizio meteo fornito da Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="ja">Yahoo! Weather (http://weather.yahoo.com/) 提供の天気予報</description>
-		<description lang="ko">Yahoo! Weather (http://weather.yahoo.com/) 에서 제공하는 일기예보</description>
-		<description lang="lt">Yahoo! Weather pateikta orų prognozė (http://weather.yahoo.com/)</description>
-		<description lang="lv">Laikapstākļu prognoze pēc Yahoo! laika ar nosacījumu (http://weather.yahoo.com/)</description>
-		<description lang="nl">Weersverwachting geleverd door Yahoo! (http://weather/yahoo.com)</description>
-		<description lang="no">Værvarsel levert av Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="pl">Prognoza pogody jest dostarczona dzięki uprzejmości serwisu Yahoo! (http://weather.yahoo.com/)</description>
-		<description lang="pt">Previsão metereológica fornecida por Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="pt_BR">Previsão climática fornecida por Yahoo! Weather (http://weather.yahoo.com)</description>
-		<description lang="ro">Prognoză meteo oferită de Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="ru">Прогноз погоды предоставлен Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="sk">Predpoveď počasia poskytovaná službou Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="sl">Vremenska napoved od Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="sr_RS">Прогноза времена коју је омогућио Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="sv">Väderprognos tillhandahållen av Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="tr">Yahoo! Weather tarafından sağlana hava durumu tahmini (http://weather.yahoo.com/)</description>
-		<description lang="uk">Прогноз погоди надано Yahoo! Weather (http://weather.yahoo.com/)</description>
-		<description lang="zh">由雅虎天气提供的天气预报（http://weather.yahoo.com/）</description>
-		<disclaimer lang="af">Die gebruik van hierdie byvoeging beteken dat jy ooreengekom met die diensvoorwaardes wat op geleë is http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="ar">إستخدامك لهذه اﻹضافه يعنى موافقتك على شروط الخدمه التى يمكن اﻹطلاع عليها من خلال http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="bg">Употребявайки добавката Вие се съгласявате с условията за ползване на услугата, които се намират на http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="ca">L'ús d'aquest complement implica que vostè ha acceptat els termes de servei ubicats a http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="cs">Používáním tohoto rozšíření schvalujete podmínky užívání umístěné na http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="da">Brug af denne add-on betyder at du har accepteret betingelserne for brug som du finder på http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="de">Die Benutzung der Erweiterung impliziert, das sie den Nutzungsbedingungen unter http://developer.yahoo.com/weather/#terms zugestimmt haben</disclaimer>
-		<disclaimer lang="el">Χρήση αυτού του πρόσθετου συνεπάγεται την αποδοχή των Όρων Χρήσης της Υπηρεσίας (Terms of Service) οι οποίοι βρίσκονται στο http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="en">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="en_NZ">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="en_US">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="es">El uso de este add-on implica la aceptación de los Términos de Servicio recogidos en http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="et">Selle lisa kasutamine tähendab nõustumist Kasutustingimustega aadressilt http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="fi">Tämän lisäosan käyttäminen tarkoittaa että hyväksyt käyttäehdot, jotka ovat osoitteessa http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="fr">Par l'utilisation de ce module, vous attestez accepter les Conditions Générales d'Utilisation disponibles sur http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="fr_CA">L'utilisation de cet addiciel implique que vous avez accepté les conditions générales d'utilisation situées à http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="gl">Empregar este complemento implica que vostede acepta os termos do servizo localizados en http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="he">מהשימוש בהרחבה זו משתמע כי הסכמת לתנאי השירות המפורטים ב-http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="hr">Korištenje ovog dodatka podrazumijeva da se slažete sa Pravilima korištenja koji se nalaze na: http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="hu">Ennek a kiegészínőnek a használatával elfogadja a Felhasználói Feltételeket amik megtalálhatóak a http://developer.yahoo.com/weather/#terms oldalon</disclaimer>
-		<disclaimer lang="is">Notkun á þessarri viðbót gefur til kynna að þú hafir samþykkt skilmálana sem finna má á http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="it">L'uso di questo Add-on implica l'accettazione delle Condizioni di Servizio che trovi su http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="ja">このアドオンを使うことにより、http://developer.yahoo.com/weather/#terms にある利用規約に同意したとみなされます。</disclaimer>
-		<disclaimer lang="ko">이 애드온을 사용하는 것은 http://developer.yahoo.com/weather/#terms 에 있는 서비스 이용 약관에 동의함을 의미합니다.</disclaimer>
-		<disclaimer lang="lt">Naudodami šį priedą, jūs sutinkate su paslaugos sąlygomis, esančiomis http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="lv">Lietojot šo spraudni nozīmē, ka jūs esat piekrituši pakalpojumu sniegšanas noteikumiem, kas atrodas http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="nl">Het gebruik van deze add-on impliceert dat je akkoord gaat met de service-voorwaarden op http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="no">Bruken av dette tillegget betinger at du har godkjent brukervilkårene på http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="pl">Korzystanie z tego dodatku jest równoznaczne z akceptacją regulaminu dostępnego pod adresem: http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="pt">O uso deste add-on implica o seu acordo com os Termos de Serviço disponíveis em http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="pt_BR">O uso deste complemento implica em aceitar os Termos de Serviço localizado em http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="ru">Используя это дополнение, вы соглашаетесь с условиями предоставления услуг, &#10;доступными по адресу: http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="sk">Používaním tohto doplnku súhlasíte s podmienkami používania služby umiestnenými na http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="sl">Uporaba tega dodatka pomeni, da ste se strinjali s pogoji storitve, ki se nahajajo na http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="sr_RS">Употреба овог додатка подразумева да сте сагласни са Условима Коришћења који се налазе на http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="sv">Användning av detta tillägg innebär att du har accepterat användarvillkoren som hittas på http://developer.yahoo.com/weather/#terms</disclaimer>
-		<disclaimer lang="tr">Bu eklentinin kullanımı aynı zamanda http://developer.yahoo.com/weather/#terms adresindeki Kullanım Koşullarını da kabul ettiğiniz anlamına gelir.</disclaimer>
-		<disclaimer lang="uk">Скориставшись цією надбудовою, ви тим самим погоджуєтеся з умовами використання: </disclaimer>
-		<disclaimer lang="zh">使用此插件表示你已同意此服务条款：http://developer.yahoo.com/weather/#terms</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=169410</forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/ronie/weather.yahoo</source>
 	</extension>
 </addon>
 
@@ -6059,145 +5080,6 @@ provider-name="Roman_V_M">
     <website>https://github.com/elbowz/xbmc.service.pushbullet</website>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="metadata.hebtv.thewiz" name="The TVDB" version="1.8.4.1" provider-name="Team Kodi">
-  <requires>
-    <import addon="xbmc.metadata" version="2.1.0"/>
-    <import addon="metadata.common.imdb.com" version="2.7.8"/>
-  </requires>
-  <extension point="xbmc.metadata.scraper.tvshows" language="multi" library="tvdb.xml" cachepersistence="00:15"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="af">Gaan haal TV vertoning metadata vanaf TheTVDB.com</summary>
-    <summary lang="be">Fetch TV show metadata from TheTVDB.com</summary>
-    <summary lang="bg">Изтегля информация за ТВ Сериали от TheTVDB.com</summary>
-    <summary lang="ca">Obté les metadades de les sèries de televisió de TheTVDB.com</summary>
-    <summary lang="cs">Získat metadata televizního pořadu z TheTVDB.com</summary>
-    <summary lang="cy">Estyn metadata sioeau Teledu o TheTVDB.com</summary>
-    <summary lang="da">Hent metadata til TV-serier fra TheTVDB.com</summary>
-    <summary lang="de">Lade TV-Show-Metadaten von TheTVDB.com</summary>
-    <summary lang="el">Λήψη μετα-δεδομένων σειρών από το TVDB.com</summary>
-    <summary lang="en">Fetch TV show metadata from TheTVDB.com</summary>
-    <summary lang="en_NZ">Fetch TV show metadata from TheTVDB.com</summary>
-    <summary lang="en_US">Fetch TV show metadata from TheTVDB.com</summary>
-    <summary lang="es">Recuperar metadatos de series de TV en TheTVDB.com</summary>
-    <summary lang="es_AR">Recuperar metadatos de series de TV en TheTVDB.com</summary>
-    <summary lang="es_MX">Obtener metadata de Series desde TheTVDB.com</summary>
-    <summary lang="et">Hangi tv seriaalide metainfo TheTVDB.com-ist</summary>
-    <summary lang="fi">Nouda TV-ohjelmien tietoja TheTVDB.com -sivustolta</summary>
-    <summary lang="fr">Collecter les métadonnées des séries TV depuis TheTVDB.com</summary>
-    <summary lang="fr_CA">Récupérer les métadonnées pour les séries télé depuis TVDB.com</summary>
-    <summary lang="gl">Obter os metadatos das series de TV dende TheTVDB.com</summary>
-    <summary lang="he">הבא מידע </summary>
-    <summary lang="hi">द टी भी दी बी.कॉम से टी वी प्रदर्शन लाए</summary>
-    <summary lang="hr">Nabavi informacije za TV serije s TheTVDB.com</summary>
-    <summary lang="hu">TV műsor információk a TheTVDB.com-ról</summary>
-    <summary lang="id">Ambil metadata Serial TV dari TheTVDB.com</summary>
-    <summary lang="is">Sækja Sjónvarpsþátta lýsigögn frá TheTVDB.com</summary>
-    <summary lang="it">Scarica informazioni programma TV da TheTVDB.com</summary>
-    <summary lang="ja">TheTVDB.com からTV番組メタデータを取得</summary>
-    <summary lang="ka">სატელევიზიო გადაცემების მეტაინფორმაციის გადმოტანა TVDB.com-დან</summary>
-    <summary lang="ko">TheTVDB.com 에서 TV 쇼 정보 가져오기</summary>
-    <summary lang="lt">Parsiųsti TV šou (serialo) metaduomenis iš TheTVDB.com</summary>
-    <summary lang="mk">Превземи ТВ шоу метаподаток од TVDB.com</summary>
-    <summary lang="ms">Dapatkan data meta rancangan TV dari TheTVDB.com</summary>
-    <summary lang="my">TV show နှင့်ပတ်သက်သည့် အချက်အလက်များကို TheTVDB.com မှ ရယူရန်</summary>
-    <summary lang="nl">Seriemetadata ophalen van TheTVDB.com</summary>
-    <summary lang="no">Hent TV program data fra TheTVDB.com</summary>
-    <summary lang="pl">Pobieraj dane o serialach telewizyjnych z TheTVDB.com </summary>
-    <summary lang="pt">Obtenha metadados para séries TV a partir de TVDB.com</summary>
-    <summary lang="pt_BR">Obtenha dados dos seriados do TheTVDB.com</summary>
-    <summary lang="ro">Obţineţi datele despre seriale de la TheTVDB.com</summary>
-    <summary lang="ru">Загрузка информации о ТВ-шоу с TheTVDB.com</summary>
-    <summary lang="se">Skrapa för TV-seriemetadata från TVDB.com</summary>
-    <summary lang="sk">Získať metadáta o televíznej relácii zo stránky TheTVDB.com</summary>
-    <summary lang="sl">Prenesite informacije o TV serijah z TheTVDB.com</summary>
-    <summary lang="sq">Merr "metadata" mbi TV serialet nga TheTVDB.com</summary>
-    <summary lang="sv">Hämta TV-seriemetadata från TVDB.com</summary>
-    <summary lang="ta_IN">TheTVDB.com இருந்து தொலைக்காட்சி நிகழ்ச்சி மெட்டாடேட்டா எடுக்கபடுகின்றது</summary>
-    <summary lang="th">เรียกข้อมูลหลักของรายการทีวี จาก TheTVDB.com</summary>
-    <summary lang="tr">TV programı meta verilerini TheTVDB.com'dan al</summary>
-    <summary lang="uk">Отримання відомостей про серіали із TheTVDB.com</summary>
-    <summary lang="vi">Trình lấy TV show từ TheTVDB.com</summary>
-    <summary lang="zh">从 TheTVDB.com 获取电视剧集信息</summary>
-    <summary lang="zh_TW">從 TheTVDB.com 取得電視節目資訊</summary>
-    <description lang="af">TheTVDB.com is 'n TV Skraper. Die werf is 'n massiewe oop databasis wat deur enige iemand verander kan word en bevat vol meta data vir baie vertonings in verskillende tale. Alle inhoud en prente op die werf is bygedra deur sy gebruikers vir sy gebruikers en het 'n hoë standaard van kwaliteit. Die databasis skema en webruimte is oopbron onder die GPL.</description>
-    <description lang="be">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
-    <description lang="bg">TheTVDB.com предоставя информация за ТВ Сериали. Сайтът е масивна отворена база данни, която може да бъде променяна от всеки и съдържа пълни мета данни за много сериали на различни езици. Цялото съдържание и изображенията в сайта са предоставени от неговите потребители за други потребители и имат високо ниво на качество. Структурата на базата данни и уеб сайта са създадени с отворен код под GPL лиценз.</description>
-    <description lang="ca">TheTVDB.com és un raspador de TV. El lloc és una base de dades oberta massiva que pot ser modificat per qualsevol persona i conté metadades completes de molts programes en diferents idiomes. Tot el contingut i imatges en el lloc han estat aportat pels usuaris per als usuaris i tenen un alt nivell o qualitat. L'esquema de la base de dades i la pàgina web són de codi obert sota la llicència GPL.</description>
-    <description lang="cs">TheTVDB.com je zdroj metadat pro televizní pořady. Stránka je masivní otevřená databáze, kterou může kdokoliv upravovat a obsahuje veškerá metadata v různých jazycích k mnoha pořadům. Všechen obsah a obrázky jsou poskytnuty uživateli pro uživatele a mají vysokou kvalitu. Návrhový vzor databáze a webová stránka jsou svobodný software licencovaný pod GPL.</description>
-    <description lang="cy">Mae TheTVDB.com yn Grafwr Teledu. Mae'r wefan yn gronfa ddata anferthol agored y mae modd ei addasu gan unrhyw un  ac yn cynnwys meta data llaw llawer o sioeau mewn ieithoedd gwahanol. Mae'r holl gynnwys a delweddau ar y wefan wedi ei gyfrannu gan eu defnyddwyr ac i safon uchel . Mae cynllun y gronfa ddata a'r wefan yn god agored o dan y GPL.</description>
-    <description lang="da">TheTVDB.com er en TV-scraper. Siden er en massiv åben database, som alle kan modificere, og den indeholder fyldestgørende metadata for mange serier på forskellige sprog. Alt indhold og alle billeder på siden er tilføjet af brugere og har en høj standard eller kvalitet. Databasens model og webside er open source under GPL.</description>
-    <description lang="de">TheTVDB.com ist ein Scraper für TV-Shows. Die Seite ist eine riesige, offene Datenbank, die von jedem angepasst werden kann und weitreichende Metadaten für viele TV-Shows, in verschiedenen Sprachen, enthält. Alle Inhalte und Bilder dieser Seite wurden von Benutzern für Benutzer zusammengetragen und folgen dabei dem hohen Standard für Qualität. Das Datenbankschema sowie die Webseite sind nach der GPL-Lizenvereinbarung OpenSource.</description>
-    <description lang="el">Το TVDB.com είναι ένα Scraper Τηλεόρασης. Η ιστοσελίδα είναι μία τεράστια ανοικτή βάση δεδομένων η οποία μπορεί να τροποποιηθεί από τον καθένα και περιέχει πλήρη μετα-δεδομένα για πολλές σειρές σε διάφορες γλώσσες. Όλο το περιεχόμενο και οι εικόνες στην ιστοσελίδα προέρχονται από τους χρήστες του, και έχουν υψηλά πρότυπα ποιότητας. Το σχήμα της βάσης δεδομένων και της ιστοσελίδας είναι ανοικτού κώδικα υπό το GPL.</description>
-    <description lang="en">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
-    <description lang="en_NZ">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
-    <description lang="en_US">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
-    <description lang="es">TheTVDB.com es un scraper de TV. El sitio es una enorme base de datos abierta que puede ser modificada por cualquiera y que contiene metadatos completos de muchas series en diferentes idiomas. Todos los contenidos e imágenes del sitio han sido aportados por sus usuarios y tienen una alta calidad. El esquema de base de datos y sitio web son de código abierto bajo la licencia GPL.</description>
-    <description lang="es_AR">TheTVDB.com es un scraper de TV. El sitio es una enorme base de datos abierta que puede ser modificada por cualquiera y que contiene metadatos completos de muchas series en diferentes idiomas. Todos los contenidos e imágenes del sitio han sido aportados por sus usuarios y tienen una alta calidad. El esquema de base de datos y sitio web son de código abierto bajo la licencia GPL.</description>
-    <description lang="es_MX">TheTVDB.com es un scraper de series de TV. Este sitio es una base de datos masiva y abierta que puede ser modicada por cualquiera y contiene metadata completa para muchas series en diferentes lenguajes. Todo el contenido e imágenes del sitio han sido contribuidos por sus usuarios para usuarios, los cuales tienen un alto estándar de calidad. El esquema de la base de datos y el sitio web son de código abierto bajo GPL.</description>
-    <description lang="et">TheTVDB.com on seriaalide kraabits. See leht on mahukas avatud andmebaas mida saavad täiendad kõik ja sisaldab palju metaandmeid suure hulga seriaalide kohta. Kõik sisu ja pildid lehel on kasutajate poolt sisestatud ning vastavad kõrgele kvaliteedile. TheTVDB.com andmebaasi struktuur ja kood on avaldatud GPLi all.</description>
-    <description lang="fi">TheTVDB.com on TV-ohjelmatietojen lataaja. Sivusto on massiivinen avoin tietokanta, jonka tietoja kaikki pystyy muokkaamaan ja se sisältää täydet tiedot monista TV-ohjelmista usealla eri kielellä. Kaikki sivuston sisältö ja kuvat on korkealaatuisia ja käyttäjien lahjoittamia. Tietokanta ja sivusto ovat GPL-lisenssin alaisia.</description>
-    <description lang="fr">TheTVDB.com est un collecteur TV. Le site est une immense base de données libre pouvant être modifiée par tout le monde et contenant toutes les informations de nombreuses séries en différentes langues. Les informations et images du site proviennent de contributions d'utilisateurs pour les usagers et sont d'excellentes qualités. Le schéma de la base de données et le site Web sont en open source sous licence GPL.</description>
-    <description lang="fr_CA">TheTVDB est un extracteur pour séries télé. Ce site est une énorme base de données ouverte qui peut être modifiée par n'importe qui et qui comprend des métadonnées complètes pour beaucoup de séries télé dans plusieurs langues. Tout le contenu et les images présentes sur le site ont été fournis par les utilisateurs et possèdent un haut niveau de qualité. La structure de la base de données et le site Web sont libres et sous licence GPL.</description>
-    <description lang="gl">TheTVDB.com é un Scraper de TV. O sitio é unha enorme base de datos aberta que calquera pode modificar e contén todos os metadatos de centos de series en diferentes idiomas. Todo o contido e imaxes do sitio foi proporcionado polos seus usuarios e amosa un grande estándar de calidade. O esquema da base de datos e o sitio web son de código aberto baixo licenza GPL.</description>
-    <description lang="he">TheTVDB.com הוא סקרייפר עבור תוכניות טלוויזיה. אתר זה הוא מסד נתונים פתוח עצום אשר כל אחד יכול לערוך ומכיל פרטים מלאים להרבה תוכניות טלוויזיה בשפות שונות. כל התכנים והתמונות באתר נתרמו ע"י המשתמשים שלה עבור משתמשים וישנו סטנדרט גבוה או איכות גבוהה. תכנית המסד נתונית והאתר הם בקוד פתוח תחת ה-GPL.</description>
-    <description lang="hi">टीभीडीबी एक टीभी स्क्रॅपर है.येह साइट एक बहुत बरा खुला डेटाबेस है जो किसी से भी रूपांतर्न किया जा सकता है और यह ह्र भासाओ मे सभी प्रदर्शन के लिए मीटा दाता रखता है.सभी सामग्री और चित्र यूज़र के लिए यूज़र का योगदान है और उच्च मानक या गुणवत्ता रखता है.डेटाबेस स्कीम और वेबसाइट जीपील् की अंतर्गत ओपन सोर्स है.</description>
-    <description lang="hr">TheTVDB.com je sakupljač informacija za TV programe. Stranica je ogromna otvorena baza podataka koju može bilo tko mijenjati i sadrži mnogo informacija za različite serije na različitim jezicima. Sav sadržaj i slike postavili su korisnici za ostale korisnike i visoke su kvalitete. Shema baze podataka i web stranice su otvorenog kôda pod GPL licencom.</description>
-    <description lang="hu">A TheTVDB.com egy TV műsor leolvasó. Az oldal egy hatalmas adatbázis amit bárki szabadon módosíthat és rengeteg TV műsor adatait tartalmazza különböző nyelveken. A minőségi tartalom és képanyag ezen az oldalon felhasználóktól származik más felhasználók számára. Az adatbázisstruktúra és a weblap nyílt forráskódú a GPL licenc alatt.</description>
-    <description lang="id">TheTVDB.com adalah pengais Serial TV. Situs ini adalah database yang sangat besar dan terbuka yang dapat dimodifikasi oleh semua orang dan mengandung meta data yang penuh untuk banyak Serial TV di bahasa yang berbeda. Semua konten dan gambar dalam situ ini dikontribusikan oleh penggunanay untuk pengguna dan memiliki standar dan kualitas tinggi. Skema database dan situs adalah open-source dengan lisensi GPL.</description>
-    <description lang="is">TheTVDB.com er sjónvarpsskafa.. Þessi veita er risastór opinn gagnagrunnur sem allir geta breytt og er með öll lýsigögn fyrir fullt af þáttum á mörgum tungumálum. Allt efni og myndir á veitunni er sett inn af notendum fyrir notendur og eru í háum staðli eða gæðum. Uppsetning gagnagrunnsins og vefsíðan eru 'open source under the GPL'</description>
-    <description lang="it">TheTVDB.com è uno scraper di programmi TV. Questo sito è un enorme database che può essere modificato da chiunque, e contiene tutte le informazioni di molti show in varie lingue. Tutti i contenuti e le immagini sul sito sono stati forniti dagli utenti, ed hanno un alto standard di qualità. Lo schema del database e il sito internet sono open source sotto licenza GPL.</description>
-    <description lang="ja">TheTVDB.com は TV スクレーパーです。本サイトは強力でオープンなデータベースで、誰もが追加修正可能です。テレビ番組のメタデータは多くの言語で提供されています。番組情報や画像データはユーザにより提供され、そのクオリティは非常に高いものです。データベーススキーマと web サイトは GPL ライセンスのオープンソースです。</description>
-    <description lang="ko">TheTVDB.com 은 TV 정보수집기입니다. 위 사이트는 이용자가 직접 수정할 수 있으며 다양한 언어의 완전한 메타 데이터를 포함하는 방대한 오픈 데이터베이스입니다. 사이트의 모든 콘텐츠와 이미지들은 사이트 이용자들이 다른 이용자들을 위해 제공한 것이며 높은 품질을 가지고 있습니다. 웹사이트와 데이터베이스 스키마는 GLP 오픈소스입니다.</description>
-    <description lang="lt">TheTVDB.com yra TV Scraper. Ši svetainė yra didžiulė atvira duomenų bazė, kuria gali pakeisti bet kas ir kurioje visa meta duomenis bazė daugelo šou įvairiomis kalbomis. Visas svetainės turinys atnaujinamas/papyldomasvartotojų ir turi aukštą kokybės standartą. Duomenų bazės ir svetainės yra atviro kodo pagal GPL standartą.</description>
-    <description lang="mk">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
-    <description lang="ms">TheTVDB.com adalah Pengikis TV. Laman tersebut merupakan pangkalan data terbuka yang amat besar dan boleh diubahsuai oleh sesiapa pun dan juga mengandungi data meta pelbagai rancangan  dalam pelbagai bahasa. Semua kandungan dan imej di laman ini disumbang oleh pengguna mereka untuk pengguna mereka dan mempunyai piawaian dan kualiti yang amat tinggi. Skema pangkalan data dan laman adalah sumber terbuka dibawah GPL.</description>
-    <description lang="my">TheTVDB.com သည် TV Scraper ဖြစ်သည်။ database ထဲတွင် အချက်အလက်များစွာရှိနေပြီး မည်သူမဆို မည်သည့် ဘာသာစကားနှင့် မဆို ဝင်ရောက်ပြုပြင် နိုင်သည်။ အချက်အလက်များနှင့် ပုံများသည် ၎င်းတို့၏ အသုံးပြုသူများမှ အခြားအသုံးပြုသူများအတွက် ပံ့ပိုးထားသော အဆင်မြင့် အရေအသွေးများဖြစ်သည်။ website နှင့် database သည် open source GPL လိုင်စင် ကို အသုံးပြုထားသည်။</description>
-    <description lang="nl">TheTVDB.com is een seriescraper. De site is een gigantische open databank die iedereen kan aanpassen en uitbreiden, en biedt metadata aan voor TV-series in verschillende talen. Alle inhoud en afbeeldingen zijn afkomstig van gebruikers en moeten een grondige kwaliteitscontrole doorstaan. Het databankschema en de websitecode zijn vrijgegeven onder de open source GPL-licentie.</description>
-    <description lang="no">TheTVDB.com er en Tv Skraper. Siden er en massiv åpen database som kan endres av alle og inneholder data for mange forskjellige programmer på mange språk. Alt innholdet og bildene på siden er lagt til av brukere for brukere og har høy standard og kvalitet. Database skjemaet og websiden er åpen kildekode underlagt GPL.</description>
-    <description lang="pl">TheTVDB.com jest ekstraktorem informacji o serialach telewizyjnych. Serwis jest ogromną, wielojęzykową i otwartą bazą danych o serialach, którą może edytować każdy. Zawartość tego serwisu została stworzona przez użytkowników, dla użytkowników. Dostępne materiały są najwyższej jakości.</description>
-    <description lang="pt">O TheTVDB.com é um colector para séries TV. O site é uma gigantesca base de dados livre que pode ser alterada por qualquer pessoa e contém informação em várias línguas. Todos os conteúdos do site foram enviados por utilizadores e têm um elevado padrão de qualidade. A base de dados e o site funcionam sob uma licença GPL de software livre.</description>
-    <description lang="pt_BR">TheTVDB.com é um scraper de seriados. O site é um enorme banco de dados aberto que pode ser modificado por qualquer pessoa e contém metadados completos de muitos seriados em diferentes idiomas. Todos os conteúdos e imagens no site foram contribuições de usuários para usuários e têm um alto padrão de qualidade. O esquema do banco de dados e do site são de código aberto sob a licença GPL.</description>
-    <description lang="ro">TheTVDB.com este un colectore TV. Site-ul este o bază de date masivă, deschisă, ce poate fi modificată de oricine şi conţine date complete despre multe seriale în diferite limbi. Tot conţinutul site-ului a fost contribuit de către utilizatori pentru utilizatori şi are un standard de caliate înalt. Schema bazei de date şi site-ul au sursele libere sub licenţă GPL.</description>
-    <description lang="ru">TheTVDB.com — это инфоресурс для сериалов. Сайт представляет собой огромную открытую базу данных, в которую может вносить данные любой пользователь и которая содержит полные мета-данные для многих сериалов на различных языках. Всё содержимое и изображения на сайте были выложены его пользователями для других пользователей и имеют высокий уровень качества. Структура базы данных и веб-сайт созданы с открытым исходным кодом по лицензии GPL.</description>
-    <description lang="se">TVDB.com är en TV-skrapa. Sajten är en massiv öppen databas som kan ändras av vem som helst och innehåller full metadata för mängder av serier på olika språk. Allt innehåll och bilder på sajten har bidragits av användare för användare och har en hög standard eller kvalitet. Databasschemat och webbsidan är licensierat som GPL.</description>
-    <description lang="sk">TheTVDB.com je zdroj získavania dát ohľadom TV. Táto stránka je obrovskou otvorenou databázou, ktorú môže upravovať ktokoľvek a obsahuje úplne metadáta pre mnoho relácií v rôznych jazykoch. Všetok obsah a obrázky na stránke bol dodaný samotnými používateľmi pre používateľov a udržuje si vysoký štandard a kvalitu. Schéma databázy a webová stránka sú dostupné vo forme open source v súlade s licenciou GPL.</description>
-    <description lang="sl">TheTVDB.com je ponudnik informacij o TV serijah. Stran je masovna odprta baza podatkov, ki jo lahko dopolni kdorkoli, in vsebuje informacije o najrazličnejših TV serijah v več jezikih. Vsa vsebina in slike so bile dodane s strani uporabnikov in imajo visok nivo kvalitete. Shema baze in spletna stran sta odprtokodni pod GPL.</description>
-    <description lang="sq">TheTVDB.com është një "TV Scraper". Kjo faqe është nje bazë e të dhënave e hapur që mund të modifikohet nga si cili dhe përmbanë metadata  për shumë seriale në gjuhë të ndryshme. Gjitha të dhënat dhe imazhet në këtë faqe janë kontribuar nga përdoruesit për përdoruesit dhe kanë një standard dhe kualitet të lartë. Skema e bazës së të dhënave dhe sajti i uebit janë open source nën liçensën GPL.  </description>
-    <description lang="sv">TVDB.com är en TV-skrapa. Sajten är en massiv öppen databas som kan bli modifierad av vem som helst och innehåller all metadata för många serier på olika språk. Allt innehåll och bilder på sidan har bidragits av användare för användare och har hög standard eller kvalitet. Databasschemat och sidan är öppen källkod licensierat under GPL.</description>
-    <description lang="ta_IN">TheTVDB.com ஒரு தொலைக்காட்சி சுரண்டி. இந்த இணையத்தளத்தில் ஒரு பெரிய தரவுத்தளம் உள்ளது. இதில் எல்லா மொழிகளின் மேட்டாடேட்டா உள்ளது. அனைத்து தகவல்களும் படங்களும் அதன் பயனர்களின் சேகரிப்புஆகும். GPL லைசன்சில் உள்ளது.</description>
-    <description lang="th">TheTVDB.com เป็นตัวดึงข้อมูลทีวี เว็บไซต์เป็นฐานข้อมูลเปิดขนาดใหญ่ที่สามารถแก้ไขได้โดยทุกคนและมีข้อมูลขั้นสูงเต็มรูปแบบ สำหรับหลาย ๆ รายการ ในแต่ละภาษาที่แตกต่างกัน เนื้อหาและรูปภาพทั้งหมดในเว็บไซต์ ได้รับการสนับสนุนโดยผู้ใช้เพื่อผู้ใช้ มีคุณภาพและมาตรฐานที่สูง schemaของฐานข้อมูลและเว็บไซต์ได้เปิดภายใต้ GPL</description>
-    <description lang="tr">TheTVDB.com bir TV Scraper'dır. Bu site herkesin düzenleyebileceği büyük bir açık veritabanıdır ve farklı dillerdeki bir çok şov için bilgiler içerir. Sitedeki her resim ve içerik kullanıcılar tarafından kullanıcılar için karşılanır ve bunlar yüksek standart ve kaliteye sahiptir. Veritabanı şeması ve internet sitesi GPL lisansı altında açık kaynaklıdır.</description>
-    <description lang="uk">TheTVDB.com — джерело інформації про серіали. Це величезна база даних, що містить повні метадані про різні серіали багатьма мовами, яку може редагувати будь-хто. Увесь вміст і зображення на сайті, що відповідають найвищим стандартам якості, надали користувачі для користувачів. Схема бази даних і веб-сайт мають відкриті коди на умовах ліцензії GPL.</description>
-    <description lang="vi">TheTVDB.com là trình lấy dữ liệu TV show. Site chứa một số lượng khổng lồ cơ sở dữ liệu mở, có thể được thay đổi bởi mọi người và đầy đủ dữ liệu lớn các show trên nhiều ngôn ngữ. Tất cả nội dung và hình ảnh trên site này đều được đóng góp bởi toàn bộ người dùng của nó và có chất lượng cao. Mô hình cơ sở dữ liệu và website đều là mã nguồn mở được hỗ trợ bởi GPL.</description>
-    <description lang="zh">TheTVDB.com 是一个电视刮削器。该网站是一个巨大的开放式数据库，任何人都可以修改，包含多语言的许多电视剧集资料。网站设定了高品质标准，所有图片和内容都由用户提供。数据库结构和网站均在 GPL 许可下开源。</description>
-    <description lang="zh_TW">TheTVDB.com是一個電視節目。該網站是一個龐大並可以由任何人修改的開放性資料庫，並包含可以以多國語言顯示的完整的數據資料。所有內容和圖片都是經由用戶提供使用，有一定的標準或質量。數據庫架構和網站是在GPL下的開放性源碼。</description>
-    <platform>all</platform>
-    <license>GPL v2.0</license>
-    <forum/>
-    <website/>
-    <email/>
-    <source/>
-  </extension>
-</addon>
-
-<addon id="script.module.myconnpy"
-       name="MySQL Connector/Python"
-       version="1.1.7"
-       provider-name="MySQL">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">MySQL Connector/Python</summary>
-        <description lang="en">MySQL Connector/Python is implementing the MySQL Client/Server protocol completely in Python. This means you don't have to compile anything or MySQL (client library) doesn't even have to be installed on the machine.</description>
-        <license>GPLv2</license>
-        <platform>all</platform>
-        <website>http://dev.mysql.com/doc/connector-python/en/index.html</website>
-        <source>http://dev.mysql.com/downloads/connector/python/</source>
-    </extension>
 </addon>
 
 <addon id="script.module.axel.downloader"
@@ -6667,32 +5549,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 
 </addon>
 
-<addon id="plugin.video.woodrocket" name="Wood Rocket" version="0.3" provider-name="ptom">
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Wood Rocket</summary>
-		<description lang="en">Pulling all the best porn from WoodRocket.com</description>
-		<platform>all</platform>
-		<language>en</language>
-		<email>ptom98@ptom.co.uk</email>
-	</extension>
-</addon>
-
-<addon id="repository.zeus" name="[COLOR black].[/COLOR][COLOR yellow]ZEUS [/COLOR][COLOR white]Repository[/COLOR]" version="1.1.0" provider-name="ZEUS">
-	<extension point="xbmc.addon.repository" name="[COLOR black].[/COLOR][COLOR yellow]ZEUS [/COLOR][COLOR white]Repository[/COLOR]">
-        <info compressed="false">http://repo.zeusrepo.com/addons.xml</info>
-		<checksum>http://repo.zeusrepo.com/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.zeusrepo.com/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>ZEUS KODI XBMC ADDON From Hakamac</summary>
-		<description>For Support and news go to http://zeus.video</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
        version="1.1.16"
@@ -6838,19 +5694,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     <summary>Live Canadian TV channels</summary>
     <description>Live Canadian TV channels all in one place. General disclaimer: These are just random feeds found on the net. Like all things internet, links go up and down. Also, some channels do not broadcast 24/7. I take no responsibility for the content or reliability of the feeds. Enjoy while you can. [B]Filmon.TV[/B] addon from kinkin required for CTV channels. F4M Tester addon from Shani rrequired for some channels</description>
   </extension>
-</addon>
-
-<addon id="repository.husham.com" name="Husham.com Repo" version="1.1.0004" provider-name="husham.com">
-	<extension point="xbmc.addon.repository" name="Husham.com Repository">
-		<info compressed="false">https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/hmemar/husham.com/master/zip</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The Husham.com Repo</summary>
-		<description>Download and install addons from husham.com repo</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="resource.images.skinicons.classicwhite.he" name="Skin Icons - Classic White Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
@@ -7156,21 +5999,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   <extension point="xbmc.service" library="service.py" start="startup"/>
 </addon>
 
-<addon id="repository.hal9000" name="HAL9000 Add-on Repository" version="1.0.1" provider-name="HAL9000">
-    <extension point="xbmc.addon.repository" name="HAL9000 Add-on Repository">
-        <info compressed="false">https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Install HAL9000 Addons</summary>
-        <description lang="en">Download and install addons by HAL9000</description>
-        <summary lang="ru">Репозиторий HAL9000</summary>
-        <description lang="ru">Скачивание и установка плагинов от HAL9000</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="plugin.video.exodus" version="1.3.7" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -7308,30 +6136,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="script.icechannel.extn.xunitytalk" version="0.4.84" name=".[COLOR blue]X[/COLOR]unity Talk iStream Extensions" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="repository.istream" version="1.0"/>
-	    <import addon="script.icechannel" version="0.0.1"/>
-	    <import addon="script.module.requests" version="0.0.1"/>
-    </requires>
-	<extension library="default.py" point="xbmc.service" />
-		<summary lang="en">iStream Extensions by xunitytalk.com</summary>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-		<description lang="en">iStream Extensions by Xunity Talk Movies Tv Shows Kids Live</description>
-		<!--<provides>video</provides>-->
-		<platform></platform>
-		<language></language>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
-    </extension>
-  <extension point="xbmc.service" library="service.py" start="login" />
-</addon>
-
 <addon id="plugin.video.featherence.be_creative" name="Featherence ?" version="0.0.1" provider-name="finalmakerr">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -7402,29 +6206,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     <description lang="en">Eminence is a skin that seeks simplicity, functionality, and customisability with a modern look</description>
     <description lang="he">המעטפת Eminence מתמקדת בפשטות, פונקציונליות, יכולת התאמה אישית ובעלת מראה מודרני</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.htpt.music" name="HTPT Music" version="0.0.16" provider-name="HTPT Team">
-  <requires>
-	<import addon="xbmc.python" version="2.1.0"/>
-	<import addon="plugin.video.youtube" version="5.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>he</language>
-	<platform>all</platform>
-    <summary lang="en">For people who love Music!</summary>
-	<summary lang="he">לאנשים שאוהבים מוזיקה!</summary>
-    <description lang="en">This addon is updated by Kodi's users (See sources in addon.xml file).[CR]Visit HTPT Facebook Page for support</description>
-	<description lang="he">הרחבה זו מתוחזקת ע"י משתמשי קודי (ראה מקור בקובץ addon.xml).[CR]בקר אותנו בפייסבוק לתמיכה!</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-	<forum>http://www.hometheater.co.il/vt239763.html</forum>
-	<source>https://github.com/htpthtpt/htpt/tree/master/master/plugin.video.htpt.music</source>
-	<email>infohtpt@gmail.com</email>
-	<website>https://www.facebook.com/pages/HTPT/934744346549707</website>
   </extension>
 </addon>
 
@@ -7582,24 +6363,6 @@ Plugin by @koderdude</description>
 
   </extension>
 
-</addon>
-
-<addon id="repository.lambda" name="lambda Add-on repository" version="1.1.0" provider-name="lambda">
-	<extension point="xbmc.addon.repository" name="lambda Add-on repository">
-		<dir>
-			<info compressed="false">http://raw.github.com/lambda81/lambda-repo/master/addons.xml</info>
-			<checksum>http://raw.github.com/lambda81/lambda-repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">http://raw.github.com/lambda81/lambda-repo/master/</datadir>
-		</dir>
-		<info compressed="false">https://offshoregit.com/lambda81/lambda-repo/addons.xml</info>
-		<checksum>https://offshoregit.com/lambda81/lambda-repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/lambda81/lambda-repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons from lambda</summary>
-		<description lang="en">Download and install add-ons from lambda repository.</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.MikeysKaraoke" name="Mikey's Karaoke" version="4.8.3" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
@@ -7837,26 +6600,6 @@ Plugin by @koderdude</description>
 
 </addon>
 
-<addon id="script.eztvapi2kd" name="[COLOR FFC0392B]EZTVapi[/COLOR]2KD" version="1.0.3" provider-name="mancuniancol">
-	<requires>
-		<import addon="xbmc.python" version="2.12.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="login">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">EZTVapi2KD</summary>
-		<description lang="en">This script creates .strm files from personalize list to be play for pulsar, kmediatorrent, xbmctorrent or torrenter V2 from the local library</description>
-		<language></language>
-		<platform>all</platform>
-		<forum>http://forum.xbmc.org/showthread.php?tid=204728</forum>
-		<disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.</disclaimer>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-	</extension>
-</addon>
-
 <addon id="script.exodus.artwork" version="1.0.1" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -7868,25 +6611,6 @@ Plugin by @koderdude</description>
 		<summary>Themes for the Exodus Addon</summary>
 		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.image.resource.select" name="Image Resource Select Addon" version="0.1.0" provider-name="ronie">
-	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-	</requires>
-	<extension point="xbmc.python.library" library="default.py"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Image resource selection addon</summary>
-		<description lang="en">Script for skinners to let users select an image resource addon.</description>
-		<language/>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=239558</forum>
-		<website/>
-		<email/>
-		<source>https://github.com/ronie/script.image.resource.select</source>
 	</extension>
 </addon>
 
@@ -8174,45 +6898,6 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.thewiz.wall" name="TheWiz Media Wall" version="2.4.0" provider-name="TheWiz">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="context.thewiz.wall" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-	<extension point="xbmc.service" library="service.py" start="[login|startup]"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">TheWiz Wall Movies and TV series</summary>
-        <summary lang="he">קיר הסרטים והסדרות של TheWiz</summary>
-        <description lang="en"></description>
-        <description lang="he">קיר סרטים וסדרות עם תוספי צפיה ישירה בלחיצת כפתור.</description>
-        <disclaimer></disclaimer>
-    </extension>
- </addon>
-
-<addon id="plugin.video.israelive" name="[COLOR white]Israe[/COLOR][COLOR blue]L[/COLOR][COLOR white]IVE[/COLOR]" version="4.7.2" provider-name="Benny123, Avigdor (xbmc-israel repo)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-	<import addon="script.module.israeliveresolver"/>
-	<import addon="script.module.six"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Benny123's project</summary>
-    <summary lang="he">הפרויקט של Benny123</summary>
-    <description lang="en">Watch Live TV channels from Israel and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]More addons on The Israeli repo:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
-    <description lang="he">צפיה בשידורי טלויזיה חיים מישראל והעולם.[CR][CR]דף הסברים והורדה בחינם:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]תוספים נוספים במקור הישראלי:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.livemix" name="Live Mix" version="1.0.5" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -8437,24 +7122,6 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.htpt.smartbuttons" version="0.0.41" name="HTPT Smart Buttons" provider-name="finalmakerr">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py"/>
-  <extension point="xbmc.service" library="service.py" start="startup"/>
-  <extension point="xbmc.addon.metadata">
-    <language>he</language>
-	<platform>all</platform>
-    <summary>HTPT System Component</summary>
-    <description></description>
-    <disclaimer>PLEASE REFER TO HTPT INSTALLER ADDON</disclaimer>
-	<email>infohtpt@gmail.com</email>
-	<website>https://www.facebook.com/pages/HTPT/934744346549707</website>
-  </extension>
-</addon>
-
 <addon id="service.autosubs"
     name="AutoSubs" version="1.0.0" provider-name="amet,schumi2004">
   <requires>
@@ -8472,32 +7139,6 @@ level.</description>
     <forum>http://forum.xbmc.org/showthread.php?tid=198973</forum>
     <email>schumi2004@gmail.com</email>
   </extension>
-</addon>
-
-<addon id="repository.htpt" name="HTPT repository" version="1.3.0" provider-name="finalmakerr">
-	<extension point="xbmc.addon.repository" name="HTPT repository">
-		<info compressed="false">https://raw.githubusercontent.com/htpthtpt/htpt/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/htpthtpt/htpt/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/htpthtpt/htpt/master/</datadir>
-    </extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">HTPT</summary>
-		<description lang="en">Get frequently updates from HTPT team</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.movieshd" name="MoviesHD Addon Repository" version="1.0.1" provider-name="MoviesHD MetalKettle">
-	<extension point="xbmc.addon.repository" name="MoviesHD Addon Repository">
-		<info compressed="false">http://raw.github.com/metalkettle/MoviesHD/master/addons.xml</info>
-		<checksum>http://raw.github.com/metalkettle/MoviesHD/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/metalkettle/MoviesHD/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="resource.images.skinbackgrounds.comic.he" name="Skin Backgrounds - Comic Design (Hebrew)" version="1.0.0" provider-name="Ron Bublitsky, Benny Buchnik">
@@ -8557,24 +7198,6 @@ level.</description>
 		<source>https://github.com/phil65/script.toolbox</source>
 		<email>phil65@kodi.tv</email>
 	</extension>
-</addon>
-
-<addon id="script.module.chardet"
-       name="chardet"
-       version="2.2.1"
-       provider-name="Valentin-Costel Hăloiu">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Universal encoding detector</summary>
-    <description>Packed for XBMC from https://github.com/erikrose/chardet</description>
-    <license>LGPL</license>
-    <platform>all</platform>
-    <source>https://github.com/erikrose/chardet/commits/master</source>
-  </extension>
 </addon>
 
 <addon id="plugin.video.featherence.extreme" version="0.1.6" name="Featherence Extreme" provider-name="finalmakerr">
@@ -8662,20 +7285,6 @@ level.</description>
 
   </extension>
 
-</addon>
-
-<addon id="repository.donatelloandhybrid" name=".[COLOR magenta]Donatello and Hybrid[/COLOR][COLOR yellow] Repository[/COLOR]" version="1.0" provider-name="Donatello and Hybrid">
-    <extension point="xbmc.addon.repository" name=".Donatello and Hybrid Repository ">
-        <info compressed="false">https://raw.githubusercontent.com/dvddd/donatellorepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/dvddd/donatellorepo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/dvddd/donatellorepo/master</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Donatello and Hybrid Repository</summary>
-        <description>Donatello and Hybrid Repository</description>
-        <description>Donatello and Hybrid Repository</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="script.artworkorganizer" name="Artwork Organizer" version="3.0.5" provider-name="ronie">
