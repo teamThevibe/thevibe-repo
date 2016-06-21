@@ -3,19 +3,227 @@ failed to add the xml from addon plugin.program.ump
 zip is not ok: repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
+repository.abeksis addon version: 1.0
+repository.abeksis.zip - ziptype is  true
+http://abeksis.com/repo/addons.xml
+skin.xonfluence  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+plugin.video.viks.tv  is in blacklist - 
+skin.ccm.helix  is in blacklist - 
+plugin.video.youtube  is in blacklist - 
+plugin.video.gordon.ura.cz  is in blacklist - 
+plugin.video.snooker  is in blacklist - 
+plugin.video.yt-cook3  is in blacklist - 
+plugin.video.md123movies  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+plugin.video.tv4me  is in blacklist - 
+plugin.video.tivix.net  is in blacklist - 
+plugin.video.baby  is in blacklist - 
+plugin.video.AK-47  is in blacklist - 
+plugin.video.xxtrucoxx  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+plugin.video.onlinemovies  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+repository.abeksis  is in blacklist - 
+plugin.video.livemix  is in blacklist - 
+plugin.video.yt-cook  is in blacklist - 
+plugin.video.anarchitv  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+plugin.video.pakindia  is in blacklist - 
+skin.eminence.he.2  is in blacklist - 
+script.module.demjson  is in blacklist - 
+plugin.video.F.T.V  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+plugin.video.hellenic.tv  is in blacklist - 
+plugin.video.mdmtvuk  is in blacklist - 
+skin.eminence.heb  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+repository.mdrepo  is in blacklist - 
+plugin.video.nbafullgames  is in blacklist - 
+program.AbeksisWizard  is in blacklist - 
+plugin.video.freshstart  is in blacklist - 
+plugin.video.mdimperialstreams  is in blacklist - 
+plugin.video.travel  is in blacklist - 
+plugin.video.moviemix  is in blacklist - 
+plugin.video.Evolve  is in blacklist - 
+script.common.plugin.cache  is in blacklist - 
+plugin.video.supercartoons  is in blacklist - 
+plugin.video.tlvmusic  is in blacklist - 
+plugin.video.yt-cook2  is in blacklist - 
+service.gdrive.3david  is in blacklist - 
+plugin.video.all_wrestling  is in blacklist - 
+plugin.video.surveillanceroom  is in blacklist - 
+plugin.video.ilten  is in blacklist - 
+plugin.video.mdfm  is in blacklist - 
+plugin.video.TheEllenShow  is in blacklist - 
+plugin.video.morepower  is in blacklist - 
+script.cdartmanager-NG  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+script.toolbox  is in blacklist - 
+script.module.parsedom  is in blacklist - 
+plugin.video.tvonline.cc  is in blacklist - 
+Downloading %s version:%s service.subtitles.subtitle 4.4.2
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+Downloading %s version:%s plugin.video.kodi-101 0.1.0
+Making folder for addon in repo:  plugin.video.kodi-101
+Downloding zip from: http://abeksis.com/repo//plugin.video.kodi-101/plugin.video.kodi-101-0.1.0.zip  To Path:  repo/plugin.video.kodi-101/plugin.video.kodi-101-0.1.0.zip
+Saving:  repo/plugin.video.kodi-101/plugin.video.kodi-101-0.1.0.zip
+http://abeksis.com/repo//plugin.video.kodi-101/plugin.video.kodi-101-0.1.0.zip
+Downloading %s version:%s script.module.stream.resolver 1.6.38
+Making folder for addon in repo:  script.module.stream.resolver
+Downloding zip from: http://abeksis.com/repo//script.module.stream.resolver/script.module.stream.resolver-1.6.38.zip  To Path:  repo/script.module.stream.resolver/script.module.stream.resolver-1.6.38.zip
+Saving:  repo/script.module.stream.resolver/script.module.stream.resolver-1.6.38.zip
+http://abeksis.com/repo//script.module.stream.resolver/script.module.stream.resolver-1.6.38.zip
+Downloading %s version:%s script.video.F4mProxy 2.5.5
+Making folder for addon in repo:  script.video.F4mProxy
+Downloding zip from: http://abeksis.com/repo//script.video.F4mProxy/script.video.F4mProxy-2.5.5.zip  To Path:  repo/script.video.F4mProxy/script.video.F4mProxy-2.5.5.zip
+Saving:  repo/script.video.F4mProxy/script.video.F4mProxy-2.5.5.zip
+http://abeksis.com/repo//script.video.F4mProxy/script.video.F4mProxy-2.5.5.zip
+Downloading %s version:%s plugin.video.phstreams 3.1.1
+Downloding zip from: http://abeksis.com/repo//plugin.video.phstreams/plugin.video.phstreams-3.1.1.zip  To Path:  repo/plugin.video.phstreams/plugin.video.phstreams-3.1.1.zip
+Saving:  repo/plugin.video.phstreams/plugin.video.phstreams-3.1.1.zip
+http://abeksis.com/repo//plugin.video.phstreams/plugin.video.phstreams-3.1.1.zip
+Downloading %s version:%s plugin.video.seretil 2.2.4
+Downloding zip from: http://abeksis.com/repo//plugin.video.seretil/plugin.video.seretil-2.2.4.zip  To Path:  repo/plugin.video.seretil/plugin.video.seretil-2.2.4.zip
+Saving:  repo/plugin.video.seretil/plugin.video.seretil-2.2.4.zip
+http://abeksis.com/repo//plugin.video.seretil/plugin.video.seretil-2.2.4.zip
+Downloading %s version:%s plugin.video.f4mTester 2.2.5
+Downloding zip from: http://abeksis.com/repo//plugin.video.f4mTester/plugin.video.f4mTester-2.2.5.zip  To Path:  repo/plugin.video.f4mTester/plugin.video.f4mTester-2.2.5.zip
+Saving:  repo/plugin.video.f4mTester/plugin.video.f4mTester-2.2.5.zip
+http://abeksis.com/repo//plugin.video.f4mTester/plugin.video.f4mTester-2.2.5.zip
+Downloading %s version:%s plugin.video.salts 2.0.59
+Downloding zip from: http://abeksis.com/repo//plugin.video.salts/plugin.video.salts-2.0.59.zip  To Path:  repo/plugin.video.salts/plugin.video.salts-2.0.59.zip
+Saving:  repo/plugin.video.salts/plugin.video.salts-2.0.59.zip
+http://abeksis.com/repo//plugin.video.salts/plugin.video.salts-2.0.59.zip
+Downloading %s version:%s script.module.liveresolver 0.1.41
+Downloding zip from: http://abeksis.com/repo//script.module.liveresolver/script.module.liveresolver-0.1.41.zip  To Path:  repo/script.module.liveresolver/script.module.liveresolver-0.1.41.zip
+Saving:  repo/script.module.liveresolver/script.module.liveresolver-0.1.41.zip
+http://abeksis.com/repo//script.module.liveresolver/script.module.liveresolver-0.1.41.zip
+Downloading %s version:%s plugin.video.ZemTV-shani 4.9.1
+Downloding zip from: http://abeksis.com/repo//plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-4.9.1.zip  To Path:  repo/plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-4.9.1.zip
+Saving:  repo/plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-4.9.1.zip
+http://abeksis.com/repo//plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-4.9.1.zip
+Downloading %s version:%s plugin.video.kissanime 0.9.19
+Downloding zip from: http://abeksis.com/repo//plugin.video.kissanime/plugin.video.kissanime-0.9.19.zip  To Path:  repo/plugin.video.kissanime/plugin.video.kissanime-0.9.19.zip
+Saving:  repo/plugin.video.kissanime/plugin.video.kissanime-0.9.19.zip
+http://abeksis.com/repo//plugin.video.kissanime/plugin.video.kissanime-0.9.19.zip
+Downloading %s version:%s plugin.video.teevee 1.0.3
+Downloding zip from: http://abeksis.com/repo//plugin.video.teevee/plugin.video.teevee-1.0.3.zip  To Path:  repo/plugin.video.teevee/plugin.video.teevee-1.0.3.zip
+Saving:  repo/plugin.video.teevee/plugin.video.teevee-1.0.3.zip
+http://abeksis.com/repo//plugin.video.teevee/plugin.video.teevee-1.0.3.zip
+Downloading %s version:%s plugin.video.bbts 0.1.6
+Making folder for addon in repo:  plugin.video.bbts
+Downloding zip from: http://abeksis.com/repo//plugin.video.bbts/plugin.video.bbts-0.1.6.zip  To Path:  repo/plugin.video.bbts/plugin.video.bbts-0.1.6.zip
+Saving:  repo/plugin.video.bbts/plugin.video.bbts-0.1.6.zip
+http://abeksis.com/repo//plugin.video.bbts/plugin.video.bbts-0.1.6.zip
+Downloading %s version:%s script.speedtestnet 0.0.2
+Making folder for addon in repo:  script.speedtestnet
+Downloding zip from: http://abeksis.com/repo//script.speedtestnet/script.speedtestnet-0.0.2.zip  To Path:  repo/script.speedtestnet/script.speedtestnet-0.0.2.zip
+Saving:  repo/script.speedtestnet/script.speedtestnet-0.0.2.zip
+http://abeksis.com/repo//script.speedtestnet/script.speedtestnet-0.0.2.zip
+Downloading %s version:%s plugin.program.ump 0.0.75
+Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.75.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.75.zip
+Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.75.zip
+http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.75.zip
+Downloading %s version:%s service.subtitles.torec 1.0.9.1
+Downloding zip from: http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip  To Path:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
+Saving:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
+http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
+Downloading %s version:%s plugin.video.titan 2.1.1
+Downloding zip from: http://abeksis.com/repo//plugin.video.titan/plugin.video.titan-2.1.1.zip  To Path:  repo/plugin.video.titan/plugin.video.titan-2.1.1.zip
+Saving:  repo/plugin.video.titan/plugin.video.titan-2.1.1.zip
+http://abeksis.com/repo//plugin.video.titan/plugin.video.titan-2.1.1.zip
+Downloading %s version:%s script.xbmc.debug.log 14.1.0
+Making folder for addon in repo:  script.xbmc.debug.log
+Downloding zip from: http://abeksis.com/repo//script.xbmc.debug.log/script.xbmc.debug.log-14.1.0.zip  To Path:  repo/script.xbmc.debug.log/script.xbmc.debug.log-14.1.0.zip
+Saving:  repo/script.xbmc.debug.log/script.xbmc.debug.log-14.1.0.zip
+http://abeksis.com/repo//script.xbmc.debug.log/script.xbmc.debug.log-14.1.0.zip
+Downloading %s version:%s plugin.video.castaway 0.2.4
+Downloding zip from: http://abeksis.com/repo//plugin.video.castaway/plugin.video.castaway-0.2.4.zip  To Path:  repo/plugin.video.castaway/plugin.video.castaway-0.2.4.zip
+Saving:  repo/plugin.video.castaway/plugin.video.castaway-0.2.4.zip
+http://abeksis.com/repo//plugin.video.castaway/plugin.video.castaway-0.2.4.zip
+Downloading %s version:%s plugin.audio.jango 0.8.6
+Making folder for addon in repo:  plugin.audio.jango
+Downloding zip from: http://abeksis.com/repo//plugin.audio.jango/plugin.audio.jango-0.8.6.zip  To Path:  repo/plugin.audio.jango/plugin.audio.jango-0.8.6.zip
+Saving:  repo/plugin.audio.jango/plugin.audio.jango-0.8.6.zip
+http://abeksis.com/repo//plugin.audio.jango/plugin.audio.jango-0.8.6.zip
+Downloading %s version:%s plugin.video.atraf 1.0.1
+Making folder for addon in repo:  plugin.video.atraf
+Downloding zip from: http://abeksis.com/repo//plugin.video.atraf/plugin.video.atraf-1.0.1.zip  To Path:  repo/plugin.video.atraf/plugin.video.atraf-1.0.1.zip
+Saving:  repo/plugin.video.atraf/plugin.video.atraf-1.0.1.zip
+http://abeksis.com/repo//plugin.video.atraf/plugin.video.atraf-1.0.1.zip
+Downloading %s version:%s plugin.video.woodrocket 0.3
+Making folder for addon in repo:  plugin.video.woodrocket
+Downloding zip from: http://abeksis.com/repo//plugin.video.woodrocket/plugin.video.woodrocket-0.3.zip  To Path:  repo/plugin.video.woodrocket/plugin.video.woodrocket-0.3.zip
+Saving:  repo/plugin.video.woodrocket/plugin.video.woodrocket-0.3.zip
+http://abeksis.com/repo//plugin.video.woodrocket/plugin.video.woodrocket-0.3.zip
+Downloading %s version:%s plugin.video.exodus 1.3.7
+Downloding zip from: http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-1.3.7.zip  To Path:  repo/plugin.video.exodus/plugin.video.exodus-1.3.7.zip
+Saving:  repo/plugin.video.exodus/plugin.video.exodus-1.3.7.zip
+http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-1.3.7.zip
+Downloading %s version:%s plugin.video.dextertv 2.0.5
+Making folder for addon in repo:  plugin.video.dextertv
+Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Downloading %s version:%s script.module.beautifulsoup4 4.4.1.1
+Downloding zip from: http://abeksis.com/repo//script.module.beautifulsoup4/script.module.beautifulsoup4-4.4.1.1.zip  To Path:  repo/script.module.beautifulsoup4/script.module.beautifulsoup4-4.4.1.1.zip
+Saving:  repo/script.module.beautifulsoup4/script.module.beautifulsoup4-4.4.1.1.zip
+http://abeksis.com/repo//script.module.beautifulsoup4/script.module.beautifulsoup4-4.4.1.1.zip
+Downloading %s version:%s plugin.video.uwc 1.1.16
+Downloding zip from: http://abeksis.com/repo//plugin.video.uwc/plugin.video.uwc-1.1.16.zip  To Path:  repo/plugin.video.uwc/plugin.video.uwc-1.1.16.zip
+Saving:  repo/plugin.video.uwc/plugin.video.uwc-1.1.16.zip
+http://abeksis.com/repo//plugin.video.uwc/plugin.video.uwc-1.1.16.zip
+Downloading %s version:%s service.subtitles.subscenter 3.3.7
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
+Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
+http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-script.tv.show.next.aired  is in blacklist - 
-service.subtitles.subscenter  is in blacklist - 
-plugin.video.thewiz.wall  is in blacklist - 
-pvr.iptvsimple  is in blacklist - 
-service.subtitles.opensubtitles  is in blacklist - 
-script.extendedinfo  is in blacklist - 
-repository.donatelloandhybrid  is in blacklist - 
-service.subtitles.torec  is in blacklist - 
-service.subtitles.subtitle  is in blacklist - 
+plugin.video.viks.tv  is in blacklist - 
+plugin.video.youtube  is in blacklist - 
 script.skin.helper.service  is in blacklist - 
+plugin.video.md123movies  is in blacklist - 
+plugin.video.baby  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+pvr.iptvsimple  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+script.toolbox  is in blacklist - 
+plugin.video.anarchitv  is in blacklist - 
+plugin.video.F.T.V  is in blacklist - 
+repository.donatelloandhybrid  is in blacklist - 
+script.common.plugin.cache  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+plugin.video.supercartoons  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+script.module.parsedom  is in blacklist - 
+plugin.video.freshstart  is in blacklist - 
+service.gdrive.3david  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+plugin.video.livemix  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+script.tv.show.next.aired  is in blacklist - 
+plugin.video.youtubesearch  is in blacklist - 
+plugin.video.travel  is in blacklist - 
+plugin.video.ilten  is in blacklist - 
+script.extendedinfo  is in blacklist - 
+script.cdartmanager-NG  is in blacklist - 
+plugin.video.moviemix  is in blacklist - 
+plugin.video.youtubeonfire  is in blacklist - 
+Downloading %s version:%s service.subtitles.subtitle 4.4.1
+Downloding zip from: http://repo.the-vibe.co.il/Repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip
+Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip
+http://repo.the-vibe.co.il/Repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.1.zip
 Downloading %s version:%s repository.kodi-senyor 1.2.0
 Downloding zip from: http://repo.the-vibe.co.il/Repo//repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip  To Path:  repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 Saving:  repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
@@ -24,6 +232,10 @@ Downloading %s version:%s plugin.program.ump 0.0.74
 Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
 Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.74.zip
 http://repo.the-vibe.co.il/Repo//plugin.program.ump/plugin.program.ump-0.0.74.zip
+Downloading %s version:%s service.subtitles.subscenter 3.3.6
+Downloding zip from: http://repo.the-vibe.co.il/Repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip
+Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip
+http://repo.the-vibe.co.il/Repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.6.zip
 adding addon from github: plugin.video.kmediatorrent
 https://github.com/jmarth/plugin.video.kmediatorrent
 Downloding zip from: https://github.com/jmarth/plugin.video.kmediatorrent/archive/master.zip  To Path:  repo/plugin.video.kmediatorrent/master.zip
@@ -32,9 +244,18 @@ adding addon from github: service.autosubs
 https://github.com/amet/service.autosubs
 Downloding zip from: https://github.com/amet/service.autosubs/archive/master.zip  To Path:  repo/service.autosubs/master.zip
 Saving:  repo/service.autosubs/master.zip
-service.subtitles.subscenter  is in blacklist - 
-service.subtitles.subtitle  is in blacklist - 
-service.subtitles.torec  is in blacklist - 
+Updading addon from github:  service.subtitles.subscenter - 3.3.7
+https://github.com/XBMCil/service.subtitles.subscenter
+Downloding zip from: https://github.com/XBMCil/service.subtitles.subscenter/archive/master.zip  To Path:  repo/service.subtitles.subscenter/master.zip
+Saving:  repo/service.subtitles.subscenter/master.zip
+Updading addon from github:  service.subtitles.subtitle - 4.4.2
+https://github.com/XBMCil/service.subtitles.subtitle
+Downloding zip from: https://github.com/XBMCil/service.subtitles.subtitle/archive/master.zip  To Path:  repo/service.subtitles.subtitle/master.zip
+Saving:  repo/service.subtitles.subtitle/master.zip
+adding addon from github: service.subtitles.torec
+https://github.com/XBMCil/service.subtitles.torec
+Downloding zip from: https://github.com/XBMCil/service.subtitles.torec/archive/master.zip  To Path:  repo/service.subtitles.torec/master.zip
+Saving:  repo/service.subtitles.torec/master.zip
 adding addon from github: metadata.hebmovies.wiz
 https://github.com/XBMCil/metadata.hebmovies.wiz
 Downloding zip from: https://github.com/XBMCil/metadata.hebmovies.wiz/archive/master.zip  To Path:  repo/metadata.hebmovies.wiz/master.zip
@@ -75,12 +296,15 @@ https://github.com/scakemyer/plugin.video.quasar
 Downloding zip from: https://github.com/scakemyer/plugin.video.quasar/archive/master.zip  To Path:  repo/plugin.video.quasar/master.zip
 Saving:  repo/plugin.video.quasar/master.zip
 cant scan  File is not a zip file
+cant scan  File is not a zip file
 failed to add the xml from addon service.subtitles.subscenter
+zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 failed to add the xml from addon plugin.program.ump
 zip is not ok: repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
 failed to add the xml from addon service.subtitles.subscenter
+zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 failed to add the xml from addon plugin.program.ump
 zip is not ok: repo/repository.kodi-senyor/repository.kodi-senyor-1.2.0.zip
 failed to add the xml from addon service.subtitles.subtitle
