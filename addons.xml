@@ -299,7 +299,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-  <addon id="script.artwork.downloader" name="Artwork Downloader" version="14.1.0.0" provider-name="Martijn">
+  <addon id="script.artwork.downloader" name="Artwork Downloader" version="12.0.29.1" provider-name="Martijn">
   <requires>
     <import addon="xbmc.python"                 version="2.1.0"/>
     <import addon="xbmc.json"                   version="6.0.0"/>
