@@ -6,5 +6,5 @@ sleep 7
 git add *
 git commit -a -m "update push in : `date`"
 git push 
-sleep 5
+sleep 120
 wget http://repo.the-vibe.co.il/Service
