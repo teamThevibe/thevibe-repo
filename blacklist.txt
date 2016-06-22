@@ -122,3 +122,6 @@ service.htpt
 script.navi-x
 script.module.translit
 plugin.program.logviewer
+plugin.video.mrknow
+plugin.video.mrknowtv
+plugin.video.xbmcfilm
