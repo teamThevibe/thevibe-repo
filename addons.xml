@@ -6135,7 +6135,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 
 <addon id="script.module.liveresolver"
      name="LiveResolver"
-     version="0.1.42"
+     version="0.1.43"
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
