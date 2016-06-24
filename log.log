@@ -7,74 +7,78 @@ Finished updating addons xml and md5 files
 repository.abeksis addon version: 1.0
 repository.abeksis.zip - ziptype is  true
 http://abeksis.com/repo/addons.xml
-plugin.video.ilten  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
-script.cdartmanager-NG  is in blacklist - 
-plugin.video.surveillanceroom  is in blacklist - 
-plugin.video.mdimperialstreams  is in blacklist - 
-plugin.video.supercartoons  is in blacklist - 
-script.common.plugin.cache  is in blacklist - 
-plugin.video.mdmtvuk  is in blacklist - 
-plugin.video.pulsar  is in blacklist - 
-plugin.video.pakindia  is in blacklist - 
-service.gdrive.3david  is in blacklist - 
-plugin.video.morepower  is in blacklist - 
-plugin.video.baby  is in blacklist - 
-plugin.video.flix2kodi  is in blacklist - 
-plugin.video.tlvmusic  is in blacklist - 
-plugin.video.onlinemovies  is in blacklist - 
-skin.eminence.heb  is in blacklist - 
-script.module.parsedom  is in blacklist - 
-plugin.video.nbafullgames  is in blacklist - 
-plugin.video.woodrocket  is in blacklist - 
-plugin.video.hellenic.tv  is in blacklist - 
-service.fixabeksis  is in blacklist - 
-skin.aeonmq6  is in blacklist - 
-repository.abeksis  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-plugin.video.youtube  is in blacklist - 
-plugin.video.all_wrestling  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
-script.module.translit  is in blacklist - 
-plugin.video.Evolve  is in blacklist - 
-plugin.video.AK-47  is in blacklist - 
-plugin.video.md123movies  is in blacklist - 
-plugin.video.TheEllenShow  is in blacklist - 
-plugin.video.yt-cook2  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
-plugin.video.anarchitv  is in blacklist - 
-skin.ccm.helix  is in blacklist - 
-plugin.video.gordon.ura.cz  is in blacklist - 
-plugin.video.tvonline.cc  is in blacklist - 
-plugin.video.F.T.V  is in blacklist - 
-program.AbeksisWizard  is in blacklist - 
 script.module.israeliveresolver  is in blacklist - 
-skin.xonfluence  is in blacklist - 
-script.toolbox  is in blacklist - 
-skin.eminence.he.2  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+plugin.video.mdmtvuk  is in blacklist - 
+plugin.video.tvonline.cc  is in blacklist - 
+plugin.video.yt-cook2  is in blacklist - 
+script.common.plugin.cache  is in blacklist - 
 plugin.video.yt-cook3  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
-plugin.video.tv4me  is in blacklist - 
-plugin.video.viks.tv  is in blacklist - 
-plugin.video.tivix.net  is in blacklist - 
-plugin.video.travel  is in blacklist - 
-plugin.video.moviemix  is in blacklist - 
+plugin.video.baby  is in blacklist - 
+script.module.parsedom  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+plugin.video.hellenic.tv  is in blacklist - 
+plugin.video.surveillanceroom  is in blacklist - 
+plugin.video.nbafullgames  is in blacklist - 
+script.module.translit  is in blacklist - 
 plugin.video.thewiz.wall  is in blacklist - 
-repository.mdrepo  is in blacklist - 
-plugin.video.freshstart  is in blacklist - 
-script.module.demjson  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-plugin.video.snooker  is in blacklist - 
+plugin.video.youtube  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+skin.ccm.helix  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+plugin.video.TheEllenShow  is in blacklist - 
 plugin.video.mdfm  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+plugin.video.tlvmusic  is in blacklist - 
+plugin.video.F.T.V  is in blacklist - 
+plugin.video.onlinemovies  is in blacklist - 
+plugin.video.anarchitv  is in blacklist - 
+plugin.video.pakindia  is in blacklist - 
+plugin.video.supercartoons  is in blacklist - 
+plugin.video.livemix  is in blacklist - 
+repository.mdrepo  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+plugin.video.morepower  is in blacklist - 
+plugin.video.Evolve  is in blacklist - 
+skin.eminence.heb  is in blacklist - 
+plugin.video.tivix.net  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+plugin.video.tv4me  is in blacklist - 
+plugin.video.freshstart  is in blacklist - 
+program.AbeksisWizard  is in blacklist - 
+plugin.video.AK-47  is in blacklist - 
+script.toolbox  is in blacklist - 
+plugin.video.gordon.ura.cz  is in blacklist - 
+plugin.video.woodrocket  is in blacklist - 
+plugin.video.travel  is in blacklist - 
+plugin.video.snooker  is in blacklist - 
+plugin.video.all_wrestling  is in blacklist - 
+plugin.video.ilten  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+plugin.video.md123movies  is in blacklist - 
+service.gdrive.3david  is in blacklist - 
+plugin.video.moviemix  is in blacklist - 
+skin.eminence.he.2  is in blacklist - 
+skin.xonfluence  is in blacklist - 
+plugin.video.mdimperialstreams  is in blacklist - 
+script.module.demjson  is in blacklist - 
+plugin.video.viks.tv  is in blacklist - 
 plugin.video.xxtrucoxx  is in blacklist - 
 plugin.video.yt-cook  is in blacklist - 
-plugin.video.livemix  is in blacklist - 
+script.cdartmanager-NG  is in blacklist - 
+repository.abeksis  is in blacklist - 
 Downloading %s version:%s service.subtitles.subtitle 4.4.2
 Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
 Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
 http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+Downloading %s version:%s plugin.program.ump 0.0.75
+Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.75.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.75.zip
+Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.75.zip
+http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.75.zip
 Downloading %s version:%s plugin.video.dextertv 2.0.5
 Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
@@ -87,43 +91,39 @@ Downloading %s version:%s service.subtitles.subscenter 3.3.7
 Downloding zip from: http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
 Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
 http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
-Downloading %s version:%s plugin.program.ump 0.0.75
-Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.75.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.75.zip
-Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.75.zip
-http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.75.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-script.artwork.downloader  is in blacklist - 
-plugin.video.ilten  is in blacklist - 
-plugin.video.supercartoons  is in blacklist - 
-plugin.video.baby  is in blacklist - 
 plugin.video.youtube  is in blacklist - 
-script.extendedinfo  is in blacklist - 
-plugin.video.anarchitv  is in blacklist - 
-plugin.video.youtubeonfire  is in blacklist - 
-script.tv.show.next.aired  is in blacklist - 
-script.skin.helper.service  is in blacklist - 
-script.cdartmanager-NG  is in blacklist - 
-plugin.video.viks.tv  is in blacklist - 
-script.common.plugin.cache  is in blacklist - 
-plugin.video.freshstart  is in blacklist - 
-plugin.video.youtubesearch  is in blacklist - 
-plugin.video.moviemix  is in blacklist - 
-plugin.video.livemix  is in blacklist - 
-plugin.video.md123movies  is in blacklist - 
-plugin.video.F.T.V  is in blacklist - 
 script.toolbox  is in blacklist - 
 plugin.video.travel  is in blacklist - 
+plugin.video.anarchitv  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+plugin.video.F.T.V  is in blacklist - 
+plugin.video.baby  is in blacklist - 
+plugin.video.ilten  is in blacklist - 
+plugin.video.livemix  is in blacklist - 
 service.gdrive.3david  is in blacklist - 
+plugin.video.moviemix  is in blacklist - 
+script.common.plugin.cache  is in blacklist - 
 script.module.parsedom  is in blacklist - 
+script.skin.helper.service  is in blacklist - 
+plugin.video.youtubeonfire  is in blacklist - 
+plugin.video.youtubesearch  is in blacklist - 
+plugin.video.supercartoons  is in blacklist - 
+script.tv.show.next.aired  is in blacklist - 
+script.cdartmanager-NG  is in blacklist - 
+plugin.video.freshstart  is in blacklist - 
+plugin.video.md123movies  is in blacklist - 
+plugin.video.viks.tv  is in blacklist - 
+script.extendedinfo  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
-plugin.video.mrknowtv  is in blacklist - 
-plugin.video.xbmcfilm  is in blacklist - 
-repository.filmkodi.com  is in blacklist - 
 plugin.video.mrknow  is in blacklist - 
+plugin.video.xbmcfilm  is in blacklist - 
+plugin.video.mrknowtv  is in blacklist - 
+repository.filmkodi.com  is in blacklist - 
 repository.exodus addon version: 1.0.1
 repository.exodus-1.0.1.zip - ziptype is  true
 https://offshoregit.com/exodus/addons.xml
