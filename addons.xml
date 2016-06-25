@@ -1876,15 +1876,15 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.2.4" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.5" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests"  />
-		<import addon="script.module.mechanize"  />
     	<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
 
 
 	</requires>
@@ -4800,7 +4800,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.teevee"
 	name="TeeVee"
-	version="1.0.3"
+	version="1.0.5"
 	provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6122,7 +6122,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 
 <addon id="script.module.liveresolver"
      name="LiveResolver"
-     version="0.1.43"
+     version="0.1.44"
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
