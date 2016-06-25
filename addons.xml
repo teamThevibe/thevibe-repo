@@ -4145,19 +4145,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="service.start.epg" name="Автостарт script.epg.iptv" version="1.0.2" provider-name="Alex S.Galickij">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="addon.py"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="ru">Служба автозапуска script.epg.iptv</summary>
-    <description lang="ru">Служба предназначена для автоматизации script.epg.iptv</description>
-	<disclaimer lang="ru">Это тестовая, бесплатная версия! Возможны незначительные ошибки, которые могут быть устранены с Вашей помощью. Техподдержка: support@tvbox.link</disclaimer>
-	<platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.xbmcbackup"
     name="Backup" version="1.0.6" provider-name="robweber">
   <requires>
@@ -6537,19 +6524,6 @@ Plugin by @koderdude</description>
         <description lang="tr">Bu eklenti kayıt defterinizi Kodilogs.com a gönderir[CR]Gönderilen kayıt defterlerine linklenen adreslerin bulunduğu bir email alacaksınız</description>
         <description lang="zh">此插件将上传日志到 Kodilogs.com[CR]你会收到一份含上传日志文件链接的邮件</description>
     </extension>
-</addon>
-
-<addon id="service.proxy.tv" name="ProxyTV" version="2.0.0" provider-name="Alex S.Galickij">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="starTV.py"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="ru">Служба ProxyTV</summary>
-    <description lang="ru">Служба предназначена для просмотра ТВ на 'PVR IPTV Simple Client' через udpxy. С актуальной программой для любого города!</description>
-	<disclaimer lang="ru">Это тестовая, бесплатная версия! Возможны незначительные ошибки, которые могут быть устранены с Вашей помощью. Техподдержка: support@tvbox.link</disclaimer>
-	<platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.ynet.video" name="Ynet Video" version="1.0.4" provider-name="cubicle">
