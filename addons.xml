@@ -7153,6 +7153,20 @@ level.</description>
     </extension>
 </addon>
 
+<addon id="script.specto.media" version="2016.06.30" name="Specto Media" provider-name="mrknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for Specto</summary>
+		<description>Themes for Specto.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.toolbox" name="ToolBox Script" version="1.1.1" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
