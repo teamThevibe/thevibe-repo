@@ -335,6 +335,21 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
+<addon id="script.module.demjson" name="demjson" version="2.2.3" provider-name="Kuci">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Python module for JSON data encoding, including jsonlint.</summary>
+        <description>demjson is a Python language module for encoding, decoding, and syntax-checking JSON data.</description>
+        <platform>all</platform>
+        <license>GNU LGPL 3.0</license>
+        <source>https://github.com/dmeranda/demjson.git</source>
+        <website>https://github.com/dmeranda/demjson</website>
+    </extension>
+</addon>
+
   <addon id="script.artwork.downloader" name="Artwork Downloader" version="14.1.0.0" provider-name="Martijn">
   <requires>
     <import addon="xbmc.python"                 version="2.1.0"/>
@@ -897,6 +912,35 @@ If for any reason the check of a successful wake-up via ping is not possible or 
         <email>blazetamer@gmail.com</email>
         <source></source>
     </extension>
+</addon>
+
+<addon
+    id="plugin.video.xxtrucoxx"
+    name="XxTRUCOxX"
+    version="1.0.6"
+    provider-name="XxTRUCOxX">
+   <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.urlresolver"  version="2.8.0"/>
+	 <import addon="script.module.addon.common" version="2.0.0" />
+	 <import addon="script.module.metahandler"  version="0.0.1"/>
+	 <import addon="script.common.plugin.cache"/>
+   </requires>
+   <extension point="xbmc.python.pluginsource" library="plugin.py" >
+	 <provides>video</provides>
+   </extension>
+   <extension point="xbmc.python.module" library="lib" />
+   <extension point="xbmc.addon.metadata">
+	 <summary lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX.</summary>
+	 <description lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX. Atualizado diariamente!</description>
+	 <platform></platform>
+     <language></language>
+	 <license></license>
+	 <forum></forum>
+	 <website></website>
+	 <source></source>
+	 <email></email>
+   </extension>
 </addon>
 
 <!--suppress ALL -->
@@ -2835,6 +2879,23 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <description lang="en">KODISRAEL.CO.IL</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.filin.tv" name="[B][COLOR CFFFFFFF]Filin.tv[/COLOR][/B]" version="2.0.5" provider-name="mrstealth">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.xbmc.helpers" version="1.0.0"/>
+        <import addon="script.module.translit" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point= "xbmc.addon.metadata">
+        <summary>Browse and stream from filin.tv</summary>
+        <description>Enables watching streams on filin.tv that are flash enabled.</description>
+        <description>For personal use only</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.module.pyopenssl"
@@ -4828,6 +4889,27 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   <extension point='xbmc.python.module'/>
 </addon>
 
+<addon id="plugin.video.TheEllenShow"
+	name="The Ellen DeGeneres Show"
+	version="1.0.8"
+	provider-name="tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Ellen DeGeneres Show</summary>
+    <description lang="en">Come here to watch fun clips from my show, behind-the-scenes videos, and for personal messages from celebrities.</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
+    <website>http://www.tvaddons.ag/</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.meta" name="Meta" version="1.1.5" provider-name="MetaTeam">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
@@ -5071,6 +5153,27 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <website></website>
     <email></email>
     <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-cook"
+	name="Cooking on YouTube Volume 1"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cooking Videos on YouTube Volume 1</summary>
+    <description lang="en">Thousands of recipes and cooking how-to videos on YouTube Volume 1. 50 channels/playlists including Jamie Oliver, America's Test Kitchen, One Pot Chef Show, Food Wishes, Siu's Cooking (Chinese), Maangchi (Korean Cuisine), India Food Network, Gordon Ramsay and BBQ Pit Boys.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
   </extension>
 </addon>
 
@@ -5899,6 +6002,23 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     <website>http://bitbucket.org/haypo/hachoir/wiki/hachoir-core</website>
     <source>https://pypi.python.org/pypi/hachoir-core/</source>
   </extension>
+</addon>
+
+<addon id="plugin.video.tivix.net" name="Tivix.net" version="2.0.0" provider-name="mrstealth">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.xbmc.helpers" version="2.0.0"/>
+        <import addon="script.module.translit" version="2.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">>
+        <provides>video</provides>
+    </extension>
+    <extension point= "xbmc.addon.metadata">
+        <summary>Tivix.net</summary>
+        <description>Tivix.net</description>
+        <description>For personal use only</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.featherence.docu" name="Featherence Docu" version="0.1.9" provider-name="finalmakerr, yoel guy">
