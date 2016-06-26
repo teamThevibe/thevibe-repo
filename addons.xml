@@ -5512,7 +5512,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.16"
+       version="1.1.17"
        provider-name="mortael">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
