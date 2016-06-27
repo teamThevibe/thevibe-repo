@@ -7817,6 +7817,21 @@ level.</description>
 	</extension>
 </addon>
 
+<addon id="plugin.video.pakindia" name="Pak India Live" version="0.2.4" provider-name="Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pak India Live</summary>
+    <description lang="en">Watch All Your Favourite Live Tv From India Plus Uk Sports</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login" />
+</addon>
+
 <addon id="plugin.video.featherence.extreme" version="0.1.6" name="Featherence Extreme" provider-name="finalmakerr">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
