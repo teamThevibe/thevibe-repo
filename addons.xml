@@ -1795,7 +1795,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.521.0" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.627.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
