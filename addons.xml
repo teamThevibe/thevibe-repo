@@ -350,7 +350,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-  <addon id="script.artwork.downloader" name="Artwork Downloader" version="14.1.0.0" provider-name="Martijn">
+  <addon id="script.artwork.downloader" name="Artwork Downloader" version="12.0.29.1" provider-name="Martijn">
   <requires>
     <import addon="xbmc.python"                 version="2.1.0"/>
     <import addon="xbmc.json"                   version="6.0.0"/>
@@ -453,20 +453,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
           <content>movies</content>
         </supportedcontent>
     </extension>
-</addon>
-
-<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.4" provider-name="MetalKettle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.spotitube" name="Youtube Music" version="1.0.5.1" provider-name="AddonScriptorDE">
@@ -1183,39 +1169,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.flix2kodi"
-       name="Flix2Kodi"
-       version="0.4.7"
-       provider-name="logi85 and many others (especially z-e-r-o)">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests" version="2.8.1"/>
-        <import addon="plugin.video.youtube" version="5.1.11"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Netflix plugin</summary>
-        <summary lang="de">Netflix plugin</summary>
-        <description lang="en">Plugin to watch netflix with Kodi.</description>
-        <description lang="de">Plugin um Netflix mit Kodi anzusehen.</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with
-            your local laws before installing.
-        </disclaimer>
-        <disclaimer lang="de">Einige Teile dieses Addons sind möglicherweise in Ihrem Land nicht legal - bitte prüfen
-            Sie Ihre lokal gültigen Gesetze vor der Installation.
-        </disclaimer>
-        <language>en de</language>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.kodi.tv/showthread.php?tid=254263</forum>
-        <website>https://github.com/logi85/plugin.video.flix2kodi</website>
-        <email/>
-        <source/>
-    </extension>
-</addon>
-
 <addon id="plugin.video.kodisraelliveconcert"
 	name="Live CONCERT HD"
 	version="1.11"
@@ -1252,21 +1205,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<description lang="he">צפיה בתכנים מאתר MakoTV.</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.program.KodiBuildsIL" name="Kodi Builds IL wizard" version="1.0.0" provider-name="kodi senyor">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Builds IL Wizard</summary>
-    <description lang="en">Kodi Builds IL kodi builds</description>
-	<description lang="he">Kodi Builds IL בילדים מוכנים לקודי</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="resource.images.skinicons.lightwhite.he" name="Skin Icons - Light White Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
@@ -1584,27 +1522,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <email>romanvm@yandex.ua</email>
     <source>https://github.com/romanvm/script.module.pyxbmct</source>
   </extension>
-</addon>
-
-<addon id="plugin.video.football.today" name="Football Today" version="3.0.1" provider-name="lambda">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" optional="true"/>
-		<import addon="script.module.parsedom" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Football on demand</summary>
-		<description lang="en">Visit TVADDONS.ag for support</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
-		<source>https://offshoregit.com/lambda81/lambda-addons</source>
-		<website>https://offshoregit.com/lambda81/</website>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.kodiviko" name="[COLOR white]*Viko Super Wizard*[/COLOR]" version="2.0.3" provider-name="Kobi Senyor, Viko Farber">
@@ -2907,23 +2824,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.filin.tv" name="[B][COLOR CFFFFFFF]Filin.tv[/COLOR][/B]" version="2.0.5" provider-name="mrstealth">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.xbmc.helpers" version="1.0.0"/>
-        <import addon="script.module.translit" version="1.0.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point= "xbmc.addon.metadata">
-        <summary>Browse and stream from filin.tv</summary>
-        <description>Enables watching streams on filin.tv that are flash enabled.</description>
-        <description>For personal use only</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="script.module.pyopenssl"
        name="pyopenssl"
        version="1.0.13"
@@ -3638,26 +3538,6 @@ http://www.hometheater.co.il</description>
     <description lang="en">Anime ram is a great source for almost all animes out there</description>
     <source>https://github.com/DxCx/plugin.video.animeram</source>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.6">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.31" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Gordon Ramsay CZ</summary>
-    <summary lang="cs">Gordon Ramsay CZ</summary>
-    <summary lang="sk">Gordon Ramsay CZ</summary>
-    <description lang="en">Watch online archive from http://gordon.ura.cz</description>
-    <description lang="cs">Gordon Ramsay a jeho hustokrutý pořady ze serveru http://gordon.ura.cz</description>
-    <description lang="sk">Gordon Ramsay a jeho hustokrutý pořady ze serveru http://gordon.ura.cz</description>
-    <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.video.gordon.ura.cz</source>
   </extension>
 </addon>
 
@@ -4795,27 +4675,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.htpt.gopro" name="HTPT GoPro" version="0.0.11" provider-name="HTPT Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube" version="5.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>he, en</language>
-	<platform>all</platform>
-	<summary lang="en">Watch sport extreme videos.</summary>
-	<summary lang="he">צפה בסרטוני ספורט אקסטרים.</summary>
-    <description lang="en">Visit HTPT Facebook Page for support</description>
-	<description lang="he">בקר אותנו בפייסבוק לתמיכה!</description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-	<email>infohtpt@gmail.com</email>
-	<website>https://www.facebook.com/pages/HTPT/934744346549707</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
        version="4.9.3"
@@ -5268,21 +5127,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="repository.abeksis" name=".[COLOR blue]Abeksis[/COLOR][COLOR white] Repository[/COLOR]" version="1.0.2" provider-name="Abeksis">
-    <extension point="xbmc.addon.repository" name=".Abeksis Repository ">
-        <info compressed="false">http://abeksis.com/repo/addons.xml</info>
-        <checksum>http://abeksis.com/repo/addons.xml.md5</checksum>
-        <datadir zip="true">http://abeksis.com/repo/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Abeksis Repository</summary>
-        <summary lang="he">אבקסיס ריפו</summary>
-		<description lang="en">Abeksis Repository</description>
-		<description lang="he">אבקסיס ריפו, מספק לכם את מיטב ההרחבות הטובות מעולם הקודי, הכל מעודכן וזמין על בבסיס קבוע</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="resource.images.skinicons.boss.he" name="Skin Icons - Boss Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
@@ -5295,24 +5139,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<description lang="he">חבילת אייקונים - בוס</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.video.lubetube"
-       name="Lubetube (Adult)"
-       version="1.17"
-       provider-name="xbmc-adult">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
-    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="script.trakt" name="Trakt" version="3.1.5" provider-name="Trakt.tv, Razzeee">
@@ -5420,26 +5246,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <source></source>
         <email></email>
     </extension>
-</addon>
-
-<addon id="plugin.video.snooker" name="[COLOR green]Snooker - סנוקר[/COLOR]" version="1.0.4" provider-name="Abeksis">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Vod Snooker</summary>
-    <summary lang="he">סנוקר VOD</summary>
-    <description lang="en">Vod Snooker All major, Ronnie O'Sulliva, Jimmy White, Judd TRUMP, Neil ROBERTSON, Mark SELBY, John HIGGINS, 147 Break, Welsh Open 2016, Ronnie O'Sullivan's show, Shaun Murphy, amd mor.</description>
-    <description lang="he">מגוון עצום של משחקי סנוקר, הדרכות, משחקים מלאים, סרטונים של כל שחקן ושחקן, הכל בקליק.</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
 </addon>
 
 <addon id="metadata.common.movieposterdb.com"
@@ -6249,29 +6055,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	</extension>
 </addon>
 
-<addon id="plugin.video.CanTVLive" name="CanTVLive" version="2.0.3" provider-name="podgod">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-	<import addon="script.module.simple.downloader" version="0.9.4"/>
-	<import addon="script.module.beautifulsoup4"/>
-	<import addon="script.module.requests"/>
-	<import addon="script.module.httplib2"/>
-	<import addon="script.module.youtube.dl" optional="true"/>
-	<import addon="plugin.video.youtube"/>
-	<import addon="script.module.urlresolver" optional="true"/>
-	<import addon="script.module.simplejson"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Live Canadian TV channels</summary>
-    <description>Live Canadian TV channels all in one place. General disclaimer: These are just random feeds found on the net. Like all things internet, links go up and down. Also, some channels do not broadcast 24/7. I take no responsibility for the content or reliability of the feeds. Enjoy while you can. [B]Filmon.TV[/B] addon from kinkin required for CTV channels. F4M Tester addon from Shani rrequired for some channels</description>
-  </extension>
-</addon>
-
 <addon id="resource.images.skinicons.classicwhite.he" name="Skin Icons - Classic White Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
@@ -6284,38 +6067,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 		<description lang="he"> חבילת אייקונים - לבן קלאסי</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.video.AK-47"
-       name="[COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR]"
-       version="1.0.4"
-       provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-	<import addon="script.common.plugin.cache" version="2.5.2"/>
-	<import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary>[COLOR cyan][B]Best of the best from fabio_kapone and Billy_Hope[/B][/COLOR]</summary>
-        <description lang="en">[B]Enjoy watching:
-		[COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR][/B]
-		[COLOR pink][B]PS: Live TV links may up and down, as they are free. Don't check the teeth of a gifted hourse![/B][/COLOR]</description>
-        <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.zeus" name="[COLOR black].[/COLOR][COLOR yellow]ZEUS VIDEO[/COLOR]" version="1.1.0" provider-name="ZEUS">
