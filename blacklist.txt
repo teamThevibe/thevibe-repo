@@ -62,3 +62,16 @@ plugin.video.mrknowtv
 plugin.video.xbmcfilm
 script.module.liveresolver
 plugin.video.uwc
+plugin.program.KodiBuildsIL
+plugin.video.CanTVLive
+plugin.video.AK-47
+plugin.video.filin.tv
+plugin.video.flix2kodi
+plugin.video.football.today
+plugin.video.gordon.ura.cz
+plugin.video.htpt.gopro
+plugin.video.lubetube
+plugin.video.snooker
+plugin.video.sportsmix
+repository.abeksis
+script.artwork.downloader
