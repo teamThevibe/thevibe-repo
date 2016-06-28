@@ -175,12 +175,12 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.audio.99fm-playlists"
        name="99FM Playlists"
-       version="0.3.0"
+       version="0.3.2"
        provider-name="nirelbaz">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.requests" version="2.8.1"/>
-        <import addon="script.module.xbmcswift2" version="2.4.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
         <import addon="script.module.beautifulsoup4" version="4.3.2"/>
         <import addon="script.module.html5lib" version="0.999.0"/>
     </requires>
@@ -226,7 +226,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
-<addon id="plugin.video.mdfm" name="Free Movies" version="1.0.2" provider-name="Mucky Duck">
+<addon id="plugin.video.mdfm" name="Free Movies" version="1.0.4" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -1814,7 +1814,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.1.3" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.1.5" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -1825,7 +1825,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream Movies From The 123movies.to WebSite</summary>
+    <summary lang="en">Stream Movies From The 123movies WebSite</summary>
     <description lang="en">Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
     <platform>all</platform>
