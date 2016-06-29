@@ -2859,6 +2859,31 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
+<addon id="script.AbeksisWizard" name="AbeksisWizard version checker" version="0.0.2" provider-name="Abeksis">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Abeksis Wizard version checker</summary>
+    <description lang="en">Abeksis Wizard version checker</description>
+	<summary lang="he">בדיקת גירסה עבור Abeksis Wizard</summary>
+	<description lang="he">בדיקת גירסה עבור Abeksis Wizard
+
+
+קבוצת הפייסבוק שלנו לתמיכה ושאלות מעולם הקודי:
+[COLOR blue][B]KodiSupportil [/B][/COLOR]
+    </description>
+    <disclaimer lang="en">Visit Abeksis.com for more info.</disclaimer>
+    <disclaimer lang="he">בקרו אותנו בקבוצת הפייסבוק שלו KodiSuuportil</disclaimer>
+    <source>http://abeksis.com</source>
+    <website>http://abeksis.com</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.pulsefitness" name="pulse fitness" version="2.0.0" provider-name="pulsemediahubuk add us on facebook pulse media hub">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
