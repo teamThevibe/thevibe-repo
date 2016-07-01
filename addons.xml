@@ -2148,6 +2148,26 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
+<addon id="plugin.video.greek" name="מוזיקה יוונית" version="1.0.3" provider-name="Abeksis - Yehuda Belhasin‎‏">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Greek Music</summary>
+    <summary lang="he">מוזיקה יוונית</summary>
+    <description lang="en">The Best Greek Music</description>
+    <description lang="he">מוזיקה יוונית מכל הזמנים ובכל הסגנונות</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="metadata.tvdb.com"
        name="The TVDB"
        version="1.8.3"
@@ -2855,31 +2875,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 http://www.hometheater.co.il</summary>
     <description lang="en">Playlist Loader - downloaded for free from:
 http://www.hometheater.co.il</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.AbeksisWizard" name="AbeksisWizard version checker" version="0.0.2" provider-name="Abeksis">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Abeksis Wizard version checker</summary>
-    <description lang="en">Abeksis Wizard version checker</description>
-	<summary lang="he">בדיקת גירסה עבור Abeksis Wizard</summary>
-	<description lang="he">בדיקת גירסה עבור Abeksis Wizard
-
-
-קבוצת הפייסבוק שלנו לתמיכה ושאלות מעולם הקודי:
-[COLOR blue][B]KodiSupportil [/B][/COLOR]
-    </description>
-    <disclaimer lang="en">Visit Abeksis.com for more info.</disclaimer>
-    <disclaimer lang="he">בקרו אותנו בקבוצת הפייסבוק שלו KodiSuuportil</disclaimer>
-    <source>http://abeksis.com</source>
-    <website>http://abeksis.com</website>
     <platform>all</platform>
   </extension>
 </addon>
@@ -4382,32 +4377,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <website>www.pseudotvlive.com</website>
         <forum>http://forum.kodi.tv/showthread.php?tid=244889</forum>
     </extension>
-</addon>
-
-<addon id="program.AbeksisWizard" name="Abeksis Wizard" version="2.0.2" provider-name="TheWiz">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" version="2.4.3" />
-  </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-	<extension point="xbmc.service" library="update.py" start="[login|startup]"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Abeksis Wizard</summary>
-    <description lang="en">Easy Install With KODI. All in one-click installation ,Skin ,Addons ,movies and mor. The Skin is Eminence 2 He By Abeksis</description>
-    <description lang="he">התקנת קודי בקליק. תהליך זה של התקנה קודי, יאפשר לכם להנות מכל הטוב שיש בקודי, ללא הצורך בלהתעסק בהגדרות ודברים שלא רובנו מכירים. כל מה שיהיה עליכם זה להתקין ולהנות.
-
-
-קבוצת הפייסבוק שלנו לתמיכה ושאלות מעולם הקודי:
-[COLOR blue][B]KodiSupportil [/B][/COLOR]
-    </description>
-    <disclaimer lang="en">Visit Abeksis.com for more info.</disclaimer>
-    <disclaimer lang="he">בקרו אותנו בקבוצת הפייסבוק שלו KodiSuuportil</disclaimer>
-    <source>http://abeksis.com</source>
-    <website>http://abeksis.com</website>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="script.xbmcbackup"
@@ -6747,25 +6716,6 @@ Plugin by @koderdude</description>
 
   </extension>
 
-</addon>
-
-<addon id="service.fixabeksis"
-       name="fixabeksis"
-       version="1.0.0"
-       provider-name="Abkesis">
-  <requires>
- <import addon="xbmc.python" version="2.1.0"/>
-</requires>
-  <extension point="xbmc.service" library="default.py" start="startup">
-  <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>fix Abeksis repo.</summary>
-    <description>This plugin fixes disappear abeksis repo.</description>
-    <platform>all</platform>
-	<language></language>
-	<disclaimer>Report any issues with this addon to our group</disclaimer>
-  </extension>
 </addon>
 
 <addon id="plugin.video.MikeysKaraoke" name="Mikey's Karaoke" version="4.8.3" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">

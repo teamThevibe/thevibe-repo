@@ -75,3 +75,6 @@ plugin.video.snooker
 plugin.video.sportsmix
 repository.abeksis
 script.artwork.downloader
+script.AbeksisWizard
+service.fixabeksis
+program.AbeksisWizard
