@@ -175,7 +175,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.audio.99fm-playlists"
        name="99FM Playlists"
-       version="0.3.5"
+       version="0.3.9"
        provider-name="nirelbaz">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -4711,7 +4711,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="4.9.5"
+       version="4.9.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -5750,7 +5750,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="script.rawmaintenance"
        name="Raw Maintenance"
-       version="0.1.10"
+       version="0.1.11"
        provider-name="Foreverska|Gombeek|Raw Media">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
