@@ -3631,7 +3631,7 @@ http://www.hometheater.co.il</description>
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="plugin.video.ustvnow" name="USTVnow" provider-name="Lunatixz" version="12.0.22">
+<addon id="plugin.video.ustvnow" name="USTVnow" provider-name="Lunatixz" version="12.0.23">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
     </requires>
@@ -3644,6 +3644,7 @@ http://www.hometheater.co.il</description>
         <platform>all</platform>
         <forum>http://forum.kodi.tv/showthread.php?tid=233135</forum>
         <website>http://watch.ustvnow.com/</website>
+        <broken>Broken due to website changes</broken>
     </extension>
 </addon>
 
@@ -3784,7 +3785,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.communityallsorts"
        name="[COLOR gold]-COMMUNITY-ALLSORTS-[/COLOR]"
-       version="2.5"
+       version="2.7"
        provider-name="[COLOR blue]COMMUNITY-REPO-TEAM[/COLOR][COLOR gold]-@COMMUNITYREPO @DIBBO10069 @DETECTIVEKODI @KODICOMMUNITY @ALEIGHTY80 @PBEAR90 @DTGSKINS  @STEVIEK1979 @_HAX0R @OLDGIT9 @CLASSICNANCY @KODI_MAD-[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3796,8 +3797,8 @@ http://www.hometheater.co.il</description>
     <import addon="script.module.httplib2" version="0.8.0"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="5.2.1"/>
-    <import addon="script.common.plugin.cache" version="2.5.8"/>
 	<import addon="script.module.addon.common" version="2.0.0"/>
+	<import addon="script.common.plugin.cache" version="2.5.8"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
     <import addon="script.module.parsedom" version="2.5.2"/>
 	<import addon="script.module.myconnpy" version="1.1.7"/>
@@ -4710,7 +4711,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="4.9.4"
+       version="4.9.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
