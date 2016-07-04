@@ -1814,7 +1814,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.1.8" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.2.0" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -1826,7 +1826,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Movies From The 123movies WebSite</summary>
-    <description lang="en">Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
+    <description lang="en">This Addon Will No Longer Work Unless You Have http://muckysmediaportal4kodi.ml In File Manager.  Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
     <platform>all</platform>
   </extension>
