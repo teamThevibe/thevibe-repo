@@ -5135,15 +5135,15 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.teevee"
 	name="TeeVee"
-	version="1.0.5"
+	version="2.0.0"
 	provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.urlresolver" version="2.5.0" />
     <import addon="script.module.metahandler" />
-    <import addon="script.module.axel.downloader" version="0.2.0" optional="true"/>
     <import addon="script.module.pyxbmct" version="1.1.4" />
+    <import addon="script.module.dudehere.routines" optional="true"/>
 
 
 
@@ -5985,7 +5985,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     </extension>
 </addon>
 
-<addon id="plugin.video.movixws" name="Movix.me" version="1.2.7" provider-name="Freestyle">
+<addon id="plugin.video.movixws" name="Movix.me" version="1.2.8" provider-name="Freestyle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"/>
