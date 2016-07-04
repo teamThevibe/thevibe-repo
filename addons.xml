@@ -175,7 +175,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.audio.99fm-playlists"
        name="99FM Playlists"
-       version="0.3.9"
+       version="0.4.3"
        provider-name="nirelbaz">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -930,7 +930,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.65" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.66" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1814,7 +1814,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.1.7" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.1.8" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
