@@ -8,35 +8,47 @@ Finished updating addons xml and md5 files
 repository.abeksis addon version: 1.0
 repository.abeksis.zip - ziptype is  true
 http://abeksis.com/repo/addons.xml
-plugin.video.pulsar  is in blacklist - 
-skin.xonfluence  is in blacklist - 
-skin.eminence.he.2  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-script.module.translit  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
-skin.aeonmq6  is in blacklist - 
-plugin.video.woodrocket  is in blacklist - 
-program.AbeksisWizard  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
 plugin.video.AK-47  is in blacklist - 
-script.AbeksisWizard  is in blacklist - 
-plugin.video.uwc  is in blacklist - 
-script.module.israeliveresolver  is in blacklist - 
-plugin.video.thewiz.wall  is in blacklist - 
-plugin.video.flix2kodi  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
 skin.eminence.heb  is in blacklist - 
-script.module.myconnpy  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-repository.abeksis  is in blacklist - 
-skin.ccm.helix  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
-service.fixabeksis  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-plugin.video.snooker  is in blacklist - 
 plugin.video.gordon.ura.cz  is in blacklist - 
+plugin.video.snooker  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+skin.eminence.he.2  is in blacklist - 
+script.module.myconnpy  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+skin.xonfluence  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+plugin.video.woodrocket  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
+script.AbeksisWizard  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+repository.abeksis  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
+skin.ccm.helix  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+program.AbeksisWizard  is in blacklist - 
+script.module.translit  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+Downloading %s version:%s plugin.video.hellenic.tv 3.5.5
+Downloding zip from: http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip  To Path:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
+Saving:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
+http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
+Downloading %s version:%s service.subtitles.subtitle 4.4.2
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
+Downloading %s version:%s service.subtitles.torec 1.0.9.1
+Downloding zip from: http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip  To Path:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
+Saving:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
+http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
 Downloading %s version:%s service.subtitles.subscenter 3.3.7
 Downloding zip from: http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
 Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-3.3.7.zip
@@ -49,172 +61,25 @@ Downloading %s version:%s plugin.video.dextertv 2.0.5
 Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-Downloading %s version:%s service.subtitles.torec 1.0.9.1
-Downloding zip from: http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip  To Path:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
-Saving:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
-http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.1.zip
-Downloading %s version:%s service.subtitles.subtitle 4.4.2
-Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
-Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
-http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.2.zip
-Downloading %s version:%s plugin.video.hellenic.tv 3.5.5
-Downloding zip from: http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip  To Path:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-Saving:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-plugin.video.uwc  is in blacklist - 
 script.module.liveresolver  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
 script.artwork.downloader  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
 plugin.video.xbmcfilm  is in blacklist - 
-plugin.video.mrknow  is in blacklist - 
 plugin.video.mrknowtv  is in blacklist - 
 repository.filmkodi.com  is in blacklist - 
+plugin.video.mrknow  is in blacklist - 
 repository.exodus addon version: 1.0.1
 repository.exodus-1.0.1.zip - ziptype is  true
 https://offshoregit.com/exodus/addons.xml
 repository.mdrepo addon version: 1.0.2
 repository.mdrepo-1.0.2.zip - ziptype is  true
 https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml
-Downloading %s version:%s plugin.video.mdmovievault 1.0.0
-Making folder for addon in repo:  plugin.video.mdmovievault
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmovievault/plugin.video.mdmovievault-1.0.0.zip  To Path:  repo/plugin.video.mdmovievault/plugin.video.mdmovievault-1.0.0.zip
-Saving:  repo/plugin.video.mdmovievault/plugin.video.mdmovievault-1.0.0.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmovievault/plugin.video.mdmovievault-1.0.0.zip
-Downloading %s version:%s skin.aeon.nox.lego 1.0
-Making folder for addon in repo:  skin.aeon.nox.lego
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//skin.aeon.nox.lego/skin.aeon.nox.lego-1.0.zip  To Path:  repo/skin.aeon.nox.lego/skin.aeon.nox.lego-1.0.zip
-Saving:  repo/skin.aeon.nox.lego/skin.aeon.nox.lego-1.0.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//skin.aeon.nox.lego/skin.aeon.nox.lego-1.0.zip
-Downloading %s version:%s plugin.video.gorillastreams 2.2
-Making folder for addon in repo:  plugin.video.gorillastreams
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.gorillastreams/plugin.video.gorillastreams-2.2.zip  To Path:  repo/plugin.video.gorillastreams/plugin.video.gorillastreams-2.2.zip
-Saving:  repo/plugin.video.gorillastreams/plugin.video.gorillastreams-2.2.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.gorillastreams/plugin.video.gorillastreams-2.2.zip
-Downloading %s version:%s plugin.video.mdizle 1.0.4
-Making folder for addon in repo:  plugin.video.mdizle
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdizle/plugin.video.mdizle-1.0.4.zip  To Path:  repo/plugin.video.mdizle/plugin.video.mdizle-1.0.4.zip
-Saving:  repo/plugin.video.mdizle/plugin.video.mdizle-1.0.4.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdizle/plugin.video.mdizle-1.0.4.zip
-Downloading %s version:%s plugin.video.mdm4u 1.1.0
-Making folder for addon in repo:  plugin.video.mdm4u
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdm4u/plugin.video.mdm4u-1.1.0.zip  To Path:  repo/plugin.video.mdm4u/plugin.video.mdm4u-1.1.0.zip
-Saving:  repo/plugin.video.mdm4u/plugin.video.mdm4u-1.1.0.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdm4u/plugin.video.mdm4u-1.1.0.zip
-Downloading %s version:%s plugin.video.mddizibox 1.0.4
-Making folder for addon in repo:  plugin.video.mddizibox
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mddizibox/plugin.video.mddizibox-1.0.4.zip  To Path:  repo/plugin.video.mddizibox/plugin.video.mddizibox-1.0.4.zip
-Saving:  repo/plugin.video.mddizibox/plugin.video.mddizibox-1.0.4.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mddizibox/plugin.video.mddizibox-1.0.4.zip
-Downloading %s version:%s plugin.video.mdpubfilm 1.0.6
-Making folder for addon in repo:  plugin.video.mdpubfilm
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdpubfilm/plugin.video.mdpubfilm-1.0.6.zip  To Path:  repo/plugin.video.mdpubfilm/plugin.video.mdpubfilm-1.0.6.zip
-Saving:  repo/plugin.video.mdpubfilm/plugin.video.mdpubfilm-1.0.6.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdpubfilm/plugin.video.mdpubfilm-1.0.6.zip
-Downloading %s version:%s plugin.video.mdniter 1.0.6
-Making folder for addon in repo:  plugin.video.mdniter
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdniter/plugin.video.mdniter-1.0.6.zip  To Path:  repo/plugin.video.mdniter/plugin.video.mdniter-1.0.6.zip
-Saving:  repo/plugin.video.mdniter/plugin.video.mdniter-1.0.6.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdniter/plugin.video.mdniter-1.0.6.zip
-Downloading %s version:%s plugin.video.mdgenvideos 1.0.2
-Making folder for addon in repo:  plugin.video.mdgenvideos
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdgenvideos/plugin.video.mdgenvideos-1.0.2.zip  To Path:  repo/plugin.video.mdgenvideos/plugin.video.mdgenvideos-1.0.2.zip
-Saving:  repo/plugin.video.mdgenvideos/plugin.video.mdgenvideos-1.0.2.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdgenvideos/plugin.video.mdgenvideos-1.0.2.zip
-Downloading %s version:%s plugin.video.mdwww 1.0.2
-Making folder for addon in repo:  plugin.video.mdwww
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwww/plugin.video.mdwww-1.0.2.zip  To Path:  repo/plugin.video.mdwww/plugin.video.mdwww-1.0.2.zip
-Saving:  repo/plugin.video.mdwww/plugin.video.mdwww-1.0.2.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwww/plugin.video.mdwww-1.0.2.zip
-Downloading %s version:%s plugin.audio.MD3-Audio 1.0.2
-Making folder for addon in repo:  plugin.audio.MD3-Audio
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.audio.MD3-Audio/plugin.audio.MD3-Audio-1.0.2.zip  To Path:  repo/plugin.audio.MD3-Audio/plugin.audio.MD3-Audio-1.0.2.zip
-Saving:  repo/plugin.audio.MD3-Audio/plugin.audio.MD3-Audio-1.0.2.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.audio.MD3-Audio/plugin.audio.MD3-Audio-1.0.2.zip
-Downloading %s version:%s plugin.video.mdwatch32hd 1.0.3
-Making folder for addon in repo:  plugin.video.mdwatch32hd
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwatch32hd/plugin.video.mdwatch32hd-1.0.3.zip  To Path:  repo/plugin.video.mdwatch32hd/plugin.video.mdwatch32hd-1.0.3.zip
-Saving:  repo/plugin.video.mdwatch32hd/plugin.video.mdwatch32hd-1.0.3.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwatch32hd/plugin.video.mdwatch32hd-1.0.3.zip
-Downloading %s version:%s plugin.video.mdhdbox 1.0.0
-Making folder for addon in repo:  plugin.video.mdhdbox
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdhdbox/plugin.video.mdhdbox-1.0.0.zip  To Path:  repo/plugin.video.mdhdbox/plugin.video.mdhdbox-1.0.0.zip
-Saving:  repo/plugin.video.mdhdbox/plugin.video.mdhdbox-1.0.0.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdhdbox/plugin.video.mdhdbox-1.0.0.zip
-Downloading %s version:%s plugin.video.mdhdmovie14 1.0.5
-Making folder for addon in repo:  plugin.video.mdhdmovie14
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdhdmovie14/plugin.video.mdhdmovie14-1.0.5.zip  To Path:  repo/plugin.video.mdhdmovie14/plugin.video.mdhdmovie14-1.0.5.zip
-Saving:  repo/plugin.video.mdhdmovie14/plugin.video.mdhdmovie14-1.0.5.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdhdmovie14/plugin.video.mdhdmovie14-1.0.5.zip
-Downloading %s version:%s plugin.video.mdmovieflix 1.0.0
-Making folder for addon in repo:  plugin.video.mdmovieflix
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmovieflix/plugin.video.mdmovieflix-1.0.0.zip  To Path:  repo/plugin.video.mdmovieflix/plugin.video.mdmovieflix-1.0.0.zip
-Saving:  repo/plugin.video.mdmovieflix/plugin.video.mdmovieflix-1.0.0.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmovieflix/plugin.video.mdmovieflix-1.0.0.zip
-Downloading %s version:%s plugin.video.mdvodlocker 1.0.7
-Making folder for addon in repo:  plugin.video.mdvodlocker
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdvodlocker/plugin.video.mdvodlocker-1.0.7.zip  To Path:  repo/plugin.video.mdvodlocker/plugin.video.mdvodlocker-1.0.7.zip
-Saving:  repo/plugin.video.mdvodlocker/plugin.video.mdvodlocker-1.0.7.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdvodlocker/plugin.video.mdvodlocker-1.0.7.zip
-Downloading %s version:%s plugin.video.mdsportsextra 1.0.0
-Making folder for addon in repo:  plugin.video.mdsportsextra
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdsportsextra/plugin.video.mdsportsextra-1.0.0.zip  To Path:  repo/plugin.video.mdsportsextra/plugin.video.mdsportsextra-1.0.0.zip
-Saving:  repo/plugin.video.mdsportsextra/plugin.video.mdsportsextra-1.0.0.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdsportsextra/plugin.video.mdsportsextra-1.0.0.zip
-Downloading %s version:%s plugin.video.mdscenepeeper 1.0.6
-Making folder for addon in repo:  plugin.video.mdscenepeeper
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdscenepeeper/plugin.video.mdscenepeeper-1.0.6.zip  To Path:  repo/plugin.video.mdscenepeeper/plugin.video.mdscenepeeper-1.0.6.zip
-Saving:  repo/plugin.video.mdscenepeeper/plugin.video.mdscenepeeper-1.0.6.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdscenepeeper/plugin.video.mdscenepeeper-1.0.6.zip
-Downloading %s version:%s plugin.video.streamengine 1.2.1
-Making folder for addon in repo:  plugin.video.streamengine
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.streamengine/plugin.video.streamengine-1.2.1.zip  To Path:  repo/plugin.video.streamengine/plugin.video.streamengine-1.2.1.zip
-Saving:  repo/plugin.video.streamengine/plugin.video.streamengine-1.2.1.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.streamengine/plugin.video.streamengine-1.2.1.zip
-Downloading %s version:%s plugin.video.mdwizard 1.1.6
-Making folder for addon in repo:  plugin.video.mdwizard
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwizard/plugin.video.mdwizard-1.1.6.zip  To Path:  repo/plugin.video.mdwizard/plugin.video.mdwizard-1.1.6.zip
-Saving:  repo/plugin.video.mdwizard/plugin.video.mdwizard-1.1.6.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwizard/plugin.video.mdwizard-1.1.6.zip
-Downloading %s version:%s plugin.video.mdfubar 1.1.4
-Making folder for addon in repo:  plugin.video.mdfubar
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdfubar/plugin.video.mdfubar-1.1.4.zip  To Path:  repo/plugin.video.mdfubar/plugin.video.mdfubar-1.1.4.zip
-Saving:  repo/plugin.video.mdfubar/plugin.video.mdfubar-1.1.4.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdfubar/plugin.video.mdfubar-1.1.4.zip
-Downloading %s version:%s plugin.video.welovesoaps 1.0.1
-Making folder for addon in repo:  plugin.video.welovesoaps
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.welovesoaps/plugin.video.welovesoaps-1.0.1.zip  To Path:  repo/plugin.video.welovesoaps/plugin.video.welovesoaps-1.0.1.zip
-Saving:  repo/plugin.video.welovesoaps/plugin.video.welovesoaps-1.0.1.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.welovesoaps/plugin.video.welovesoaps-1.0.1.zip
-Downloading %s version:%s plugin.video.mdafdah 1.0.3
-Making folder for addon in repo:  plugin.video.mdafdah
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdafdah/plugin.video.mdafdah-1.0.3.zip  To Path:  repo/plugin.video.mdafdah/plugin.video.mdafdah-1.0.3.zip
-Saving:  repo/plugin.video.mdafdah/plugin.video.mdafdah-1.0.3.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdafdah/plugin.video.mdafdah-1.0.3.zip
-Downloading %s version:%s plugin.audio.oldskool 1.0.3
-Making folder for addon in repo:  plugin.audio.oldskool
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.audio.oldskool/plugin.audio.oldskool-1.0.3.zip  To Path:  repo/plugin.audio.oldskool/plugin.audio.oldskool-1.0.3.zip
-Saving:  repo/plugin.audio.oldskool/plugin.audio.oldskool-1.0.3.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.audio.oldskool/plugin.audio.oldskool-1.0.3.zip
-Downloading %s version:%s plugin.audio.DnB-Sets 1.0.2
-Making folder for addon in repo:  plugin.audio.DnB-Sets
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.audio.DnB-Sets/plugin.audio.DnB-Sets-1.0.2.zip  To Path:  repo/plugin.audio.DnB-Sets/plugin.audio.DnB-Sets-1.0.2.zip
-Saving:  repo/plugin.audio.DnB-Sets/plugin.audio.DnB-Sets-1.0.2.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.audio.DnB-Sets/plugin.audio.DnB-Sets-1.0.2.zip
-Downloading %s version:%s plugin.video.mdws 1.0.9
-Making folder for addon in repo:  plugin.video.mdws
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdws/plugin.video.mdws-1.0.9.zip  To Path:  repo/plugin.video.mdws/plugin.video.mdws-1.0.9.zip
-Saving:  repo/plugin.video.mdws/plugin.video.mdws-1.0.9.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdws/plugin.video.mdws-1.0.9.zip
-Downloading %s version:%s plugin.video.mdwatchtvseries 1.1.6
-Making folder for addon in repo:  plugin.video.mdwatchtvseries
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwatchtvseries/plugin.video.mdwatchtvseries-1.1.6.zip  To Path:  repo/plugin.video.mdwatchtvseries/plugin.video.mdwatchtvseries-1.1.6.zip
-Saving:  repo/plugin.video.mdwatchtvseries/plugin.video.mdwatchtvseries-1.1.6.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdwatchtvseries/plugin.video.mdwatchtvseries-1.1.6.zip
 adding addon from github: plugin.video.kmediatorrent
 https://github.com/jmarth/plugin.video.kmediatorrent
 Downloding zip from: https://github.com/jmarth/plugin.video.kmediatorrent/archive/master.zip  To Path:  repo/plugin.video.kmediatorrent/master.zip
