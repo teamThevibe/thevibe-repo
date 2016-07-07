@@ -1941,7 +1941,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.2.5" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.6" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -1949,8 +1949,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     	<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
-		<import addon="script.module.livestreamer" />
-
 
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -4679,6 +4677,34 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <description lang="en">This will install the latest versions of SportsDevil and clean any old data that may be stopping the addon from opening certain pages. As SportsDevil has no official repository different people have taken it upon themselves to upload newer versions of the addon to their repo's. Due to this there is always a chance an update may break a previously working version so this addon stores a backup of your existing SportsDevil so you can always revert back if needed.</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2016.07.10.2" provider-name="mrknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.mrknow.urlresolver" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">FanFilm Alpha version</summary>
+		<description lang="en">FanFilm </description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<summary lang="pl">FanFilm wersja Alfa</summary>
+		<description lang="pl">FanFilm wersja Alfa - 70% nie działa.</description>
+		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<forum>https://github.com/mrknow/filmkodi/issues</forum>
+		<source>http://filmkodi.com/repository/</source>
+		<website>http://filmkodi.com/</website>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.ZemTV-shani"
