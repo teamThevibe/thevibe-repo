@@ -6408,7 +6408,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.movixws" name="Movix.me" version="1.2.8" provider-name="Freestyle">
+<addon id="plugin.video.movixws" name="Movix.me" version="1.2.9" provider-name="Freestyle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"/>
