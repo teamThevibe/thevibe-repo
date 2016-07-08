@@ -504,6 +504,20 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
 </addon>
 
+<addon id="plugin.program.forceclose" name="Force Close kodi" version="1.0.4" provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Force Close Kodi</summary>
+    <description lang="he">כיבוי בכח של קודי</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mdwatch32hd" name="Watch32HD" version="1.0.3" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1054,6 +1068,23 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
+<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.1" provider-name="Kodi Senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.globalsearch"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">metasearch</summary>
+    <description lang="en">meta_search</description>
+	<description lang="he">תפריט עזר לחיפוש בהרחבה מטא ובספריות הקודי</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="resource.images.skinbackgrounds.wallsquare.he" name="Skin Backgrounds - Wall Square (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
@@ -1276,6 +1307,25 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 			<language>en</language>
 		</extension>
 	</addon>
+
+<addon id="plugin.video.AresMoTV"
+	   name="AresMoTV"
+	   version="3.8"
+	   provider-name="2uk3y-Kodim-Ares-Streams">
+  <requires>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="AresMoTV.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies &amp; TV Shows Online For Free</summary>
+    <description>Watch Your Favorite Movies &amp; TV Shows Online For Free</description>
+    <description>2uk3y-Kodim-Ares-Streams</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 <addon id="script.module.addon.common"
 	     name="Common addon methods"
@@ -2075,6 +2125,21 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <source>https://code.google.com/p/feedparser/source/browse/</source>
         <forum></forum>
     </extension>
+</addon>
+
+<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.1.1" provider-name="kodi senyor">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	    <import addon="script.module.addon.common" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>easy addons install (special thanks to tomer haimovitch)</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.mdhdmovie14" name="HD-Movie14" version="1.0.5" provider-name="Mucky Duck">
@@ -2916,7 +2981,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.program.senyorwizard" name="senyor wizard" version="1.0.8" provider-name="senyor wizard">
+<addon id="plugin.program.senyorwizard" name="senyor wizard" version="1.0.9" provider-name="senyor wizard">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -2981,6 +3046,44 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<email>ytplugin at datanet dot ws</email>
 		<source>https://github.com/Kolifanes/plugin.video.youtube</source>
 	</extension>
+</addon>
+
+<addon
+  id="senyor.pvr.iptvsimple"
+  version="2.12.10"
+  name="[COLOR yellow]SENYOR[/COLOR] PVR IPTV Simple Client (Multiple) "
+  provider-name="nightik">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="4.1.0"/>
+  </requires>
+
+  <extension point="xbmc.pvrclient"
+    library_windows="pvr.iptvsimple.dll"
+    library_windx="pvr.iptvsimple.dll"
+    library_android="libpvr.iptvsimple.so"
+    library_linux="pvr.iptvsimple.so"
+    library_osx="pvr.iptvsimple.dylib"
+    library_freebsd="pvr.iptvsimple.so" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+
+    <description lang="en_AU">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_GB">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_NZ">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_US">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+
+    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.audio.housemixes" name="House Mixes" version="1.1.6" provider-name="MetalKettle">
@@ -3687,7 +3790,7 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.2.5" provider-name="kodi senyor">
+<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.3.7" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -5640,7 +5743,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-    <addon id="plugin.program.addoninstaller" version="1.2.6"
+    <addon id="plugin.program.addoninstaller" version="1.2.9"
     	name="Addon Installer" provider-name="tvaddons.ag, Blazetamer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -5914,6 +6017,23 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <description lang="en">Stream Free Content From The Web.  Special Thanks Go Out To @McWaine For Spending The Time To Create The Icons For Each Individual Section.</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="skin.tvOS-X-jarvisheb" version="1.0.5" name="tvOS-X - Jarvis hebrew" provider-name="iCanuck / kodi senyor">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.favourites" version="3.2.5"/>
+    <import addon="service.library.data.provider" version="0.0.4"/>
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="he">סקין קליל, מהיר ופשוט המבוסס של סגנון AppleTV4</description>
+	<description lang="en">Thanks to Fastcolors for SiO2. If you like Apple "everything at hand" policy for interfaces, You might want to give this Skin a try. I designed it trying to put as few clicks as possible between You and what You're trying to do (or watch ;) ).[CR]Thanks to Pecinko for Quartz as a solid base to build on.[CR] Thanks to testers and Inspirers: Toiva, Scrolling, Abrasher, Lucanoid, Relyter.</description>
+    <disclaimer>tvOS-X</disclaimer>
   </extension>
 </addon>
 
@@ -6703,6 +6823,22 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	</extension>
 </addon>
 
+<addon id="plugin.program.tvos_themes" name="tvOS-X Hebrew themes " version="1.0.0" provider-name="senyor wizard">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">tvOS-X Hebrew themes</summary>
+    <description lang="en">tvOS-X Hebrew themes</description>
+	<description lang="he">ערכות נושא המכילות אייקונים ורקעים לסקין tvOS-X Hebrew</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="metadata.album.universal"
        name="Universal Album Scraper"
        version="2.6.0"
@@ -6866,6 +7002,19 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="repository.ToMeRepo" name=".[COLOR blue]..~ToMeRepo~[/COLOR] [COLOR yellow]Repository...®[/COLOR]" version="1.0.7" provider-name="ToMeR">
+	<extension point="xbmc.addon.repository" name="ToMeRepo">
+		<info compressed="false">https://github.com/tmkodirepo/repository.ToMeRepo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tmkodirepo/repository.ToMeRepo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tmkodirepo/repository.ToMeRepo/raw/master/Zip</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>מאגר הרחבות קטן ומדוייק.</summary>
+		<description>פה תמצאו הרחבות לקודי שעברו בדיקה מדוקדקת , מכל הרפויים הקיימים שיש ,מאגר קטן זמין ומתעדכן באופן שוטף</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.exodus" version="2.0.1" name="Exodus" provider-name="Exodus">
@@ -7716,6 +7865,23 @@ level.</description>
         <summary><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
         <description><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
     </extension>
+</addon>
+
+<addon id="plugin.video.he-trailers" name="Hebrew Trailers" version="1.0.2" provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>he</language>
+    <summary lang="he">הרחבה לצפייה בטריילרים מתורגמים</summary>
+    <description lang="he">הרחבה לצפייה בטריילרים מתורגמים</description>
+    <disclaimer lang="en">kodi senyor Is Not Affiliated With The Content In This Addon</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.nbafullgames" name="NBA Full Games" version="3.1.0" provider-name="natko1412">
