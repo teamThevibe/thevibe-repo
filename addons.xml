@@ -968,7 +968,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.67" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.68" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -4150,28 +4150,24 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.communityallsorts"
        name="[COLOR gold]-COMMUNITY-ALLSORTS-[/COLOR]"
-       version="2.7"
+       version="2.8"
        provider-name="[COLOR blue]COMMUNITY-REPO-TEAM[/COLOR][COLOR gold]-@COMMUNITYREPO @DIBBO10069 @DETECTIVEKODI @KODICOMMUNITY @ALEIGHTY80 @PBEAR90 @DTGSKINS  @STEVIEK1979 @_HAX0R @OLDGIT9 @CLASSICNANCY @KODI_MAD-[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.1.1"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="1.9.5"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" version="0.8.0"/>
+    <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="5.2.1"/>
-	<import addon="script.module.addon.common" version="2.0.0"/>
-	<import addon="script.common.plugin.cache" version="2.5.8"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="script.module.parsedom" version="2.5.2"/>
-	<import addon="script.module.myconnpy" version="1.1.7"/>
-	<import addon="script.module.elementtree" version="1.2.8"/>
-	<import addon="plugin.video.f4mTester" version="2.2.4"/>
-	<import addon="script.module.urlresolver" version="3.0.5"/>
-	<import addon="script.video.F4mProxy" version="2.4.5"/>
-	<import addon="script.module.liveresolver" version="0.1.34"/>
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -6872,13 +6868,13 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.0" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
-		<import addon="script.exodus.artwork" version="1.0.2" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.exodus.artwork" version="1.0.2" optional="true" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
