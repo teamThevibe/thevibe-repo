@@ -1995,7 +1995,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.2.1" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.2.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
