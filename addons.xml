@@ -2653,19 +2653,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.07.01" provider-name="mrknow" >
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-	</extension>
-</addon>
-
 <addon id="plugin.video.reshet.video" name="רשת" version="1.3.3" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -8079,20 +8066,6 @@ level.</description>
           <content>movies</content>
         </supportedcontent>
     </extension>
-</addon>
-
-<addon id="script.specto.media" version="2016.06.30" name="Specto Media" provider-name="mrknow" >
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for Specto</summary>
-		<description>Themes for Specto.</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="script.toolbox" name="ToolBox Script" version="1.1.2" provider-name="phil65">
