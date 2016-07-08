@@ -78,3 +78,5 @@ script.artwork.downloader
 script.AbeksisWizard
 service.fixabeksis
 program.AbeksisWizard
+repository.ToMeRepo
+plugin.program.senyorwizard

@@ -9,4 +9,5 @@ git commit -a -m "update push in : `date`"
 git push 
 sleep 120
 #!wget http://repo.the-vibe.co.il/Service
-wget  http://repo.the-vibe.co.il/Service >/dev/null &
+content=$(wget "http://repo.the-vibe.co.il/Service" -q -O -)
+#wget  http://repo.the-vibe.co.il/Service >/dev/null &

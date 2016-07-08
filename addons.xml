@@ -2981,21 +2981,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.program.senyorwizard" name="senyor wizard" version="1.0.9" provider-name="senyor wizard">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">senyor Wizard</summary>
-    <description lang="en">kodi-senyor.co.il kodi builds</description>
-	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="TheCollective" version="2.5.8">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -7002,19 +6987,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="repository.ToMeRepo" name=".[COLOR blue]..~ToMeRepo~[/COLOR] [COLOR yellow]Repository...®[/COLOR]" version="1.0.7" provider-name="ToMeR">
-	<extension point="xbmc.addon.repository" name="ToMeRepo">
-		<info compressed="false">https://github.com/tmkodirepo/repository.ToMeRepo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tmkodirepo/repository.ToMeRepo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tmkodirepo/repository.ToMeRepo/raw/master/Zip</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>מאגר הרחבות קטן ומדוייק.</summary>
-		<description>פה תמצאו הרחבות לקודי שעברו בדיקה מדוקדקת , מכל הרפויים הקיימים שיש ,מאגר קטן זמין ומתעדכן באופן שוטף</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.exodus" version="2.0.1" name="Exodus" provider-name="Exodus">
