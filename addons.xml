@@ -226,7 +226,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
-<addon id="plugin.video.mdfm" name="Free Movies" version="1.0.5" provider-name="Mucky Duck">
+<addon id="plugin.video.mdfm" name="Free Movies" version="1.0.6" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -239,7 +239,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Free Content From The Web</summary>
-    <description lang="en">Stream Free Content From The Web. This Addon Will No Longer Work Unless You Have http://muckysmediaportal4kodi.ml In File Manager.</description>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckysmediaportal4kodi.ml In File Manager. Stream Free Content From The Web.</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
