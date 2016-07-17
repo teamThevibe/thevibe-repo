@@ -982,7 +982,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.71" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.72" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2204,7 +2204,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.2.6" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.7" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -2212,6 +2212,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     	<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
+
 
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -7884,7 +7885,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.nbafullgames" name="NBA Full Games" version="3.1.0" provider-name="natko1412">
+<addon id="plugin.video.nbafullgames" name="NBA Full Games" version="3.1.1" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
