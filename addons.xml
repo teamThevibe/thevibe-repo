@@ -2222,7 +2222,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.2.7" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -2230,6 +2230,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     	<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
 
 
 	</requires>
@@ -7317,7 +7318,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.mdwatchtvseries" name="Watch TV Series" version="1.1.6" provider-name="Mucky Duck">
+<addon id="plugin.video.mdwatchtvseries" name="Watch TV Series" version="1.1.7" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -7329,7 +7330,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Free content From The Web</summary>
-    <description lang="en">Stream Free content From The Web</description>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckysmediaportal4kodi.ml As A Source In File Manager. Stream Free content From The Web</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
