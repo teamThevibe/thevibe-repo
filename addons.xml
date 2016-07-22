@@ -996,11 +996,12 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.72" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.73" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.tknorris.shared" version="0.0.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -4462,8 +4463,8 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="plugin.audio.mp3streams"
        name="MP3 Streams"
-       version="1.2.1"
-       provider-name="kinkin, spoyser, art by Marquerite">
+       version="1.2.2"
+       provider-name="kinkin, art by Marquerite">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.t0mm0.common" version="1.1.0"/>
