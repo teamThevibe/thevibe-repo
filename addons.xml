@@ -6887,7 +6887,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	</extension>
 </addon>
 
-<addon id="plugin.program.tvos_themes" name="tvOS-X Hebrew themes " version="1.0.0" provider-name="senyor wizard">
+<addon id="plugin.program.tvos_themes" name="tvOS-X Hebrew themes " version="1.0.1" provider-name="senyor wizard">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
