@@ -1884,6 +1884,28 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
+<addon id="plugin.video.last_played" name="Last Played (all sources)" version="1.0.5" provider-name="Luis Rodrigues">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Last Played (all sources)</summary>
+		<summary lang="pt">Ultimos Vistos (todas as fontes)</summary>
+		<description lang="en">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="pt">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<source>https://github.com/rodrigl/plugin.video.last_played</source>
+	</extension>
+</addon>
+
 <addon id="plugin.video.hop" name="הופ!" version="1.0.2" provider-name="Hybrid\Donatello\Blade">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
@@ -7097,11 +7119,12 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.2" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.3" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.exodus.artwork" version="1.0.4" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
@@ -7729,13 +7752,11 @@ Plugin by @koderdude</description>
 
 </addon>
 
-<addon id="script.exodus.artwork" version="1.0.3" name="Exodus Artwork" provider-name="Exodus">
+<addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
+	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary>Themes for the Exodus Addon</summary>
 		<description>Themes for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
