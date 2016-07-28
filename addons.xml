@@ -1007,7 +1007,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.77" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.78" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -5096,6 +5096,28 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
 </addon>
+
+	<addon id="plugin.audio.KradioList" name="[COLOR lime]KradioList[/COLOR]" version="1.0.0" provider-name="DNA">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="xbmc.addon"  version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">The best radio stations on the net</summary>
+			<description lang="en">Tune in to the best radio stations on the net.Send your radio links to:holymankodi@gmail.com</description>
+			<disclaimer lang="en">We do not own or publish the content delivered by the plugin</disclaimer>
+			<platform>all</platform>
+			<license>http://www.gnu.org/licenses/</license>
+			<language>en</language>
+			<forum></forum>
+			<website></website>
+			<email>holymankodi@gmail.com</email>
+			<source></source>
+		</extension>
+	</addon>
 
 <addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
   <requires>
