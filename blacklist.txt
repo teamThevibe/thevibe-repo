@@ -80,3 +80,4 @@ service.fixabeksis
 program.AbeksisWizard
 repository.ToMeRepo
 plugin.program.senyorwizard
+script.module.urlresolver
