@@ -2275,6 +2275,24 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
+<addon id="script.tvaddons.debug.log" name="TVA Log Uploader" version="1.0.4" provider-name="tvaddons.ag">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Upload Debug Logs to Shareable Location</summary>
+        <description lang="en">This add-on gives you the ability to upload your Kodi error logs to a shareable location, and can also optionally email you the link to your logs. Before you get started, be sure to Toggle ON the “Enable debug logging” function under the SYSTEM -> Settings -> System -> Logging menu within Kodi.</description>
+        <language></language>
+        <platform>all</platform>
+        <website>https://www.tvaddons.ag/</website>
+        <source>https://github.com/tknorris/script.tvaddons.debug.log</source>
+        <forum>https://forums.tvaddons.ag/maintenance-tool/</forum>
+    </extension>
+</addon>
+
 <addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -3230,32 +3248,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <visible>true</visible>
       </item>
     </extension>
-</addon>
-
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.07.30.2" provider-name="mrknow" >
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" version="1.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.mrknow.urlresolver" />
-		<import addon="script.specto.media" />
-
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Mrknow fork of ...</summary>
-		<description lang="en">Mrknow fork of ..., support https://github.com/mrknow/filmkodi/issues.</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-		</disclaimer>
-		<forum>https://github.com/mrknow/filmkodi/issues</forum>
-		<source>http://filmkodi.com/repository/</source>
-		<website>http://filmkodi.com/en/wtyczka-specto-fork-genesis/</website>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.mdwww" name="We Watch Wrestling" version="1.0.2" provider-name="Mucky Duck">
@@ -4258,7 +4250,7 @@ http://www.hometheater.co.il</description>
    </extension>
 </addon>
 
-<addon id="plugin.video.welovesoaps" name="We Love Soaps" version="1.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.welovesoaps" name="We Love Soaps" version="1.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
@@ -5350,7 +5342,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="4.9.6"
+       version="4.9.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6258,7 +6250,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.16" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.16b" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
