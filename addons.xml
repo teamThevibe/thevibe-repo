@@ -3190,6 +3190,28 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
+<addon id="plugin.program.VibeSuperWizard" name=".The-Vibe Team Super Wizard" version="3.5" provider-name="The-Vibe Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">.The-Vibe Team Super Wizard</summary>
+    <description lang="en">The Vibe Team Wizard is the absolutely the ultimate wizard which allows you to install pre configure builds with no need of massing up with configuration. </description>
+    <description lang="he">הוויזארד של קבוצת ווייב הוא ללא ספק הכלי המושלם להתקנת קודי בקליק וללא צורך בהתעסקות מיותרת עם הגדרות</description>
+    <disclaimer lang="en">visit us at http://www.the-vibe.co.il</disclaimer>
+    <disclaimer lang="he">בקרו אותנו באתר שלנו  http://www.the-vibe.co.il</disclaimer>
+    <source>http://www.the-vibe.co.il</source>
+    <website>http://www.the-vibe.co.il</website>
+    <repo>http://repo.the-vibe.co.il</repo>
+    <blog>http://blog.the-vibe.co.il</blog>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.housemixes" name="House Mixes" version="1.1.6" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
