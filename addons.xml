@@ -2475,7 +2475,10 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="script.speedtestnet" name="ARNU Box Speed Tester" version="0.0.2" provider-name="ARNU Box / Josh.5">
+<addon id="script.speedtestnet"
+       name="ARNU Box Speed Tester"
+       version="1.0.0"
+       provider-name="ARNU Box / Josh.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -5391,7 +5394,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="4.9.8"
+       version="5.0.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
