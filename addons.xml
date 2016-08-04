@@ -4117,30 +4117,6 @@ http://www.hometheater.co.il</description>
     </extension>
 </addon>
 
-<addon id="service.tvheadend42"
-       name="Tvheadend 4.2"
-       version="7.0.102"
-       provider-name="libreelec.tv">
-  <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Tvheadend: a TV streaming server for Linux</summary>
-    <description>
-Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
-    </description>
-    <disclaimer>
-
-    </disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.youtubesearch"
 	name="Search YouTube" version="0.0.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
   <requires>
