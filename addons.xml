@@ -1113,7 +1113,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.4" provider-name="Kodi Senyor">
+<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.5" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.globalsearch"/>
@@ -1709,9 +1709,9 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Viko Super Wizard</summary>
-    <description lang="he">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]Огромное спасибо Kobi Senyor за его платформу которая теперь доступна для русских пользователей</description>
-    <description lang="ru">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]Огромное спасибо Kobi Senyor за его платформу которая теперь доступна для русских пользователей</description>
-    <description lang="en">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]Огромное спасибо Kobi Senyor за его платформу которая теперь доступна для русских пользователей</description>
+    <description lang="he">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]</description>
+    <description lang="ru">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]</description>
+    <description lang="en">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -4576,7 +4576,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="plugin.video.anarchitv"
        name="[COLOR yellow]Televiz[/COLOR]"
-       version="1.1.5"
+       version="1.1.6"
        provider-name="Kodi Senyor and Acidia Kodi">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
