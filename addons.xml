@@ -4117,12 +4117,9 @@ http://www.hometheater.co.il</description>
     </extension>
 </addon>
 
-<addon id="service.tvheadend42"
-       name="Tvheadend 4.2"
-       version="7.0.102"
-       provider-name="libreelec.tv">
+<addon id="service.tvheadend42" name="Tvheadend 4.2" version="7.0.102"  provider-name="openelec.tv">
   <requires>
-    <import addon="os.openelec.tv" version="5.0"/>
+    <import addon="os.openelec.tv" version="7.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
   </requires>
