@@ -1698,7 +1698,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.kodiviko" name="[COLOR white]*Viko Super Wizard*[/COLOR]" version="2.0.4" provider-name="Viko Farber">
+<addon id="plugin.video.kodiviko" name="[COLOR white]*Viko Super Wizard*[/COLOR]" version="2.0.5" provider-name="Viko Farber">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -1709,9 +1709,9 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Viko Super Wizard</summary>
-    <description lang="he">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]</description>
-    <description lang="ru">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]</description>
-    <description lang="en">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]</description>
+    <description lang="he">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]Огромное спасибо Kobi Senyor за его платформу которая теперь доступна для русских пользователей</description>
+    <description lang="ru">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]Огромное спасибо Kobi Senyor за его платформу которая теперь доступна для русских пользователей</description>
+    <description lang="en">В данном дополнение Вы найдёте всё что надо для настройки Коди, а так же можно установить полностью рабочую и настроенную Коди[CR]Первый и единственный русский пакет установки[CR]Пакет был собран и настроен для пользователей группы facebook - THE-VIBE.CO.IL/RU[CR][COLOR red]https://www.facebook.com/groups/vibe.ru/[/COLOR][CR]Огромное спасибо Kobi Senyor за его платформу которая теперь доступна для русских пользователей</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2878,10 +2878,13 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" version="2016.03.21" name="SportsDevil" provider-name="SportsDevil">
+<addon id="plugin.video.SportsDevil" version="2016.7.20" name="SportsDevil" provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
    <import addon="script.module.requests" />
+   <import addon="script.module.livestreamer" />
    <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
   </requires>
   <extension
@@ -4572,28 +4575,25 @@ We have no control over the links on any site that we provide a link to. If you 
 </addon>
 
 <addon id="plugin.video.anarchitv"
-       name="[COLOR yellow]AnarchiTV[/COLOR]"
-       version="1.1.4"
-       provider-name="Kodi Senyor">
+       name="[COLOR yellow]Televiz[/COLOR]"
+       version="1.1.5"
+       provider-name="Kodi Senyor and Acidia Kodi">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
- <import addon="script.module.beautifulsoup4" version="4.3.1" />
- <import addon="script.module.requests" version="2.3.0" />
- <import addon="script.module.html5lib" version="0.999.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>AnarchiTV</summary>
+    <summary>Televiz</summary>
     <description>
-	AnarchiTV Live tv channels - special thanks to The Mint Team for making great tv guide.
+	Televiz Live tv channels
     </description>
 	<disclaimer lang="en">
 	The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners
 	</disclaimer>
 	<license></license>
-    <website>anarchitv.co</website>
+    <website>Televiz.net</website>
     <email></email>
     <platform>all</platform>
   </extension>
