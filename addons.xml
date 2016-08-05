@@ -4573,7 +4573,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="plugin.video.anarchitv"
        name="[COLOR yellow]Televiz[/COLOR]"
-       version="1.1.6"
+       version="1.1.7"
        provider-name="Kodi Senyor and Acidia Kodi">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
@@ -7225,7 +7225,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.4" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.5" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
