@@ -1006,6 +1006,30 @@ If for any reason the check of a successful wake-up via ping is not possible or 
    </extension>
 </addon>
 
+<addon id="plugin.program.xbmchub.notifications" version="1.0.5"
+       name="Notifications" provider-name="tvaddons.ag">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>TVADDONS NEWS</summary>
+  	<description>Receive Important TVADDONS Notifications. Unsubscribe within Add-on Settings.</description>
+  	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://forums.tvaddons.ag/forum.php</forum>
+  	<website>http://www.tvaddons.ag/</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="2.0.80" name="Stream All The Sources" provider-name="tknorris">
     <requires>
@@ -5415,7 +5439,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.0.1"
+       version="5.0.2"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
