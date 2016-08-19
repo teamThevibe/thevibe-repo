@@ -6999,6 +6999,30 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
+<addon id="plugin.program.abeksis.notifications" version="1.0.1"
+       name="Notifications Abeksis" provider-name="tvaddons.ag">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary></summary>
+  	<description>Receive Important TVADDONS Notifications. Unsubscribe within Add-on Settings.</description>
+  	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+
 <addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="60.0.14" provider-name="Ppic|Frost|ronie|`Black|phil65|WayneD">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
