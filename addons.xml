@@ -1031,7 +1031,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.83" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.84" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -6217,11 +6217,12 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="plugin.video.all_wrestling"
        name="All Wrestling"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="RayW1986">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.module.liveresolver"  version="0.1.28"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
                	library="default.py">
