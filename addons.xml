@@ -2229,7 +2229,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.1.5" provider-name="kodi senyor">
+<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.1.6" provider-name="kodi senyor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	    <import addon="script.module.addon.common" />
