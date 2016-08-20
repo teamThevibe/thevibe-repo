@@ -6289,9 +6289,10 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdimperialstreams" name="Imperial Streams" version="1.0.5" provider-name="Mucky Duck">
+<addon id="plugin.video.mdimperialstreams" name="Imperial Streams" version="2.0.0" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.10.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.requests" />
@@ -6302,7 +6303,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Free content From The Web</summary>
-    <description lang="en">Stream Free Content From The Web.  Special Thanks Go Out To @McWaine For Spending The Time To Create The Icons For Each Individual Section.</description>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml As A Source In File Manager.  Special Thanks Go Out To @McWaine For Spending The Time To Create The Icons For Each Individual Section.</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
