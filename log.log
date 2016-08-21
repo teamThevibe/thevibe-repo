@@ -3,7 +3,6 @@ zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 failed to add the xml from addon plugin.program.ump
 Excluding for list index out of range
-Excluding for list index out of range
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
 repository.kodi-senyor addon version: 1.2.0
@@ -17,60 +16,36 @@ https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.
 repository.abeksis addon version: 1.0
 repository.abeksis.zip - ziptype is  true
 http://abeksis.com/repo/addons.xml
-script.module.myconnpy  is in blacklist - 
-plugin.video.pulsar  is in blacklist - 
-program.AbeksisWizard  is in blacklist - 
-plugin.video.snooker  is in blacklist - 
-skin.xonfluence  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
 plugin.video.uwc  is in blacklist - 
-service.fixabeksis  is in blacklist - 
-skin.ccm.helix  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-plugin.video.thewiz.wall  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
-script.AbeksisWizard  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-script.module.israeliveresolver  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
-plugin.video.AK-47  is in blacklist - 
-plugin.video.flix2kodi  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
-script.module.translit  is in blacklist - 
 repository.abeksis  is in blacklist - 
-script.module.urlresolver  is in blacklist - 
-skin.eminence.heb  is in blacklist - 
-skin.aeonmq6  is in blacklist - 
-plugin.video.woodrocket  is in blacklist - 
+script.AbeksisWizard  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+plugin.video.AK-47  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+skin.ccm.helix  is in blacklist - 
+script.module.translit  is in blacklist - 
 skin.eminence.he.2  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
 plugin.video.gordon.ura.cz  is in blacklist - 
-Downloading %s version:%s plugin.video.dextertv 2.0.5
-Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-Downloading %s version:%s service.subtitles.subscenter 4.0.3
-Downloding zip from: http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip
-Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip
-http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip
-Downloading %s version:%s plugin.program.ump 0.0.79
-Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.79.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.79.zip
-Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.79.zip
-http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.79.zip
-Downloading %s version:%s plugin.video.karaoketv 1.0.1.1
-Downloding zip from: http://abeksis.com/repo//plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip  To Path:  repo/plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip
-Saving:  repo/plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip
-http://abeksis.com/repo//plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip
-Downloading %s version:%s plugin.video.exodus 2.0.6.1
-Downloding zip from: http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip  To Path:  repo/plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip
-Saving:  repo/plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip
-http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip
-Downloading %s version:%s service.subtitles.subtitle 4.4.3
-Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
-Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
-http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
+plugin.video.snooker  is in blacklist - 
+plugin.video.woodrocket  is in blacklist - 
+script.module.urlresolver  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+skin.xonfluence  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
+program.AbeksisWizard  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+script.module.myconnpy  is in blacklist - 
+skin.eminence.heb  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
 Downloading %s version:%s service.subtitles.torec 1.0.9.2
 Downloding zip from: http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.0.9.2.zip  To Path:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.2.zip
 Saving:  repo/service.subtitles.torec/service.subtitles.torec-1.0.9.2.zip
@@ -79,21 +54,45 @@ Downloading %s version:%s plugin.video.hellenic.tv 3.5.5
 Downloding zip from: http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip  To Path:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 Saving:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
+Downloading %s version:%s service.subtitles.subtitle 4.4.3
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
+Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
+http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
+Downloading %s version:%s plugin.program.ump 0.0.79
+Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.79.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.79.zip
+Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.79.zip
+http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.79.zip
+Downloading %s version:%s plugin.video.dextertv 2.0.5
+Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Downloading %s version:%s plugin.video.exodus 2.0.6.1
+Downloding zip from: http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip  To Path:  repo/plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip
+Saving:  repo/plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip
+http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-2.0.6.1.zip
+Downloading %s version:%s plugin.video.karaoketv 1.0.1.1
+Downloding zip from: http://abeksis.com/repo//plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip  To Path:  repo/plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip
+Saving:  repo/plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip
+http://abeksis.com/repo//plugin.video.karaoketv/plugin.video.karaoketv-1.0.1.1.zip
+Downloading %s version:%s service.subtitles.subscenter 4.0.3
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip
+Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip
+http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-4.0.3.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-plugin.video.uwc  is in blacklist - 
 script.module.liveresolver  is in blacklist - 
-plugin.program.xbmchub.notifications  is in blacklist - 
 script.artwork.downloader  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
+plugin.program.xbmchub.notifications  is in blacklist - 
 script.module.urlresolver  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
 plugin.video.mrknowtv  is in blacklist - 
+plugin.video.mrknow  is in blacklist - 
 repository.filmkodi.com  is in blacklist - 
 plugin.video.xbmcfilm  is in blacklist - 
-plugin.video.mrknow  is in blacklist - 
 repository.exodus addon version: 1.0.1
 repository.exodus-1.0.1.zip - ziptype is  true
 https://offshoregit.com/exodus/addons.xml
@@ -167,14 +166,12 @@ zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 failed to add the xml from addon plugin.program.ump
 Excluding for list index out of range
-Excluding for list index out of range
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
 failed to add the xml from addon service.subtitles.subscenter
 zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 failed to add the xml from addon plugin.program.ump
-Excluding for list index out of range
 Excluding for list index out of range
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
