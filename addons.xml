@@ -5462,7 +5462,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.0.5"
+       version="5.0.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6240,7 +6240,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="plugin.video.all_wrestling"
        name="All Wrestling"
-       version="1.0.2"
+       version="1.1.0"
        provider-name="RayW1986">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -8334,7 +8334,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.livemix" name="Live Mix" version="1.0.6" provider-name="MetalKettle">
+<addon id="plugin.video.livemix" name="Live Mix" version="1.0.7" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
