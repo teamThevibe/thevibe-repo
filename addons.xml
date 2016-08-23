@@ -1154,7 +1154,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.5" provider-name="Kodi Senyor">
+<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.6" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.globalsearch"/>
