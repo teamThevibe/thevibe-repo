@@ -1154,7 +1154,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.6" provider-name="Kodi Senyor">
+<addon id="plugin.program.meta_search" name="Meta Search" version="1.0.7" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.globalsearch"/>
@@ -7878,7 +7878,7 @@ Plugin by @koderdude</description>
   </extension>
 </addon>
 
-<addon id="script.xbmc.debug.log" name="Kodi Log Uploader" version="14.1.0" provider-name="Tristan Fischer (sphere@dersphere.de)">
+<addon id="script.xbmc.debug.log" name="Kodi Log Uploader" version="14.2.0" provider-name="Tristan Fischer (sphere@dersphere.de)">
     <requires>
         <import addon="xbmc.python" version="2.12.0"/>
     </requires>
@@ -7953,6 +7953,7 @@ Plugin by @koderdude</description>
         <description lang="sv">Detta tillägg laddar upp dina loggar till Kodilogs.com[CR]DU får ett epostmeddelande med separata länkar till dom uppladdade loggfilerna</description>
         <description lang="tr">Bu eklenti kayıt defterinizi Kodilogs.com a gönderir[CR]Gönderilen kayıt defterlerine linklenen adreslerin bulunduğu bir email alacaksınız</description>
         <description lang="zh">此插件将上传日志到 Kodilogs.com[CR]你会收到一份含上传日志文件链接的邮件</description>
+        <broken>Upload website is no longer functional</broken>
     </extension>
 </addon>
 
@@ -8334,7 +8335,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.livemix" name="Live Mix" version="1.0.7" provider-name="MetalKettle">
+<addon id="plugin.video.livemix" name="Live Mix" version="1.0.8" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
