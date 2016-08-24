@@ -8075,6 +8075,30 @@ level.</description>
 	</extension>
 </addon>
 
+<addon id="plugin.video.moviepool"
+       name="MoviePool"
+       version="1.0.0"
+       provider-name="The Mint Team">
+  <requires>
+ <import addon="xbmc.python" version="2.1.0"/>
+ <import addon="script.module.beautifulsoup4" version="4.3.1" />
+ <import addon="script.module.requests" version="2.3.0" />
+ <import addon="script.module.html5lib" version="0.999.0" />
+ <import addon="script.module.metahandler" version="2.9.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+<description lang="he">
+</description>
+    <platform>all</platform>
+ <language>en</language>
+ <disclaimer></disclaimer>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
        version="1.4.9"
