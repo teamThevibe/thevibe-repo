@@ -6577,7 +6577,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="plugin.video.karaoketv"
        name="KaraokeTV"
-       version="1.0.1"
+       version="1.0.6"
        provider-name="Hybrid\Blade\Donatello">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
