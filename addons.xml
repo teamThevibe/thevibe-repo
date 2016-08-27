@@ -3827,6 +3827,24 @@ http://www.hometheater.co.il</description>
     </extension>
 </addon>
 
+<addon id="plugin.video.Karaokeil" name="[COLOR lime]Karaokeil[/COLOR]" version="1.0.0" provider-name="DNA">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">This plugin let you watch/sing karaoke.YOUTUBE</summary>
+    <description lang="en">This plugin let you watch/sing karaoke.YOUTUBE.holymankodi@gmail.com</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.makoVOD.video" name="Mako VOD" version="1.0.5" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.0"/>
@@ -5247,10 +5265,10 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-	<addon id="plugin.audio.KradioList" name="[COLOR lime]KradioList[/COLOR]" version="1.0.0" provider-name="DNA">
+	<addon id="plugin.audio.KradioList" name="[COLOR lime]KradioList[/COLOR]" version="1.0.1" provider-name="DNA">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="xbmc.addon"  version="12.1.0"/>
+			<import addon="xbmc.addon" version="12.1.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>audio</provides>
