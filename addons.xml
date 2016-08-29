@@ -5157,6 +5157,27 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
+<addon id="plugin.video.Brettus.Documentaries"
+	name="[COLOR white]B[/COLOR][COLOR red]rettus[/COLOR][COLOR white] D[/COLOR][COLOR red]ocumentaries[/COLOR]"
+	version="1.1.0"
+	provider-name="Brettus">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="Documentaries.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Documentaries</summary>
+    <description lang="en">.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="script.xbmcbackup"
     name="Backup" version="1.0.6" provider-name="robweber">
   <requires>
@@ -8265,7 +8286,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.5.0.b" provider-name="Markop159">
+<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.5.1.b" provider-name="Markop159">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
