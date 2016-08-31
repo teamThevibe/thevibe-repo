@@ -4783,7 +4783,7 @@ We have no control over the links on any site that we provide a link to. If you 
   </extension>
 </addon>
 
-<addon id="plugin.video.nostalgia" name="[COLOR blue]חינוכית[/COLOR]-[COLOR green]נוסטלגיה[/COLOR]" version="2.1.2" provider-name="[COLOR gold]ToMeR[/COLOR]">
+<addon id="plugin.video.nostalgia" name="[COLOR blue]חינוכית[/COLOR]-[COLOR white]נוסטלגיה[/COLOR]" version="2.1.3" provider-name="[COLOR gold]ToMeR[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
