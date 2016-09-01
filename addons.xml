@@ -1031,7 +1031,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.85" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.86" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1905,7 +1905,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		</extension>
 	</addon>
 
-<addon id="plugin.video.mdizle" name="IZLE" version="2.0.0" provider-name="Mucky Duck">
+<addon id="plugin.video.mdizle" name="IZLE" version="2.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -1918,7 +1918,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Free content From The Web</summary>
-    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckysmediaportal4kodi.ml In File Manager. Stream Free Content From The Web.</description>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml In File Manager. Stream Free Content From The Web.</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
@@ -7641,6 +7641,22 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     <summary lang="he">www.The-Vibe.co.il</summary>
     <description lang="en">Eminence is a skin that seeks simplicity, functionality, and customisability with a modern look</description>
     <description lang="he">המעטפת Eminence מתמקדת בפשטות, פונקציונליות, יכולת התאמה אישית ובעלת מראה מודרני</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.1.0" provider-name="Kodi Senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/art/gart.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Super Addon</summary>
+    <description lang="en">Super Addon</description>
+	<description lang="he">הרחבת קיצורי דרך להרחבות</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
