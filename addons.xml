@@ -2184,7 +2184,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
  </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.7" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.8" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -2202,7 +2202,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated scrapers[CR]Updated resolvers</news>
+		<news>Updated scrapers</news>
 	</extension>
 </addon>
 
