@@ -1068,7 +1068,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdspacemov" name="SPACE MOV" version="1.0.0" provider-name="Mucky Duck">
+<addon id="plugin.video.mdspacemov" name="SPACE MOV" version="1.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -1081,7 +1081,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Free content From The Web</summary>
-    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckysmediaportal4kodi.ml As A Source In File Manager. Stream Free Content From The Web</description>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml As A Source In File Manager. Stream Free Content From The Web</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
