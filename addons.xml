@@ -7740,6 +7740,37 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     </extension>
 </addon>
 
+<addon id="plugin.video.TDBToons"
+	     name="TDB Toons"
+	     version="1.03"
+	     provider-name="Team TDB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="3.0.14"/>
+    <import addon="script.module.liveresolver" version="0.1.48"/>
+	<import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Brought to you by Team TDB</summary>
+    <description lang="en">Brand new kids addon by Team TDB. Please follow us on Twitter for updates.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.tdbwizard.co.uk/forum</forum>
+    <website>http://www.tdbwizard.co.uk</website>
+    <email>tdbwizard@gmail.com</email>
+  </extension>
+</addon>
+
 <addon id="plugin.video.youtubeonfire"
        name="YouTube on Fire"
        version="1.0.3"
