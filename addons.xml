@@ -4805,7 +4805,7 @@ We have no control over the links on any site that we provide a link to. If you 
 	</extension>
 </addon>
 
-<addon id="plugin.video.sdarot.tv" name="Sdarot.tv Video" version="2.3.7" provider-name="cubicle">
+<addon id="plugin.video.sdarot.tv" name="Sdarot.tv Video" version="2.3.8" provider-name="cubicle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -8460,7 +8460,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.5.2.b" provider-name="Markop159">
+<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.5.3.rc1" provider-name="Markop159">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
