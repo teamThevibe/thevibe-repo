@@ -3322,7 +3322,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.audio.soundcloud" name="SoundCloud" version="2.0.5" provider-name="bromix">
+<addon id="plugin.audio.soundcloud" name="SoundCloud" version="2.0.6" provider-name="bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -5647,7 +5647,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.2.3"
+       version="5.2.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
