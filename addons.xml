@@ -8494,7 +8494,7 @@ level.</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.he-trailers" name="Hebrew Trailers" version="1.0.2" provider-name="kodi senyor">
+<addon id="plugin.video.he-trailers" name="Hebrew Trailers" version="1.0.3" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
