@@ -7810,6 +7810,21 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
+<addon id="plugin.program.cmbuild" name="Senyor Cinema Build" version="1.0.0" provider-name="kodi senyor">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	    <import addon="script.module.addon.common" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/img/download.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>סניור סינמה בילד</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.mdwatchtvseries" name="Watch TV Series" version="1.1.9" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
