@@ -83,3 +83,4 @@ plugin.program.senyorwizard
 script.module.urlresolver
 plugin.program.xbmchub.notifications
 plugin.video.SportsDevil
+plugin.video.meta

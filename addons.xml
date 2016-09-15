@@ -4791,6 +4791,21 @@ We have no control over the links on any site that we provide a link to. If you 
 
 </addon>
 
+<addon id="plugin.program.sfbuild" name="סניור פנומנל בילד" version="1.0.0" provider-name="kodi senyor">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	    <import addon="script.module.addon.common" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/img/download.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>סניור פנומנל בילד</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.module.addon.signals"
 	name="Addon Signals"
 	version="0.0.1"
@@ -5845,17 +5860,20 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.meta" name="KAOSbox Meta" version="2.1.0" provider-name="KAOSbox forked from Team Metate's Meta-video">
+<addon id="plugin.video.meta" name="Meta" version="1.1.5" provider-name="MetaTeam">
   <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="xbmc.python" version="2.20.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.futures" version="2.2.0"/>
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video audio</provides>
+    <provides>video</provides>
   </extension>
+
   <extension point="xbmc.service" library="service.py" start="[login|startup]">
   </extension>
+
   <extension point="kodi.context.item" library="context_playable.py">
     <provides>executable</provides>
       <item>
@@ -5863,6 +5881,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
         <visible>!System.HasAddon(context.meta) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.meta)</visible>
       </item>
   </extension>
+
   <extension point="kodi.context.item" library="context_tvshow.py">
     <provides>executable</provides>
       <item>
@@ -5870,20 +5889,16 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
         <visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.meta)</visible>
       </item>
   </extension>
+
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language></language>
-    <summary lang="en">TMDb, TVDb, AudioDb and LastFM browser</summary>
-    <description lang="en">Browse The MovieDb, The TVDb, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
-    <summary lang="nl">Blader door TMDb, TVDb, AudioDb en LastFM</summary>
-    <description lang="nl">Blader door The MovieDb, The TVDb, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberem het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
+    <summary>TMDB and TVDB media listing</summary>
+    <description>Browse TMDB and TVDB media</description>
     <supportedcontent>
       <content>movies</content>
       <content>tvshows</content>
       <content>episodes</content>
-      <content>musicvideos</content>
-      <content>music</content>
-      <content>livetv</content>
     </supportedcontent>
   </extension>
 </addon>
