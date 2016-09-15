@@ -5845,20 +5845,17 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.meta" name="Meta" version="1.1.5" provider-name="MetaTeam">
+<addon id="plugin.video.meta" name="KAOSbox Meta" version="2.1.0" provider-name="KAOSbox forked from Team Metate's Meta-video">
   <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.futures" version="2.2.0"/>
   </requires>
-
   <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
+    <provides>video audio</provides>
   </extension>
-
   <extension point="xbmc.service" library="service.py" start="[login|startup]">
   </extension>
-
   <extension point="kodi.context.item" library="context_playable.py">
     <provides>executable</provides>
       <item>
@@ -5866,7 +5863,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
         <visible>!System.HasAddon(context.meta) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.meta)</visible>
       </item>
   </extension>
-
   <extension point="kodi.context.item" library="context_tvshow.py">
     <provides>executable</provides>
       <item>
@@ -5874,16 +5870,20 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
         <visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.meta)</visible>
       </item>
   </extension>
-
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language></language>
-    <summary>TMDB and TVDB media listing</summary>
-    <description>Browse TMDB and TVDB media</description>
+    <summary lang="en">TMDb, TVDb, AudioDb and LastFM browser</summary>
+    <description lang="en">Browse The MovieDb, The TVDb, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
+    <summary lang="nl">Blader door TMDb, TVDb, AudioDb en LastFM</summary>
+    <description lang="nl">Blader door The MovieDb, The TVDb, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberem het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
     <supportedcontent>
       <content>movies</content>
       <content>tvshows</content>
       <content>episodes</content>
+      <content>musicvideos</content>
+      <content>music</content>
+      <content>livetv</content>
     </supportedcontent>
   </extension>
 </addon>
