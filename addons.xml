@@ -3667,7 +3667,7 @@ http://www.hometheater.co.il</description>
    </extension>
 </addon>
 
-<addon id="plugin.video.Vodil" name="Vod IL" version="1.2.0" provider-name="kodi senyor">
+<addon id="plugin.video.Vodil" name="Vod IL" version="1.2.1" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
@@ -5681,7 +5681,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.3.5"
+       version="5.3.6"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
