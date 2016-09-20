@@ -17,37 +17,41 @@ https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.
 repository.abeksis addon version: 1.0
 repository.abeksis.zip - ziptype is  true
 http://abeksis.com/repo/addons.xml
-repository.xbmc-israel  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
-plugin.video.snooker  is in blacklist - 
-plugin.video.thewiz.wall  is in blacklist - 
-plugin.video.SportsDevil  is in blacklist - 
-skin.eminence.heb  is in blacklist - 
 skin.xonfluence  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-plugin.video.flix2kodi  is in blacklist - 
-plugin.video.gordon.ura.cz  is in blacklist - 
-plugin.video.meta  is in blacklist - 
-program.AbeksisWizard  is in blacklist - 
-script.module.myconnpy  is in blacklist - 
-script.module.israeliveresolver  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
 script.AbeksisWizard  is in blacklist - 
-plugin.video.uwc  is in blacklist - 
-plugin.video.pulsar  is in blacklist - 
-script.module.urlresolver  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-skin.aeonmq6  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-service.fixabeksis  is in blacklist - 
 plugin.video.woodrocket  is in blacklist - 
-script.module.translit  is in blacklist - 
-plugin.video.AK-47  is in blacklist - 
+plugin.video.meta  is in blacklist - 
 skin.eminence.he.2  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
 plugin.video.filin.tv  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
+script.module.urlresolver  is in blacklist - 
+program.AbeksisWizard  is in blacklist - 
+script.module.translit  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+skin.eminence.heb  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+plugin.video.SportsDevil  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+plugin.video.AK-47  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+plugin.video.gordon.ura.cz  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+script.module.myconnpy  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
 repository.abeksis  is in blacklist - 
+plugin.video.snooker  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
+Downloading %s version:%s service.subtitles.subtitle 4.4.3
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
+Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
+http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
 Downloading %s version:%s plugin.video.hellenic.tv 3.5.5
 Downloding zip from: http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip  To Path:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 Saving:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
@@ -60,28 +64,20 @@ Downloading %s version:%s plugin.program.ump 0.0.79
 Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.79.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.79.zip
 Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.79.zip
 http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.79.zip
-Downloading %s version:%s service.subtitles.subtitle 4.4.3
-Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
-Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
-http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.4.3.zip
 Downloading %s version:%s plugin.video.dextertv 2.0.5
 Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-Downloading %s version:%s plugin.video.ZemTV-shani 5.3.9
-Downloding zip from: http://abeksis.com/repo//plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-5.3.9.zip  To Path:  repo/plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-5.3.9.zip
-Saving:  repo/plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-5.3.9.zip
-http://abeksis.com/repo//plugin.video.ZemTV-shani/plugin.video.ZemTV-shani-5.3.9.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
+script.module.liveresolver  is in blacklist - 
+plugin.program.xbmchub.notifications  is in blacklist - 
 repository.xbmc-israel  is in blacklist - 
 plugin.video.uwc  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-plugin.program.xbmchub.notifications  is in blacklist - 
-plugin.video.meta  is in blacklist - 
 script.module.urlresolver  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+plugin.video.meta  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
@@ -95,10 +91,10 @@ https://offshoregit.com/exodus/addons.xml
 repository.mdrepo addon version: 1.0.2
 repository.mdrepo-1.0.2.zip - ziptype is  true
 https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml
-Downloading %s version:%s plugin.video.mdmoviepool 1.0.1
-Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.1.zip  To Path:  repo/plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.1.zip
-Saving:  repo/plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.1.zip
-https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.1.zip
+Downloading %s version:%s plugin.video.mdmoviepool 1.0.2
+Downloding zip from: https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.2.zip  To Path:  repo/plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.2.zip
+Saving:  repo/plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.2.zip
+https://raw.githubusercontent.com/mucky-duck/mdrepo/master//plugin.video.mdmoviepool/plugin.video.mdmoviepool-1.0.2.zip
 adding addon from github: plugin.video.kmediatorrent
 https://github.com/jmarth/plugin.video.kmediatorrent
 Downloding zip from: https://github.com/jmarth/plugin.video.kmediatorrent/archive/master.zip  To Path:  repo/plugin.video.kmediatorrent/master.zip
