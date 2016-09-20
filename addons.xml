@@ -4472,6 +4472,24 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
     </extension>
 </addon>
 
+<addon id="plugin.video.topgear" name="Top Gear" version="1.0" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+	<import addon="script.module.urlresolver"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Made By Pipcan</summary>
+    <language>en</language>
+    <description lang="en">Jeremy, Richard and James talk about everything car-related. From new cars to how they're fuelled, this show has it all.
+</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.dateutil"
        name="dateutil"
        version="2.4.2"
