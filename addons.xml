@@ -3418,7 +3418,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.09.20.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.09.24.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -4828,7 +4828,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 </addon>
 
-<addon id="plugin.program.sfbuild" name="סניור פנומנל בילד" version="1.0.0" provider-name="kodi senyor">
+<addon id="plugin.program.sfbuild" name="Senyor Phenomenal Build" version="1.0.1" provider-name="kodi senyor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	    <import addon="script.module.addon.common" />
