@@ -5699,7 +5699,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.4.9"
+       version="5.5.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
