@@ -335,7 +335,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.8" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.9" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1031,7 +1031,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.91" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.93" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1044,7 +1044,10 @@ If for any reason the check of a successful wake-up via ping is not possible or 
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
+
+***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***
+        </description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
 		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
@@ -2791,7 +2794,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="script.pinsentry" name="PinSentry" version="2.2.3" provider-name="robwebset">
+<addon id="script.pinsentry" name="PinSentry" version="2.2.4" provider-name="robwebset">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -2830,8 +2833,8 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<description lang="pt_BR">Força o usuário a entrar o código Pin correto para lhe dar acesso aos conteúdos.</description>
 		<language></language>
 		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=228451</forum>
+		<license>See LICENSE.txt</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=292719</forum>
 		<source>https://github.com/robwebset/script.pinsentry</source>
 	</extension>
 </addon>
