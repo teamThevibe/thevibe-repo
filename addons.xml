@@ -5088,7 +5088,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
-	     version="2.6.0"
+	     version="2.6.1"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -7843,10 +7843,10 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.5.7" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.5.7"/>
+        <import addon="script.video.F4mProxy" version="2.6.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
