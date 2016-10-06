@@ -3097,6 +3097,22 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
+<addon id="program.apollo" version="2.4.0" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR]" provider-name="Apollo Group">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.requests" version="2.4.3" />
+		<import addon="script.exodus.artwork" version="1.0.4"/>
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.IBA" name="ערוץ 1" version="1.0.4" provider-name="Vmaster,Sbentin,Nordia">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -5772,7 +5788,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="ZemTV.com"
-       version="5.6.0"
+       version="5.6.1"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
