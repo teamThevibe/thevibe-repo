@@ -7904,7 +7904,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.2.7" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.2.8" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
