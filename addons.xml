@@ -3097,7 +3097,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="program.apollo" version="2.4.0" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR]" provider-name="Apollo Group">
+<addon id="program.apollo" version="2.4.2" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR]" provider-name="Apollo Group">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.requests" version="2.4.3" />
@@ -3473,6 +3473,34 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<description lang="he">חבילת אייקונים - סגנון טבעת</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.program.echowizard"
+	     name="[COLOR lime]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]"
+	     version="1.11"
+	     provider-name="Echo Coder">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="plugin.video.youtube"  optional="true"/>
+	<import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[COLOR lime]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]</summary>
+    <description lang="en">ECHO Wizard.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+  </extension>
 </addon>
 
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.45" provider-name="spoyser">
@@ -7904,7 +7932,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.2.8" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.2.9" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
