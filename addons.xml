@@ -468,6 +468,20 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
 </addon>
 
+<addon id="script.zen.artwork" version="1.1.0" name="Zen Artwork" provider-name="Zen">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Zen Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.wallaNew.video" name="וואלה" version="2.2.3" provider-name="sbentin shlomico">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1021,6 +1035,34 @@ If for any reason the check of a successful wake-up via ping is not possible or 
         <email>blazetamer@gmail.com</email>
         <source></source>
     </extension>
+</addon>
+
+<addon id="plugin.video.zen" version="1.2.10" name=" Zen" provider-name="Zen">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.zen.artwork" version="1.0.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="zen.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Zen Movies/TV Shows</summary>
+		<description lang="en">Watch Movies and TV Shows in High Definition and surround sound. Free providers might not work. Credits to Lambda and Tknorris for the code and most of the calls this addon is using on a modified base  --- TO GET THE BEST OUT OF THIS ADDON YOU NEED TO PAIR IT WITH REAL DEBRID AND ENABLE DEBRID SOURCES IN THE SETTINGS --- </description>
+		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
+		<platform>all</platform>
+		<website>http://schism-tv.net</website>
+		<news>Krypton changes - Added Movie Provider - Small code cosmetics - Added option to disable caching of sources</news>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/01.jpg</screenshot>
+			<screenshot>resources/screenshots/02.jpg</screenshot>
+			<screenshot>resources/screenshots/03.jpg</screenshot>
+        </assets>
+	</extension>
 </addon>
 
 <addon
