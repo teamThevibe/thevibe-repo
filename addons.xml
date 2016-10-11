@@ -1037,7 +1037,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.2.15" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.2.16" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1054,7 +1054,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Added DEB Header for Debrid links - Added HD Movies providers - Cache sources can now be disabled in the settings - Krypton changes - Added Movie Provider - Small code cosmetics - Added option to disable caching of sources</news>
+		<news>New Providers - Added DEB Header for Debrid links - Added HD Movies providers - Cache sources can now be disabled in the settings - Krypton changes - Added Movie Provider - Small code cosmetics - Added option to disable caching of sources</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
