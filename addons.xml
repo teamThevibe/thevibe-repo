@@ -5858,7 +5858,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.6.4"
+       version="5.6.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
