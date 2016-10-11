@@ -1037,7 +1037,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.2.14" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.2.15" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
