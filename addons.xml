@@ -1037,12 +1037,12 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.2.13" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.2.14" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.zen.artwork" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.zen.artwork" />
 		<import addon="script.module.requests" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
@@ -1054,7 +1054,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Added HD Movies providers - Cache sources can now be disabled in the settings - Krypton changes - Added Movie Provider - Small code cosmetics - Added option to disable caching of sources</news>
+		<news>Added DEB Header for Debrid links - Added HD Movies providers - Cache sources can now be disabled in the settings - Krypton changes - Added Movie Provider - Small code cosmetics - Added option to disable caching of sources</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -1119,12 +1119,12 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.95" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.96" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.7"/>
+        <import addon="script.module.tknorris.shared" version="0.0.10"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -3048,7 +3048,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
-<addon id="plugin.video.mdluckytv" name="LUCKY-TV" version="1.0.0" provider-name="Mucky Duck">
+<addon id="plugin.video.mdluckytv" name="LUCKY-TV" version="1.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
