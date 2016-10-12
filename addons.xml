@@ -138,6 +138,24 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
+<addon id="repository.echo" name="[COLOR lime]ECHO[/COLOR] [COLOR white]Repository[/COLOR]" version="1.02" provider-name="ECHO">
+	<extension point="xbmc.addon.repository" name="ECHO Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">http://www.tdbrepo.com/git/addons.xml</info>
+        <checksum>http://www.tdbrepo.com/git/addons.xml.md5</checksum>
+        <datadir zip="true">http://www.tdbrepo.com/git/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Echo Repository</summary>
+		<description>The official Echo repositroy.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.featherence.remote" name="Featherence Remote" version="0.1.0" provider-name="finalmakerr">
   <requires>
 	<import addon="xbmc.python" version="2.1.0"/>
@@ -3519,7 +3537,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.program.echowizard"
 	     name="[COLOR lime]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]"
-	     version="1.11"
+	     version="1.15"
 	     provider-name="Echo Coder">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
