@@ -2366,7 +2366,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.program.febuild" name="Senyor Featherence Build" version="1.1.0" provider-name="kodi senyor">
+<addon id="plugin.program.febuild" name="Senyor Featherence Build" version="1.1.1" provider-name="kodi senyor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	    <import addon="script.module.addon.common" />
@@ -5253,7 +5253,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
-	     version="2.6.2"
+	     version="2.6.3"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -5263,6 +5263,13 @@ We have no control over the links on any site that we provide a link to. If you 
     <extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
   </extension>
+
+     <extension point="xbmc.addon.repository" name="shani repository">
+        <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+        <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
+    </extension>
+
 
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
@@ -5876,7 +5883,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.6.7"
+       version="5.6.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
