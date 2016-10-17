@@ -2230,6 +2230,25 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
+<addon id="plugin.video.mdcmovieshd" name="C Movies HD" version="1.0.0" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Free Content From The Web</summary>
+    <description lang="en">Watch thousands of Free Movies and TV Shows starring your favorite actors. You can find them all on this channel powered by CMOVIESHD.COM. Content is updated Daily and always free!.  This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml In File Manager. Stream Free Content From The Web.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.streamengine" name="Stream Engine" version="1.2.1" provider-name="Mucky Duck,Stream Engine">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6677,6 +6696,25 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007. Logo is copyright of PushBullet Inc</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=204567</forum>
     <website>https://github.com/elbowz/xbmc.service.pushbullet</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mdpmovies" name="PMovies" version="1.0.0" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Free Content From The Web</summary>
+    <description lang="en">PMOVIES.TO - Just A Faster And Better Place For Watching Online Movies And TV Shows For Free.  This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml In File Manager. Stream Free Content From The Web.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
