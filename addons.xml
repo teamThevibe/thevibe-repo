@@ -3122,7 +3122,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.05.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.17.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3395,7 +3395,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.2.2" provider-name="h0d3nt3uf3l, jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.2.4" provider-name="h0d3nt3uf3l, jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -3613,7 +3613,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.10.06.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.10.17.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
