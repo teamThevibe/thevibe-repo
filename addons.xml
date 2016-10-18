@@ -406,6 +406,24 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
 </addon>
 
+<addon id="service.addons.autoupdate"
+    name="עדכון הרחבות וספריות אוטומטי" version="1.0.1" provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="repository.kodi-senyor" version="1.2.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="manual.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="default.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="he">עדכון הרחבות וספריות באופן אוטומטי</summary>
+    <description lang="he">עדכון  מאגרי רפו להרחבות וספריות באופן אוטומטי</description>
+    <language></language>
+  </extension>
+</addon>
+
   <addon id="script.artwork.downloader" name="Artwork Downloader" version="12.0.29.1" provider-name="Martijn">
   <requires>
     <import addon="xbmc.python"                 version="2.1.0"/>
@@ -8094,7 +8112,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.3.3" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.3.4" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
