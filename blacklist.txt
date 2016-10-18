@@ -84,3 +84,4 @@ script.module.urlresolver
 plugin.program.xbmchub.notifications
 plugin.video.SportsDevil
 plugin.video.meta
+plugin.program.abeksis.notifications

@@ -1757,6 +1757,24 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
 </addon>
 
+<addon id="plugin.program.senyor.movies.favourites"
+version="1.0.1"
+name="תפריט אישי סרטים"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor movies favourites fork of simple favourites from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 <addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid, Martijn" version="0.1.5">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -7538,30 +7556,6 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     <description lang="en">For Support and news go to http://zeusrepo.com
 	Video TV Shows Sport Latest and HD Movies 24/7 </description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.abeksis.notifications" version="1.0.1"
-       name="Notifications Abeksis" provider-name="tvaddons.ag">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" optional="true" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary></summary>
-  	<description>Receive Important TVADDONS Notifications. Unsubscribe within Add-on Settings.</description>
-  	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-  	<forum></forum>
-  	<website></website>
-  	<source></source>
-  	<email></email>
   </extension>
 </addon>
 
