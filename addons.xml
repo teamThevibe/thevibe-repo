@@ -543,7 +543,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.mdyesmovies" name="Yes Movies" version="1.0.0" provider-name="Mucky Duck">
+<addon id="plugin.video.mdyesmovies" name="Yes Movies" version="1.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -2214,6 +2214,25 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
+<addon id="plugin.program.senyor.tvshows.favourites"
+version="1.0.1"
+name="תפריט אישי סדרות"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.kodi-senyor" version="1.2.0" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor tvshows favourites fork of simple favourites from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 <addon id="service.watchdog" name="Watchdog" version="0.9.7" provider-name="takoi">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -2434,6 +2453,25 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<description>סניור פדרנס בילד</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.program.senyor.livetv.favourites"
+version="1.0.0"
+name="תפריט אישי טלוויזיה"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.kodi-senyor" version="1.2.0" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor livetv favourites fork of simple favourites from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
 </addon>
 
 <addon id="script.module.feedparser" name="feedparser" version="5.1.3" provider-name="Tristan Fischer (sphere@dersphere.de)">
@@ -8113,7 +8151,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.3.4" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.3.5" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
