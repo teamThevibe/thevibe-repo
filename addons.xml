@@ -5951,7 +5951,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.7.3"
+       version="5.7.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -7492,7 +7492,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.7" provider-name="Mucky Duck">
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.8" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
