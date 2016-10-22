@@ -6124,7 +6124,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="service.subtitles.torec"
        name="Torec"
-       version="1.1.0"
+       version="1.1.1"
        provider-name="slmosl">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
