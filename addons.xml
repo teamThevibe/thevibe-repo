@@ -3289,7 +3289,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.8" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.9" provider-name="MetalKettle">
   <requires>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -5989,7 +5989,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.7.7"
+       version="5.7.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -8355,7 +8355,7 @@ Plugin by @koderdude</description>
 </addon>
 
 
-<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.1" provider-name="MetalKettle">
 
   <requires>
 
