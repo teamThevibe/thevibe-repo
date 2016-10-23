@@ -7549,15 +7549,18 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.0.0" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.0" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
 		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.urlresolver" version="2.10.0"/>
+		<import addon="script.mrknow.urlresolver" version="2.10.0" optional="true"/>
+		<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests"/>
+		<import addon="script.module.nanscrapers"/>
 		<import addon="script.module.addon.common" version="2.0.0"/>
+		<import addon="script.video.F4mProxy" version="2.6.3" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio</provides>
@@ -7569,8 +7572,8 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 		<forum>http://noobsandnerds.com/support</forum>
 		<website>www.noobsandnerds.com</website>
 		<news></news>
-		<ref>1ad691c7b9550400bba955a1fc2497ce</ref>
-		<video_guide></video_guide>
+		<ref>35c3c72734f09f1136e9493e9d91c57f</ref>
+		<video_guide>y0w8zIH4lOY</video_guide>
 		<video_preview>WdKIzajiBBI</video_preview>
 	</extension>
 </addon>
