@@ -7549,7 +7549,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.2.0" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.1" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
