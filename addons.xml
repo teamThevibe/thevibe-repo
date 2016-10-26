@@ -8090,6 +8090,19 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
+<addon id="repository.apollo" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR] [COLOR white]Repo[/COLOR]" version="1.0.1" provider-name="ApolloGroup">
+	<extension point="xbmc.addon.repository" name="Apollo Group Repo">
+		<info>http://repo.apollogroup.tv/addons.xml</info>
+		<checksum>http://repo.apollogroup.tv/addons.xml.md5</checksum>
+		<datadir zip="true">http://repo.apollogroup.tv/</datadir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Apollo Group - Watch for the B-E-S-T!</summary>
+        <description>Facebook @KodiApolloGroup</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.module.liveresolver"
      name="LiveResolver"
      version="0.1.41"
