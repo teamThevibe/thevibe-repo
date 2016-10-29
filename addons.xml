@@ -2491,7 +2491,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.1.9" provider-name="kodi senyor">
+<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.2.0" provider-name="kodi senyor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	    <import addon="script.module.addon.common" />
@@ -4398,10 +4398,12 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.4.3" provider-name="kodi senyor">
+<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.4.4" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
+    <import addon="plugin.program.repotools"/>
+    <import addon="repository.kodi-senyor"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
