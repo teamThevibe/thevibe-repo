@@ -3197,7 +3197,7 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.29.2" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.30.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -7565,18 +7565,18 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.2.2" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.3" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" version="5.2.1" optional="true"/>
+		<import addon="plugin.video.youtube" version="5.2.1" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.mrknow.urlresolver" version="2.10.0" optional="true"/>
-		<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+		<import addon="script.mrknow.urlresolver" version="2016.10.29.2" />
+		<import addon="script.module.liveresolver" version="0.1.48" />
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.nanscrapers"/>
-		<import addon="script.module.addon.common" version="2.0.0"/>
-		<import addon="script.video.F4mProxy" version="2.6.3" optional="true"/>
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="script.module.nanscrapers" verion="0.5.1" />
+		<import addon="script.module.addon.common" version="2.0.0" />
+		<!--<import addon="script.video.F4mProxy" version="2.6.4" />-->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio</provides>
