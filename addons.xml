@@ -2506,6 +2506,25 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
+<addon id="plugin.video.wildhitz"
+       name="WildHitz"
+       version="1.0.3"
+       provider-name="DSS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">WildHitz</summary>
+    <description lang="en">WildHitz</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mdhdmovie14" name="HD-Movie14" version="1.0.5" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
