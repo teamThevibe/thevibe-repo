@@ -1805,13 +1805,14 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 <addon id="plugin.program.senyor.movies.favourites"
-version="1.0.1"
-name="תפריט אישי סרטים"
+version="1.0.2"
+name="Senyor Movies Favorites"
 provider-name="kodi senyor">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.kodi-senyor"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
 </extension>
@@ -2243,8 +2244,8 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 <addon id="plugin.program.senyor.tvshows.favourites"
-version="1.0.1"
-name="תפריט אישי סדרות"
+version="1.0.2"
+name="Senyor Tvshows Favourites"
 provider-name="kodi senyor">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
@@ -2484,8 +2485,8 @@ provider-name="kodi senyor">
 </addon>
 
 <addon id="plugin.program.senyor.livetv.favourites"
-version="1.0.0"
-name="תפריט אישי טלוויזיה"
+version="1.0.2"
+name="Senyor Livetv Favourites"
 provider-name="kodi senyor">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
@@ -6052,7 +6053,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.8.8"
+       version="5.8.9"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
