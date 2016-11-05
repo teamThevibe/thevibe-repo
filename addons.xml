@@ -2520,17 +2520,17 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.2.0" provider-name="kodi senyor">
+<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.2.5" provider-name="kodi senyor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-	    <import addon="script.module.addon.common" />
+		<import addon="repository.kodi-senyor" version="1.2.0" />
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
+	<extension point="xbmc.python.pluginsource" library="resources/art/default.py">
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary></summary>
-		<description>easy addons install (special thanks to tomer haimovitch)</description>
+		<description>easy addons install</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -7711,13 +7711,13 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.2.3" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.4" provider-name="Team Bob">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.mrknow.urlresolver" version="2016.10.29.2" />
-		<import addon="script.module.liveresolver" version="0.1.48" />
+		<import addon="script.mrknow.urlresolver" version="2016.10.30.2" />
+		<import addon="script.module.liveresolver" version="0.1.47" />
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests" version="2.9.1" />
 		<import addon="script.module.nanscrapers" verion="0.5.1" />
@@ -7729,7 +7729,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bob</summary>
-		<description lang="en">Bob - Unrestricted.  I Am Not A Dev...I Am Bob</description>
+		<description lang="en">Bob - Unrestricted. I Am Not A Dev... I Am Bob</description>
 		<platform>all</platform>
 		<forum>http://noobsandnerds.com/support</forum>
 		<website>www.noobsandnerds.com</website>
