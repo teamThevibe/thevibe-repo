@@ -1963,6 +1963,20 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
+<addon id="repository.meta" name="MetaTeam Repository" version="1.0.0" provider-name="MetaTeam">
+        <extension point="xbmc.addon.repository" name="MetaTeam Repository">
+                <info compressed="false">http://raw.github.com/metate/meta4kodi/master/addons.xml</info>
+                <checksum>http://raw.github.com/metate/meta4kodi/master/addons.xml.md5</checksum>
+                <datadir zip="true">http://raw.github.com/metate/meta4kodi/master/zip</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>MetaTeam Repository</summary>
+                <description>Addons by MetaTeam.</description>
+                <disclaimer></disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
+
 <addon id="script.video.newparentalcontrols" name="Parental Controls" version="1.5.4" provider-name="killdash9">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3245,7 +3259,7 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.11.1.2" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.11.4.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
