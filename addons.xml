@@ -1101,13 +1101,14 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.0" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.2" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
 		<provides>video</provides>
@@ -1118,7 +1119,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Add TMDB Custom List and Custom Api - Update FDL - Update Moviego - Onemovies</news>
+		<news>Update Providers, Added custom models and nanscrapers - Add TMDB Custom List and Custom Api - Update FDL - Update Moviego - Onemovies</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -3532,14 +3533,28 @@ provider-name="kodi senyor">
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.2.4" provider-name="h0d3nt3uf3l, jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.0" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
+        <news>
+- Added MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
+- Added optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
+- Added Maintenance section to Settings
+- Added 'Subtitle language(s) to download' selection to Settings -> General
+- API key set switching from Settings -> API (this will log you out)
+- Dual login only required if My Subscriptions folder is enabled at sign-in
+- Added optional URLResolver (Debrid) support to Settings -> Advanced -> Enable URLResolver (Debrid) support
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
         <summary lang="en">Plugin for YouTube</summary>
         <description lang="en">YouTube is one of the biggest video-sharing websites of the world.</description>
 		<summary lang="de">Plugin für YouTube</summary>
@@ -3560,7 +3575,9 @@ provider-name="kodi senyor">
         <description lang="bg">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
 		<summary lang="el">Πρόσθετο YouTube</summary>
         <description lang="el">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
-		<disclaimer lang="en"></disclaimer>
+        <summary lang="no">Tillegg for YouTube</summary>
+        <description lang="no">YouTube er en av verdens største nettsider for videodeling.</description>
+        <disclaimer lang="en"></disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
