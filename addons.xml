@@ -6997,7 +6997,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.all_wrestling" name="All Wrestling" version="2.0.0" provider-name="RayW1986">
+<addon id="plugin.video.all_wrestling" name="All Wrestling" version="2.0.1" provider-name="RayW1986">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.urlresolver"  version="2.1.2"/>
@@ -8105,8 +8105,8 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.projectm" name="[COLOR aqua]Project M[/COLOR]" version="1.2.0" provider-name="Merlin Project">
-  <requires>
+<addon id="plugin.video.projectm" name="[COLOR aqua]Project M[/COLOR]" version="1.2.1" provider-name="Merlin Project">
+<requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -8116,14 +8116,15 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" />
-	<import addon="script.module.liveresolver" />
     <import addon="script.module.simplejson" />
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="plugin.video.f4mTester" version="2.2.4"/>
-  </requires>
+    <import addon="plugin.video.f4mTester" />
+    <import addon="repository.shani" />
+    <import addon="repository.ytplugin" />
+</requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
