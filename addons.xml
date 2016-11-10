@@ -1101,7 +1101,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.4.3" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.4.4" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1119,7 +1119,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Update Moviegee</news>
+		<news>Putmovie and Moviefree</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -6377,6 +6377,32 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
         <description>Download and install addons for XBMC Israeli streaming repo for streaming sites</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.cbsn"
+       name="CBSN News"
+       version="3.0.2"
+       provider-name="t1m">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.t1mlib" version="1.0.14"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CBSN News Live</summary>
+    <description lang="en">CBSN News Live. CBSN News video feed with upto 1080 resolution.</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=216234</forum>
+    <website>www.cbsn.com</website>
+    <email></email>
+    <source>https://github.com/learningit/plugin.video.cbsn</source>
+  </extension>
 </addon>
 
 <addon id="plugin.video.TheEllenShow"
