@@ -3533,7 +3533,7 @@ provider-name="kodi senyor">
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.1" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.2" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -3548,6 +3548,7 @@ provider-name="kodi senyor">
 - Added 'Subtitle language(s) to download' selection to Settings -> General
 - API key set switching from Settings -> API (this will log you out)
 - Dual login only required if My Subscriptions folder is enabled at sign-in
+- API Tweaking and Various other Updates
         </news>
         <assets>
             <icon>icon.png</icon>
