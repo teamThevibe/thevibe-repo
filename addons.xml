@@ -6201,7 +6201,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.9.4"
+       version="5.9.5"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -7789,7 +7789,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
   </extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.2.5" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.2.6" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" />
@@ -7798,7 +7798,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 		<import addon="script.module.liveresolver" version="0.1.47" />
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests" version="2.9.1" />
-		<import addon="script.module.nanscrapers" verion="0.5.1" />
+		<import addon="script.module.nanscrapers" version="0.5.4" />
 		<import addon="script.module.addon.common" version="2.0.0" />
 		<!--<import addon="script.video.F4mProxy" version="2.6.4" />-->
 	</requires>
