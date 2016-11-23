@@ -5721,6 +5721,26 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
+<addon id="plugin.program.senyor.livetv.light.favourites"
+version="1.0.3"
+name="Senyor Live Tv Favorites Light"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.kodi-senyor"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor favourites fork of simple favourites from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 <addon id="repository.FTV-Guide-Repo" name="FTV Guide Repo" version="1.0" provider-name="rayw1986, bluezed">
 	<extension point="xbmc.addon.repository" name="FTV Guide Repository">
 		<info compressed="false">http://github.com/bluezed/FTV-Guide-Repo/raw/master/addons.xml</info>
@@ -5845,6 +5865,26 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <website>www.pseudotvlive.com</website>
         <forum>http://forum.kodi.tv/showthread.php?tid=244889</forum>
     </extension>
+</addon>
+
+<addon id="plugin.program.senyor.movies.light.favourites"
+version="1.0.3"
+name="Senyor Movies Favorites Light"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.kodi-senyor"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor movies favourites fork of simple favourites from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
 </addon>
 
 <addon id="plugin.video.Brettus.Documentaries"
@@ -6990,6 +7030,23 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.0.2" provider-name="Kodi Senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.kodi-senyor" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/art/gart.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Super Addon Light</summary>
+    <description lang="en">Super Addon</description>
+	<description lang="he">הרחבת קיצורי דרך להרחבות</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id='script.module.xbmc.helpers' version='2.0.0' name='Xbmc helpers module based on Parsedom module' provider-name='mrstealth'>
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -7624,6 +7681,26 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 	<source>https://github.com/finalmakerr/featherence/tree/master/master/plugin.video.featherence.docu</source>
 	<website>https://www.facebook.com/groups/featherence/</website>
   </extension>
+</addon>
+
+<addon id="plugin.program.senyor.tvshow.light.favourites"
+version="1.0.3"
+name="Senyor Tv Shows Favorites Light"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.kodi-senyor"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor favourites fork of simple favourites from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
 </addon>
 
 <addon id="plugin.video.uwc"
