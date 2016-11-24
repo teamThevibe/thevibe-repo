@@ -6263,7 +6263,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="5.9.8"
+       version="6.0.0"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6401,7 +6401,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
        version="1.2.0"
        provider-name="slmosl">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.common.plugin.cache" version="0.9.1"/>
     <import addon="script.module.beautifulsoup4" version="4.3.2"/>
   </requires>
@@ -8553,10 +8553,10 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.6" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.8" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.6.6"/>
+        <import addon="script.video.F4mProxy" version="2.6.8"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
