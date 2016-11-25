@@ -5580,7 +5580,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
-	     version="2.6.8"
+	     version="2.6.9"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -5591,11 +5591,6 @@ We have no control over the links on any site that we provide a link to. If you 
 		<provides>executable</provides>
   </extension>
 
-     <extension point="xbmc.addon.repository" name="shani repository">
-        <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
-        <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
-    </extension>
 
 
   <extension point="xbmc.addon.metadata">
@@ -6263,7 +6258,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.0.1"
+       version="6.0.2"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6280,14 +6275,6 @@ provider-name="kodi senyor">
             library="default.py">
         <provides>video</provides>
   </extension>
-
-   <extension point="xbmc.addon.repository" name="shani repository">
-        <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
-        <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
-    </extension>
-
-
 
 
   <extension point="xbmc.addon.metadata">
@@ -8553,7 +8540,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.8" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.9" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.6.8"/>
@@ -8562,11 +8549,6 @@ provider-name="kodi senyor">
         <provides>video</provides>
     </extension>
 
-    <extension point="xbmc.addon.repository" name="shani repository">
-        <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
-        <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
-    </extension>
 
     <extension point="xbmc.addon.metadata">
         <summary>f4mTester</summary>
