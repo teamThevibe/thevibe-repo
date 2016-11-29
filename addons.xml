@@ -5338,7 +5338,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="plugin.video.anarchitv"
        name="[COLOR yellow]Televiz[/COLOR]"
-       version="1.1.7"
+       version="1.1.8"
        provider-name="Kodi Senyor and Acidia Kodi">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
@@ -8577,7 +8577,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.4.0" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.4.1" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
