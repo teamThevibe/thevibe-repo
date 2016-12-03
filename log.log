@@ -18,75 +18,79 @@ https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.
 repository.abeksis addon version: 1.0
 repository.abeksis.zip - ziptype is  true
 http://abeksis.com/repo/addons.xml
-script.module.myconnpy  is in blacklist - 
-plugin.video.thewiz.wall  is in blacklist - 
-script.AbeksisWizard  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-program.AbeksisWizard  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
-script.module.israeliveresolver  is in blacklist - 
-plugin.video.snooker  is in blacklist - 
-plugin.video.pulsar  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
-plugin.video.SportsDevil  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
-skin.xonfluence  is in blacklist - 
-plugin.video.meta  is in blacklist - 
-skin.eminence.heb  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
-plugin.video.uwc  is in blacklist - 
-plugin.video.flix2kodi  is in blacklist - 
 plugin.video.gordon.ura.cz  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
-service.fixabeksis  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-plugin.video.woodrocket  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
-plugin.program.abeksis.notifications  is in blacklist - 
-skin.eminence.he.2  is in blacklist - 
-repository.abeksis  is in blacklist - 
-plugin.video.AK-47  is in blacklist - 
-script.module.translit  is in blacklist - 
 script.module.urlresolver  is in blacklist - 
 skin.aeonmq6  is in blacklist - 
-Downloading %s version:%s plugin.video.hellenic.tv 3.5.5
-Downloding zip from: http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip  To Path:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-Saving:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-Downloading %s version:%s plugin.program.ump 0.0.93
-Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.93.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.93.zip
-Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.93.zip
-http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.93.zip
+plugin.video.israelive  is in blacklist - 
+repository.abeksis  is in blacklist - 
+skin.eminence.he.2  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+plugin.video.meta  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+script.AbeksisWizard  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+plugin.video.AK-47  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+plugin.video.snooker  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
+plugin.video.SportsDevil  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+program.AbeksisWizard  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+plugin.program.abeksis.notifications  is in blacklist - 
+plugin.video.woodrocket  is in blacklist - 
+script.module.translit  is in blacklist - 
+script.module.myconnpy  is in blacklist - 
+skin.xonfluence  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+skin.eminence.heb  is in blacklist - 
 Downloading %s version:%s service.subtitles.subscenter 4.1.2
 Downloding zip from: http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-4.1.2.zip  To Path:  repo/service.subtitles.subscenter/service.subtitles.subscenter-4.1.2.zip
 Saving:  repo/service.subtitles.subscenter/service.subtitles.subscenter-4.1.2.zip
 http://abeksis.com/repo//service.subtitles.subscenter/service.subtitles.subscenter-4.1.2.zip
-Downloading %s version:%s plugin.video.dextertv 2.0.5
-Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Downloading %s version:%s plugin.video.hellenic.tv 3.5.5
+Downloding zip from: http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip  To Path:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
+Saving:  repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
+http://abeksis.com/repo//plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
 Downloading %s version:%s service.subtitles.subtitle 4.5.1
 Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
 Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
 http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
+Downloading %s version:%s plugin.program.ump 0.0.93
+Downloding zip from: http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.93.zip  To Path:  repo/plugin.program.ump/plugin.program.ump-0.0.93.zip
+Saving:  repo/plugin.program.ump/plugin.program.ump-0.0.93.zip
+http://abeksis.com/repo//plugin.program.ump/plugin.program.ump-0.0.93.zip
+Downloading %s version:%s plugin.video.youtube 5.3.6
+Downloding zip from: http://abeksis.com/repo//plugin.video.youtube/plugin.video.youtube-5.3.6.zip  To Path:  repo/plugin.video.youtube/plugin.video.youtube-5.3.6.zip
+Saving:  repo/plugin.video.youtube/plugin.video.youtube-5.3.6.zip
+http://abeksis.com/repo//plugin.video.youtube/plugin.video.youtube-5.3.6.zip
+Downloading %s version:%s plugin.video.dextertv 2.0.5
+Downloding zip from: http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip  To Path:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Saving:  repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+http://abeksis.com/repo//plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-plugin.video.meta  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
 plugin.program.xbmchub.notifications  is in blacklist - 
 script.artwork.downloader  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
 plugin.video.uwc  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
 script.module.urlresolver  is in blacklist - 
+plugin.video.meta  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
+repository.filmkodi.com  is in blacklist - 
+plugin.video.mrknow  is in blacklist - 
 plugin.video.xbmcfilm  is in blacklist - 
 plugin.video.mrknowtv  is in blacklist - 
-plugin.video.mrknow  is in blacklist - 
-repository.filmkodi.com  is in blacklist - 
 repository.exodus addon version: 1.0.1
 repository.exodus-1.0.1.zip - ziptype is  true
 https://offshoregit.com/exodus/addons.xml
@@ -104,11 +108,7 @@ Saving:  repo/service.autosubs/master.zip
 Updading addon from github:  service.subtitles.subscenter - 4.1.2
 https://github.com/XBMCil/service.subtitles.subscenter
 Downloding zip from: https://github.com/XBMCil/service.subtitles.subscenter/archive/master.zip  To Path:  repo/service.subtitles.subscenter/master.zip
-failed to get file: https://github.com/XBMCil/service.subtitles.subscenter/archive/master.zip
-An error occurred reading zip!
-[Errno 2] No such file or directory: 'repo/service.subtitles.subscenter/master.zip'
-
-cannot create a zip from githuburl  https://github.com/XBMCil/service.subtitles.subscenter
+Saving:  repo/service.subtitles.subscenter/master.zip
 Updading addon from github:  service.subtitles.subtitle - 4.5.1
 https://github.com/XBMCil/service.subtitles.subtitle
 Downloding zip from: https://github.com/XBMCil/service.subtitles.subtitle/archive/master.zip  To Path:  repo/service.subtitles.subtitle/master.zip
@@ -134,11 +134,7 @@ cannot create a zip from githuburl  https://github.com/Diblo/KODI-Popcorn-Time/t
 adding addon from github: script.module.httplib2
 https://github.com/XBMC-Addons/script.module.httplib2
 Downloding zip from: https://github.com/XBMC-Addons/script.module.httplib2/archive/master.zip  To Path:  repo/script.module.httplib2/master.zip
-failed to get file: https://github.com/XBMC-Addons/script.module.httplib2/archive/master.zip
-An error occurred reading zip!
-[Errno 2] No such file or directory: 'repo/script.module.httplib2/master.zip'
-
-cannot create a zip from githuburl  https://github.com/XBMC-Addons/script.module.httplib2
+Saving:  repo/script.module.httplib2/master.zip
 adding addon from github: script.module.youtube.dl
 https://github.com/ruuk/script.module.youtube.dl
 Downloding zip from: https://github.com/ruuk/script.module.youtube.dl/archive/master.zip  To Path:  repo/script.module.youtube.dl/master.zip
@@ -159,11 +155,7 @@ Saving:  repo/script.tv.show.next.aired/master.zip
 adding addon from github: plugin.video.quasar
 https://github.com/scakemyer/plugin.video.quasar
 Downloding zip from: https://github.com/scakemyer/plugin.video.quasar/archive/master.zip  To Path:  repo/plugin.video.quasar/master.zip
-failed to get file: https://github.com/scakemyer/plugin.video.quasar/archive/master.zip
-An error occurred reading zip!
-[Errno 2] No such file or directory: 'repo/plugin.video.quasar/master.zip'
-
-cannot create a zip from githuburl  https://github.com/scakemyer/plugin.video.quasar
+Saving:  repo/plugin.video.quasar/master.zip
 cant scan  File is not a zip file
 cant scan  File is not a zip file
 cant scan  File is not a zip file
