@@ -7447,6 +7447,27 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 	</extension>
 </addon>
 
+<addon id="context.subtitlesdialog.contextmenu" name="Subtitles Dialog - Contextmenu" version="1.0.0" provider-name="burekas">
+    <requires>
+      <import addon="xbmc.python" version="2.20.0"/>
+    </requires>
+    <extension point="kodi.context.item" library="addon.py">
+      <item>
+        <label>32000</label>
+        <visible>true</visible>
+      </item>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Adds a subtitles dialog contextmenu button</summary>
+        <description lang="en">Adds a subtitles dialog contextmenu button to context menu, so you can use the subtitles dialog also when kodi is not playing.[CR] You can use the manual search button to check if subtitles exist, or focus on an item and it will automatically check it for you without typing.[CR][CR]Only supported by these addons and above:[CR]Subscenter.org (4.1.2)[CR]Ktuvit.com (4.5.1)[CR]TheWiz Subs (1.1.4)[CR]Torec (1.2.1)</description>
+        <platform>all</platform>
+        <language></language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://www.hometheater.co.il/vt265959.html</forum>
+        <source></source>
+    </extension>
+</addon>
+
 <addon id="repository.search.db"
 		name="XBMC.ru search db"
 		version="1.1.12"
