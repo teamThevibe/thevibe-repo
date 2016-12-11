@@ -2336,6 +2336,28 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
+<addon id="plugin.video.ytlive"
+	name="Youtube Live Channels"
+	version="1.0.0"
+	provider-name="kodi senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Youtube live streams</summary>
+    <description lang="en">credits to coldkeys for the code used in this addon
+	</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.program.senyor.tvshows.favourites"
 version="1.0.2"
 name="Senyor Tvshows Favourites"
@@ -2460,6 +2482,22 @@ provider-name="kodi senyor">
     <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml As A Source In File Manager.  Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmon.simple" name="FilmOn Simple" version="0.1.5" provider-name="mhancoc7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FilmOn Simple</summary>
+    <description lang="en">Please visit [COLOR blue]https://www.tvaddons.ag[/COLOR] for addon support! Watch Live TV from FilmOn.</description>
+    <platform>all</platform>
+    <forum>https://forums.tvaddons.ag/mhancoc7-s-addons/</forum>
+    <website>https://tvaddons.ag/</website>
   </extension>
 </addon>
 
@@ -2775,13 +2813,14 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2016.12.10" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2016.12.11" name="RoiD" provider-name="RoiD">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
+   <import addon="repository.RoiD" />
   </requires>
   <extension
     point="xbmc.python.pluginsource"
@@ -8719,7 +8758,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.4.2" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.4.3" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8955,6 +8994,19 @@ Plugin by @koderdude</description>
 
   </extension>
 
+</addon>
+
+<addon id="repository.RoiD" name="[COLOR red]RoiD[/COLOR] Repository" version="1.0.0" provider-name="RoiD">
+    <extension point="xbmc.addon.repository" name="RoiD Repository">
+        <info compressed="false">http://roid.webutu.com/Addons/addons.xml</info>
+        <checksum>http://roid.webutu.com/Addons/addons.xml.md5</checksum>
+        <datadir zip="true">http://roid.webutu.com/Addons/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>RoiD repository</summary>
+        <description>RoiD offical repository </description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.exodus.metadata" version="1.0.0" name="Exodus Metadata" provider-name="Exodus">
