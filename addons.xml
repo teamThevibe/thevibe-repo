@@ -2338,7 +2338,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ytlive"
 	name="Youtube Live Channels"
-	version="1.0.0"
+	version="1.0.1"
 	provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
