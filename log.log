@@ -7,3 +7,5 @@ failed to add the xml from addon plugin.program.ump
 Excluding for list index out of range
 addon xml is not okrepository.magnetic
 Excluding for 'ascii' codec can't encode characters in position 20-25: ordinal not in range(128)
+[master 7e07385] update push in : Wed Dec 14 00:57:22 IST 2016
+ 1 file changed, 4 insertions(+), 2 deletions(-)
