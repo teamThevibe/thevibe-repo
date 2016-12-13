@@ -1,7 +1,0 @@
-{"Android ARM": "http://xbmcfilm.com/static/librtmp/Android/ARM/XBMC-Gotham-13/librtmp.so",
- "IOS ATV2": "http://xbmcfilm.com/static/librtmp/IOS/librtmp.0.dylib", 
- "Linux 32bit": "http://xbmcfilm.com/static/librtmp/Linux-x86/x86_32bit/librtmp.so.0", 
- "Linux 64bit": "http://xbmcfilm.com/static/librtmp/Linux-x86/x86_64bit/librtmp.so.0", 
- "RasPi": "http://xbmcfilm.com/static/librtmp/RasPi/librtmp.so.0", 
- "Windows - Run kodi as admin": "http://xbmcfilm.com/static/librtmp/Windows/RP-Compiled/librtmp.dll"
- }
