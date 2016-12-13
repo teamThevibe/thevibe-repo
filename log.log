@@ -1,6 +1,8 @@
 failed to add the xml from addon service.subtitles.subscenter
-zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
+Excluding for list index out of range
+addon xml is not okplugin.video.hellenic.tv
+Excluding for list index out of range
+addon xml is not okplugin.video.dextertv
 failed to add the xml from addon plugin.program.ump
 Excluding for list index out of range
 addon xml is not okrepository.magnetic
