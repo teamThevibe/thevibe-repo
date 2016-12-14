@@ -27,22 +27,24 @@ repository.kodi-senyor addon version: 1.2.0
 xml for repository:  repositories/repository.kodi-senyor-1.2.0.zip is not a repository
 no dir data in current repo
 repository.abeksis addon version: 1.0
+plugin.video.gdrive  is in blacklist - 
+plugin.video.SportsDevil  is in blacklist - 
 plugin.video.pulsar  is in blacklist - 
-skin.xonfluence  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+script.module.translit  is in blacklist - 
 no data in current repo xml
 repository.abeksis addon version: 1.0
 xml for repository:  repositories/repository.abeksis.zip is not a repository
 no dir data in current repo
 repository.thevibe addon version: 3.7.0
-repository.xbmc-israel  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
+plugin.video.meta  is in blacklist - 
 no data in current repo xml
 repository.thevibe addon version: 3.7.0
 xml for repository:  repositories/repository.thevibe-3.7.0.zip is not a repository
 no dir data in current repo
 repository.filmkodi.com addon version: 2.1.0
-plugin.video.mrknowtv  is in blacklist - 
 plugin.video.xbmcfilm  is in blacklist - 
+plugin.video.mrknowtv  is in blacklist - 
 plugin.video.mrknow  is in blacklist - 
 repository.filmkodi.com  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
