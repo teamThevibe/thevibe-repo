@@ -7,3 +7,134 @@ failed to add the xml from addon plugin.program.ump
 Excluding for list index out of range
 addon xml is not okrepository.magnetic
 Excluding for list index out of range
+addon xml is not ok‏‏plugin.program.cinemabuild
+Excluding for invalid literal for int() with base 10: '9d'
+addon xml is not okscript.extendedinfo
+failed to add the xml from addon service.subtitles.subtitle
+Finished updating addons xml and md5 files
+repository.kodi-senyor addon version: 1.2.0
+plugin.video.metalliq  is in blacklist - 
+plugin.program.senyorwizard  is in blacklist - 
+Downloading %s version:%s repository.magnetic 0.1.2
+Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip  To Path:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
+Saving:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
+https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip
+Downloading %s version:%s script.extendedinfo 4.9.9d
+Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip  To Path:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
+Saving:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
+https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip
+repository.kodi-senyor addon version: 1.2.0
+xml for repository:  repositories/repository.kodi-senyor-1.2.0.zip is not a repository
+no dir data in current repo
+repository.abeksis addon version: 1.0
+program.AbeksisWizard  is in blacklist - 
+no data in current repo xml
+repository.abeksis addon version: 1.0
+xml for repository:  repositories/repository.abeksis.zip is not a repository
+no dir data in current repo
+repository.thevibe addon version: 3.7.0
+plugin.video.uwc  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+no data in current repo xml
+repository.thevibe addon version: 3.7.0
+xml for repository:  repositories/repository.thevibe-3.7.0.zip is not a repository
+no dir data in current repo
+repository.filmkodi.com addon version: 2.1.0
+plugin.video.xbmcfilm  is in blacklist - 
+plugin.video.mrknow  is in blacklist - 
+plugin.video.mrknowtv  is in blacklist - 
+repository.filmkodi.com  is in blacklist - 
+repository.filmkodi.com addon version: 2.1.0
+xml for repository:  repositories/repository.filmkodi.com-2.1.0.zip is not a repository
+no dir data in current repo
+repository.exodus addon version: 1.0.1
+repository.exodus addon version: 1.0.1
+xml for repository:  repositories/repository.exodus-1.0.1.zip is not a repository
+no dir data in current repo
+repository.mdrepo addon version: 1.0.2
+repository.mdrepo addon version: 1.0.2
+xml for repository:  repositories/repository.mdrepo-1.0.2.zip is not a repository
+no dir data in current repo
+adding addon from github: plugin.video.kmediatorrent
+https://github.com/jmarth/plugin.video.kmediatorrent
+Downloding zip from: https://github.com/jmarth/plugin.video.kmediatorrent/archive/master.zip  To Path:  repo/plugin.video.kmediatorrent/master.zip
+Saving:  repo/plugin.video.kmediatorrent/master.zip
+adding addon from github: service.autosubs
+https://github.com/amet/service.autosubs
+Downloding zip from: https://github.com/amet/service.autosubs/archive/master.zip  To Path:  repo/service.autosubs/master.zip
+Saving:  repo/service.autosubs/master.zip
+Updading addon from github:  service.subtitles.subscenter - 4.1.2
+https://github.com/XBMCil/service.subtitles.subscenter
+Downloding zip from: https://github.com/XBMCil/service.subtitles.subscenter/archive/master.zip  To Path:  repo/service.subtitles.subscenter/master.zip
+Saving:  repo/service.subtitles.subscenter/master.zip
+Updading addon from github:  service.subtitles.subtitle - 4.5.1
+https://github.com/XBMCil/service.subtitles.subtitle
+Downloding zip from: https://github.com/XBMCil/service.subtitles.subtitle/archive/master.zip  To Path:  repo/service.subtitles.subtitle/master.zip
+Saving:  repo/service.subtitles.subtitle/master.zip
+adding addon from github: service.subtitles.torec
+https://github.com/XBMCil/service.subtitles.torec
+Downloding zip from: https://github.com/XBMCil/service.subtitles.torec/archive/master.zip  To Path:  repo/service.subtitles.torec/master.zip
+Saving:  repo/service.subtitles.torec/master.zip
+metadata.hebmovies.wiz  is in blacklist - 
+https://github.com/bromix/plugin.video.youtube//raw/master/addon.xml
+https://github.com/bromix/plugin.video.youtube/
+cant get github xml !
+HTTP Error 404: Not Found
+
+adding addon from github: plugin.video.kodipopcorntime
+https://github.com/Diblo/KODI-Popcorn-Time/tree/master/plugin.video.kodipopcorntime
+Downloding zip from: https://github.com/Diblo/KODI-Popcorn-Time/tree/master/plugin.video.kodipopcorntime/archive/master.zip  To Path:  repo/plugin.video.kodipopcorntime/master.zip
+Saving:  repo/plugin.video.kodipopcorntime/master.zip
+An error occurred reading zip!
+File is not a zip file
+
+cannot create a zip from githuburl  https://github.com/Diblo/KODI-Popcorn-Time/tree/master/plugin.video.kodipopcorntime
+adding addon from github: script.module.httplib2
+https://github.com/XBMC-Addons/script.module.httplib2
+Downloding zip from: https://github.com/XBMC-Addons/script.module.httplib2/archive/master.zip  To Path:  repo/script.module.httplib2/master.zip
+Saving:  repo/script.module.httplib2/master.zip
+adding addon from github: script.module.youtube.dl
+https://github.com/ruuk/script.module.youtube.dl
+Downloding zip from: https://github.com/ruuk/script.module.youtube.dl/archive/master.zip  To Path:  repo/script.module.youtube.dl/master.zip
+Saving:  repo/script.module.youtube.dl/master.zip
+adding addon from github: plugin.video.animeram
+https://github.com/DxCx/plugin.video.animeram
+Downloding zip from: https://github.com/DxCx/plugin.video.animeram/archive/master.zip  To Path:  repo/plugin.video.animeram/master.zip
+Saving:  repo/plugin.video.animeram/master.zip
+https://github.com/amet/service.subtitles.opensubtitles/raw/master/addon.xml
+https://github.com/amet/service.subtitles.opensubtitles
+cant get github xml !
+HTTP Error 404: Not Found
+
+adding addon from github: script.tv.show.next.aired
+https://github.com/WayneD/script.tv.show.next.aired
+Downloding zip from: https://github.com/WayneD/script.tv.show.next.aired/archive/master.zip  To Path:  repo/script.tv.show.next.aired/master.zip
+Saving:  repo/script.tv.show.next.aired/master.zip
+adding addon from github: plugin.video.quasar
+https://github.com/scakemyer/plugin.video.quasar
+Downloding zip from: https://github.com/scakemyer/plugin.video.quasar/archive/master.zip  To Path:  repo/plugin.video.quasar/master.zip
+Saving:  repo/plugin.video.quasar/master.zip
+adding addon from github: context.subtitlesdialog.contextmenu
+https://github.com/burekas7/context.subtitlesdialog.contextmenu
+Downloding zip from: https://github.com/burekas7/context.subtitlesdialog.contextmenu/archive/master.zip  To Path:  repo/context.subtitlesdialog.contextmenu/master.zip
+Saving:  repo/context.subtitlesdialog.contextmenu/master.zip
+removing files larger than : 96
+cant scan  list index out of range  -  plugin.video.hellenic.tv
+cant scan  list index out of range  -  plugin.video.dextertv
+cant scan  list index out of range  -  ‏‏plugin.program.cinemabuild
+failed to add the xml from addon service.subtitles.subscenter
+Excluding for list index out of range
+addon xml is not okplugin.video.hellenic.tv
+Excluding for list index out of range
+addon xml is not okplugin.video.dextertv
+failed to add the xml from addon plugin.program.ump
+Excluding for list index out of range
+addon xml is not okrepository.magnetic
+Excluding for list index out of range
+addon xml is not ok‏‏plugin.program.cinemabuild
+Excluding for invalid literal for int() with base 10: '9d'
+addon xml is not okscript.extendedinfo
+failed to add the xml from addon service.subtitles.subtitle
+Finished updating addons xml and md5 files
+removing files larger than : 96
+repo Updated Succefully
