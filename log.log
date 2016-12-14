@@ -13,8 +13,8 @@ addon xml is not okscript.extendedinfo
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
 repository.kodi-senyor addon version: 1.2.0
-plugin.program.senyorwizard  is in blacklist - 
 plugin.video.metalliq  is in blacklist - 
+plugin.program.senyorwizard  is in blacklist - 
 Downloading %s version:%s script.extendedinfo 4.9.9d
 Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip  To Path:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
 Saving:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
@@ -27,31 +27,24 @@ repository.kodi-senyor addon version: 1.2.0
 xml for repository:  repositories/repository.kodi-senyor-1.2.0.zip is not a repository
 no dir data in current repo
 repository.abeksis addon version: 1.0
-plugin.video.football.today  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
-skin.eminence.he.2  is in blacklist - 
-script.module.urlresolver  is in blacklist - 
-skin.aeonmq6  is in blacklist - 
 plugin.video.pulsar  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
-script.module.myconnpy  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-script.module.israeliveresolver  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
+skin.xonfluence  is in blacklist - 
 no data in current repo xml
 repository.abeksis addon version: 1.0
 xml for repository:  repositories/repository.abeksis.zip is not a repository
 no dir data in current repo
 repository.thevibe addon version: 3.7.0
+repository.xbmc-israel  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
 no data in current repo xml
 repository.thevibe addon version: 3.7.0
 xml for repository:  repositories/repository.thevibe-3.7.0.zip is not a repository
 no dir data in current repo
 repository.filmkodi.com addon version: 2.1.0
-repository.filmkodi.com  is in blacklist - 
+plugin.video.mrknowtv  is in blacklist - 
 plugin.video.xbmcfilm  is in blacklist - 
 plugin.video.mrknow  is in blacklist - 
-plugin.video.mrknowtv  is in blacklist - 
+repository.filmkodi.com  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 xml for repository:  repositories/repository.filmkodi.com-2.1.0.zip is not a repository
 no dir data in current repo
