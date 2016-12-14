@@ -15,37 +15,43 @@ Finished updating addons xml and md5 files
 repository.kodi-senyor addon version: 1.2.0
 plugin.video.metalliq  is in blacklist - 
 plugin.program.senyorwizard  is in blacklist - 
-Downloading %s version:%s script.extendedinfo 4.9.9d
-Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip  To Path:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
-Saving:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
-https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip
 Downloading %s version:%s repository.magnetic 0.1.2
 Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip  To Path:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
 Saving:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
 https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip
+Downloading %s version:%s script.extendedinfo 4.9.9d
+Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip  To Path:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
+Saving:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
+https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip
 repository.kodi-senyor addon version: 1.2.0
 xml for repository:  repositories/repository.kodi-senyor-1.2.0.zip is not a repository
 no dir data in current repo
 repository.abeksis addon version: 1.0
-plugin.video.gdrive  is in blacklist - 
-plugin.video.SportsDevil  is in blacklist - 
-plugin.video.pulsar  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
+plugin.video.meta  is in blacklist - 
+plugin.video.gordon.ura.cz  is in blacklist - 
+script.AbeksisWizard  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+script.module.urlresolver  is in blacklist - 
 script.module.translit  is in blacklist - 
 no data in current repo xml
 repository.abeksis addon version: 1.0
 xml for repository:  repositories/repository.abeksis.zip is not a repository
 no dir data in current repo
 repository.thevibe addon version: 3.7.0
-plugin.video.meta  is in blacklist - 
-no data in current repo xml
+cant open new addon.xml!
+HTTP Error 500: Internal Server Error
+ http://repo.the-vibe.co.il/Repo/xml
+no updated to repo!
+'int' object is not iterable
+
 repository.thevibe addon version: 3.7.0
 xml for repository:  repositories/repository.thevibe-3.7.0.zip is not a repository
 no dir data in current repo
 repository.filmkodi.com addon version: 2.1.0
-plugin.video.xbmcfilm  is in blacklist - 
 plugin.video.mrknowtv  is in blacklist - 
 plugin.video.mrknow  is in blacklist - 
+plugin.video.xbmcfilm  is in blacklist - 
 repository.filmkodi.com  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 xml for repository:  repositories/repository.filmkodi.com-2.1.0.zip is not a repository
