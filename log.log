@@ -13,55 +13,39 @@ addon xml is not okscript.extendedinfo
 failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
 repository.kodi-senyor addon version: 1.2.0
-plugin.program.senyorwizard  is in blacklist - 
 plugin.video.metalliq  is in blacklist - 
-Downloading %s version:%s repository.magnetic 0.1.2
-Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip  To Path:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
-Saving:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
-https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip
+plugin.program.senyorwizard  is in blacklist - 
 Downloading %s version:%s script.extendedinfo 4.9.9d
 Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip  To Path:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
 Saving:  repo/script.extendedinfo/script.extendedinfo-4.9.9d.zip
 https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//script.extendedinfo/script.extendedinfo-4.9.9d.zip
+Downloading %s version:%s repository.magnetic 0.1.2
+Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip  To Path:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
+Saving:  repo/repository.magnetic/repository.magnetic-0.1.2.zip
+https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//repository.magnetic/repository.magnetic-0.1.2.zip
 repository.kodi-senyor addon version: 1.2.0
 xml for repository:  repositories/repository.kodi-senyor-1.2.0.zip is not a repository
 no dir data in current repo
 repository.abeksis addon version: 1.0
-repository.xbmc-israel  is in blacklist - 
+plugin.video.SportsDevil  is in blacklist - 
 skin.eminence.heb  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-plugin.video.meta  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
-script.AbeksisWizard  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
-repository.abeksis  is in blacklist - 
-plugin.video.uwc  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-plugin.video.woodrocket  is in blacklist - 
-plugin.video.snooker  is in blacklist - 
-script.module.myconnpy  is in blacklist - 
-plugin.video.gdrive  is in blacklist - 
-script.module.urlresolver  is in blacklist - 
-skin.xonfluence  is in blacklist - 
-service.fixabeksis  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
 no data in current repo xml
 repository.abeksis addon version: 1.0
 xml for repository:  repositories/repository.abeksis.zip is not a repository
 no dir data in current repo
 repository.thevibe addon version: 3.7.0
-plugin.program.xbmchub.notifications  is in blacklist - 
 plugin.video.meta  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
 no data in current repo xml
 repository.thevibe addon version: 3.7.0
 xml for repository:  repositories/repository.thevibe-3.7.0.zip is not a repository
 no dir data in current repo
 repository.filmkodi.com addon version: 2.1.0
 plugin.video.mrknowtv  is in blacklist - 
-plugin.video.xbmcfilm  is in blacklist - 
 plugin.video.mrknow  is in blacklist - 
 repository.filmkodi.com  is in blacklist - 
+plugin.video.xbmcfilm  is in blacklist - 
 repository.filmkodi.com addon version: 2.1.0
 xml for repository:  repositories/repository.filmkodi.com-2.1.0.zip is not a repository
 no dir data in current repo
