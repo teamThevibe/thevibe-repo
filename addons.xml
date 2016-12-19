@@ -4285,11 +4285,11 @@ http://www.hometheater.co.il</description>
 	</extension>
 </addon>
 
-<addon id="repository.thevibe" name="TheVibe Team Repository" version="3.7.0" provider-name="TheVibe Team">
+<addon id="repository.thevibe" name="TheVibe Team Repository" version="4.0" provider-name="TheVibe Team">
   <extension point="xbmc.addon.repository" name=".TheVibe Repository ">
-    <info compressed="false">http://repo.the-vibe.co.il/Repo/xml</info>
+    <info compressed="false">https://github.com/teamThevibe/thevibe-repo/raw/master/addons.xml</info>
     <checksum>http://repo.the-vibe.co.il/Repo/md5</checksum>
-    <datadir zip="true">http://repo.the-vibe.co.il/Repo/</datadir>
+    <datadir zip="true">https://github.com/teamThevibe/thevibe-repo/raw/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>The-Vibe Team Repository</summary>
