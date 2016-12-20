@@ -8102,7 +8102,7 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="resource.images.skinbackgrounds.FilmDesign" name="Skin Backgrounds - Film Desgin (Hebrew)" version="1.0.0" provider-name="Adir Abutbul, Benny Buchnik">
+<addon id="resource.images.skinbackgrounds.FilmDesign" name="Skin Backgrounds - Film Desgin (Hebrew)" version="1.0.1" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
