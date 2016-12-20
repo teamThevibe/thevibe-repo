@@ -8102,6 +8102,20 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
+<addon id="resource.images.skinbackgrounds.FilmDesign" name="Skin Backgrounds - Film Desgin (Hebrew)" version="1.0.0" provider-name="Adir Abutbul, Benny Buchnik">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin backgrounds Pack - Film Desgin</summary>
+		<description lang="en">Skin backgrounds Pack - Film Desgin</description>
+		<summary lang="he">Film Desginם - סגנון וייב</summary>
+		<description lang="he">Film Desgin ם - סגנון וייב</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.mdfubar" name=".F.U.B.A.R." version="1.1.5" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
