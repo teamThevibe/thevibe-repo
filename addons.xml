@@ -1417,7 +1417,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 
 <addon id="plugin.video.kissanime"
        name="KissAnime"
-       version="0.9.19"
+       version="0.9.20"
        provider-name="The[COLOR tan]Highway[/COLOR], Marquerite">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -1837,12 +1837,13 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="1.1.7" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="1.1.8" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.requests" />
+	<import addon="script.module.muckys.common"/>
 	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -3705,16 +3706,17 @@ provider-name="kodi senyor">
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.6" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.7" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
         <news>
-[add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive Add-on
+[add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive add-on or SPMC 16 w/ builtin-in
 [add] optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
 [add] Maintenance section to Settings
 [add] 'Subtitle language(s) to download' selection to Settings -> General
@@ -4553,7 +4555,7 @@ http://www.hometheater.co.il</description>
 	</extension>
 </addon>
 
-<addon id="service.subtitles.thewiz" name="TheWiz Subs" version="1.2.3" provider-name="TheWiz">
+<addon id="service.subtitles.thewiz" name="TheWiz Subs" version="1.2.4" provider-name="TheWiz">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.module.requests" version="2.4.3" />
