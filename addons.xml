@@ -9130,7 +9130,7 @@ six v1.10.0 from https://pypi.python.org/pypi/six</description>
     </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.44">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.45">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
