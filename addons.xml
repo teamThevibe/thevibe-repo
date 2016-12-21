@@ -2842,7 +2842,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2016.12.17" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2016.12.20" name="RoiD" provider-name="RoiD">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -5825,7 +5825,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
-	     version="2.7.8"
+	     version="2.7.9"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -6503,7 +6503,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.0.8"
+       version="6.0.9"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
