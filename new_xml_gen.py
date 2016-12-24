@@ -3,7 +3,7 @@
 #Still not in alph (soon)
 #Dunes.
 #  find repo -type f -size +96M |xargs -n1 ls -alh
-#version 0.300
+#version 0.310
 import os
 import pdb
 import re
@@ -457,9 +457,11 @@ class Generator:#update addons.xml to reflect local addon folder
                                 if(len(_zip))>1:
                                	        _zip = sorta_zip(_zip)
                                         _zip = os.path.join( base+ os.sep+ addon, _zip)
-                                else:
+                                if(len(_zip))==1:
                                         _zip=_zip[0]
                                         _zip = os.path.join( base+ os.sep+ addon, _zip )
+                                else:
+                                    continue
                                 # read zip file
                                 try:
                                      zip = zipfile.ZipFile( open( _zip, 'rb' ) )
