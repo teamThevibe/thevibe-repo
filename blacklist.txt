@@ -85,3 +85,8 @@ plugin.program.xbmchub.notifications
 plugin.video.SportsDevil
 plugin.video.meta
 plugin.program.abeksis.notifications
+service.subtitles.subscenter
+plugin.video.hellenic.tv
+plugin.video.dextertv
+plugin.program.ump
+repository.magnetic
