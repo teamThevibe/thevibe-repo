@@ -182,25 +182,23 @@ failed to add the xml from addon service.subtitles.subscenter
 zip is not ok: repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
 zip is not ok: repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
 Excluding for list index out of range
-zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-failed to add the xml from addon plugin.program.ump
-zip is not ok: repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
-Excluding for list index out of range
-Excluding for list index out of range
-failed to add the xml from addon service.subtitles.subtitle
-zip is not ok: repo/plugin.video.AK-47/plugin.video.AK-47-1.1.1.zip
-Finished updating addons xml and md5 files
-failed to add the xml from addon service.subtitles.subscenter
-zip is not ok: repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
-zip is not ok: repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
-Excluding for list index out of range
-zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-failed to add the xml from addon plugin.program.ump
-zip is not ok: repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
-Excluding for list index out of range
-Excluding for list index out of range
-failed to add the xml from addon service.subtitles.subtitle
+zip is not ok: repo/plugin.video.hellenic.tv/plugin[master 9dcccd1] update push in : Sun Dec 25 03:00:57 IST 2016
+ 26 files changed, 3425 insertions(+), 2802 deletions(-)
+ rewrite log.log (97%)
+ mode change 100644 => 100755 new_xml_gen.py
+ rename new_xml_gen_org.py => new_xml_gen_000.py (69%)
+ mode change 100755 => 100644
+ delete mode 100644 repo/plugin.program.abeksis.notifications/plugin.program.abeksis.notifications-1.0.1.zip
+ delete mode 100644 repo/program.AbeksisWizard/program.AbeksisWizard-2.0.6.zip
+ delete mode 100644 repo/repository.abeksis/repository.abeksis-1.0.3.zip
+ delete mode 100644 repo/script.AbeksisWizard/script.AbeksisWizard-0.0.4.zip
+ delete mode 100644 repo/service.fixabeksis/service.fixabeksis-1.0.0.zip
+ delete mode 100644 repo/skin.eminence.he.2/skin.eminence.he.2-0.9.49.zip
+ delete mode 100644 repo/skin.eminence.heb/skin.eminence.heb-1.3.zip
+ mode change 100755 => 100644 repo/skin.tvOS-X-jarvisheb/fanart.jpg
+ mode change 100755 => 100644 repo/skin.tvOS-X-jarvisheb/icon.png
+ mode change 100755 => 100644 repo/skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
+ delete mode 100644 repo/skin.xonfluence/skin.xonfluence-3.1.6.zip
+es.subtitle
 zip is not ok: repo/plugin.video.AK-47/plugin.video.AK-47-1.1.1.zip
 Finished updating addons xml and md5 files
