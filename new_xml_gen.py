@@ -3,7 +3,7 @@
 #Still not in alph (soon)
 #Dunes.
 #  find repo -type f -size +96M |xargs -n1 ls -alh
-#version 0.322
+#version 0.325
 import os
 import pdb
 import re
@@ -21,9 +21,6 @@ import urllib.request
 from urllib.request import urlopen
 import urllib
 import xml.etree.ElementTree as ET
-from imp import reload
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 UpdateOnly=False
 repo_xml="addons.xml"
@@ -224,7 +221,7 @@ def getreposlist(repos_to_scan_folder):
     return addons
 
 def compblacklist(addon):
-    print("checking if addon is blacklisted: " + addon)
+    print("checking if addon is blacklisted: " + addon.encode('utf-8'))
     BLAF=getblacklist(BlackListAddonFIle)
     for addon_black in BLAF:
         if addon.find(addon_black.strip()) !=-1: #return true if found
@@ -280,7 +277,7 @@ def extract_art_from_zip(base):
                     # close zip file
                     zip.close()
             except Exception as e:
-                print("cant scan ",e," - ",addon )
+                print("cant scan ",e," - ",addon.encode('utf-8') )
 def download_file(url,path):
 	local_filename=path
     # NOTE the stream=True parameter
