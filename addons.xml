@@ -599,20 +599,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
 </addon>
 
-<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.6" provider-name="MetalKettle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.spotitube" name="Youtube Music" version="1.0.5.1" provider-name="AddonScriptorDE">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1535,39 +1521,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.flix2kodi"
-       name="Flix2Kodi"
-       version="0.4.7"
-       provider-name="logi85 and many others (especially z-e-r-o)">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests" version="2.8.1"/>
-        <import addon="plugin.video.youtube" version="5.1.11"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Netflix plugin</summary>
-        <summary lang="de">Netflix plugin</summary>
-        <description lang="en">Plugin to watch netflix with Kodi.</description>
-        <description lang="de">Plugin um Netflix mit Kodi anzusehen.</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with
-            your local laws before installing.
-        </disclaimer>
-        <disclaimer lang="de">Einige Teile dieses Addons sind möglicherweise in Ihrem Land nicht legal - bitte prüfen
-            Sie Ihre lokal gültigen Gesetze vor der Installation.
-        </disclaimer>
-        <language>en de</language>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.kodi.tv/showthread.php?tid=254263</forum>
-        <website>https://github.com/logi85/plugin.video.flix2kodi</website>
-        <email/>
-        <source/>
-    </extension>
-</addon>
-
 <addon id="plugin.video.kodisraelliveconcert"
 	name="Live CONCERT HD"
 	version="1.11"
@@ -1637,30 +1590,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 			<language>en</language>
 		</extension>
 	</addon>
-
-<addon id="plugin.video.mrknow"
-       name="Filmy Online - mrknow.pl"
-       version="2016.12.24.1"
-       provider-name="mrknow">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson"/>
-    <import addon="script.module.requests" />
-    <import addon="script.mrknow.urlresolver" />
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Wtyczka MRKNOW</summary>
-    <description>Plugin pozwala nam ogladac filmy, telewizje, sport z polskich stron internetowych. Ikony do wtyczki dostarczył Michał Morawski email: mickpl[malpa]wp.pl. Więcej informacji na stronie http;//filmkodi.com </description>
-    <platform>all</platform>
-    <forum>https://github.com/mrknow/filmkodi/issues</forum>
-	<source>http://filmkodi.com/repository/</source>
-    <website>http://filmkodi.com/pl/wtyczka-filmy-online-mrknow/</website>
-  </extension>
-</addon>
 
 <addon id="plugin.video.AresMoTV"
 	   name="[COLOR blue]A[/COLOR][COLOR white]resMoTV[/COLOR]"
@@ -1754,19 +1683,6 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<description lang="he">חבילת רקעים - סגנון קוודרט</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.3.1" provider-name="Avigdor (xbmc-israel repo)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-	<import addon="repository.xbmc-israel" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve dynamic URL's to be playable in XBMC/Kodi.</summary>
-    <description lang="en">Resolve dynamic URL's to be playable in XBMC/Kodi.</description>
-  </extension>
 </addon>
 
 <addon id="plugin.video.kodisraelkids"
@@ -1964,20 +1880,6 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="plugin.video.gdrive" version="0.8.0" name="gdrive" provider-name="ddurdle">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image programs</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
-        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="context.mysubscriptions" name="My Subscriptions" version="1.0.6" provider-name="kinkin">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
@@ -2071,27 +1973,6 @@ provider-name="kodi senyor">
     <email>romanvm@yandex.ua</email>
     <source>https://github.com/romanvm/script.module.pyxbmct</source>
   </extension>
-</addon>
-
-<addon id="plugin.video.football.today" name="Football Today" version="3.0.1" provider-name="lambda">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" optional="true"/>
-		<import addon="script.module.parsedom" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Football on demand</summary>
-		<description lang="en">Visit TVADDONS.ag for support</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
-		<source>https://offshoregit.com/lambda81/lambda-addons</source>
-		<website>https://offshoregit.com/lambda81/</website>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.kodiviko" name="[COLOR white]*Viko Super Wizard*[/COLOR]" version="2.0.6" provider-name="The Vibe Team">
@@ -2540,23 +2421,6 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.xbmcfilm" name="xbmcfilm.com" version="1.4.1" provider-name="xbmcfilm.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.mrknow.urlresolver" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>xbmcfilm.com</summary>
-    <description>XbmcFilm.com is a free service that lets anyone create a custom playlist of videos from the top video sites on the web. Now start building that playlist ... Website http://filmkodi.com
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.627.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -2849,18 +2713,6 @@ provider-name="kodi senyor">
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id='script.module.translit' version='2.0.0' name='Translit for xbmc plugins' provider-name='mrstealth'>
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point='xbmc.service' library="default.py" />
-  <extension point='xbmc.addon.metadata'>
-    <platform>all</platform>
-    <summary lang='en'>Translit for xbmc plugins.</summary>
-  </extension>
-  <extension point='xbmc.python.module' library='lib' />
 </addon>
 
 <addon id="plugin.video.multidown"
@@ -3321,76 +3173,6 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.module.requests" version="2.9.1"/>
-		<import addon="script.module.futures" version="2.2.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video audio</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="[login|startup]">
-	</extension>
-	<extension point="kodi.context.item" library="context_toggle.py">
-		<provides>executable</provides>
-			<item>
-				<label>Preferred toggle</label>
-				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_movie.py">
-		<provides>executable</provides>
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_tvshow.py">
-		<provides>executable</provides>
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_live.py">
-		<provides>executable</provides>
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq/Live)]</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_playable.py">
-		<provides>executable</provides>
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30622]</label>
-				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
-			</item>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<language></language>
-		<summary lang="en">TMDb, TVDb, Trakt, AudioDb and LastFM browser</summary>
-		<description lang="en">Browse The MovieDb, The TVDb, Trakt, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
-		<summary lang="nl">Blader door TMDb, TVDb, Trakt, AudioDb en LastFM</summary>
-		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberen het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
-		<supportedcontent>
-			<content>movies</content>
-			<content>tvshows</content>
-			<content>episodes</content>
-			<content>musicvideos</content>
-			<content>music</content>
-			<content>livetv</content>
-		</supportedcontent>
-		<genre>movies,tv,music,livetv</genre>
-		<!--<video_guide>yt-id</video_guide>
-		<video_preview>yt-id</video_preview>-->
-		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=17118</forum>
-		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/plugin.video.metalliq</source>
-		<email>OpenELEQ@gmail.com</email>
-	</extension>
-</addon>
-
 <addon id="script.quasar.ruhunt-mc" name="Quasar MC's [COLOR FFD11526]Ruhunt[/COLOR] Provider" version="1.3.1"
        provider-name="mancuniancol">
     <requires>
@@ -3639,27 +3421,6 @@ provider-name="kodi senyor">
           <content>movies</content>
         </supportedcontent>
     </extension>
-</addon>
-
-<addon id="plugin.video.SportsDevil" version="2016-09-24" name="SportsDevil" provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="repository.nirepo"
@@ -4217,23 +3978,6 @@ provider-name="kodi senyor">
     <description lang="en">KODISRAEL.CO.IL</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.filin.tv" name="[B][COLOR CFFFFFFF]Filin.tv[/COLOR][/B]" version="2.0.5" provider-name="mrstealth">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.xbmc.helpers" version="1.0.0"/>
-        <import addon="script.module.translit" version="1.0.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point= "xbmc.addon.metadata">
-        <summary>Browse and stream from filin.tv</summary>
-        <description>Enables watching streams on filin.tv that are flash enabled.</description>
-        <description>For personal use only</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="script.module.pyopenssl"
@@ -5159,26 +4903,6 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
     <description lang="en">Anime ram is a great source for almost all animes out there</description>
     <source>https://github.com/DxCx/plugin.video.animeram</source>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.6">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.31" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Gordon Ramsay CZ</summary>
-    <summary lang="cs">Gordon Ramsay CZ</summary>
-    <summary lang="sk">Gordon Ramsay CZ</summary>
-    <description lang="en">Watch online archive from http://gordon.ura.cz</description>
-    <description lang="cs">Gordon Ramsay a jeho hustokrutý pořady ze serveru http://gordon.ura.cz</description>
-    <description lang="sk">Gordon Ramsay a jeho hustokrutý pořady ze serveru http://gordon.ura.cz</description>
-    <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.video.gordon.ura.cz</source>
   </extension>
 </addon>
 
@@ -7271,23 +6995,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="repository.filmkodi.com" name="Filmkodi.com repository - MRKNOW" version="2.1.0" provider-name="Mrknow">
-	<extension point="xbmc.addon.repository" name="Filmkodi.com Kodi Add-on Repository">
-		<info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
-		<checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodi.filmkodi.com/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons  from filmkodi.com</summary>
-		<summary lang="pl">Zainstaluj wtyczki z filmkodi.com</summary>
-		<description lang="en">Add-ons from filmkodi.com (mrknow.pl) repository.</description>
-		<description lang="pl">Wtyczki z nieoficjalnego, repozytorium polskiego mrknow.pl..</description>
-		<disclaimer lang="en">Repository has non-comercial nature. Created by enthusiasts, acting in good faith.</disclaimer>
-		<disclaimer lang="pl">Zawartość repozytorium ma charakter niekomercyjny, wtyczki tworzone przez pasjonatów, .</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.teevee"
 	name="TeeVee"
 	version="2.0.0"
@@ -7328,24 +7035,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 		<description lang="he">חבילת אייקונים - בוס</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.video.lubetube"
-       name="Lubetube (Adult)"
-       version="1.17"
-       provider-name="xbmc-adult">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
-    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="script.trakt" name="Trakt" version="3.1.5" provider-name="Trakt.tv, Razzeee">
@@ -7455,26 +7144,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.snooker" name="[COLOR green]Snooker - סנוקר[/COLOR]" version="1.0.4" provider-name="Abeksis">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Vod Snooker</summary>
-    <summary lang="he">סנוקר VOD</summary>
-    <description lang="en">Vod Snooker All major, Ronnie O'Sulliva, Jimmy White, Judd TRUMP, Neil ROBERTSON, Mark SELBY, John HIGGINS, 147 Break, Welsh Open 2016, Ronnie O'Sullivan's show, Shaun Murphy, amd mor.</description>
-    <description lang="he">מגוון עצום של משחקי סנוקר, הדרכות, משחקים מלאים, סרטונים של כל שחקן ושחקן, הכל בקליק.</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon id="metadata.common.movieposterdb.com"
        name="MoviePosterDB Scraper Library"
         version="1.1.3"
@@ -7555,30 +7224,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
     <source>https://github.com/maikito26/plugin.video.surveillanceroom.git</source>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
-</addon>
-
-<addon id="plugin.video.mrknowtv" name="MrknowTV"  version="2016.12.09.2" provider-name="mrknow" >
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MrknowTV - premium</summary>
-		<description lang="en">TV MrknowTV - only premium websites, Icons by Michal Morawski </description>
-		<disclaimer lang="en">Watch popular channels on your computer monitor, transmitting by users from all over the world.The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-		</disclaimer>
-		<summary lang="pl">MrknowTV - premium</summary>
-		<description lang="pl">Telewizja MrknowTV - tylko strony premium. Ikony przygotował Michal Morawski. Więcej informacji na stronie http;//filmkodi.com  </description>
-		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-		</disclaimer>
-		<forum>https://github.com/mrknow/filmkodi/issues</forum>
-		<source>http://filmkodi.com/repository/</source>
-		<website>http://filmkodi.com/en/wtyczka-milenium-fork-genesis/</website>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.movie4k"
@@ -7695,24 +7340,6 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="script.module.myconnpy"
-       name="MySQL Connector/Python"
-       version="1.1.7"
-       provider-name="MySQL">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">MySQL Connector/Python</summary>
-        <description lang="en">MySQL Connector/Python is implementing the MySQL Client/Server protocol completely in Python. This means you don't have to compile anything or MySQL (client library) doesn't even have to be installed on the machine.</description>
-        <license>GPLv2</license>
-        <platform>all</platform>
-        <website>http://dev.mysql.com/doc/connector-python/en/index.html</website>
-        <source>http://dev.mysql.com/downloads/connector/python/</source>
-    </extension>
 </addon>
 
 <addon id="plugin.video.all_wrestling" name="All Wrestling" version="2.0.1" provider-name="RayW1986">
@@ -8313,19 +7940,6 @@ provider-name="kodi senyor">
   <description lang="en"></description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
-</addon>
-
-<addon id="plugin.video.woodrocket" name="Wood Rocket" version="0.3" provider-name="ptom">
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Wood Rocket</summary>
-		<description lang="en">Pulling all the best porn from WoodRocket.com</description>
-		<platform>all</platform>
-		<language>en</language>
-		<email>ptom98@ptom.co.uk</email>
-	</extension>
 </addon>
 
 <addon id="plugin.video.uwc"
@@ -9109,25 +8723,6 @@ provider-name="kodi senyor">
         <description>Facebook @KodiApolloGroup</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="script.module.liveresolver"
-     name="LiveResolver"
-     version="0.1.48"
-     provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>
-  </extension>
 </addon>
 
 <addon id="resource.images.skinbackgrounds.style.he" name="Skin Backgrounds - Style Design (Hebrew)" version="1.0.0" provider-name="Orna Post, Benny Buchnik">
@@ -10013,27 +9608,6 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.mrknowanime"
-       name="Mrknow ANIME"
-       version="2016.12.11.1"
-       provider-name="mrknow">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.mrknow.urlresolver" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Wtyczka MRKNOW</summary>
-    <description>Plugin pozwala nam ogladac filmy, telewizje, sport z polskich stron internetowych. Ikony do wtyczki dostarczył Michał Morawski email: mickpl[malpa]wp.pl. Więcej informacji na stronie http;//filmkodi.com </description>
-    <platform>all</platform>
-    <forum>https://github.com/mrknow/filmkodi/issues</forum>
-	<source>http://filmkodi.com/repository/</source>
-    <website>http://filmkodi.com/pl/wtyczka-filmy-online-mrknow/</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.nbafullgames" name="NBA Full Games" version="3.1.1" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -10131,26 +9705,6 @@ level.</description>
         <disclaimer></disclaimer>
     </extension>
  </addon>
-
-<addon id="plugin.video.israelive" name="[COLOR white]Israe[/COLOR][COLOR blue]L[/COLOR][COLOR white]IVE[/COLOR]" version="4.9.6" provider-name="Benny123, Avigdor (xbmc-israel repo)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="repository.xbmc-israel" />
-	<import addon="script.module.israeliveresolver" />
-	<import addon="script.module.six" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Benny123's project</summary>
-    <summary lang="he">הפרויקט של Benny123</summary>
-    <description lang="en">Watch Live TV channels from Israel and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]More addons on The Israeli repo:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
-    <description lang="he">צפיה בשידורי טלויזיה חיים מישראל והעולם.[CR][CR]דף הסברים והורדה בחינם:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]תוספים נוספים במקור הישראלי:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="plugin.video.livemix" name="Live Mix" version="2.0.2" provider-name="MetalKettle">
   <requires>

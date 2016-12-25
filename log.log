@@ -1,15 +1,9 @@
 failed to add the xml from addon service.subtitles.subscenter
 zip is not ok: repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
 zip is not ok: repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
-Excluding for list index out of range
-zip is not ok: repo/plugin.video.hellenic.tv/plugin.video.hellenic.tv-3.5.5.zip
-zip is not ok: repo/plugin.video.dextertv/plugin.video.dextertv-2.0.5.zip
-failed to add the xml from addon plugin.program.ump
 zip is not ok: repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
 Excluding for list index out of range
-Excluding for list index out of range
 failed to add the xml from addon service.subtitles.subtitle
-zip is not ok: repo/plugin.video.AK-47/plugin.video.AK-47-1.1.1.zip
 Finished updating addons xml and md5 files
 repository.kodi-senyor addon version: 1.2.0
 repository.kodi-senyor-1.2.0.zip - ziptype is  true
@@ -17,107 +11,182 @@ https://github.com/kobiko3030/repository.kodisenyor/raw/master/addons.xml
 plugin.program.senyorwizard  is in blacklist - 
 repository.magnetic  is in blacklist - 
 plugin.video.metalliq  is in blacklist - 
-Downloading %s version:%s skin.tvOS-X-jarvisheb 1.0.5
-Making folder for addon in repo:  skin.tvOS-X-jarvisheb
-Downloding zip from: https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip  To Path:  repo/skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
-Saving:  repo/skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
-https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips//skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
 repository.abeksis addon version: 1.0
 repository.abeksis.zip - ziptype is  true
 http://abeksis.com/repo/addons.xml
-plugin.video.flix2kodi  is in blacklist - 
-plugin.video.football.today  is in blacklist - 
-plugin.video.gordon.ura.cz  is in blacklist - 
-plugin.video.dextertv  is in blacklist - 
-script.module.translit  is in blacklist - 
-script.module.urlresolver  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
-script.AbeksisWizard  is in blacklist - 
-service.subtitles.subscenter  is in blacklist - 
-plugin.video.hellenic.tv  is in blacklist - 
-service.fixabeksis  is in blacklist - 
-plugin.video.pulsar  is in blacklist - 
 program.AbeksisWizard  is in blacklist - 
-plugin.program.ump  is in blacklist - 
-plugin.video.filin.tv  is in blacklist - 
-plugin.video.lubetube  is in blacklist - 
-plugin.program.abeksis.notifications  is in blacklist - 
-script.artwork.downloader  is in blacklist - 
-plugin.video.SportsDevil  is in blacklist - 
-skin.eminence.heb  is in blacklist - 
-skin.aeonmq6  is in blacklist - 
-plugin.video.AK-47  is in blacklist - 
-plugin.video.uwc  is in blacklist - 
-script.module.liveresolver  is in blacklist - 
 skin.xonfluence  is in blacklist - 
-script.module.myconnpy  is in blacklist - 
-skin.eminence.he.2  is in blacklist - 
-script.module.israeliveresolver  is in blacklist - 
-repository.abeksis  is in blacklist - 
-plugin.video.sportsmix  is in blacklist - 
-plugin.video.meta  is in blacklist - 
-plugin.video.israelive  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
 plugin.video.thewiz.wall  is in blacklist - 
+plugin.video.SportsDevil  is in blacklist - 
+plugin.video.hellenic.tv  is in blacklist - 
+plugin.video.AK-47  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+script.module.translit  is in blacklist - 
+plugin.video.meta  is in blacklist - 
+script.module.myconnpy  is in blacklist - 
+plugin.video.pulsar  is in blacklist - 
+plugin.program.abeksis.notifications  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
+script.artwork.downloader  is in blacklist - 
+script.module.urlresolver  is in blacklist - 
+plugin.video.uwc  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+plugin.video.dextertv  is in blacklist - 
 plugin.video.snooker  is in blacklist - 
+plugin.video.gordon.ura.cz  is in blacklist - 
+script.AbeksisWizard  is in blacklist - 
+repository.abeksis  is in blacklist - 
+service.fixabeksis  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
 plugin.video.woodrocket  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+skin.eminence.heb  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
+plugin.program.ump  is in blacklist - 
+service.subtitles.subscenter  is in blacklist - 
+skin.eminence.he.2  is in blacklist - 
 plugin.video.gdrive  is in blacklist - 
-Downloading %s version:%s plugin.video.RoiD 2016.12.24
-Downloding zip from: http://abeksis.com/repo//plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip  To Path:  repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
-Saving:  repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
-http://abeksis.com/repo//plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
-Downloading %s version:%s service.subtitles.torec 1.2.1.1
-Downloding zip from: http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip  To Path:  repo/service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip
-Saving:  repo/service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip
-http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip
-Downloading %s version:%s plugin.video.ustvnow 12.0.23
-Downloding zip from: http://abeksis.com/repo//plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip  To Path:  repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
-Saving:  repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
-http://abeksis.com/repo//plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
-Downloading %s version:%s service.subtitles.subtitle 4.5.1
-Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
-Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
-http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
-Downloading %s version:%s context.subtitlesdialog.contextmenu 1.0.0
-Making folder for addon in repo:  context.subtitlesdialog.contextmenu
-Downloding zip from: http://abeksis.com/repo//context.subtitlesdialog.contextmenu/context.subtitlesdialog.contextmenu-1.0.0.zip  To Path:  repo/context.subtitlesdialog.contextmenu/context.subtitlesdialog.contextmenu-1.0.0.zip
-Saving:  repo/context.subtitlesdialog.contextmenu/context.subtitlesdialog.contextmenu-1.0.0.zip
-http://abeksis.com/repo//context.subtitlesdialog.contextmenu/context.subtitlesdialog.contextmenu-1.0.0.zip
 Downloading %s version:%s plugin.video.mdfm 1.0.7
 Downloding zip from: http://abeksis.com/repo//plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip  To Path:  repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
 Saving:  repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
 http://abeksis.com/repo//plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
+Downloading %s version:%s script.module.httplib2 0.8.0
+Making folder for addon in repo:  script.module.httplib2
+Downloding zip from: http://abeksis.com/repo//script.module.httplib2/script.module.httplib2-0.8.0.zip  To Path:  repo/script.module.httplib2/script.module.httplib2-0.8.0.zip
+Saving:  repo/script.module.httplib2/script.module.httplib2-0.8.0.zip
+http://abeksis.com/repo//script.module.httplib2/script.module.httplib2-0.8.0.zip
+Downloading %s version:%s plugin.video.RoiD 2016.12.24
+Downloding zip from: http://abeksis.com/repo//plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip  To Path:  repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
+Saving:  repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
+http://abeksis.com/repo//plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
+Downloading %s version:%s service.subtitles.subtitle 4.5.1
+Downloding zip from: http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip  To Path:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
+Saving:  repo/service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
+http://abeksis.com/repo//service.subtitles.subtitle/service.subtitles.subtitle-4.5.1.zip
+Downloading %s version:%s service.subtitles.torec 1.2.1.1
+Downloding zip from: http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip  To Path:  repo/service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip
+Saving:  repo/service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip
+http://abeksis.com/repo//service.subtitles.torec/service.subtitles.torec-1.2.1.1.zip
+Downloading %s version:%s plugin.video.phstreams 3.1.19
+Making folder for addon in repo:  plugin.video.phstreams
+Downloding zip from: http://abeksis.com/repo//plugin.video.phstreams/plugin.video.phstreams-3.1.19.zip  To Path:  repo/plugin.video.phstreams/plugin.video.phstreams-3.1.19.zip
+Saving:  repo/plugin.video.phstreams/plugin.video.phstreams-3.1.19.zip
+http://abeksis.com/repo//plugin.video.phstreams/plugin.video.phstreams-3.1.19.zip
+Downloading %s version:%s plugin.video.ustvnow 12.0.23
+Downloding zip from: http://abeksis.com/repo//plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip  To Path:  repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
+Saving:  repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
+http://abeksis.com/repo//plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
+Downloading %s version:%s script.module.youtube.dl 16.1026.0
+Making folder for addon in repo:  script.module.youtube.dl
+Downloding zip from: http://abeksis.com/repo//script.module.youtube.dl/script.module.youtube.dl-16.1026.0.zip  To Path:  repo/script.module.youtube.dl/script.module.youtube.dl-16.1026.0.zip
+Saving:  repo/script.module.youtube.dl/script.module.youtube.dl-16.1026.0.zip
+http://abeksis.com/repo//script.module.youtube.dl/script.module.youtube.dl-16.1026.0.zip
+Downloading %s version:%s plugin.video.exodus 2.0.23
+Making folder for addon in repo:  plugin.video.exodus
+Downloding zip from: http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-2.0.23.zip  To Path:  repo/plugin.video.exodus/plugin.video.exodus-2.0.23.zip
+Saving:  repo/plugin.video.exodus/plugin.video.exodus-2.0.23.zip
+http://abeksis.com/repo//plugin.video.exodus/plugin.video.exodus-2.0.23.zip
 repository.thevibe addon version: 3.7.0
 repository.thevibe-3.7.0.zip - ziptype is  true
 http://repo.the-vibe.co.il/Repo/xml
-script.module.urlresolver  is in blacklist - 
+plugin.video.mrknow  is in blacklist - 
+plugin.video.filin.tv  is in blacklist - 
+script.module.israeliveresolver  is in blacklist - 
 script.artwork.downloader  is in blacklist - 
-plugin.program.xbmchub.notifications  is in blacklist - 
+script.module.urlresolver  is in blacklist - 
 plugin.video.uwc  is in blacklist - 
-repository.xbmc-israel  is in blacklist - 
+plugin.video.mrknowtv  is in blacklist - 
+plugin.video.gordon.ura.cz  is in blacklist - 
+plugin.video.israelive  is in blacklist - 
+skin.aeonmq6  is in blacklist - 
+plugin.video.gdrive  is in blacklist - 
+plugin.program.xbmchub.notifications  is in blacklist - 
+plugin.program.senyorwizard  is in blacklist - 
+plugin.video.SportsDevil  is in blacklist - 
+plugin.video.metalliq  is in blacklist - 
+plugin.video.xbmcfilm  is in blacklist - 
 plugin.video.meta  is in blacklist - 
-Downloading %s version:%s skin.tvOS-X-jarvisheb 1.0.5
-Downloding zip from: http://repo.the-vibe.co.il/Repo//skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip  To Path:  repo/skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
-failed to get file: http://repo.the-vibe.co.il/Repo//skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
-http://repo.the-vibe.co.il/Repo//skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
+script.module.translit  is in blacklist - 
+plugin.video.lubetube  is in blacklist - 
+plugin.video.thewiz.wall  is in blacklist - 
+plugin.video.football.today  is in blacklist - 
+repository.xbmc-israel  is in blacklist - 
+plugin.video.woodrocket  is in blacklist - 
+script.module.myconnpy  is in blacklist - 
+plugin.video.snooker  is in blacklist - 
+plugin.video.sportsmix  is in blacklist - 
+plugin.video.flix2kodi  is in blacklist - 
+repository.filmkodi.com  is in blacklist - 
+plugin.video.mrknowanime  is in blacklist - 
+script.module.liveresolver  is in blacklist - 
+Downloading %s version:%s plugin.video.phstreams 3.1.9
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.video.phstreams/plugin.video.phstreams-3.1.9.zip  To Path:  repo/plugin.video.phstreams/plugin.video.phstreams-3.1.9.zip
+Saving:  repo/plugin.video.phstreams/plugin.video.phstreams-3.1.9.zip
+http://repo.the-vibe.co.il/Repo//plugin.video.phstreams/plugin.video.phstreams-3.1.9.zip
+Downloading %s version:%s script.module.httplib2 0.8.0
+Downloding zip from: http://repo.the-vibe.co.il/Repo//script.module.httplib2/script.module.httplib2-0.8.0.zip  To Path:  repo/script.module.httplib2/script.module.httplib2-0.8.0.zip
+Saving:  repo/script.module.httplib2/script.module.httplib2-0.8.0.zip
+http://repo.the-vibe.co.il/Repo//script.module.httplib2/script.module.httplib2-0.8.0.zip
+Downloading %s version:%s script.module.youtube.dl 16.627.0
+Downloding zip from: http://repo.the-vibe.co.il/Repo//script.module.youtube.dl/script.module.youtube.dl-16.627.0.zip  To Path:  repo/script.module.youtube.dl/script.module.youtube.dl-16.627.0.zip
+Saving:  repo/script.module.youtube.dl/script.module.youtube.dl-16.627.0.zip
+http://repo.the-vibe.co.il/Repo//script.module.youtube.dl/script.module.youtube.dl-16.627.0.zip
+Downloading %s version:%s service.autosubs 1.0.0
+Making folder for addon in repo:  service.autosubs
+Downloding zip from: http://repo.the-vibe.co.il/Repo//service.autosubs/service.autosubs-1.0.0.zip  To Path:  repo/service.autosubs/service.autosubs-1.0.0.zip
+Saving:  repo/service.autosubs/service.autosubs-1.0.0.zip
+http://repo.the-vibe.co.il/Repo//service.autosubs/service.autosubs-1.0.0.zip
+Downloading %s version:%s plugin.video.animeram 0.0.5
+Making folder for addon in repo:  plugin.video.animeram
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.video.animeram/plugin.video.animeram-0.0.5.zip  To Path:  repo/plugin.video.animeram/plugin.video.animeram-0.0.5.zip
+Saving:  repo/plugin.video.animeram/plugin.video.animeram-0.0.5.zip
+http://repo.the-vibe.co.il/Repo//plugin.video.animeram/plugin.video.animeram-0.0.5.zip
+Downloading %s version:%s plugin.video.quasar 0.9.46
+Making folder for addon in repo:  plugin.video.quasar
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.video.quasar/plugin.video.quasar-0.9.46.zip  To Path:  repo/plugin.video.quasar/plugin.video.quasar-0.9.46.zip
+Saving:  repo/plugin.video.quasar/plugin.video.quasar-0.9.46.zip
+http://repo.the-vibe.co.il/Repo//plugin.video.quasar/plugin.video.quasar-0.9.46.zip
+Downloading %s version:%s plugin.video.theroyalwe 0.9.17
+Making folder for addon in repo:  plugin.video.theroyalwe
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.video.theroyalwe/plugin.video.theroyalwe-0.9.17.zip  To Path:  repo/plugin.video.theroyalwe/plugin.video.theroyalwe-0.9.17.zip
+Saving:  repo/plugin.video.theroyalwe/plugin.video.theroyalwe-0.9.17.zip
+http://repo.the-vibe.co.il/Repo//plugin.video.theroyalwe/plugin.video.theroyalwe-0.9.17.zip
+Downloading %s version:%s plugin.video.kmediatorrent 10.1.3
+Making folder for addon in repo:  plugin.video.kmediatorrent
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.video.kmediatorrent/plugin.video.kmediatorrent-10.1.3.zip  To Path:  repo/plugin.video.kmediatorrent/plugin.video.kmediatorrent-10.1.3.zip
+Saving:  repo/plugin.video.kmediatorrent/plugin.video.kmediatorrent-10.1.3.zip
+http://repo.the-vibe.co.il/Repo//plugin.video.kmediatorrent/plugin.video.kmediatorrent-10.1.3.zip
+Downloading %s version:%s plugin.video.exodus 2.0.9
+Downloding zip from: http://repo.the-vibe.co.il/Repo//plugin.video.exodus/plugin.video.exodus-2.0.9.zip  To Path:  repo/plugin.video.exodus/plugin.video.exodus-2.0.9.zip
+Saving:  repo/plugin.video.exodus/plugin.video.exodus-2.0.9.zip
+http://repo.the-vibe.co.il/Repo//plugin.video.exodus/plugin.video.exodus-2.0.9.zip
 repository.filmkodi.com addon version: 2.1.0
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
-plugin.video.mrknowanime  is in blacklist - 
 plugin.video.mrknow  is in blacklist - 
-plugin.video.mrknowtv  is in blacklist - 
 repository.filmkodi.com  is in blacklist - 
 plugin.video.xbmcfilm  is in blacklist - 
+plugin.video.mrknowanime  is in blacklist - 
+plugin.video.mrknowtv  is in blacklist - 
 repository.exodus addon version: 1.0.1
 repository.exodus-1.0.1.zip - ziptype is  true
 https://offshoregit.com/exodus/addons.xml
+Downloading %s version:%s plugin.video.exodus 2.0.23
+Downloding zip from: https://offshoregit.com/exodus//plugin.video.exodus/plugin.video.exodus-2.0.23.zip  To Path:  repo/plugin.video.exodus/plugin.video.exodus-2.0.23.zip
+Saving:  repo/plugin.video.exodus/plugin.video.exodus-2.0.23.zip
+https://offshoregit.com/exodus//plugin.video.exodus/plugin.video.exodus-2.0.23.zip
 repository.mdrepo addon version: 1.0.2
 repository.mdrepo-1.0.2.zip - ziptype is  true
 https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml
-adding addon from github: plugin.video.kmediatorrent
+Updading addon from github:  plugin.video.kmediatorrent - 2.3.7
 https://github.com/jmarth/plugin.video.kmediatorrent
 Downloding zip from: https://github.com/jmarth/plugin.video.kmediatorrent/archive/master.zip  To Path:  repo/plugin.video.kmediatorrent/master.zip
 Saving:  repo/plugin.video.kmediatorrent/master.zip
-adding addon from github: service.autosubs
+Updading addon from github:  service.autosubs - 1.0.0
 https://github.com/amet/service.autosubs
 Downloding zip from: https://github.com/amet/service.autosubs/archive/master.zip  To Path:  repo/service.autosubs/master.zip
 Saving:  repo/service.autosubs/master.zip
@@ -128,8 +197,7 @@ Downloding zip from: https://github.com/XBMCil/service.subtitles.subtitle/archiv
 Saving:  repo/service.subtitles.subtitle/master.zip
 adding addon from github: service.subtitles.torec
 https://github.com/XBMCil/service.subtitles.torec
-Downloding zip from: https://github.com/XBMCil/service.subtitles.torec/
-adding addon from  To Path:  repo/service.subtitles.torec/master.zip
+Downloding zip from: https://github.com/XBMCil/service.subtitles.torec/archive/master.zip  To Path:  repo/service.subtitles.torec/master.zip
 Saving:  repo/service.subtitles.torec/master.zip
 metadata.hebmovies.wiz  is in blacklist - 
 https://github.com/bromix/plugin.video.youtube//raw/master/addon.xml
@@ -145,15 +213,15 @@ An error occurred reading zip!
 File is not a zip file
 
 cannot create a zip from githuburl  https://github.com/Diblo/KODI-Popcorn-Time/tree/master/plugin.video.kodipopcorntime
-adding addon from github: script.module.httplib2
+Updading addon from github:  script.module.httplib2 - 0.8.0
 https://github.com/XBMC-Addons/script.module.httplib2
 Downloding zip from: https://github.com/XBMC-Addons/script.module.httplib2/archive/master.zip  To Path:  repo/script.module.httplib2/master.zip
 Saving:  repo/script.module.httplib2/master.zip
-adding addon from github: script.module.youtube.dl
+Updading addon from github:  script.module.youtube.dl - 16.1026.0
 https://github.com/ruuk/script.module.youtube.dl
 Downloding zip from: https://github.com/ruuk/script.module.youtube.dl/archive/master.zip  To Path:  repo/script.module.youtube.dl/master.zip
 Saving:  repo/script.module.youtube.dl/master.zip
-adding addon from github: plugin.video.animeram
+Updading addon from github:  plugin.video.animeram - 0.0.5
 https://github.com/DxCx/plugin.video.animeram
 Downloding zip from: https://github.com/DxCx/plugin.video.animeram/archive/master.zip  To Path:  repo/plugin.video.animeram/master.zip
 Saving:  repo/plugin.video.animeram/master.zip
@@ -166,14 +234,14 @@ adding addon from github: script.tv.show.next.aired
 https://github.com/WayneD/script.tv.show.next.aired
 Downloding zip from: https://github.com/WayneD/script.tv.show.next.aired/archive/master.zip  To Path:  repo/script.tv.show.next.aired/master.zip
 Saving:  repo/script.tv.show.next.aired/master.zip
-adding addon from github: plugin.video.quasar
+Updading addon from github:  plugin.video.quasar - 0.9.46
 https://github.com/scakemyer/plugin.video.quasar
 Downloding zip from: https://github.com/scakemyer/plugin.video.quasar/archive/master.zip  To Path:  repo/plugin.video.quasar/master.zip
 Saving:  repo/plugin.video.quasar/master.zip
-error with : https://github.com/burekas7/context.subtitlesdialog.contextmenu
-cant get repo xml !
-no element found: line 1, column 0
-
+adding addon from github: context.subtitlesdialog.contextmenu
+https://github.com/burekas7/context.subtitlesdialog.contextmenu
+Downloding zip from: https://github.com/burekas7/context.subtitlesdialog.contextmenu/archive/master.zip  To Path:  repo/context.subtitlesdialog.contextmenu/master.zip
+Saving:  repo/context.subtitlesdialog.contextmenu/master.zip
 cant scan  File is not a zip file
 cant scan  File is not a zip file
 cant scan  File is not a zip file
@@ -181,24 +249,14 @@ cant scan  list index out of range
 failed to add the xml from addon service.subtitles.subscenter
 zip is not ok: repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
 zip is not ok: repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
+zip is not ok: repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
 Excluding for list index out of range
-zip is not ok: repo/plugin.video.hellenic.tv/plugin[master 9dcccd1] update push in : Sun Dec 25 03:00:57 IST 2016
- 26 files changed, 3425 insertions(+), 2802 deletions(-)
- rewrite log.log (97%)
- mode change 100644 => 100755 new_xml_gen.py
- rename new_xml_gen_org.py => new_xml_gen_000.py (69%)
- mode change 100755 => 100644
- delete mode 100644 repo/plugin.program.abeksis.notifications/plugin.program.abeksis.notifications-1.0.1.zip
- delete mode 100644 repo/program.AbeksisWizard/program.AbeksisWizard-2.0.6.zip
- delete mode 100644 repo/repository.abeksis/repository.abeksis-1.0.3.zip
- delete mode 100644 repo/script.AbeksisWizard/script.AbeksisWizard-0.0.4.zip
- delete mode 100644 repo/service.fixabeksis/service.fixabeksis-1.0.0.zip
- delete mode 100644 repo/skin.eminence.he.2/skin.eminence.he.2-0.9.49.zip
- delete mode 100644 repo/skin.eminence.heb/skin.eminence.heb-1.3.zip
- mode change 100755 => 100644 repo/skin.tvOS-X-jarvisheb/fanart.jpg
- mode change 100755 => 100644 repo/skin.tvOS-X-jarvisheb/icon.png
- mode change 100755 => 100644 repo/skin.tvOS-X-jarvisheb/skin.tvOS-X-jarvisheb-1.0.5.zip
- delete mode 100644 repo/skin.xonfluence/skin.xonfluence-3.1.6.zip
-es.subtitle
-zip is not ok: repo/plugin.video.AK-47/plugin.video.AK-47-1.1.1.zip
+failed to add the xml from addon service.subtitles.subtitle
+Finished updating addons xml and md5 files
+failed to add the xml from addon service.subtitles.subscenter
+zip is not ok: repo/plugin.video.mdfm/plugin.video.mdfm-1.0.7.zip
+zip is not ok: repo/plugin.video.RoiD/plugin.video.RoiD-2016.12.24.zip
+zip is not ok: repo/plugin.video.ustvnow/plugin.video.ustvnow-12.0.23.zip
+Excluding for list index out of range
+failed to add the xml from addon service.subtitles.subtitle
 Finished updating addons xml and md5 files
