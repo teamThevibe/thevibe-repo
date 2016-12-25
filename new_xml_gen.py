@@ -3,7 +3,7 @@
 #Still not in alph (soon)
 #Dunes.
 #  find repo -type f -size +96M |xargs -n1 ls -alh
-#version 0.320
+#version 0.322
 import os
 import pdb
 import re
@@ -21,7 +21,7 @@ import urllib.request
 from urllib.request import urlopen
 import urllib
 import xml.etree.ElementTree as ET
-import sys
+from imp import reload
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
