@@ -3,7 +3,7 @@
 #Still not in alph (soon)
 #Dunes.
 #  find repo -type f -size +96M |xargs -n1 ls -alh
-#version 0.310
+#version 0.320
 import os
 import pdb
 import re
@@ -21,6 +21,10 @@ import urllib.request
 from urllib.request import urlopen
 import urllib
 import xml.etree.ElementTree as ET
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 UpdateOnly=False
 repo_xml="addons.xml"
 htmlfile="updated.html"
@@ -220,7 +224,7 @@ def getreposlist(repos_to_scan_folder):
     return addons
 
 def compblacklist(addon):
-    print("checking if addon is blacklister: " + addon)
+    print("checking if addon is blacklisted: " + addon)
     BLAF=getblacklist(BlackListAddonFIle)
     for addon_black in BLAF:
         if addon.find(addon_black.strip()) !=-1: #return true if found
