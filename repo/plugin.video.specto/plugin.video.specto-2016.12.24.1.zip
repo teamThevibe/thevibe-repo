@@ -5,8 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
 <meta http-equiv="refresh" content="0">
-<meta http-equiv="set-cookie" content="cf_use_ob=80; expires=Wed, 28-Dec-16 11:29:04 GMT; path=/">
-<meta http-equiv="set-cookie" content="cf_ob_info=521:3184ab66b4011e5f:SJC; expires=Wed, 28-Dec-16 11:29:04 GMT; path=/">
+<meta http-equiv="set-cookie" content="cf_use_ob=80; expires=Wed, 28-Dec-16 13:05:33 GMT; path=/">
+<meta http-equiv="set-cookie" content="cf_ob_info=521:318538b9221b515e:SJC; expires=Wed, 28-Dec-16 13:05:33 GMT; path=/">
 <title>kodi.filmkodi.com | 521: Web server is down</title>
 <meta charset="UTF-8"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -27,7 +27,7 @@
 <h1>
 <span class="cf-error-type" data-translate="error">Error</span>
 <span class="cf-error-code">521</span>
-<small class="heading-ray-id">Ray ID: 3184ab66b4011e5f &bull; 2016-12-28 11:28:34 UTC</small>
+<small class="heading-ray-id">Ray ID: 318538b9221b515e &bull; 2016-12-28 13:05:03 UTC</small>
 </h1>
 <h2 class="cf-subheadline" data-translate="error_desc">Web server is down</h2>
 </div> 
@@ -81,7 +81,7 @@
 </div> 
 <div class="cf-error-footer cf-wrapper">
 <p>
-<span class="cf-footer-item">CloudFlare Ray ID: <strong>3184ab66b4011e5f</strong></span>
+<span class="cf-footer-item">CloudFlare Ray ID: <strong>318538b9221b515e</strong></span>
 <span class="cf-footer-separator">&bull;</span>
 <span class="cf-footer-item"><span data-translate="your_ip">Your IP</span>: 104.40.95.43</span>
 <span class="cf-footer-separator">&bull;</span>
