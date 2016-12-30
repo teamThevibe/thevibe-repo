@@ -9748,6 +9748,28 @@ level.</description>
     </extension>
  </addon>
 
+<addon id="plugin.video.senyor.imdb.watchlists"
+version="1.0.1"
+name="Senyor Imdb Watchlists"
+provider-name="kodi senyor">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service"
+  library="service.py" start="startup">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">senyor imdb watchlists fork from primaeval</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 <addon id="plugin.video.livemix" name="Live Mix" version="2.0.2" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
