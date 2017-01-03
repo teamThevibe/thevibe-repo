@@ -7298,7 +7298,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.0.8" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.0.9" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor" />
@@ -9083,7 +9083,7 @@ Plugin by @koderdude</description>
 	</extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.0.1" provider-name="Mucky Duck">
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.0.2" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -9092,11 +9092,15 @@ Plugin by @koderdude</description>
 		<platform>all</platform>
 		<summary lang="en">Collection of modules used by Mucky Ducks Addons</summary>
 		<description lang="en">Collection of modules used by Mucky Ducks Addons
-beautifulsoup4 v4.5.1 from https://pypi.python.org/pypi/beautifulsoup4
-cfscrape 1.6.8 from https://github.com/Anorov/cloudflare-scrape
-Js2Py v0.40 from https://github.com/PiotrDabkowski/Js2Py
-jsbeautifier v1.6.4 from https://pypi.python.org/pypi/jsbeautifier
-six v1.10.0 from https://pypi.python.org/pypi/six</description>
+beautifulsoup4 v4.5.1 from https://pypi.python.org/pypi/beautifulsoup4:
+cfscrape 1.6.8 from https://github.com/Anorov/cloudflare-scrape:
+Js2Py v0.40 from https://github.com/PiotrDabkowski/Js2Py:
+jsbeautifier v1.6.4 from https://pypi.python.org/pypi/jsbeautifier:
+jsunpack from urlresolver:
+md_request a simple script for making requests:
+six v1.10.0 from https://pypi.python.org/pypi/six:
+unshortenit v0.3.0 from https://github.com/jkehler/unshortenit
+		</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
 </addon>
