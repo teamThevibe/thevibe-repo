@@ -580,7 +580,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
-<addon id="plugin.video.mdyesmovies" name="Yes Movies" version="1.0.2" provider-name="Mucky Duck">
+<addon id="plugin.video.mdyesmovies" name="Yes Movies" version="1.0.3" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -2477,7 +2477,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.3.1" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.3.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -8152,7 +8152,7 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdfubar" name=".F.U.B.A.R." version="1.1.6" provider-name="Mucky Duck">
+<addon id="plugin.video.mdfubar" name=".F.U.B.A.R." version="1.1.7" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
