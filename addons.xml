@@ -3414,7 +3414,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.8" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.9" provider-name="Team NaN">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -4103,7 +4103,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.35"
+       version="1.36"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
