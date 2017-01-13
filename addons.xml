@@ -2830,7 +2830,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.01.11" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.01.12" name="RoiD" provider-name="RoiD">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -6090,6 +6090,26 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.9" provider-name="Shani">
+	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
+        <dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+
+    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Zemtv etc</summary>
+		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.program.senyor.movies.light.favourites"
 version="1.0.3"
 name="Senyor Movies Favorites Light"
@@ -7198,6 +7218,34 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
     <summary lang="en">Stream content From The genvideos.org WebSite</summary>
     <description lang="en">Stream Content From The genvideos.org WebSite</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.4Horsemen" name="[COLOR orange][B]4Horsemen[/B][/COLOR]" version="1.0" provider-name="4Horsemen">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.module.urlresolver" />
+	<import addon="script.module.liveresolver" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR Orange]4Horsemen add-on[/COLOR]</summary>
+    <description lang="en">[COLOR Orange]The 4Horsemen is a combination of 4 top add-ons rolled in to one[/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -8575,6 +8623,24 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>- Re-work of provider retrieval[CR]- Re-work of stream directories[CR]- Re-work of stream resolving[CR]- Fixed issues with various modules[CR]- Added option for localized providers[CR]- Added German providers (Viper4k)[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+	</extension>
+</addon>
+
+<addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.7.1" provider-name="MetalKettle">
+	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">http://offshoregit.com/metalkettle/addons.xml</info>
+		<checksum>http://offshoregit.com/metalkettle/addons.xml.md5</checksum>
+		<datadir zip="true">http://offshoregit.com/metalkettle/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from MetalKettle</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 
