@@ -2668,7 +2668,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.3.0" provider-name="kodi senyor">
+<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.3.1" provider-name="kodi senyor">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.requests" />
@@ -7245,7 +7245,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.0.9" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.1.0" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor" />
