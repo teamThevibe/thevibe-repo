@@ -1789,7 +1789,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.55" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.56" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.quasar.burst" optional="true" />
@@ -6530,7 +6530,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.2.2"
+       version="6.2.3"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
