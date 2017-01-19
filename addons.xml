@@ -2841,7 +2841,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.01.12" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.01.19.1" name="RoiD" provider-name="RoiD">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
