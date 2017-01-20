@@ -3924,7 +3924,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.01.15.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.01.20.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -5787,7 +5787,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
-	     version="2.8.0"
+	     version="2.8.1"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
