@@ -1139,7 +1139,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.6.3" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.6.5" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -5787,7 +5787,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
-	     version="2.8.1"
+	     version="2.8.3"
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
