@@ -5003,6 +5003,7 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
        provider-name="Hagai Cohen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
     <import addon="script.common.plugin.cache" version="2.5.5"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -6634,7 +6635,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.2.8"
+       version="6.2.9"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
