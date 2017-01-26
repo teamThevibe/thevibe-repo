@@ -13,3 +13,4 @@ https://github.com/amet/service.subtitles.opensubtitles
 https://github.com/WayneD/script.tv.show.next.aired
 https://github.com/scakemyer/plugin.video.quasar
 https://github.com/burekas7/context.subtitlesdialog.contextmenu
+https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles
