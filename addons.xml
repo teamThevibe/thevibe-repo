@@ -1223,7 +1223,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.136" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.142" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -4188,7 +4188,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.37"
+       version="1.38"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -6604,7 +6604,7 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2017.01.21.3" provider-name="mrknow" >
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2017.01.26.4" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
