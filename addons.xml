@@ -4999,7 +4999,7 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
 
 <addon id="plugin.video.animeram"
        name="AnimeRam"
-       version="0.0.6"
+       version="0.0.7-rc.0"
        provider-name="Hagai Cohen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
