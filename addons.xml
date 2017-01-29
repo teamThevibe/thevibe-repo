@@ -1904,7 +1904,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -2563,7 +2563,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="2.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="2.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -4769,7 +4769,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
   </extension>
 </addon>
 
-<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.5.6" provider-name="kodi senyor">
+<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.5.7" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor"/>
