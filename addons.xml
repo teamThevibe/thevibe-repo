@@ -8406,7 +8406,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="script.quasar.burst" name="Quasar [COLOR FFFF6B00]Burst[/COLOR]" version="0.3.1" provider-name="scakemyer">
+<addon id="script.quasar.burst" name="Quasar [COLOR FFFF6B00]Burst[/COLOR]" version="0.3.3" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="plugin.video.quasar" optional="false"/>
