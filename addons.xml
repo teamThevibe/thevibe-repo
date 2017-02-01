@@ -8770,7 +8770,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.0.2" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.0.3" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -8794,7 +8794,7 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+		<news>- Updated existing providers</news>
 	</extension>
 </addon>
 
@@ -9014,7 +9014,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.4.8" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.4.9" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
