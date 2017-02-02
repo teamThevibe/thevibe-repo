@@ -2651,7 +2651,7 @@ provider-name="kodi senyor">
     </extension>
  </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.0" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.1" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -2676,7 +2676,7 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Updated indexers[CR]Updated providers[CR]Cosmetics</news>
+		<news>Updated providers</news>
 	</extension>
 </addon>
 
