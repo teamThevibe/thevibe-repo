@@ -2493,8 +2493,9 @@ provider-name="kodi senyor">
 </addon>
 
 <addon id="plugin.video.freshstart" name="Fresh Start"
-	version="1.0.5" provider-name="tvaddons.ag">
+	version="1.0.6" provider-name="tvaddons.ag">
   <requires>
+   <import addon="plugin.program.indigo" version="1.0.0" />
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -7271,11 +7272,12 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 	</extension>
 </addon>
 
-    <addon id="plugin.program.addoninstaller" version="1.2.9"
+    <addon id="plugin.program.addoninstaller" version="1.3.0"
     	name="Addon Installer" provider-name="tvaddons.ag, Blazetamer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.addon.common" optional="true" />
+        <import addon="plugin.program.indigo" version="1.0.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
