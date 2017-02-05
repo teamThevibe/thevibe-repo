@@ -1864,7 +1864,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.65" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.66" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.quasar.burst" optional="true" />
@@ -9279,7 +9279,7 @@ Plugin by @koderdude</description>
 	</extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.1.7" provider-name="Mucky Duck">
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.1.8" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
