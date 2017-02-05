@@ -1139,7 +1139,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.8.0" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.8.2" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -4188,7 +4188,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.38"
+       version="1.39"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -6635,7 +6635,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.3.0"
+       version="6.3.2"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
