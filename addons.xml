@@ -1877,7 +1877,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <extension point="xbmc.subtitle.module" library="navigation.py" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Quasar: Torrent streaming</summary>
-        <description lang="en">Stream torrent files</description>
+        <description lang="en">Quasar is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar project from steeve.</description>
         <language>en el es de fi fr he hr it nl pt ro sk</language>
         <platform>all</platform>
         <website>https://github.com/scakemyer/plugin.video.quasar</website>
@@ -1887,6 +1887,9 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/home.jpg</screenshot>
+            <screenshot>resources/screenshots/movies.jpg</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot>
         </assets>
     </extension>
 </addon>
@@ -1904,7 +1907,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.3" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.0.4" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -2563,7 +2566,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="2.0.2" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="2.0.3" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -4869,7 +4872,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     </extension>
 </addon>
 
-<addon id="plugin.video.seretil" name="Seretil" version="2.2.5" provider-name="Freestyle">
+<addon id="plugin.video.seretil" name="Seretil" version="2.2.7" provider-name="Freestyle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="1.0.0"/>/>
@@ -4881,7 +4884,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
         <platform>all</platform>
         <summary lang="en">Watch seretil.me</summary>
         <summary lang="he">seretil</summary>
-        <description lang="en">Watch video fromseretil</description>
+        <description lang="en">Watch video from seretil</description>
         <description lang="he">SERETIL </description>
         <disclaimer>הנך כפוף לתנאי השימוש של האתר</disclaimer>
         <supportedcontent>
@@ -8298,7 +8301,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.mdpubfilm" name="PubFilm" version="2.0.0" provider-name="Mucky Duck">
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="2.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.muckys.common"/>
