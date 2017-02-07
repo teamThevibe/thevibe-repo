@@ -1139,7 +1139,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="1.8.2" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="1.8.3" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -3773,19 +3773,30 @@ provider-name="kodi senyor">
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.8" provider-name="h0d3nt3uf3l, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.4.1" provider-name="jdf76, bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
         <news>
-- Added MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
-- Added optional Watch Later custom playlist to Settings -> Folders
-- Added Maintenance section to Settings
-- Added 'Subtitle language(s) to download' selection to Settings -> General
+[add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive add-on or SPMC 16 w/ builtin-in
+[add] optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
+[add] Maintenance section to Settings
+[add] 'Subtitle language(s) to download' selection to Settings -> General
+[add] 'Force SSL Certificate verification' to Settings -> Advanced
+[upd] API key set switching from Settings -> API (this will log you out)
+[upd] Dual login only required if My Subscriptions folder is enabled at sign-in
+[upd] setting content type from episodes, now videos
+[del] override view options
+[upd] Norwegian strings [torstehu]
+[upd] Greek strings [twilight0]
+[upd] Portuguese strings [Wanilton]
+[upd] Dutch strings [flemlion]
+[fix/upd] API tweaking and various other updates
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -6639,7 +6650,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.3.2"
+       version="6.3.3"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
