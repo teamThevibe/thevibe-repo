@@ -1866,7 +1866,9 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.quasar" name="Quasar" version="0.9.67" provider-name="scakemyer">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="xbmc.python" version="2.24.0" />
+        <import addon="repository.quasar" optional="true" />
         <import addon="script.quasar.burst" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
