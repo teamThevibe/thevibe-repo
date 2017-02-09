@@ -852,12 +852,11 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdmovievault" name="MOVIE VAULT" version="1.0.0" provider-name="Mucky Duck">
+<addon id="plugin.video.mdmovievault" name="MOVIE VAULT" version="2.0.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
+	<import addon="script.module.muckys.common"/>
 	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -4842,12 +4841,11 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
   </extension>
 </addon>
 
-<addon id="plugin.video.mdafdah" name="Afdah" version="1.0.3" provider-name="Mucky Duck">
+<addon id="plugin.video.mdafdah" name="Afdah" version="2.0.0" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
+	<import addon="script.module.muckys.common"/>
 	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
