@@ -676,25 +676,6 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
 </addon>
 
-<addon id="plugin.video.mdwatch32hd" name="Watch32HD" version="1.0.3" provider-name="Mucky Duck">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
-	<import addon="repository.mdrepo" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream content From The watch32hd.co WebSite</summary>
-    <description lang="en">Stream Content From The watch32hd.co WebSite</description>
-	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="resource.images.skinicons.cd.he" name="Skin Icons - CD Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
