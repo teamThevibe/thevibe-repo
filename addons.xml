@@ -1848,7 +1848,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.70" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.71" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="xbmc.python" version="2.24.0" />
@@ -8724,7 +8724,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.projectm" name="[COLOR aqua]Project M[/COLOR]" version="1.2.3" provider-name="Merlin Project">
+<addon id="plugin.video.projectm" name="  [COLOR aqua]Project M[/COLOR]" version="1.2.4" provider-name="Merlin Project">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -8747,8 +8747,8 @@ provider-name="kodi senyor">
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Merlin Project Bring You Live, On Demand TV And Many Various Playlists.</summary>
-    <description lang="en">Please Enjoy, This Is An Ongoing Project!</description>
-    <disclaimer lang="en">Merlin Project Takes No Credit Or Liability For The Content Provided!</disclaimer>
+    <description lang="en">Please Enjoy, This Is An Ongoing Project! Remember There Are No Guarantees With Any Link And We Are Under No Obligation To Give Any Guarantees! The Base Code For This Addon Has Been Developed/Forked From Shanis Livestream Pro With Edits From Lambda, Hacamac, Merlin And Others Who Are Hashed Within The Code!</description>
+    <disclaimer lang="en">Merlin Project Takes No Credit Or Liability For The Content Provided! Be Sure To Obtain Only From The Merlin Repo!</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -9348,10 +9348,9 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.50">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.51">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
     <import addon="script.module.demjson" version="2.2.3" />
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
