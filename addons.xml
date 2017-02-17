@@ -3414,12 +3414,11 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.mdluckytv" name="LUCKY-TV" version="1.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.mdluckytv" name="LUCKY-TV" version="2.0.0" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
+	<import addon="script.module.muckys.common"/>
 	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -9275,7 +9274,7 @@ Plugin by @koderdude</description>
 	</extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.2.1" provider-name="Mucky Duck">
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.2.3" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
