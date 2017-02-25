@@ -1123,7 +1123,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.02.09" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.02.24" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1132,6 +1132,8 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup" />
 		<import addon="script.module.schism.common" />
+        <import addon="script.module.futures" version="2.2.0"/>
+
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
 		<provides>video</provides>
@@ -1142,7 +1144,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Update Providers - Zen now included in NaN Repo</news>
+		<news>Update Providers - Now Including a Real Time Mode and A Skinned Dialog Window for the results</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -1207,7 +1209,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.142" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.150" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -4530,7 +4532,7 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="script.module.schism.common" name="SchisM Common Libraries" version="1.5" provider-name="SchisM">
+<addon id="script.module.schism.common" name="SchisM Common Libraries" version="1.9.0" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
