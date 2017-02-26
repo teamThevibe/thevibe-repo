@@ -5619,7 +5619,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="plugin.audio.mp3streams"
        name="MP3 Streams"
-       version="1.2.2"
+       version="1.2.4"
        provider-name="kinkin, art by Marquerite">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
