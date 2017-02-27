@@ -1123,7 +1123,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.02.24" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.02.26" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1144,7 +1144,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Update Providers - Now Including a Real Time Mode and A Skinned Dialog Window for the results</news>
+		<news>Update Providers - Hotfixes - Added In Progress Netflix Style - Better Match Results</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -2908,7 +2908,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.02.21" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.02.26" name="RoiD" provider-name="RoiD">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
