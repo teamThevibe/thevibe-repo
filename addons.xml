@@ -193,7 +193,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.audio.99fm-playlists"
        name="99FM Playlists"
-       version="0.4.9"
+       version="0.5.0"
        provider-name="nirelbaz">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1123,7 +1123,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.02.26" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.02.28" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1144,7 +1144,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Update Providers - Hotfixes - Added In Progress Netflix Style - Better Match Results</news>
+		<news>Update Providers - Hotfixes</news>
         <assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -2643,7 +2643,7 @@ provider-name="kodi senyor">
     </extension>
  </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.2" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.3" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -2668,7 +2668,7 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Tweaks</news>
+		<news>Updated Providers</news>
 	</extension>
 </addon>
 
