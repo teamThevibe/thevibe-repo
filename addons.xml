@@ -193,7 +193,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.audio.99fm-playlists"
        name="99FM Playlists"
-       version="0.5.0"
+       version="0.5.1"
        provider-name="nirelbaz">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -2908,7 +2908,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.02.26" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.03.01" name="RoiD" provider-name="RoiD">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
