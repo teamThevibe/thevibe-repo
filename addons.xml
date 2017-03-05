@@ -1123,7 +1123,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.02.28" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.03.05" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1132,7 +1132,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<import addon="script.module.requests" />
 		<import addon="script.module.beautifulsoup" />
 		<import addon="script.module.schism.common" />
-        <import addon="script.module.futures" version="2.2.0"/>
+		<import addon="script.module.futures" version="2.2.0"/>
 
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="zen.py">
@@ -1144,14 +1144,14 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		<website>http://schism-tv.net</website>
-		<news>Update Providers - Hotfixes</news>
-        <assets>
+		<news>Added Library via Metalliq - Browse Series now in the Context Menu</news>
+		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshots/01.jpg</screenshot>
 			<screenshot>resources/screenshots/02.jpg</screenshot>
 			<screenshot>resources/screenshots/03.jpg</screenshot>
-        </assets>
+		</assets>
 	</extension>
 </addon>
 
@@ -1895,7 +1895,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.6" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.0.7" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
