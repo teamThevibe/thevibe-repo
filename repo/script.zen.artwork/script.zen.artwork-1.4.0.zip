@@ -6,13 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="http://www.schism-tv.net/xmlrpc.php" />
-<title>Page not found &#8211; SchisM TV</title>
+<title>Page not found &#8211; SchisM TV FORUM</title>
 <link rel='dns-prefetch' href='//s0.wp.com' />
 <link rel='dns-prefetch' href='//s.gravatar.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="SchisM TV &raquo; Feed" href="http://www.schism-tv.net/feed/" />
-<link rel="alternate" type="application/rss+xml" title="SchisM TV &raquo; Comments Feed" href="http://www.schism-tv.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SchisM TV FORUM &raquo; Feed" href="http://www.schism-tv.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SchisM TV FORUM &raquo; Comments Feed" href="http://www.schism-tv.net/comments/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.schism-tv.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.4"}};
 			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -31,8 +31,8 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+<link rel='stylesheet' id='bbp-default-css'  href='http://www.schism-tv.net/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.12-6148' type='text/css' media='screen' />
 <link rel='stylesheet' id='wspsc-style-css'  href='http://www.schism-tv.net/wp-content/plugins/wordpress-simple-paypal-shopping-cart/wp_shopping_cart_style.css?ver=4.2.9' type='text/css' media='all' />
-<link rel='stylesheet' id='wpforo-widgets-css'  href='http://www.schism-tv.net/wp-content/plugins/wpforo/wpf-themes/classic/widgets.css?ver=1.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='spu-public-css-css'  href='http://www.schism-tv.net/wp-content/plugins/popups/public/assets/css/public.css?ver=1.7.0.1' type='text/css' media='all' />
 <link rel='stylesheet' id='mh-magazine-css'  href='http://www.schism-tv.net/wp-content/themes/mh-magazine/style.css?ver=3.3.0' type='text/css' media='all' />
 <link rel='stylesheet' id='mh-font-awesome-css'  href='http://www.schism-tv.net/wp-content/themes/mh-magazine/includes/font-awesome.min.css' type='text/css' media='all' />
@@ -76,19 +76,7 @@ img.emoji {
 		obj1.wspsc_product.value = val_total;
 	}
 	//-->
-	</script>		<script type="text/javascript">
-			jQuery(document).ready(function($){
-				$(document).on('click','.attach_cant_view', function(){
-					$("#wpf-msg-box").hide();
-					$('#wpforo-load').visible();
-					$("#wpf-msg-box p.wpf-msg-box-triangle-right").removeClass("error").removeClass("success");
-					$("#wpf-msg-box p.wpf-msg-box-triangle-right").html("<span>Please <a href=\"http://www.schism-tv.net/community/?wpforo=signin\">Login</a> or <a href=\"http://www.schism-tv.net/community/?wpforo=signup\">Register</a></span>");
-					$("#wpf-msg-box").show(150).delay(1000);
-					$('#wpforo-load').invisible();
-				});
-			});
-		</script>
-		
+	</script>
 <link rel='dns-prefetch' href='//v0.wordpress.com'>
 <link rel='dns-prefetch' href='//i0.wp.com'>
 <link rel='dns-prefetch' href='//i1.wp.com'>
@@ -203,11 +191,11 @@ body.custom-background { background-color: #262626; }
 <header class="mh-header">
 	<div class="mh-container mh-container-inner mh-row clearfix">
 		<div class="mh-col-1-3 mh-custom-header">
-<a href="http://www.schism-tv.net/" title="SchisM TV" rel="home">
+<a href="http://www.schism-tv.net/" title="SchisM TV FORUM" rel="home">
 <div class="mh-site-logo" role="banner">
-<img class="mh-header-image" src="http://www.schism-tv.net/wp-content/uploads/2016/06/cropped-LOGO-1.jpg" height="89" width="268" alt="SchisM TV" />
+<img class="mh-header-image" src="http://www.schism-tv.net/wp-content/uploads/2016/06/cropped-LOGO-1.jpg" height="89" width="268" alt="SchisM TV FORUM" />
 <div class="mh-header-text">
-<h2 class="mh-header-title">SchisM TV</h2>
+<h2 class="mh-header-title">SchisM TV FORUM</h2>
 </div>
 </div>
 </a>
@@ -352,58 +340,58 @@ body.custom-background { background-color: #262626; }
 							</div>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
 															<div class="mh-custom-posts-thumb">
-									<a href="http://www.schism-tv.net/2017/01/20/real-debrid-giveaway-enter-for-a-chance-to-win/" title="Real Debrid Giveaway &#8211; Enter for a chance to WIN!"><img width="80" height="60" src="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/cchW58y.png?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="cchW58y" srcset="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/cchW58y.png?resize=678%2C500 678w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/cchW58y.png?resize=326%2C245 326w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/cchW58y.png?resize=80%2C60 80w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/cchW58y.png?zoom=2&amp;resize=80%2C60 160w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/cchW58y.png?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+									<a href="http://www.schism-tv.net/2017/01/18/how-to-install-bob-addon-in-kodi-17-krypton/" title="How to Install Bob Addon in Kodi 17 Krypton"><img width="80" height="60" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/fanart-4.jpg?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="fanart" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/fanart-4.jpg?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/fanart-4.jpg?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/fanart-4.jpg?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/fanart-4.jpg?zoom=2&amp;resize=80%2C60 160w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/fanart-4.jpg?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
 								</div>
 														<header class="mh-custom-posts-header">
 								<p class="mh-custom-posts-small-title">
-									<a href="http://www.schism-tv.net/2017/01/20/real-debrid-giveaway-enter-for-a-chance-to-win/" title="Real Debrid Giveaway &#8211; Enter for a chance to WIN!">
-										Real Debrid Giveaway &#8211; Enter for a chance to WIN!									</a>
+									<a href="http://www.schism-tv.net/2017/01/18/how-to-install-bob-addon-in-kodi-17-krypton/" title="How to Install Bob Addon in Kodi 17 Krypton">
+										How to Install Bob Addon in Kodi 17 Krypton									</a>
 								</p>
 								<div class="mh-meta mh-custom-posts-meta">
-									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 20, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/20/real-debrid-giveaway-enter-for-a-chance-to-win/#mh-comments">10</a></span>
+									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 18, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/18/how-to-install-bob-addon-in-kodi-17-krypton/#mh-comments">0</a></span>
 								</div>
 							</header>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
 															<div class="mh-custom-posts-thumb">
-									<a href="http://www.schism-tv.net/2017/01/25/zen-addon-with-library-and-trakt-enjoy-the-metalliq-full-integration/" title="Zen Addon with Library and Trakt &#8211; Enjoy the Metalliq full integration!"><img width="80" height="60" src="https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/zen2.png?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="zen2" srcset="https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/zen2.png?resize=678%2C509 678w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/zen2.png?resize=326%2C245 326w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/zen2.png?resize=80%2C60 80w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/zen2.png?zoom=2&amp;resize=80%2C60 160w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/zen2.png?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+									<a href="http://www.schism-tv.net/2017/02/27/watch-oscars-2017-on-kodi-and-recap/" title="Watch The Oscars 2017 on Kodi and Recap!"><img width="80" height="60" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="the-oscars-thumbnail" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?zoom=2&amp;resize=80%2C60 160w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
 								</div>
 														<header class="mh-custom-posts-header">
 								<p class="mh-custom-posts-small-title">
-									<a href="http://www.schism-tv.net/2017/01/25/zen-addon-with-library-and-trakt-enjoy-the-metalliq-full-integration/" title="Zen Addon with Library and Trakt &#8211; Enjoy the Metalliq full integration!">
-										Zen Addon with Library and Trakt &#8211; Enjoy the Metalliq full integration!									</a>
+									<a href="http://www.schism-tv.net/2017/02/27/watch-oscars-2017-on-kodi-and-recap/" title="Watch The Oscars 2017 on Kodi and Recap!">
+										Watch The Oscars 2017 on Kodi and Recap!									</a>
 								</p>
 								<div class="mh-meta mh-custom-posts-meta">
-									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 25, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/25/zen-addon-with-library-and-trakt-enjoy-the-metalliq-full-integration/#mh-comments">2</a></span>
+									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>February 27, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/02/27/watch-oscars-2017-on-kodi-and-recap/#mh-comments">0</a></span>
 								</div>
 							</header>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
 															<div class="mh-custom-posts-thumb">
-									<a href="http://www.schism-tv.net/2017/01/30/pirate-kodi-box-seller-court-case-update/" title="‘Pirate’ Kodi Box Seller Court Case News Update!"><img width="80" height="60" src="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/DSC_0423.jpg?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="DSC_0423" srcset="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/DSC_0423.jpg?resize=678%2C509 678w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/DSC_0423.jpg?resize=326%2C245 326w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/DSC_0423.jpg?resize=80%2C60 80w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/DSC_0423.jpg?zoom=2&amp;resize=80%2C60 160w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/DSC_0423.jpg?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+									<a href="http://www.schism-tv.net/2017/01/27/kodi-17-rc4-released-bugfixes-and-more/" title="Kodi 17 Rc4 released! Bugfixes and more"><img width="80" height="60" src="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/Kodi-17-download-krypton.png?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="Kodi-17-download-krypton" srcset="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/Kodi-17-download-krypton.png?resize=326%2C245 326w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/Kodi-17-download-krypton.png?resize=80%2C60 80w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/Kodi-17-download-krypton.png?zoom=2&amp;resize=80%2C60 160w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/Kodi-17-download-krypton.png?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
 								</div>
 														<header class="mh-custom-posts-header">
 								<p class="mh-custom-posts-small-title">
-									<a href="http://www.schism-tv.net/2017/01/30/pirate-kodi-box-seller-court-case-update/" title="‘Pirate’ Kodi Box Seller Court Case News Update!">
-										‘Pirate’ Kodi Box Seller Court Case News Update!									</a>
+									<a href="http://www.schism-tv.net/2017/01/27/kodi-17-rc4-released-bugfixes-and-more/" title="Kodi 17 Rc4 released! Bugfixes and more">
+										Kodi 17 Rc4 released! Bugfixes and more									</a>
 								</p>
 								<div class="mh-meta mh-custom-posts-meta">
-									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 30, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/30/pirate-kodi-box-seller-court-case-update/#mh-comments">0</a></span>
+									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 27, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/27/kodi-17-rc4-released-bugfixes-and-more/#mh-comments">0</a></span>
 								</div>
 							</header>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
 															<div class="mh-custom-posts-thumb">
-									<a href="http://www.schism-tv.net/2017/02/10/uk-piracy-alerts-pirates-users-are-starting-to-get-letters-from-their-isp/" title="UK Piracy Alerts: &#8220;Pirates users&#8221; are starting to get letters from their ISP"><img width="80" height="60" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/online-piracy.jpg?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="online-piracy" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/online-piracy.jpg?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/online-piracy.jpg?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/online-piracy.jpg?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/online-piracy.jpg?zoom=2&amp;resize=80%2C60 160w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/online-piracy.jpg?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+									<a href="http://www.schism-tv.net/2017/02/13/new-apple-tv-skin-for-kodi-now-available-in-the-repository/" title="NEW Apple TV SKIN for Kodi! NOW Available in the Repository!"><img width="80" height="60" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2016/11/screenshot004.png?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="screenshot004" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2016/11/screenshot004.png?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2016/11/screenshot004.png?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2016/11/screenshot004.png?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2016/11/screenshot004.png?zoom=2&amp;resize=80%2C60 160w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2016/11/screenshot004.png?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
 								</div>
 														<header class="mh-custom-posts-header">
 								<p class="mh-custom-posts-small-title">
-									<a href="http://www.schism-tv.net/2017/02/10/uk-piracy-alerts-pirates-users-are-starting-to-get-letters-from-their-isp/" title="UK Piracy Alerts: &#8220;Pirates users&#8221; are starting to get letters from their ISP">
-										UK Piracy Alerts: &#8220;Pirates users&#8221; are starting to get letters from their ISP									</a>
+									<a href="http://www.schism-tv.net/2017/02/13/new-apple-tv-skin-for-kodi-now-available-in-the-repository/" title="NEW Apple TV SKIN for Kodi! NOW Available in the Repository!">
+										NEW Apple TV SKIN for Kodi! NOW Available in the Repository!									</a>
 								</p>
 								<div class="mh-meta mh-custom-posts-meta">
-									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>February 10, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/02/10/uk-piracy-alerts-pirates-users-are-starting-to-get-letters-from-their-isp/#mh-comments">0</a></span>
+									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>February 13, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/02/13/new-apple-tv-skin-for-kodi-now-available-in-the-repository/#mh-comments">0</a></span>
 								</div>
 							</header>
 						</li>			</ul></div>				</div>
@@ -437,6 +425,7 @@ body.custom-background { background-color: #262626; }
 	<div style="display:none">
 	</div>
 <script type='text/javascript' src='http://www.schism-tv.net/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://www.schism-tv.net/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.12-6148'></script>
 <script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201710'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
