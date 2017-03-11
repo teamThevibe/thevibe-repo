@@ -837,6 +837,27 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
+<addon id="plugin.video.jksp"
+       version="0.0.2"
+       name="Jk$p Movies Plugin"
+       provider-name="Jk$p">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Jk$p Movies Plugin</summary>
+  <description lang="en">Watch movies by Jk$p</description>
+  <disclaimer> </disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.mdmovievault" name="MOVIE VAULT" version="2.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
