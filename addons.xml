@@ -6644,7 +6644,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.4.2"
+       version="6.4.4"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
