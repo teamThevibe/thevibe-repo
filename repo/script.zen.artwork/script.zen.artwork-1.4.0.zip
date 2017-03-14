@@ -6,13 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="http://www.schism-tv.net/xmlrpc.php" />
-<title>Page not found &#8211; SchisM TV FORUM</title>
+<title>Page not found &#8211; SchisM TV Official Website</title>
 <link rel='dns-prefetch' href='//s0.wp.com' />
 <link rel='dns-prefetch' href='//s.gravatar.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="SchisM TV FORUM &raquo; Feed" href="http://www.schism-tv.net/feed/" />
-<link rel="alternate" type="application/rss+xml" title="SchisM TV FORUM &raquo; Comments Feed" href="http://www.schism-tv.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SchisM TV Official Website &raquo; Feed" href="http://www.schism-tv.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SchisM TV Official Website &raquo; Comments Feed" href="http://www.schism-tv.net/comments/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.schism-tv.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.4"}};
 			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -133,6 +133,16 @@ body.custom-background { background-color: #262626; }
 			News Ticker<i class="fa fa-chevron-right"></i>		</div>
 		<div class="mh-ticker-content mh-ticker-content-top">
 		<ul id="mh-ticker-loop-top">				<li class="mh-ticker-item mh-ticker-item-top">
+					<a href="http://www.schism-tv.net/2017/03/14/iptv-live-streams-blocking-soon-a-reality/" title="IPTV Live Streams blocking, soon a reality!">
+						<span class="mh-ticker-item-date mh-ticker-item-date-top">
+                        	[ March 14, 2017 ]                        </span>
+						<span class="mh-ticker-item-title mh-ticker-item-title-top">
+							IPTV Live Streams blocking, soon a reality!						</span>
+						<span class="mh-ticker-item-cat mh-ticker-item-cat-top">
+							<i class="fa fa-caret-right"></i>
+														Kodi						</span>
+					</a>
+				</li>				<li class="mh-ticker-item mh-ticker-item-top">
 					<a href="http://www.schism-tv.net/2017/03/06/zen-now-supports-library-how-to-setup-library-in-kodi-with-zen-addon/" title="Zen now supports Library! How to setup Library in Kodi with Zen addon">
 						<span class="mh-ticker-item-date mh-ticker-item-date-top">
                         	[ March 6, 2017 ]                        </span>
@@ -172,16 +182,6 @@ body.custom-background { background-color: #262626; }
 							<i class="fa fa-caret-right"></i>
 														Addons						</span>
 					</a>
-				</li>				<li class="mh-ticker-item mh-ticker-item-top">
-					<a href="http://www.schism-tv.net/2017/03/01/watch-live-tv-on-youtube-cut-the-cord-with-youtube-tv/" title="Watch Live TV on Youtube! Cut the Cord with Youtube TV!">
-						<span class="mh-ticker-item-date mh-ticker-item-date-top">
-                        	[ March 1, 2017 ]                        </span>
-						<span class="mh-ticker-item-title mh-ticker-item-title-top">
-							Watch Live TV on Youtube! Cut the Cord with Youtube TV!						</span>
-						<span class="mh-ticker-item-cat mh-ticker-item-cat-top">
-							<i class="fa fa-caret-right"></i>
-														News						</span>
-					</a>
 				</li>		</ul>
 	</div>
 </div>						</div>
@@ -191,11 +191,11 @@ body.custom-background { background-color: #262626; }
 <header class="mh-header">
 	<div class="mh-container mh-container-inner mh-row clearfix">
 		<div class="mh-col-1-3 mh-custom-header">
-<a href="http://www.schism-tv.net/" title="SchisM TV FORUM" rel="home">
+<a href="http://www.schism-tv.net/" title="SchisM TV Official Website" rel="home">
 <div class="mh-site-logo" role="banner">
-<img class="mh-header-image" src="http://www.schism-tv.net/wp-content/uploads/2016/06/cropped-LOGO-1.jpg" height="89" width="268" alt="SchisM TV FORUM" />
+<img class="mh-header-image" src="http://www.schism-tv.net/wp-content/uploads/2016/06/cropped-LOGO-1.jpg" height="89" width="268" alt="SchisM TV Official Website" />
 <div class="mh-header-text">
-<h2 class="mh-header-title">SchisM TV FORUM</h2>
+<h2 class="mh-header-title">SchisM TV Official Website</h2>
 </div>
 </div>
 </a>
@@ -325,33 +325,33 @@ body.custom-background { background-color: #262626; }
 				<div class="mh-sidebar mh-home-sidebar mh-margin-left mh-home-area-4"><div class="mh-widget"><h4 class="mh-widget-title"><span class="mh-widget-title-inner">Random Articles</span></h4>			<ul class="mh-custom-posts-widget clearfix"> 						<li class="mh-custom-posts-item mh-custom-posts-large clearfix">
 							<div class="mh-custom-posts-large-inner clearfix">
 																	<div class="mh-custom-posts-thumb-xl">
-										<a href="http://www.schism-tv.net/2017/02/11/play-next-episodes-automatically-in-kodi-netflix-style-notification/" title="Play Next Episodes Automatically in Kodi &#8211; NETFLIX Style Notification!"><img width="326" height="245" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/nSlyvGO.png?resize=326%2C245" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="nSlyvGO" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/nSlyvGO.png?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/nSlyvGO.png?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/nSlyvGO.png?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/nSlyvGO.png?zoom=3&amp;resize=326%2C245 978w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
+										<a href="http://www.schism-tv.net/2017/01/19/get-hd-content-in-kodi-how-to-setup-real-debrid-in-kodi/" title="Get HD Content in Kodi &#8211; How to Setup Real Debrid in Kodi"><img width="326" height="245" src="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2016/08/hqdefault.jpg?resize=326%2C245" class="attachment-mh-magazine-medium size-mh-magazine-medium wp-post-image" alt="hqdefault" srcset="https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2016/08/hqdefault.jpg?w=480 480w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2016/08/hqdefault.jpg?resize=300%2C225 300w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2016/08/hqdefault.jpg?resize=326%2C245 326w, https://i2.wp.com/www.schism-tv.net/wp-content/uploads/2016/08/hqdefault.jpg?resize=80%2C60 80w" sizes="(max-width: 326px) 100vw, 326px" />										</a>
 																			</div>
 																<div class="mh-custom-posts-content">
 									<header class="mh-custom-posts-header">
 										<h3 class="mh-custom-posts-xl-title">
-											<a href="http://www.schism-tv.net/2017/02/11/play-next-episodes-automatically-in-kodi-netflix-style-notification/" title="Play Next Episodes Automatically in Kodi &#8211; NETFLIX Style Notification!">
-												Play Next Episodes Automatically in Kodi &#8211; NETFLIX Style Notification!											</a>
+											<a href="http://www.schism-tv.net/2017/01/19/get-hd-content-in-kodi-how-to-setup-real-debrid-in-kodi/" title="Get HD Content in Kodi &#8211; How to Setup Real Debrid in Kodi">
+												Get HD Content in Kodi &#8211; How to Setup Real Debrid in Kodi											</a>
 										</h3>
 										<div class="mh-meta mh-custom-posts-meta">
-											<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>February 11, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/02/11/play-next-episodes-automatically-in-kodi-netflix-style-notification/#mh-comments">0</a></span>
+											<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 19, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/19/get-hd-content-in-kodi-how-to-setup-real-debrid-in-kodi/#mh-comments">0</a></span>
 										</div>
 									</header>
-									<div class="mh-excerpt">We all love Kodi and it&#8217;s endless uses. But one of the most annoying things is when binge watching something, you need to click every time you want to watch the next episode. Well not <a class="mh-excerpt-more" href="http://www.schism-tv.net/2017/02/11/play-next-episodes-automatically-in-kodi-netflix-style-notification/" title="Play Next Episodes Automatically in Kodi &#8211; NETFLIX Style Notification!">[...]</a></div>								</div>
+									<div class="mh-excerpt">This step will use Salts addon but the process is the same using any other addon. For example in Zen you navigate to Url resolver by going in the addon main page &gt; Tools &gt; <a class="mh-excerpt-more" href="http://www.schism-tv.net/2017/01/19/get-hd-content-in-kodi-how-to-setup-real-debrid-in-kodi/" title="Get HD Content in Kodi &#8211; How to Setup Real Debrid in Kodi">[...]</a></div>								</div>
 							</div>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
 															<div class="mh-custom-posts-thumb">
-									<a href="http://www.schism-tv.net/2017/03/01/watch-live-tv-on-youtube-cut-the-cord-with-youtube-tv/" title="Watch Live TV on Youtube! Cut the Cord with Youtube TV!"><img width="80" height="60" src="https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/03/yt_yv.png?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="yt_yv" srcset="https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/03/yt_yv.png?resize=678%2C509 678w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/03/yt_yv.png?resize=326%2C245 326w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/03/yt_yv.png?resize=80%2C60 80w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/03/yt_yv.png?zoom=2&amp;resize=80%2C60 160w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/03/yt_yv.png?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+									<a href="http://www.schism-tv.net/2017/02/27/watch-oscars-2017-on-kodi-and-recap/" title="Watch The Oscars 2017 on Kodi and Recap!"><img width="80" height="60" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="the-oscars-thumbnail" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?zoom=2&amp;resize=80%2C60 160w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/the-oscars-thumbnail.jpg?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
 								</div>
 														<header class="mh-custom-posts-header">
 								<p class="mh-custom-posts-small-title">
-									<a href="http://www.schism-tv.net/2017/03/01/watch-live-tv-on-youtube-cut-the-cord-with-youtube-tv/" title="Watch Live TV on Youtube! Cut the Cord with Youtube TV!">
-										Watch Live TV on Youtube! Cut the Cord with Youtube TV!									</a>
+									<a href="http://www.schism-tv.net/2017/02/27/watch-oscars-2017-on-kodi-and-recap/" title="Watch The Oscars 2017 on Kodi and Recap!">
+										Watch The Oscars 2017 on Kodi and Recap!									</a>
 								</p>
 								<div class="mh-meta mh-custom-posts-meta">
-									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>March 1, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/03/01/watch-live-tv-on-youtube-cut-the-cord-with-youtube-tv/#mh-comments">0</a></span>
+									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>February 27, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/02/27/watch-oscars-2017-on-kodi-and-recap/#mh-comments">0</a></span>
 								</div>
 							</header>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
@@ -384,16 +384,16 @@ body.custom-background { background-color: #262626; }
 							</header>
 						</li>						<li class="mh-custom-posts-item mh-custom-posts-small clearfix">
 															<div class="mh-custom-posts-thumb">
-									<a href="http://www.schism-tv.net/2017/01/26/stop-being-tracked-get-the-best-vpn-now/" title="STOP BEING TRACKED! GET THE BEST VPN NOW!!!"><img width="80" height="60" src="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/IPV_MultipleVPNConnections_blogpost_v1.png?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="IPV_MultipleVPNConnections_blogpost_v1" srcset="https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/IPV_MultipleVPNConnections_blogpost_v1.png?resize=678%2C509 678w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/IPV_MultipleVPNConnections_blogpost_v1.png?resize=326%2C245 326w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/IPV_MultipleVPNConnections_blogpost_v1.png?resize=80%2C60 80w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/IPV_MultipleVPNConnections_blogpost_v1.png?zoom=2&amp;resize=80%2C60 160w, https://i0.wp.com/www.schism-tv.net/wp-content/uploads/2017/01/IPV_MultipleVPNConnections_blogpost_v1.png?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
+									<a href="http://www.schism-tv.net/2017/02/08/search-engines-ready-to-change-pirate-links-look-and-results/" title="SEARCH ENGINES READY TO CHANGE &#8220;Pirate Links&#8221; look and results!"><img width="80" height="60" src="https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/google-pirate-bay-removal.jpg?resize=80%2C60" class="attachment-mh-magazine-small size-mh-magazine-small wp-post-image" alt="google-pirate-bay-removal" srcset="https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/google-pirate-bay-removal.jpg?resize=326%2C245 326w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/google-pirate-bay-removal.jpg?resize=80%2C60 80w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/google-pirate-bay-removal.jpg?zoom=2&amp;resize=80%2C60 160w, https://i1.wp.com/www.schism-tv.net/wp-content/uploads/2017/02/google-pirate-bay-removal.jpg?zoom=3&amp;resize=80%2C60 240w" sizes="(max-width: 80px) 100vw, 80px" />									</a>
 								</div>
 														<header class="mh-custom-posts-header">
 								<p class="mh-custom-posts-small-title">
-									<a href="http://www.schism-tv.net/2017/01/26/stop-being-tracked-get-the-best-vpn-now/" title="STOP BEING TRACKED! GET THE BEST VPN NOW!!!">
-										STOP BEING TRACKED! GET THE BEST VPN NOW!!!									</a>
+									<a href="http://www.schism-tv.net/2017/02/08/search-engines-ready-to-change-pirate-links-look-and-results/" title="SEARCH ENGINES READY TO CHANGE &#8220;Pirate Links&#8221; look and results!">
+										SEARCH ENGINES READY TO CHANGE &#8220;Pirate Links&#8221; look and results!									</a>
 								</p>
 								<div class="mh-meta mh-custom-posts-meta">
-									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>January 26, 2017</span>
-<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/01/26/stop-being-tracked-get-the-best-vpn-now/#mh-comments">0</a></span>
+									<span class="mh-meta-date updated"><i class="fa fa-clock-o"></i>February 8, 2017</span>
+<span class="mh-meta-comments"><i class="fa fa-comment-o"></i><a class="mh-comment-count-link" href="http://www.schism-tv.net/2017/02/08/search-engines-ready-to-change-pirate-links-look-and-results/#mh-comments">0</a></span>
 								</div>
 							</header>
 						</li>			</ul></div>				</div>
