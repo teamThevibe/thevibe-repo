@@ -2767,6 +2767,21 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
+<addon id="plugin.program.repotools" name="הרחבות בקליק" version="1.4.2" provider-name="kodi senyor">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/art/default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>easy addons install</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.wildhitz"
        name="WildHitz"
        version="1.0.3"
