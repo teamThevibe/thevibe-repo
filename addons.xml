@@ -8846,7 +8846,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.2" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -8879,8 +8879,11 @@ provider-name="kodi senyor">
 		</assets>
 		<news>- Updated existing providers
 - Tweaked French providers
-- Update Translation
-- Fix skipping for hosters with captchas</news>
+- Removed dead providers
+- Add Play-Random (PickJones)
+- Add Documentary movie genre (Amante)
+- Add Debrid-Link.fr
+- Tweaked website-parser</news>
 	</extension>
 </addon>
 
