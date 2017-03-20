@@ -4235,7 +4235,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.40"
+       version="1.41"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
