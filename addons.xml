@@ -156,6 +156,27 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 	</extension>
 </addon>
 
+<addon id="script.module.python.koding.aio"
+   name="Python Koding AIO"
+   version="0.1"
+   provider-name="noobsandnerds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Python Koding All In One</summary>
+    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. This also contains unique features that can hook into the Add-on Portal framework built at noobsandnerds.com</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>http://creativecommons.org/licenses/by-nc-nd/4.0</license>
+    <forum>http://noobsandnerds.com</forum>
+    <website>http://noobsandnerds.com</website>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="script.featherence.remote" name="Featherence Remote" version="0.1.0" provider-name="finalmakerr">
   <requires>
 	<import addon="xbmc.python" version="2.1.0"/>
