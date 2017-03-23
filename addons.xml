@@ -10069,7 +10069,7 @@ level.</description>
  </addon>
 
 <addon id="plugin.video.senyor.imdb.watchlists"
-version="1.0.2"
+version="1.0.4"
 name="Senyor Imdb Watchlists"
 provider-name="kodi senyor">
 <requires>
