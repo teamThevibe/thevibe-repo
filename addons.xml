@@ -7406,6 +7406,24 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.reshet.ebs.video" name="Reshet.Tv" version="1.0.0" provider-name="Ebs">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.youtube.dl" version="17.310.1a1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Shows From Reshet Site</summary>
+    <language>en</language>
+    <description lang="en">Shows From Reshet Site</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mdgenvideos" name="GenVideos" version="1.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -7496,7 +7514,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.2.2" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.2.3" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor" />
@@ -9124,7 +9142,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.5.4" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.5.5" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
