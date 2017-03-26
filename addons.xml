@@ -7406,7 +7406,10 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.reshet.ebs.video" name="Reshet.Tv" version="1.0.0" provider-name="Ebs">
+<addon id="plugin.video.reshet.ebs.video"
+       name="Reshet.Tv"
+       version="1.1.1"
+       provider-name="Ebs">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
