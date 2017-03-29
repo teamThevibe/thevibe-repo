@@ -1251,7 +1251,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.167" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.168" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2950,7 +2950,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.03.27" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.03.28" name="RoiD" provider-name="RoiD">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" />
@@ -2968,7 +2968,7 @@ provider-name="kodi senyor">
 	<extension point="xbmc.addon.metadata">
 		<summary>ערוצים לצפייה ישירה הנאספים ברשת</summary>
 		<description>שלום לכולם
-ההרחבה RoiD מכילה ערוצים לצפייה ישירה הנאספים ברשת.
+ההרחבה RoiD מכילה ערוצים לצפייה ישירה ותכני vod ישראלים הנאספים ברשת.
 
 הבהרה חשובה!!!
 מפתח התוסף לא משדר לא מאחסן ולא מארח שידורים או תומך בכך, אין המפתח נותן אחריות על הקישורים אלא מעתיקם מאתרים ברשת, ערוצי הטלוויזיה בתוסף נאספים במאמץ רב על מנת שתוכלו להנות ולצפות בתוכן שכבר נמצא ברחבי הרשת באמצעות Kodi.
@@ -3826,30 +3826,19 @@ provider-name="kodi senyor">
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.4.1" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.4.13" provider-name="h0d3nt3uf3l, bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
         <news>
-[add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive add-on or SPMC 16 w/ builtin-in
-[add] optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
-[add] Maintenance section to Settings
-[add] 'Subtitle language(s) to download' selection to Settings -> General
-[add] 'Force SSL Certificate verification' to Settings -> Advanced
-[upd] API key set switching from Settings -> API (this will log you out)
-[upd] Dual login only required if My Subscriptions folder is enabled at sign-in
-[upd] setting content type from episodes, now videos
-[del] override view options
-[upd] Norwegian strings [torstehu]
-[upd] Greek strings [twilight0]
-[upd] Portuguese strings [Wanilton]
-[upd] Dutch strings [flemlion]
-[fix/upd] API tweaking and various other updates
+- Added MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
+- Added optional Watch Later custom playlist to Settings -> Folders
+- Added Maintenance section to Settings
+- Added 'Subtitle language(s) to download' selection to Settings -> General
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -4256,7 +4245,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.41"
+       version="1.42"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
