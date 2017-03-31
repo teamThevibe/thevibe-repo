@@ -8877,7 +8877,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.5" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.6" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -8908,10 +8908,12 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Updated existing providers
-- Removed dead providers
-- Added Polish providers (homik)
-- Added imdb/tvdb-id to directory-items</news>
+		<news>- Updated existing providers (satanuke)
+- Tweaked French providers
+- Tweaked German providers
+- Added Korean providers (Martopotamus)
+- Fixed website-parser
+- Use gzip on requests</news>
 	</extension>
 </addon>
 
