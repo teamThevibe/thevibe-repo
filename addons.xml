@@ -1251,7 +1251,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <!--suppress ALL -->
-<addon id="plugin.video.salts" version="2.0.169" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.170" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -6697,7 +6697,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.4.7"
+       version="6.4.8"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
