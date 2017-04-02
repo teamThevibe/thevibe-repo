@@ -158,16 +158,17 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.1"
-   provider-name="noobsandnerds">
+   version="0.4"
+   provider-name="TotalRevolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="1.2.0"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Python Koding All In One</summary>
-    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. This also contains unique features that can hook into the Add-on Portal framework built at noobsandnerds.com</description>
+    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. Although developed at totalrevolution.tv this also contains unique features which hook into the noobsandnerds.com framework so a big thanks to the team and users who keep the portals updated.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <license>http://creativecommons.org/licenses/by-nc-nd/4.0</license>
@@ -2950,7 +2951,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.03.29" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.04.01.2" name="RoiD" provider-name="RoiD">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" />
