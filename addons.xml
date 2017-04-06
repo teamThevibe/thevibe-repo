@@ -4400,10 +4400,10 @@ http://www.hometheater.co.il</description>
 	</extension>
 </addon>
 
-<addon id="repository.thevibe" name="The-Vibe Team Repository" version="6.0" provider-name="The-Vibe Team">
+<addon id="repository.thevibe" name="The-Vibe Team Repository" version="6.1" provider-name="The-Vibe Team">
   <extension point="xbmc.addon.repository" name=".TheVibe Repository ">
-    <info compressed="false">http://bit.do/vibexml</info>
-    <checksum>http://bit.do/vibemd5</checksum>
+    <info compressed="false">http://bit.srp.co.il/addonsXml</info>
+    <checksum>http://bit.srp.co.il/addonsMD5</checksum>
     <datadir zip="true">https://github.com/teamThevibe/thevibe-repo/raw/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
