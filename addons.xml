@@ -4058,7 +4058,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.04.3" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.08.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
