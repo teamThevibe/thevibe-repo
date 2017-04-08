@@ -4873,7 +4873,7 @@ http://www.hometheater.co.il</description>
 </addon>
 
 <addon id="plugin.program.senyor.kids.favourites"
-version="1.0.0"
+version="1.0.1"
 name="senyor kids favourites"
 provider-name="kodi senyor">
 <requires>
@@ -4883,7 +4883,7 @@ provider-name="kodi senyor">
   <import addon="repository.kodi-senyor"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
+  <provides>video executable</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">senyor movies favourites fork of simple favourites from primaeval</summary>
@@ -6124,7 +6124,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 <addon id="plugin.program.senyor.livetv.light.favourites"
-version="1.0.3"
+version="1.0.4"
 name="Senyor Live Tv Favorites Light"
 provider-name="kodi senyor">
 <requires>
@@ -6134,7 +6134,7 @@ provider-name="kodi senyor">
   <import addon="repository.kodi-senyor"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
+  <provides>video executable</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">senyor favourites fork of simple favourites from primaeval</summary>
@@ -6290,7 +6290,7 @@ provider-name="kodi senyor">
 </addon>
 
 <addon id="plugin.program.senyor.movies.light.favourites"
-version="1.0.3"
+version="1.0.4"
 name="Senyor Movies Favorites Light"
 provider-name="kodi senyor">
 <requires>
@@ -6300,7 +6300,7 @@ provider-name="kodi senyor">
   <import addon="repository.kodi-senyor"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
+  <provides>video executable</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">senyor movies favourites fork of simple favourites from primaeval</summary>
@@ -7508,7 +7508,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.2.4" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream_light" name="Senyor Super Addon Light" version="1.2.5" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor" />
@@ -8184,7 +8184,7 @@ this is an unofficial addon. please don't ask for support in openelec forum / ir
 </addon>
 
 <addon id="plugin.program.senyor.tvshow.light.favourites"
-version="1.0.3"
+version="1.0.4"
 name="Senyor Tv Shows Favorites Light"
 provider-name="kodi senyor">
 <requires>
@@ -8194,7 +8194,7 @@ provider-name="kodi senyor">
   <import addon="repository.kodi-senyor"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
+  <provides>video executable</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">senyor favourites fork of simple favourites from primaeval</summary>
@@ -9152,7 +9152,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.5.5" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.5.6" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
