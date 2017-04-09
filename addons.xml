@@ -1166,7 +1166,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.03.31" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.04.09" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1187,7 +1187,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 
-		<news>Added "People also liked" option from the contextmenu... suggestions based on imdb</news>
+		<news>Update Providers - Easter Break fixes</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -2686,7 +2686,7 @@ provider-name="kodi senyor">
     </extension>
  </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.7" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.8" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -2711,7 +2711,7 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Reset source file integration files</news>
+		<news>Source repair</news>
 	</extension>
 </addon>
 
@@ -8899,7 +8899,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.7" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.8" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -8930,9 +8930,12 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Updated existing providers (satanuke, somebody)
-- Tweaked German providers
-- Added Mega-Debrid</news>
+		<news>- Added and Updated French providers
+- Added and Updated German providers
+- Updated Polish providers (homik)
+- Add Blazingfast support
+- Remove old Debrid-Code
+- Note: You might have to reconfigure your Debrid Service in URLResolver Settings</news>
 	</extension>
 </addon>
 
