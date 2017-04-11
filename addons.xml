@@ -2467,7 +2467,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ytlive"
 	name="Youtube Live Channels"
-	version="1.0.2"
+	version="1.0.3"
 	provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -4816,7 +4816,7 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.6.5" provider-name="kodi senyor">
+<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.6.6" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor"/>
@@ -9155,7 +9155,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.5.7" provider-name="Kodi Senyor">
+<addon id="plugin.video.all_addons_stream" name="Senyor Super Addon" version="1.5.8" provider-name="Kodi Senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
