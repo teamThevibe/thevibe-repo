@@ -158,11 +158,12 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.4"
+   version="0.6"
    provider-name="TotalRevolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver" version="1.2.0"/>
+    <import addon="script.module.requests" version="2.3.0"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
@@ -171,10 +172,13 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
     <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. Although developed at totalrevolution.tv this also contains unique features which hook into the noobsandnerds.com framework so a big thanks to the team and users who keep the portals updated.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
-    <license>http://creativecommons.org/licenses/by-nc-nd/4.0</license>
-    <forum>http://noobsandnerds.com</forum>
+    <license>Creative Commons 4.0-NC-ND</license>
+    <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
     <website>http://noobsandnerds.com</website>
-    <source></source>
+    <news>Added lots of new functions and cleaned up README. See Changelog.txt for full details.</news>
+    <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
+    <genre>devtools</genre>
+    <video_guide>D5tByWg8KME</video_guide>
   </extension>
 </addon>
 
@@ -4247,7 +4251,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.video.thepyramid"
        name="The Pyramid"
-       version="1.42"
+       version="1.43"
        provider-name="TomBraiderMovies">
   <requires>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -6699,7 +6703,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.5.6"
+       version="6.5.7"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
