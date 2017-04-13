@@ -1897,7 +1897,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.76" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.77" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="xbmc.python" version="2.24.0" />
@@ -7644,16 +7644,19 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.4" provider-name="Team Evolve">
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="2.0.3" provider-name="Team Evolve">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-
-    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.simplejson" version="0.0.1"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+    <import addon="script.module.liveresolver" version="0.0.1"/>
+    <import addon="script.module.nanscrapers" version="0.5"/>
+    <import addon="script.common.plugin.cache" version="0.0.1"/>
+    <import addon="repository.metalkettle" version="0.0.1"/>
+    <import addon="repository.noobsandnerds" version="0.0.1"/>
+    <import addon="script.module.metahandler" version="0.0.1"/>
     <import addon="plugin.video.youtube" optional="true" />
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
