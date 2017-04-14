@@ -2955,7 +2955,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.RoiD" version="2017.04.04" name="RoiD" provider-name="RoiD">
+<addon id="plugin.video.RoiD" version="2017.04.13" name="RoiD" provider-name="RoiD">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" />
@@ -2963,7 +2963,7 @@ provider-name="kodi senyor">
 		<import addon="script.module.requests" />
 		<import addon="script.module.livestreamer" />
 		<import addon="script.module.urlresolver" />
-	<import addon="repository.RoiD" />
+		<import addon="repository.RoiD" />
 	</requires>
 	<extension
 		point="xbmc.python.pluginsource"
@@ -9452,10 +9452,9 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="plugin.video.MikeysKaraoke" name="Mikey's Karaoke" version="4.8.6" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+<addon id="plugin.video.MikeysKaraoke" name="Mikey's Karaoke" version="4.8.7" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common" version="0.0.1"/>
     <import addon="plugin.video.youtube" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
