@@ -4820,7 +4820,7 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.6.7" provider-name="kodi senyor">
+<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.6.8" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor"/>
@@ -8356,7 +8356,7 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="plugin.video.hadlafa" name="Hadlafa.net" version="1.0.1" provider-name="zachi40">
+<addon id="plugin.video.hadlafa" name="Hadlafa.net" version="1.0.2" provider-name="zachi40">
   <requires>
 	 <import addon="xbmc.python" version="2.1.0"/>
 	 <import addon="script.module.beautifulsoup4" version="4.3.1" />
