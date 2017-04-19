@@ -877,8 +877,8 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <addon id="plugin.video.jksp"
-       version="0.0.2"
-       name="Jk$p Movies Plugin"
+       version="0.0.9"
+       name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] Movies Plugin"
        provider-name="Jk$p">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
@@ -893,6 +893,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
+	<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
   </assets>
 </extension>
 </addon>
