@@ -270,6 +270,19 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
+<addon id="repository.Jk$p" name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR seagreen]$[/COLOR][COLOR red]p[/COLOR][/B] repository" version="1.0.1" provider-name="Jk$p">
+	<extension point="xbmc.addon.repository" name="Jk$p">
+		<info compressed="false">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Jk$p Movies Plugin.</summary>
+		<description>Watch movies by Jk$p</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.advanced.wol"
        name="Advanced Wake On Lan"
        version="1.2.5"
@@ -3814,19 +3827,20 @@ provider-name="kodi senyor">
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.4.13" provider-name="h0d3nt3uf3l, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.12" provider-name="jdf76, bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
         <news>
-- Added MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
-- Added optional Watch Later custom playlist to Settings -> Folders
-- Added Maintenance section to Settings
-- Added 'Subtitle language(s) to download' selection to Settings -> General
+[fix/upd] replace custom simple_requests with script.module.requests to resolve ssl and cross-platform issues
+[add] 'Reset access manager' added to Maintenance section, sign out process(available when logged out) to clean up tokens in settings.xml
+[upd] set default for SSL certificate verification to 'true'
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -5033,22 +5047,6 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
   </extension>
 </addon>
 
-<addon id="plugin.video.youtubesearch"
-	name="Search YouTube" version="0.0.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube" version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Search YouTube</summary>
-    <description lang="en">Search YouTube</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.animeram"
        name="AnimeRam"
        version="0.0.7-rc.0"
@@ -5555,24 +5553,6 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
     <description lang="en">[B][COLOR blue]-SOMETHING FOR EVERYONE-[B][COLOR lime]-Due to the nature of our content, we are not responsible for the content streamed to your device and neither do we condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have the copyright agreements in place and are entitled to access this content.
 We do not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd rip, mp3, mp4, mkv). the community repo team is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of streamed from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
 We have no control over the links on any site that we provide a link to. If you see any form of infringements, please contact appropriate media file owners or host sites immediately-[/B][/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.YouTube_Vault" name="YouTube Vault" version="1.0.8" provider-name="Tvaddons">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <summary lang="en">Watch Movies/Tv Shows/Cartoons/Music Videos/And The Latest News And Sports Clips From YouTube </summary>
-    <description lang="en">Watch Movies/Tv Shows/Cartoons/Music Videos/And The Latest News And Sports Clips From Tvaddons YouTube Vault addon.
-	</description>
-    <disclaimer lang="en">Tvaddons Is Not Affiliated With The Content In This Addon</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -9274,30 +9254,6 @@ provider-name="kodi senyor">
     <website>http://www.tdbwizard.co.uk</website>
     <email>tdbwizard@gmail.com</email>
   </extension>
-</addon>
-
-<addon id="plugin.video.youtubeonfire"
-       name="YouTube on Fire"
-       version="1.0.3"
-       provider-name="kinkin, art by Christara">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.t0mm0.common" version="1.1.0"/>
-        <import addon="script.module.metahandler" version="2.4.0"/>
-        <import addon="script.module.requests" version="1.1.0"/>
-        <import addon="script.module.urlresolver" version="1.0.0"/>
-        <import addon="plugin.video.youtube"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               	library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Stream movies from youtubeonfire</summary>
-        <description>Stream movies from youtubeonfire</description>
-    </extension>
-
 </addon>
 
 <addon id="plugin.video.kodisraelnature"
