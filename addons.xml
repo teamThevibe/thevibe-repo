@@ -4044,7 +4044,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.12.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.18.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
@@ -5766,8 +5766,8 @@ We have no control over the links on any site that we provide a link to. If you 
 
 <addon id="script.module.simplejson"
        name="simplejson"
-       version="3.3.0"
-       provider-name="Martijn">
+       version="3.4.0"
+       provider-name="Bob Ippolito">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
