@@ -2861,10 +2861,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.multidown"
-       name="MultiDown"
-       version="1.0.2"
-       provider-name="The Mint Team, MultiDown">
+<addon id="plugin.video.multidown" name="MultiDown" version="1.0.3" provider-name="The Mint Team, MultiDown">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4" version="4.3.1" />
@@ -2876,7 +2873,7 @@ provider-name="kodi senyor">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">https://www.facebook.com/funvideo.co.il</summary>
+    <summary lang="en">https://www.facebook.com/www.MultiDown.me</summary>
 <description lang="he">
 מרכז ההורדות הגדול ביותר בישראל עם תכנים ייחודים במיוחד בשביל גולשי האתר! מחפשים סרטים או סדרות להורדה עם תרגום ובאיכות הטובה ביותר?
 
