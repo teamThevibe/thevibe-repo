@@ -2861,7 +2861,10 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.multidown" name="MultiDown" version="1.0.3" provider-name="The Mint Team, MultiDown">
+<addon id="plugin.video.multidown"
+       name="MultiDown"
+       version="1.0.5"
+       provider-name="The Mint Team, MultiDown,Ebs">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4" version="4.3.1" />
