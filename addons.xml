@@ -10185,7 +10185,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.audio.jango"
        name="Jango"
-       version="0.8.7"
+       version="0.8.8"
        provider-name="kinkin, art by jokster">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
