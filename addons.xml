@@ -270,10 +270,13 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
-<addon id="repository.Jk$p" name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR seagreen]$[/COLOR][COLOR red]p[/COLOR][/B] repository" version="1.0.1" provider-name="Jk$p">
+<addon id="repository.Jk$p"
+	   name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] repository"
+	   version="1.0.2"
+	   provider-name="Jk$p">
 	<extension point="xbmc.addon.repository" name="Jk$p">
-		<info compressed="false">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips/addons.xml.md5</checksum>
+		<info compressed="false">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
