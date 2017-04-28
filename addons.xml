@@ -1187,7 +1187,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.04.09" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.04.27.02" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -1208,7 +1208,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 
-		<news>Update Providers - Easter Break fixes</news>
+		<news>Update Providers - Menu cleanup - Added Local Watchmarks for TvShows</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
