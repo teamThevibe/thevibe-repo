@@ -5629,25 +5629,24 @@ We have no control over the links on any site that we provide a link to. If you 
 </addon>
 
 <addon id="plugin.video.anarchitv"
-       name="[COLOR yellow]Televiz[/COLOR]"
-       version="1.1.8"
-       provider-name="Kodi Senyor and Acidia Kodi">
+       name="[COLOR yellow]Televiz - B2k Playlist[/COLOR]"
+       version="1.1.9"
+       provider-name="Kodi Senyor / B2k">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+    <provides>video audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Televiz</summary>
-    <description>
-	Televiz Live tv channels
-    </description>
+    <summary>B2k Playlist</summary>
+    <description>B2k Playlist Music</description>
+	<description lang="he">רשימת פלייליסטים מהאתרים 99 רדיוס וגלגל"צ של B2k</description>
 	<disclaimer lang="en">
 	The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners
 	</disclaimer>
 	<license></license>
-    <website>Televiz.net</website>
+    <website></website>
     <email></email>
     <platform>all</platform>
   </extension>
