@@ -158,7 +158,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.6"
+   version="0.7.5"
    provider-name="TotalRevolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -174,11 +174,9 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
     <language></language>
     <license>Creative Commons 4.0-NC-ND</license>
     <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
-    <website>http://noobsandnerds.com</website>
-    <news>Added lots of new functions and cleaned up README. See Changelog.txt for full details.</news>
+    <website>http://totalrevolution.tv</website>
+    <news>Fixed download dialog not auto-closing once complete.</news>
     <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
-    <genre>devtools</genre>
-    <video_guide>D5tByWg8KME</video_guide>
   </extension>
 </addon>
 
@@ -1187,7 +1185,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 	</extension>
 </addon>
 
-<addon id="plugin.video.zen" version="2017.04.30" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.05.02" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
