@@ -1407,6 +1407,23 @@ If for any reason the check of a successful wake-up via ping is not possible or 
     </extension>
 </addon>
 
+<addon id="plugin.program.meta_search" name="Meta Search" version="1.1.4" provider-name="Kodi Senyor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.globalsearch"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/art/default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">metasearch</summary>
+    <description lang="en">meta_search</description>
+	<description lang="he">תפריט עזר לחיפוש בהרחבה מטא ובספריות הקודי</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="resource.images.skinbackgrounds.wallsquare.he" name="Skin Backgrounds - Wall Square (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
