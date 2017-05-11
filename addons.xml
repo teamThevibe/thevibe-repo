@@ -3635,25 +3635,6 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="script.module.pydevd" name="pydevd" version="3.4.1" provider-name="Fabio Zadrozny, Paul Backhouse">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib"/>
-	<extension point="xbmc.addon.metadata">
-	    <summary lang="en">XBMC support for PyDev remote debugging in Eclipse/Aptana.</summary>
-	    <description lang="en">See here for details: http://pydev.org/manual_adv_remote_debugger.html</description>
-	    <platform>all</platform>
-	    <language></language>
-	    <license>Eclipse Public License</license>
-	    <forum></forum>
-	    <website>http://pydev.org/</website>
-	    <source>https://github.com/powlo/script.module.pydevd</source>
-	    <email></email>
-	    <disclaimer lang="en">Use at your own risk. The authors accept no liability. May cause permanent and/or catastrophic damage. Side effects include, but are not limited to, loss of memory, seizures, sudden fits of rage, sudden fits of melancholy, inability to recall prominent capital cities, lack of respect for authority, fear of cats, temporary and/or permanent black outs. Avoid inhalation. Use in a well ventilated space. Keep away from small children.</disclaimer>
-	</extension>
-</addon>
-
 <addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.04.06.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -9081,7 +9062,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.10" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.11" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -9112,11 +9093,10 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Added new and fix existing providers (satanuke)
-- Added and Updated German providers
+		<news>- Tweaked German providers
 - Updated Polish providers (homik)
-- Add Anmie genre
-- Tweaked Trakt sorting</news>
+- Fix Trakt sorting
+- Added logging for Trakt and Web-Requests</news>
 	</extension>
 </addon>
 
