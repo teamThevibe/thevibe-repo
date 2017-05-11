@@ -74,9 +74,11 @@ def html(data):
     os.environ["TZ"]="Asia/Jerusalem"
     time.tzset()
     time_cur=time.strftime("%T %Z", time.localtime(time.time()))
-    html = '<html><head>NEW PLUGINS UPDATED - ' + time_cur + '<link rel="stylesheet" type="text/css" href='+ css + '></HEAD><BODY><table style="height: 342px;" width="759"><tr><th>Plugin Name</th><th>Version</th></tr>'
+    html = '<html><head>NEW PLUGINS UPDATED - ' + time_cur + '<link rel="stylesheet" type="text/css" href='+ css + '></HEAD><BODY><table style="height: 342px;" width="759"><tr><th>Plugin Name</th><th>Version</th><th>uurl</th></tr>'
     for key in data.keys():
-        html +='<tr><th>' + key + '</th><th>' + data[key] + '</th></tr>'
+        updateUrl='http://repo.the-vibe.co.il/service/commit?id='+ key + '&version='  + data[key]
+        #urlopen(updateUrl)
+        html +='<tr><th>' + key + '</th><th>' + data[key] + '</th></tr></th><th>' +updateUrl + '</th></tr>'
     html += '</table></BODY></HTML>'
     return(html)
 
