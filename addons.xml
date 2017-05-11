@@ -120,18 +120,22 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
-<addon id="script.module.requests" name="requests" version="2.9.1" provider-name="kennethreitz, beenje">
+<addon id="script.module.requests"
+       name="requests"
+       version="2.12.4"
+       provider-name="kennethreitz, beenje">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
   </requires>
-  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.python.module"
+             library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary>Python HTTP for Humans</summary>
     <description>Packed for KODI from https://github.com/kennethreitz/requests</description>
     <platform>all</platform>
-    <language/>
+    <language></language>
     <license>Apache2</license>
-    <forum/>
+    <forum></forum>
     <website>http://python-requests.org</website>
     <source>https://github.com/beenje/script.module.requests</source>
     <email>beenje AT gmail.com</email>
@@ -877,25 +881,31 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 <addon id="plugin.video.jksp"
-       version="0.0.9"
        name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] Movies Plugin"
+       version="0.0.13"
        provider-name="Jk$p">
-<requires>
-  <import addon="xbmc.python" version="2.24.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Jk$p Movies Plugin</summary>
-  <description lang="en">Watch movies by Jk$p</description>
-  <disclaimer> </disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-	<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-  </assets>
-</extension>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="plugin.video.youtube" version="4.4.10" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jk$p Movies Plugin</summary>
+    <description lang="en">Watch movies by Jk$p</description>
+    <disclaimer> </disclaimer>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    </assets>
+  </extension>
+  <extension point="xbmc.addon.repository" name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] repository">
+    <info compressed="false">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips</datadir>
+  </extension>
 </addon>
 
 <addon id="plugin.video.mdmovievault" name="MOVIE VAULT" version="2.0.2" provider-name="Mucky Duck">
@@ -2296,6 +2306,20 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
+<addon id="script.module.tulip" name="Tulip Routine Libraries" version="1.0.8" provider-name="Twilight0">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Tulip Helper module</summary>
+		<description lang="en">Tulip Routine Libraries are based on Lambda's "lamlib". It has some additions, most being in control module.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<source>https://github.com/Twilight0/script.module.tulip</source>
+	</extension>
+</addon>
+
 	<addon id="plugin.audio.MD3-Audio" version="1.0.2" name="MD3 Audio" provider-name="Mucky Duck">
 		<requires>
 			<import addon="xbmc.python"   version="2.1.0"/>
@@ -3528,7 +3552,7 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.9" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.15" provider-name="Team NaN">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -3537,13 +3561,20 @@ provider-name="kodi senyor">
         <import addon="script.module.six"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.python.pluginsource" library="lib/default.py"/>
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+    <import addon="script.module.urlresolver" version="3.0.0" optional="true"/>
+    <import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
         <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
         </description>
         <license>GPL v3</license>
+        <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/script.module.nanscrapers</source>
+        <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
+        <website>http://noobsandnerds.com</website>
     </extension>
 </addon>
 
@@ -3602,24 +3633,47 @@ provider-name="kodi senyor">
     </extension>
 </addon>
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.9" provider-name="MetalKettle">
+
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.31" provider-name="MetalKettle">
+
   <requires>
+
     <import addon="script.module.simplejson" version="3.3.0"/>
+
     <import addon="xbmc.python" version="2.1.0"/>
+
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
+
     <import addon="plugin.video.youtube" version="3.0.0"/>
+
     <import addon="script.module.urlresolver"  version="2.1.2"/>
+
     <import addon="script.common.plugin.cache" version="2.5.2"/>
+
     <import addon="script.module.metahandler" version="2.5.1"/>
+
+    <import addon="script.video.F4mProxy" version="2.5.3"/>
+
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="default.py">
+
         <provides>video</provides>
+
   </extension>
+
   <extension point="xbmc.addon.metadata">
+
     <summary lang="en">Free Playlists courtesy of @uk_turk</summary>
+
     <description lang="en">Free Playlists courtesy of @uk_turk</description>
+
     <platform>all</platform>
+
   </extension>
+
 </addon>
 
 <addon id="plugin.video.mdniter" name="niter" version="2.0.0" provider-name="Mucky Duck">
@@ -4562,7 +4616,7 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="script.module.schism.common" name="SchisM Common Libraries" version="3.3.0" provider-name="SchisM">
+<addon id="script.module.schism.common" name="SchisM Common Libraries" version="2017.04.27" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.six" />
@@ -5021,7 +5075,7 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
 
 <addon id="plugin.video.animeram"
        name="AnimeRam"
-       version="0.0.7-rc.0"
+       version="0.0.6"
        provider-name="Hagai Cohen">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -5121,7 +5175,7 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
 
 <addon id="plugin.video.F.T.V"
        name="FilmOn.TV"
-       version="1.3.7a"
+       version="1.3.7"
        provider-name="kinkin, icon by azad720">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -7917,7 +7971,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 
 <addon id="plugin.video.karaoketv"
        name="KaraokeTV"
-       version="1.0.9"
+       version="1.0.10"
        provider-name="Hybrid\Blade\Donatello">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
@@ -7938,7 +7992,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
 	</description>
     <platform>all</platform>
  <language>en</language>
- <disclaimer> report any issues with this addon to Hybridmag12@gmail.com</disclaimer>
+ <disclaimer> report any issues with</disclaimer>
   </extension>
 </addon>
 
@@ -8417,20 +8471,20 @@ provider-name="kodi senyor">
 	</extension>
 </addon>
 
-<addon id="plugin.video.bob" name="Bob" version="1.3.9" provider-name="Team Bob">
+<addon id="plugin.video.bob" name="Bob" version="1.3.13" provider-name="Team Bob">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.mrknow.urlresolver" version="2016.10.30.2" />
+		<import addon="script.mrknow.urlresolver" version="2017.03.30.1" />
 		<import addon="script.module.liveresolver" version="0.1.47" />
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests" version="2.9.1" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
+		<import addon="script.module.nanscrapers" version="0.5.12" />
 		<import addon="script.module.addon.common" version="2.0.0" />
 		<import addon="script.module.xmltodict" version="0.9.0"/>
         <import addon="script.module.m3u8" version="0.2.10"/>
-        <import addon="script.module.python.koding.aio" version="0.1"/>
+        <import addon="script.module.python.koding.aio" version="0.4"/>
 		<!--<import addon="script.video.F4mProxy" version="2.6.4" />-->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -8442,7 +8496,6 @@ provider-name="kodi senyor">
 		<platform>all</platform>
 		<forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
 		<website>www.noobsandnerds.com</website>
-		<news></news>
 		<video_guide>y0w8zIH4lOY</video_guide>
 		<video_preview>WdKIzajiBBI</video_preview>
 	</extension>
@@ -8875,7 +8928,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.9" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.10" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -8906,9 +8959,11 @@ provider-name="kodi senyor">
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Added new and fix existing providers (satanuke, John Doe)
-- Updated German providers
-- Tweaked new Debrid-Code</news>
+		<news>- Added new and fix existing providers (satanuke)
+- Added and Updated German providers
+- Updated Polish providers (homik)
+- Add Anmie genre
+- Tweaked Trakt sorting</news>
 	</extension>
 </addon>
 
