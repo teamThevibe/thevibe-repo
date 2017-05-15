@@ -7821,7 +7821,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="2.0.5" provider-name="Team Evolve">
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="2.0.6" provider-name="Team Evolve">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
@@ -7830,6 +7830,7 @@ SEND E MAIL: tvsupertuga@gmail.com[/B][/COLOR]</description>
     <import addon="script.module.nanscrapers" version="0.5"/>
     <import addon="script.common.plugin.cache" version="0.0.1"/>
     <import addon="repository.metalkettle" version="0.0.1"/>
+    <import addon="repository.evolverepo" version="0.0.1"/>
     <import addon="script.module.metahandler" version="0.0.1"/>
     <import addon="plugin.video.youtube" optional="true" />
 
