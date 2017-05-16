@@ -4995,7 +4995,7 @@ http://www.hometheater.co.il</description>
   </extension>
 </addon>
 
-<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.7.0" provider-name="kodi senyor">
+<addon id="plugin.program.senyortools" name="[COLOR green]senyor tools[/COLOR]" version="1.7.1" provider-name="kodi senyor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.kodi-senyor"/>
@@ -5344,6 +5344,31 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
         <description>Stream Live TV from FilmOn or watch FilmOn Demand. Login with your FilmOn user-name to access recording features.</description>
     </extension>
 
+</addon>
+
+<addon id="script.senyor.commands"
+       name="פקודות קודי"
+       version="1.0.2"
+       provider-name="kodi senyor / AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Map multiple XBMC commands to one remote button. All availabe commands: http://wiki.xbmc.org/?title=List_of_Built_In_Functions</summary>
+      <summary lang="de">Mehrere XBMC Befehle einer Taste zuweisen. Alle verfügbaren Befehle: http://wiki.xbmc.org/?title=List_of_Built_In_Functions</summary>
+      <language></language>
+      <description lang="en">Map multiple XBMC commands to one remote button. All availabe commands: http://wiki.xbmc.org/?title=List_of_Built_In_Functions</description>
+      <description lang="de">Mehrere XBMC Befehle einer Taste zuweisen. Alle verfügbaren Befehle: http://wiki.xbmc.org/?title=List_of_Built_In_Functions</description>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+      <source>https://github.com/AddonScriptorDE/script.commands</source>
+      <forum>http://forum.xbmc.org/showthread.php?tid=134129</forum>
+      <email>AddonScriptorDE at yahoo dot de</email>
+      <website></website>
+  </extension>
 </addon>
 
 <addon id='script.module.torrent.ts' version='0.6.0.28a' name='AceStream Client' provider-name='NuisMons'>
