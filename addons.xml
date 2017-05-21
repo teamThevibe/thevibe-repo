@@ -3788,7 +3788,7 @@ provider-name="kodi senyor">
 </addon>
 
 
-<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.31" provider-name="MetalKettle">
+<addon id="plugin.video.ukturk" name="UK Turk Playlists" version="3.0.32" provider-name="MetalKettle">
 
   <requires>
 
@@ -6869,7 +6869,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.ZemTV-shani"
        name="Zem"
-       version="6.6.8"
+       version="6.6.9"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -9984,7 +9984,7 @@ level.</description>
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
-       version="1.5.3"
+       version="1.5.5"
        provider-name="podgod">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
